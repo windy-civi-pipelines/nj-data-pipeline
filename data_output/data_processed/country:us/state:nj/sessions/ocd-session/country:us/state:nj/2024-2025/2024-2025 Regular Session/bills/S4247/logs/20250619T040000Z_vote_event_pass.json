@@ -1,0 +1,69 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-06-19T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "fb3bf86e-6ccb-11f0-954e-8e4b57c02d16",
+  "bill_action": null,
+  "bill_identifier": "S4247",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Mukherji, Raj",
+      "voter_id": "~{\"name\": \"Mukherji, Raj\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Wimberly, Benjie E.",
+      "voter_id": "~{\"name\": \"Wimberly, Benjie E.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Cruz-Perez, Nilsa I.",
+      "voter_id": "~{\"name\": \"Cruz-Perez, Nilsa I.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Tiver, Latham",
+      "voter_id": "~{\"name\": \"Tiver, Latham\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Space, Parker",
+      "voter_id": "~{\"name\": \"Space, Parker\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 5
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S4247_upper_Reported_favorably_out_of_committee_SMV",
+  "_id": "061357be-6ccc-11f0-954e-8e4b57c02d16"
+}

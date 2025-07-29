@@ -1,0 +1,100 @@
+{
+  "legislative_session": "221",
+  "identifier": "S4086",
+  "title": "Prohibits teaching of critical race theory in public schools; prohibits public school teachers from engaging in political, ideological, or religious advocacy in classroom.",
+  "from_organization": "~{\"classification\": \"upper\"}",
+  "classification": [
+    "bill"
+  ],
+  "subject": [
+    "CURRICULA",
+    "EDUCATION",
+    "TEACHERS"
+  ],
+  "abstracts": [],
+  "other_titles": [],
+  "other_identifiers": [],
+  "actions": [
+    {
+      "description": "Introduced in the Senate, Referred to Senate Education Committee",
+      "date": "2025-02-03T05:00:00+00:00",
+      "organization_id": "~{\"classification\": \"upper\"}",
+      "classification": [
+        "introduction",
+        "referral-committee"
+      ],
+      "related_entities": []
+    }
+  ],
+  "sponsorships": [
+    {
+      "name": "Testa, Michael L.",
+      "classification": "primary",
+      "entity_type": "person",
+      "primary": true,
+      "person_id": "~{\"name\": \"Testa, Michael L.\"}",
+      "organization_id": null
+    },
+    {
+      "name": "Pennacchio, Joseph",
+      "classification": "primary",
+      "entity_type": "person",
+      "primary": true,
+      "person_id": "~{\"name\": \"Pennacchio, Joseph\"}",
+      "organization_id": null
+    },
+    {
+      "name": "Space, Parker",
+      "classification": "cosponsor",
+      "entity_type": "person",
+      "primary": false,
+      "person_id": "~{\"name\": \"Space, Parker\"}",
+      "organization_id": null
+    }
+  ],
+  "related_bills": [
+    {
+      "identifier": "A 1514",
+      "legislative_session": "221",
+      "relation_type": "companion"
+    }
+  ],
+  "versions": [
+    {
+      "note": "Introduced Version",
+      "links": [
+        {
+          "url": "https://pub.njleg.state.nj.us/Bills/2024/S4500/4086_I1.HTM",
+          "media_type": "text/html"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/Bills/2024/S4500/4086_I1.PDF",
+          "media_type": "application/pdf"
+        }
+      ],
+      "date": "",
+      "classification": ""
+    }
+  ],
+  "documents": [],
+  "citations": [],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/bill-search/2024/S4086",
+      "note": ""
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/leg-databases/",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "jurisdiction": {
+    "id": "ocd-jurisdiction/country:us/state:nj/government",
+    "name": "New Jersey",
+    "classification": "state",
+    "division_id": "ocd-division/country:us/state:nj"
+  },
+  "scraped_at": "2025-07-29T22:33:40+00:00",
+  "_id": "fb3a83bc-6ccb-11f0-954e-8e4b57c02d16"
+}

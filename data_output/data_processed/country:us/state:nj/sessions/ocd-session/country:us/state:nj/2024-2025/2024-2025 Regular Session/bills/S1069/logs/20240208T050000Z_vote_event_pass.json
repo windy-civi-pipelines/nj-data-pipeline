@@ -1,0 +1,69 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Senate committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-02-08T05:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "fb17e69a-6ccb-11f0-954e-8e4b57c02d16",
+  "bill_action": null,
+  "bill_identifier": "S1069",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Cruz-Perez, Nilsa I.",
+      "voter_id": "~{\"name\": \"Cruz-Perez, Nilsa I.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Johnson, Gordon M.",
+      "voter_id": "~{\"name\": \"Johnson, Gordon M.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Tiver, Latham",
+      "voter_id": "~{\"name\": \"Tiver, Latham\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Space, Parker",
+      "voter_id": "~{\"name\": \"Space, Parker\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Mukherji, Raj",
+      "voter_id": "~{\"name\": \"Mukherji, Raj\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 5
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S1069_upper_Reported_out_of_Senate_committee_with_amendments_SMV",
+  "_id": "05f57b72-6ccc-11f0-954e-8e4b57c02d16"
+}

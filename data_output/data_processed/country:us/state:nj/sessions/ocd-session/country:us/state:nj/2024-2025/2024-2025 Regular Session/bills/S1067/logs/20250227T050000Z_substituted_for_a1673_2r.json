@@ -1,0 +1,10 @@
+{
+  "action": {
+    "description": "Substituted for A1673 (2R)",
+    "date": "2025-02-27T05:00:00+00:00",
+    "organization_id": "~{\"classification\": \"lower\"}",
+    "classification": [],
+    "related_entities": []
+  },
+  "bill_id": "S1067"
+}

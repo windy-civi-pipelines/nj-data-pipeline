@@ -1,0 +1,12 @@
+{
+  "action": {
+    "description": "Approved P.L.2025, c.49.",
+    "date": "2025-04-23T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"executive\"}",
+    "classification": [
+      "executive-signature"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "A4163"
+}

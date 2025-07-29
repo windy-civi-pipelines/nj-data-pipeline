@@ -1,0 +1,12 @@
+{
+  "action": {
+    "description": "Reported out of Assembly Committee, 2nd Reading",
+    "date": "2024-06-26T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"lower\"}",
+    "classification": [
+      "committee-passage"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "A2608"
+}

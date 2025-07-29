@@ -1,0 +1,13 @@
+{
+  "action": {
+    "description": "Introduced in the Assembly, Referred to Assembly Regulated Professions Committee",
+    "date": "2025-04-10T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"lower\"}",
+    "classification": [
+      "introduction",
+      "referral-committee"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "A5568"
+}

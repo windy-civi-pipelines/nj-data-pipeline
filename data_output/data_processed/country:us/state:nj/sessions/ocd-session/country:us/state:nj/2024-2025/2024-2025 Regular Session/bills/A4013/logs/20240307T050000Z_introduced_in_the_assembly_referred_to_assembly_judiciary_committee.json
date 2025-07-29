@@ -1,0 +1,13 @@
+{
+  "action": {
+    "description": "Introduced in the Assembly, Referred to Assembly Judiciary Committee",
+    "date": "2024-03-07T05:00:00+00:00",
+    "organization_id": "~{\"classification\": \"lower\"}",
+    "classification": [
+      "introduction",
+      "referral-committee"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "A4013"
+}

@@ -1,0 +1,13 @@
+{
+  "action": {
+    "description": "Approved with Line Item Veto P.L.2025, c.74.",
+    "date": "2025-06-30T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"executive\"}",
+    "classification": [
+      "executive-signature",
+      "executive-veto-line-item"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "S2026"
+}

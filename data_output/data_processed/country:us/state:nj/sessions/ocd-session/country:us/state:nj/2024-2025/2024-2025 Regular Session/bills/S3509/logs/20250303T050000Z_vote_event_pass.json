@@ -1,0 +1,69 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Senate committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-03-03T05:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "fb2df250-6ccb-11f0-954e-8e4b57c02d16",
+  "bill_action": null,
+  "bill_identifier": "S3509",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Moriarty, Paul D.",
+      "voter_id": "~{\"name\": \"Moriarty, Paul D.\"}",
+      "note": ""
+    },
+    {
+      "option": "no",
+      "voter_name": "Polistina, Vincent J.",
+      "voter_id": "~{\"name\": \"Polistina, Vincent J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Johnson, Gordon M.",
+      "voter_id": "~{\"name\": \"Johnson, Gordon M.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Zwicker, Andrew",
+      "voter_id": "~{\"name\": \"Zwicker, Andrew\"}",
+      "note": ""
+    },
+    {
+      "option": "no",
+      "voter_name": "Steinhardt, Douglas J.",
+      "voter_id": "~{\"name\": \"Steinhardt, Douglas J.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 3
+    },
+    {
+      "option": "no",
+      "value": 2
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S3509_upper_Reported_out_of_Senate_committee_with_amendments_SLA",
+  "_id": "060a8e68-6ccc-11f0-954e-8e4b57c02d16"
+}

@@ -1,0 +1,10 @@
+{
+  "action": {
+    "description": "Combined with A2792/4370 (ACS)",
+    "date": "2025-02-10T05:00:00+00:00",
+    "organization_id": "~{\"classification\": \"lower\"}",
+    "classification": [],
+    "related_entities": []
+  },
+  "bill_id": "A2489"
+}

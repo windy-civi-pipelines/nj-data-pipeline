@@ -1,0 +1,69 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-03-24T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "fadaa0aa-6ccb-11f0-954e-8e4b57c02d16",
+  "bill_action": null,
+  "bill_identifier": "A1203",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Singer, Robert W.",
+      "voter_id": "~{\"name\": \"Singer, Robert W.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Cryan, Joseph P.",
+      "voter_id": "~{\"name\": \"Cryan, Joseph P.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Lagana, Joseph A.",
+      "voter_id": "~{\"name\": \"Lagana, Joseph A.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Bramnick, Jon M.",
+      "voter_id": "~{\"name\": \"Bramnick, Jon M.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Johnson, Gordon M.",
+      "voter_id": "~{\"name\": \"Johnson, Gordon M.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 5
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A1203_upper_Reported_favorably_out_of_committee_SCM",
+  "_id": "05ec630c-6ccc-11f0-954e-8e4b57c02d16"
+}

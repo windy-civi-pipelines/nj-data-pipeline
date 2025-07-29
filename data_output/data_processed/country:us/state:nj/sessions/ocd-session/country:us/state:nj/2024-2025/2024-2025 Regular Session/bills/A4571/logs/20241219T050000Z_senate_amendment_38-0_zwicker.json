@@ -1,0 +1,12 @@
+{
+  "action": {
+    "description": "Senate Amendment (38-0) (Zwicker)",
+    "date": "2024-12-19T05:00:00+00:00",
+    "organization_id": "~{\"classification\": \"upper\"}",
+    "classification": [
+      "amendment-passage"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "A4571"
+}

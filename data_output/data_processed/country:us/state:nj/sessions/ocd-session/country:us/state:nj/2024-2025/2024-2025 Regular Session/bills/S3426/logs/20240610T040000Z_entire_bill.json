@@ -1,0 +1,174 @@
+{
+  "legislative_session": "221",
+  "identifier": "S3426",
+  "title": "Requires Civil Service Commission establish mentoring program for certain civil service firefighter applicants.",
+  "from_organization": "~{\"classification\": \"upper\"}",
+  "classification": [
+    "bill"
+  ],
+  "subject": [
+    "CIVIL SVC",
+    "FIREFIGHTERS"
+  ],
+  "abstracts": [],
+  "other_titles": [],
+  "other_identifiers": [],
+  "actions": [
+    {
+      "description": "Introduced in the Senate, Referred to Senate Law and Public Safety Committee",
+      "date": "2024-06-10T04:00:00+00:00",
+      "organization_id": "~{\"classification\": \"upper\"}",
+      "classification": [
+        "introduction",
+        "referral-committee"
+      ],
+      "related_entities": []
+    },
+    {
+      "description": "Reported out of Senate Committee, 2nd Reading",
+      "date": "2025-05-29T04:00:00+00:00",
+      "organization_id": "~{\"classification\": \"upper\"}",
+      "classification": [
+        "committee-passage"
+      ],
+      "related_entities": []
+    },
+    {
+      "description": "Passed Senate (38-0)",
+      "date": "2025-06-02T04:00:00+00:00",
+      "organization_id": "~{\"classification\": \"upper\"}",
+      "classification": [
+        "passage"
+      ],
+      "related_entities": []
+    },
+    {
+      "description": "Received in the Assembly, Referred to Assembly Public Safety and Preparedness Committee",
+      "date": "2025-06-12T04:00:00+00:00",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "classification": [
+        "referral-committee"
+      ],
+      "related_entities": []
+    }
+  ],
+  "sponsorships": [
+    {
+      "name": "Timberlake, Britnee N.",
+      "classification": "primary",
+      "entity_type": "person",
+      "primary": true,
+      "person_id": "~{\"name\": \"Timberlake, Britnee N.\"}",
+      "organization_id": null
+    },
+    {
+      "name": "Ruiz, M. Teresa",
+      "classification": "primary",
+      "entity_type": "person",
+      "primary": true,
+      "person_id": "~{\"name\": \"Ruiz, M. Teresa\"}",
+      "organization_id": null
+    },
+    {
+      "name": "McKnight, Angela V.",
+      "classification": "cosponsor",
+      "entity_type": "person",
+      "primary": false,
+      "person_id": "~{\"name\": \"McKnight, Angela V.\"}",
+      "organization_id": null
+    },
+    {
+      "name": "O'Scanlon, Declan J.",
+      "classification": "cosponsor",
+      "entity_type": "person",
+      "primary": false,
+      "person_id": "~{\"name\": \"O'Scanlon, Declan J.\"}",
+      "organization_id": null
+    },
+    {
+      "name": "Amato, Carmen F.",
+      "classification": "cosponsor",
+      "entity_type": "person",
+      "primary": false,
+      "person_id": "~{\"name\": \"Amato, Carmen F.\"}",
+      "organization_id": null
+    },
+    {
+      "name": "Moriarty, Paul D.",
+      "classification": "cosponsor",
+      "entity_type": "person",
+      "primary": false,
+      "person_id": "~{\"name\": \"Moriarty, Paul D.\"}",
+      "organization_id": null
+    }
+  ],
+  "related_bills": [
+    {
+      "identifier": "A 4802",
+      "legislative_session": "221",
+      "relation_type": "companion"
+    }
+  ],
+  "versions": [
+    {
+      "note": "Introduced Version",
+      "links": [
+        {
+          "url": "https://pub.njleg.state.nj.us/Bills/2024/S3500/3426_I1.HTM",
+          "media_type": "text/html"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/Bills/2024/S3500/3426_I1.PDF",
+          "media_type": "application/pdf"
+        }
+      ],
+      "date": "",
+      "classification": ""
+    }
+  ],
+  "documents": [
+    {
+      "note": "Statement SLP 5/29/25",
+      "links": [
+        {
+          "url": "https://pub.njleg.state.nj.us/Bills/2024/S3500/3426_S1.HTM",
+          "media_type": ""
+        }
+      ],
+      "date": "",
+      "classification": ""
+    }
+  ],
+  "citations": [],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/bill-search/2024/S3426",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/bill-search/2024/S3426",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/bill-search/2024/S3426",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/bill-search/2024/S3426",
+      "note": ""
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/leg-databases/",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "jurisdiction": {
+    "id": "ocd-jurisdiction/country:us/state:nj/government",
+    "name": "New Jersey",
+    "classification": "state",
+    "division_id": "ocd-division/country:us/state:nj"
+  },
+  "scraped_at": "2025-07-29T22:33:39+00:00",
+  "_id": "fb2d331a-6ccb-11f0-954e-8e4b57c02d16"
+}

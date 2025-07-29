@@ -1,0 +1,13 @@
+{
+  "action": {
+    "description": "Introduced in the Assembly, Referred to Assembly Consumer Affairs Committee",
+    "date": "2025-07-24T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"lower\"}",
+    "classification": [
+      "introduction",
+      "referral-committee"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "A5954"
+}

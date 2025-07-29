@@ -1,0 +1,10 @@
+{
+  "action": {
+    "description": "Substituted by S3881 (1R)",
+    "date": "2024-12-19T05:00:00+00:00",
+    "organization_id": "~{\"classification\": \"lower\"}",
+    "classification": [],
+    "related_entities": []
+  },
+  "bill_id": "A5122"
+}

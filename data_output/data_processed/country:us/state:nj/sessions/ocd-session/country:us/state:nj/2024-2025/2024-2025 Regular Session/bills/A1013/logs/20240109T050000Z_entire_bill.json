@@ -1,0 +1,93 @@
+{
+  "legislative_session": "221",
+  "identifier": "A1013",
+  "title": "Establishes \"Count the Kicks\" public awareness campaign.",
+  "from_organization": "~{\"classification\": \"lower\"}",
+  "classification": [
+    "bill"
+  ],
+  "subject": [
+    "ED HEALTH",
+    "WOMEN"
+  ],
+  "abstracts": [],
+  "other_titles": [],
+  "other_identifiers": [],
+  "actions": [
+    {
+      "description": "Introduced in the Assembly, Referred to Assembly Community Development and Women's Affairs Committee",
+      "date": "2024-01-09T05:00:00+00:00",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "classification": [
+        "introduction",
+        "referral-committee"
+      ],
+      "related_entities": []
+    }
+  ],
+  "sponsorships": [
+    {
+      "name": "Mu\u00f1oz, Nancy F.",
+      "classification": "primary",
+      "entity_type": "person",
+      "primary": true,
+      "person_id": "~{\"name\": \"Mu\\u00f1oz, Nancy F.\"}",
+      "organization_id": null
+    },
+    {
+      "name": "Webber, Jay",
+      "classification": "primary",
+      "entity_type": "person",
+      "primary": true,
+      "person_id": "~{\"name\": \"Webber, Jay\"}",
+      "organization_id": null
+    },
+    {
+      "name": "Matsikoudis, Michele",
+      "classification": "primary",
+      "entity_type": "person",
+      "primary": true,
+      "person_id": "~{\"name\": \"Matsikoudis, Michele\"}",
+      "organization_id": null
+    }
+  ],
+  "related_bills": [],
+  "versions": [
+    {
+      "note": "Introduced Version",
+      "links": [
+        {
+          "url": "https://pub.njleg.state.nj.us/Bills/2024/A1500/1013_I1.HTM",
+          "media_type": "text/html"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/Bills/2024/A1500/1013_I1.PDF",
+          "media_type": "application/pdf"
+        }
+      ],
+      "date": "",
+      "classification": ""
+    }
+  ],
+  "documents": [],
+  "citations": [],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/bill-search/2024/A1013",
+      "note": ""
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/leg-databases/",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "jurisdiction": {
+    "id": "ocd-jurisdiction/country:us/state:nj/government",
+    "name": "New Jersey",
+    "classification": "state",
+    "division_id": "ocd-division/country:us/state:nj"
+  },
+  "scraped_at": "2025-07-29T22:33:27+00:00",
+  "_id": "fad8fcc8-6ccb-11f0-954e-8e4b57c02d16"
+}

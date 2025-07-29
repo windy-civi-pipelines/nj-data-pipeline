@@ -1,0 +1,99 @@
+{
+  "legislative_session": "221",
+  "identifier": "A3506",
+  "title": "Grants child placed in resource family care and resource family parents the right to be notified when case manager or supervisor is assigned to child; grants child in resource family care right to be notified of certain property and benefits.",
+  "from_organization": "~{\"classification\": \"lower\"}",
+  "classification": [
+    "bill"
+  ],
+  "subject": [
+    "CHILDREN",
+    "HUMAN SVCS"
+  ],
+  "abstracts": [],
+  "other_titles": [],
+  "other_identifiers": [],
+  "actions": [
+    {
+      "description": "Introduced in the Assembly, Referred to Assembly Children, Families and Food Security Committee",
+      "date": "2024-02-05T05:00:00+00:00",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "classification": [
+        "introduction",
+        "referral-committee"
+      ],
+      "related_entities": []
+    }
+  ],
+  "sponsorships": [
+    {
+      "name": "Speight, Shanique",
+      "classification": "primary",
+      "entity_type": "person",
+      "primary": true,
+      "person_id": "~{\"name\": \"Speight, Shanique\"}",
+      "organization_id": null
+    },
+    {
+      "name": "McCoy, Tennille R.",
+      "classification": "primary",
+      "entity_type": "person",
+      "primary": true,
+      "person_id": "~{\"name\": \"McCoy, Tennille R.\"}",
+      "organization_id": null
+    },
+    {
+      "name": "Rodriguez, Gabriel",
+      "classification": "primary",
+      "entity_type": "person",
+      "primary": true,
+      "person_id": "~{\"name\": \"Rodriguez, Gabriel\"}",
+      "organization_id": null
+    }
+  ],
+  "related_bills": [
+    {
+      "identifier": "S 1600",
+      "legislative_session": "221",
+      "relation_type": "companion"
+    }
+  ],
+  "versions": [
+    {
+      "note": "Introduced Version",
+      "links": [
+        {
+          "url": "https://pub.njleg.state.nj.us/Bills/2024/A4000/3506_I1.HTM",
+          "media_type": "text/html"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/Bills/2024/A4000/3506_I1.PDF",
+          "media_type": "application/pdf"
+        }
+      ],
+      "date": "",
+      "classification": ""
+    }
+  ],
+  "documents": [],
+  "citations": [],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/bill-search/2024/A3506",
+      "note": ""
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/leg-databases/",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "jurisdiction": {
+    "id": "ocd-jurisdiction/country:us/state:nj/government",
+    "name": "New Jersey",
+    "classification": "state",
+    "division_id": "ocd-division/country:us/state:nj"
+  },
+  "scraped_at": "2025-07-29T22:33:30+00:00",
+  "_id": "faee4ce0-6ccb-11f0-954e-8e4b57c02d16"
+}

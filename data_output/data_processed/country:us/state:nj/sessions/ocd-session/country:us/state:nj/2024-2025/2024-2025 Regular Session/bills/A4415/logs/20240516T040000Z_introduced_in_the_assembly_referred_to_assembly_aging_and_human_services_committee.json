@@ -1,0 +1,13 @@
+{
+  "action": {
+    "description": "Introduced in the Assembly, Referred to Assembly Aging and Human Services Committee",
+    "date": "2024-05-16T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"lower\"}",
+    "classification": [
+      "introduction",
+      "referral-committee"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "A4415"
+}

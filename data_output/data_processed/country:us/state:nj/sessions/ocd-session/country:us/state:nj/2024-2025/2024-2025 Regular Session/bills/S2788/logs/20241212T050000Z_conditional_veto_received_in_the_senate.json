@@ -1,0 +1,12 @@
+{
+  "action": {
+    "description": "Conditional Veto, Received in the Senate",
+    "date": "2024-12-12T05:00:00+00:00",
+    "organization_id": "~{\"classification\": \"upper\"}",
+    "classification": [
+      "executive-veto"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "S2788"
+}

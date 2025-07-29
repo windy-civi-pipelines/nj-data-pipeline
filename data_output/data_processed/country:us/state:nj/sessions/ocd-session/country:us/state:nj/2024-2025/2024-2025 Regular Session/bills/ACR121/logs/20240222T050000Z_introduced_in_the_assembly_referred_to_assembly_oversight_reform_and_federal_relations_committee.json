@@ -1,0 +1,13 @@
+{
+  "action": {
+    "description": "Introduced in the Assembly, Referred to Assembly Oversight, Reform and Federal Relations Committee",
+    "date": "2024-02-22T05:00:00+00:00",
+    "organization_id": "~{\"classification\": \"lower\"}",
+    "classification": [
+      "introduction",
+      "referral-committee"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "ACR121"
+}

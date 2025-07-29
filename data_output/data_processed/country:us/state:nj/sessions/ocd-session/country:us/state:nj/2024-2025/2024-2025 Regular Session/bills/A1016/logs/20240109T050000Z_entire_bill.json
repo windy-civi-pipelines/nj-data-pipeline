@@ -1,0 +1,108 @@
+{
+  "legislative_session": "221",
+  "identifier": "A1016",
+  "title": "Revises emergency care services referral standards for providers of telemedicine and telehealth.",
+  "from_organization": "~{\"classification\": \"lower\"}",
+  "classification": [
+    "bill"
+  ],
+  "subject": [
+    "EMER SVCS",
+    "HEALTH",
+    "INTERNET"
+  ],
+  "abstracts": [],
+  "other_titles": [],
+  "other_identifiers": [],
+  "actions": [
+    {
+      "description": "Introduced in the Assembly, Referred to Assembly Health Committee",
+      "date": "2024-01-09T05:00:00+00:00",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "classification": [
+        "introduction",
+        "referral-committee"
+      ],
+      "related_entities": []
+    }
+  ],
+  "sponsorships": [
+    {
+      "name": "Mu\u00f1oz, Nancy F.",
+      "classification": "primary",
+      "entity_type": "person",
+      "primary": true,
+      "person_id": "~{\"name\": \"Mu\\u00f1oz, Nancy F.\"}",
+      "organization_id": null
+    },
+    {
+      "name": "Calabrese, Clinton",
+      "classification": "primary",
+      "entity_type": "person",
+      "primary": true,
+      "person_id": "~{\"name\": \"Calabrese, Clinton\"}",
+      "organization_id": null
+    },
+    {
+      "name": "DePhillips, Christopher P.",
+      "classification": "cosponsor",
+      "entity_type": "person",
+      "primary": false,
+      "person_id": "~{\"name\": \"DePhillips, Christopher P.\"}",
+      "organization_id": null
+    },
+    {
+      "name": "McGuckin, Gregory P.",
+      "classification": "cosponsor",
+      "entity_type": "person",
+      "primary": false,
+      "person_id": "~{\"name\": \"McGuckin, Gregory P.\"}",
+      "organization_id": null
+    }
+  ],
+  "related_bills": [
+    {
+      "identifier": "S 2090",
+      "legislative_session": "221",
+      "relation_type": "companion"
+    }
+  ],
+  "versions": [
+    {
+      "note": "Introduced Version",
+      "links": [
+        {
+          "url": "https://pub.njleg.state.nj.us/Bills/2024/A1500/1016_I1.HTM",
+          "media_type": "text/html"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/Bills/2024/A1500/1016_I1.PDF",
+          "media_type": "application/pdf"
+        }
+      ],
+      "date": "",
+      "classification": ""
+    }
+  ],
+  "documents": [],
+  "citations": [],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/bill-search/2024/A1016",
+      "note": ""
+    },
+    {
+      "url": "https://pub.njleg.state.nj.us/leg-databases/",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "jurisdiction": {
+    "id": "ocd-jurisdiction/country:us/state:nj/government",
+    "name": "New Jersey",
+    "classification": "state",
+    "division_id": "ocd-division/country:us/state:nj"
+  },
+  "scraped_at": "2025-07-29T22:33:27+00:00",
+  "_id": "fad90380-6ccb-11f0-954e-8e4b57c02d16"
+}

@@ -1,0 +1,10 @@
+{
+  "action": {
+    "description": "Substituted for A3856 (2R)",
+    "date": "2025-05-22T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"lower\"}",
+    "classification": [],
+    "related_entities": []
+  },
+  "bill_id": "S1439"
+}
