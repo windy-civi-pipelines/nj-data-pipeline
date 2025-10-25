@@ -1,0 +1,84 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-06-06T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "41f514a4-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A3582",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Karabinchak, Robert J.",
+      "voter_id": "~{\"name\": \"Karabinchak, Robert J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Swain, Lisa",
+      "voter_id": "~{\"name\": \"Swain, Lisa\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Simonsen, Erik K.",
+      "voter_id": "~{\"name\": \"Simonsen, Erik K.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Swift, Claire S.",
+      "voter_id": "~{\"name\": \"Swift, Claire S.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McCoy, Tennille R.",
+      "voter_id": "~{\"name\": \"McCoy, Tennille R.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Drulis, Mitchelle",
+      "voter_id": "~{\"name\": \"Drulis, Mitchelle\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Schnall, Alexander",
+      "voter_id": "~{\"name\": \"Schnall, Alexander\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 7
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A3582_lower_Reported_favorably_out_of_committee_ASL"
+}

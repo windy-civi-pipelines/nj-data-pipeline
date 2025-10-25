@@ -1,0 +1,78 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Assembly committee as a substitute",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-03-06T05:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "41eff172-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A3019",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Mu\u00f1oz, Nancy F.",
+      "voter_id": "~{\"name\": \"Mu\\u00f1oz, Nancy F.\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Kean, Sean T.",
+      "voter_id": "~{\"name\": \"Kean, Sean T.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Sampson, William B.",
+      "voter_id": "~{\"name\": \"Sampson, William B.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McCoy, Tennille R.",
+      "voter_id": "~{\"name\": \"McCoy, Tennille R.\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Hall, Garnet R.",
+      "voter_id": "~{\"name\": \"Hall, Garnet R.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Egan, Kevin P.",
+      "voter_id": "~{\"name\": \"Egan, Kevin P.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 4
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 2
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A3019_lower_Reported_out_of_Assembly_committee_as_a_substitute_ACO"
+}

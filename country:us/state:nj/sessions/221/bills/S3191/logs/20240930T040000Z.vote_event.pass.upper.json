@@ -1,0 +1,74 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-09-30T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "4232472a-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "S3191",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Burzichelli, John J.",
+      "voter_id": "~{\"name\": \"Burzichelli, John J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Tiver, Latham",
+      "voter_id": "~{\"name\": \"Tiver, Latham\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Mukherji, Raj",
+      "voter_id": "~{\"name\": \"Mukherji, Raj\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Timberlake, Britnee N.",
+      "voter_id": "~{\"name\": \"Timberlake, Britnee N.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Holzapfel, James W.",
+      "voter_id": "~{\"name\": \"Holzapfel, James W.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Diegnan, Patrick J.",
+      "voter_id": "~{\"name\": \"Diegnan, Patrick J.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 6
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S3191_upper_Reported_favorably_out_of_committee_STR"
+}

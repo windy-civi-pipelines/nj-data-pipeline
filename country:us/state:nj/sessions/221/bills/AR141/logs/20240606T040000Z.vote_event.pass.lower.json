@@ -1,0 +1,84 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-06-06T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "42153d9c-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "AR141",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Danielsen, Joe",
+      "voter_id": "~{\"name\": \"Danielsen, Joe\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "DePhillips, Christopher P.",
+      "voter_id": "~{\"name\": \"DePhillips, Christopher P.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Tully, Chris",
+      "voter_id": "~{\"name\": \"Tully, Chris\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Simmons, Heather",
+      "voter_id": "~{\"name\": \"Simmons, Heather\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Miller, Cody D.",
+      "voter_id": "~{\"name\": \"Miller, Cody D.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Marenco, Julio",
+      "voter_id": "~{\"name\": \"Marenco, Julio\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McGuckin, Gregory P.",
+      "voter_id": "~{\"name\": \"McGuckin, Gregory P.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 7
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "AR141_lower_Reported_favorably_out_of_committee_AST"
+}

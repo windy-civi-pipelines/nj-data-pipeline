@@ -1,0 +1,108 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-05-13T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "4214b6e2-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "AR82",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Conaway, Herb",
+      "voter_id": "~{\"name\": \"Conaway, Herb\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Rumpf, Brian E.",
+      "voter_id": "~{\"name\": \"Rumpf, Brian E.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Lampitt, Pamela R.",
+      "voter_id": "~{\"name\": \"Lampitt, Pamela R.\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Mu\u00f1oz, Nancy F.",
+      "voter_id": "~{\"name\": \"Mu\\u00f1oz, Nancy F.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Peterson, Erik",
+      "voter_id": "~{\"name\": \"Peterson, Erik\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Speight, Shanique",
+      "voter_id": "~{\"name\": \"Speight, Shanique\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Tully, Chris",
+      "voter_id": "~{\"name\": \"Tully, Chris\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Verrelli, Anthony S.",
+      "voter_id": "~{\"name\": \"Verrelli, Anthony S.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Donlon, Margie",
+      "voter_id": "~{\"name\": \"Donlon, Margie\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Marenco, Julio",
+      "voter_id": "~{\"name\": \"Marenco, Julio\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Azzariti Jr., John V.",
+      "voter_id": "~{\"name\": \"Azzariti Jr., John V.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 10
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 1
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "AR82_lower_Reported_favorably_out_of_committee_AHE"
+}

@@ -1,0 +1,84 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Assembly committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-02-22T05:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "41ee3e2c-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A2824",
+  "votes": [
+    {
+      "option": "other",
+      "voter_name": "Quijano, Annette",
+      "voter_id": "~{\"name\": \"Quijano, Annette\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Clifton, Robert D.",
+      "voter_id": "~{\"name\": \"Clifton, Robert D.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Wimberly, Benjie E.",
+      "voter_id": "~{\"name\": \"Wimberly, Benjie E.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Lopez, Yvonne",
+      "voter_id": "~{\"name\": \"Lopez, Yvonne\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Moen, William F.",
+      "voter_id": "~{\"name\": \"Moen, William F.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Flynn, Victoria A.",
+      "voter_id": "~{\"name\": \"Flynn, Victoria A.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Hall, Garnet R.",
+      "voter_id": "~{\"name\": \"Hall, Garnet R.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 5
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 2
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A2824_lower_Reported_out_of_Assembly_committee_with_amendments_AHO"
+}

@@ -1,0 +1,84 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Assembly committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-06-16T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "420eb2ba-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A5728",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Tully, Chris",
+      "voter_id": "~{\"name\": \"Tully, Chris\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Simmons, Heather",
+      "voter_id": "~{\"name\": \"Simmons, Heather\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Miller, Cody D.",
+      "voter_id": "~{\"name\": \"Miller, Cody D.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Marenco, Julio",
+      "voter_id": "~{\"name\": \"Marenco, Julio\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "McGuckin, Gregory P.",
+      "voter_id": "~{\"name\": \"McGuckin, Gregory P.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Danielsen, Joe",
+      "voter_id": "~{\"name\": \"Danielsen, Joe\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "DePhillips, Christopher P.",
+      "voter_id": "~{\"name\": \"DePhillips, Christopher P.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 5
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 2
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A5728_lower_Reported_out_of_Assembly_committee_with_amendments_AST"
+}

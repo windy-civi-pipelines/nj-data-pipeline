@@ -1,0 +1,114 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Assembly committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-05-15T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "4208de08-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A5088",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Karabinchak, Robert J.",
+      "voter_id": "~{\"name\": \"Karabinchak, Robert J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Tully, Chris",
+      "voter_id": "~{\"name\": \"Tully, Chris\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Spearman, William W.",
+      "voter_id": "~{\"name\": \"Spearman, William W.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Bergen, Brian",
+      "voter_id": "~{\"name\": \"Bergen, Brian\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Matsikoudis, Michele",
+      "voter_id": "~{\"name\": \"Matsikoudis, Michele\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Park, Ellen J.",
+      "voter_id": "~{\"name\": \"Park, Ellen J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Sauickie, Alex",
+      "voter_id": "~{\"name\": \"Sauickie, Alex\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Simmons, Heather",
+      "voter_id": "~{\"name\": \"Simmons, Heather\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Peterpaul, Luanne M.",
+      "voter_id": "~{\"name\": \"Peterpaul, Luanne M.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Fantasia, Dawn",
+      "voter_id": "~{\"name\": \"Fantasia, Dawn\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Morales, Carmen Theresa",
+      "voter_id": "~{\"name\": \"Morales, Carmen Theresa\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Katz, Andrea",
+      "voter_id": "~{\"name\": \"Katz, Andrea\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 11
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 1
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A5088_lower_Reported_out_of_Assembly_committee_with_amendments_ACE"
+}

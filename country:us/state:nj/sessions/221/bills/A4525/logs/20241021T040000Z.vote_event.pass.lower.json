@@ -1,0 +1,120 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-10-21T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "41fdb776-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A4525",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "McGuckin, Gregory P.",
+      "voter_id": "~{\"name\": \"McGuckin, Gregory P.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Clifton, Robert D.",
+      "voter_id": "~{\"name\": \"Clifton, Robert D.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Kennedy, James J.",
+      "voter_id": "~{\"name\": \"Kennedy, James J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Karabinchak, Robert J.",
+      "voter_id": "~{\"name\": \"Karabinchak, Robert J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Lopez, Yvonne",
+      "voter_id": "~{\"name\": \"Lopez, Yvonne\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "DePhillips, Christopher P.",
+      "voter_id": "~{\"name\": \"DePhillips, Christopher P.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Calabrese, Clinton",
+      "voter_id": "~{\"name\": \"Calabrese, Clinton\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Carter, Linda S.",
+      "voter_id": "~{\"name\": \"Carter, Linda S.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Barranco, Christian E.",
+      "voter_id": "~{\"name\": \"Barranco, Christian E.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Bailey, David",
+      "voter_id": "~{\"name\": \"Bailey, David\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Inganamort, Michael",
+      "voter_id": "~{\"name\": \"Inganamort, Michael\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McCann Stamato, Barbara",
+      "voter_id": "~{\"name\": \"McCann Stamato, Barbara\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Katz, Andrea",
+      "voter_id": "~{\"name\": \"Katz, Andrea\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 13
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A4525_lower_Reported_favorably_out_of_committee_ATR"
+}

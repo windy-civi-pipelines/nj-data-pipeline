@@ -1,0 +1,68 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Senate committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-01-13T05:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "42332e88-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "S3287",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Smith, Bob",
+      "voter_id": "~{\"name\": \"Smith, Bob\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Greenstein, Linda R.",
+      "voter_id": "~{\"name\": \"Greenstein, Linda R.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Tiver, Latham",
+      "voter_id": "~{\"name\": \"Tiver, Latham\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Space, Parker",
+      "voter_id": "~{\"name\": \"Space, Parker\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McKeon, John F.",
+      "voter_id": "~{\"name\": \"McKeon, John F.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 4
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 1
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S3287_upper_Reported_out_of_Senate_committee_with_amendments_SEN"
+}

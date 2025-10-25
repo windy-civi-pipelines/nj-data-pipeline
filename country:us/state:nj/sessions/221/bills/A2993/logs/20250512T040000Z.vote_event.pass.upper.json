@@ -1,0 +1,68 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Senate committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-05-12T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "41efb482-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A2993",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Stack, Brian P.",
+      "voter_id": "~{\"name\": \"Stack, Brian P.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Singleton, Troy",
+      "voter_id": "~{\"name\": \"Singleton, Troy\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Schepisi, Holly T.",
+      "voter_id": "~{\"name\": \"Schepisi, Holly T.\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Amato, Carmen F.",
+      "voter_id": "~{\"name\": \"Amato, Carmen F.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Wimberly, Benjie E.",
+      "voter_id": "~{\"name\": \"Wimberly, Benjie E.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 4
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 1
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A2993_upper_Reported_out_of_Senate_committee_with_amendments_SCU"
+}

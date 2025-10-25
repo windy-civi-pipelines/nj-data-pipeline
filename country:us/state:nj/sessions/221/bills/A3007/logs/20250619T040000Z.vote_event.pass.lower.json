@@ -1,0 +1,108 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-06-19T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "41efd62e-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A3007",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Haider, Shama A.",
+      "voter_id": "~{\"name\": \"Haider, Shama A.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Myhre, Gregory E.",
+      "voter_id": "~{\"name\": \"Myhre, Gregory E.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Kane, Melinda",
+      "voter_id": "~{\"name\": \"Kane, Melinda\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Singh, Balvir",
+      "voter_id": "~{\"name\": \"Singh, Balvir\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Webber, Jay",
+      "voter_id": "~{\"name\": \"Webber, Jay\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Pintor Marin, Eliana",
+      "voter_id": "~{\"name\": \"Pintor Marin, Eliana\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Auth, Robert",
+      "voter_id": "~{\"name\": \"Auth, Robert\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Reynolds-Jackson, Verlina",
+      "voter_id": "~{\"name\": \"Reynolds-Jackson, Verlina\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Swain, Lisa",
+      "voter_id": "~{\"name\": \"Swain, Lisa\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McClellan, Antwan L.",
+      "voter_id": "~{\"name\": \"McClellan, Antwan L.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Schaer, Gary S.",
+      "voter_id": "~{\"name\": \"Schaer, Gary S.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 11
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A3007_lower_Reported_favorably_out_of_committee_AAP"
+}

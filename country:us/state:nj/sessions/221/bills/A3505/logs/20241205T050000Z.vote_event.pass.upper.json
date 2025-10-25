@@ -1,0 +1,68 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-12-05T05:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "41f45c3a-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A3505",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Zwicker, Andrew",
+      "voter_id": "~{\"name\": \"Zwicker, Andrew\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Steinhardt, Douglas J.",
+      "voter_id": "~{\"name\": \"Steinhardt, Douglas J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Moriarty, Paul D.",
+      "voter_id": "~{\"name\": \"Moriarty, Paul D.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Lagana, Joseph A.",
+      "voter_id": "~{\"name\": \"Lagana, Joseph A.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Polistina, Vincent J.",
+      "voter_id": "~{\"name\": \"Polistina, Vincent J.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 4
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 1
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A3505_upper_Reported_favorably_out_of_committee_SLA"
+}

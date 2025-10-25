@@ -1,0 +1,78 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-01-23T05:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "423f85d4-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "S3848",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Calabrese, Clinton",
+      "voter_id": "~{\"name\": \"Calabrese, Clinton\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Moen, William F.",
+      "voter_id": "~{\"name\": \"Moen, William F.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McClellan, Antwan L.",
+      "voter_id": "~{\"name\": \"McClellan, Antwan L.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Guardian, Donald A.",
+      "voter_id": "~{\"name\": \"Guardian, Donald A.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Donlon, Margie",
+      "voter_id": "~{\"name\": \"Donlon, Margie\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Allen, John",
+      "voter_id": "~{\"name\": \"Allen, John\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 6
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S3848_lower_Reported_favorably_out_of_committee_ATG"
+}

@@ -1,0 +1,12 @@
+{
+  "action": {
+    "description": "Passed Senate (Passed Both Houses) (38-0)",
+    "date": "2024-12-19T05:00:00+00:00",
+    "organization_id": "~{\"classification\": \"upper\"}",
+    "classification": [
+      "passage"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "A3853"
+}

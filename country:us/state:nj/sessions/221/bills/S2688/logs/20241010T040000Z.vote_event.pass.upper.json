@@ -1,0 +1,68 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-10-10T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "422da81e-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "S2688",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Singer, Robert W.",
+      "voter_id": "~{\"name\": \"Singer, Robert W.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Pou, Nellie",
+      "voter_id": "~{\"name\": \"Pou, Nellie\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Cryan, Joseph P.",
+      "voter_id": "~{\"name\": \"Cryan, Joseph P.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Bramnick, Jon M.",
+      "voter_id": "~{\"name\": \"Bramnick, Jon M.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Johnson, Gordon M.",
+      "voter_id": "~{\"name\": \"Johnson, Gordon M.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 5
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S2688_upper_Reported_favorably_out_of_committee_SCM"
+}

@@ -1,0 +1,78 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Assembly committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-02-13T05:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "41e47ac2-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A1715",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Calabrese, Clinton",
+      "voter_id": "~{\"name\": \"Calabrese, Clinton\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Moen, William F.",
+      "voter_id": "~{\"name\": \"Moen, William F.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McClellan, Antwan L.",
+      "voter_id": "~{\"name\": \"McClellan, Antwan L.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Guardian, Donald A.",
+      "voter_id": "~{\"name\": \"Guardian, Donald A.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Hall, Garnet R.",
+      "voter_id": "~{\"name\": \"Hall, Garnet R.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McCann Stamato, Barbara",
+      "voter_id": "~{\"name\": \"McCann Stamato, Barbara\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 6
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A1715_lower_Reported_out_of_Assembly_committee_with_amendments_ATG"
+}

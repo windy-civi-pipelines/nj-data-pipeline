@@ -1,0 +1,68 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-06-12T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "42442774-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "S4361",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Turner, Shirley K.",
+      "voter_id": "~{\"name\": \"Turner, Shirley K.\"}",
+      "note": ""
+    },
+    {
+      "option": "no",
+      "voter_name": "Pennacchio, Joseph",
+      "voter_id": "~{\"name\": \"Pennacchio, Joseph\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Cruz-Perez, Nilsa I.",
+      "voter_id": "~{\"name\": \"Cruz-Perez, Nilsa I.\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Corrado, Kristin M.",
+      "voter_id": "~{\"name\": \"Corrado, Kristin M.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Timberlake, Britnee N.",
+      "voter_id": "~{\"name\": \"Timberlake, Britnee N.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 3
+    },
+    {
+      "option": "no",
+      "value": 1
+    },
+    {
+      "option": "other",
+      "value": 1
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S4361_upper_Reported_favorably_out_of_committee_SEG"
+}

@@ -1,0 +1,78 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-06-03T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "41eaaf96-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A2419",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Quijano, Annette",
+      "voter_id": "~{\"name\": \"Quijano, Annette\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Kean, Sean T.",
+      "voter_id": "~{\"name\": \"Kean, Sean T.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Pintor Marin, Eliana",
+      "voter_id": "~{\"name\": \"Pintor Marin, Eliana\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Sampson, William B.",
+      "voter_id": "~{\"name\": \"Sampson, William B.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Myhre, Gregory E.",
+      "voter_id": "~{\"name\": \"Myhre, Gregory E.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Hall, Garnet R.",
+      "voter_id": "~{\"name\": \"Hall, Garnet R.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 6
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A2419_lower_Reported_favorably_out_of_committee_ACO"
+}

@@ -1,0 +1,13 @@
+{
+  "action": {
+    "description": "Introduced in the Senate, Referred to Senate Education Committee",
+    "date": "2024-03-14T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"upper\"}",
+    "classification": [
+      "introduction",
+      "referral-committee"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "S2959"
+}

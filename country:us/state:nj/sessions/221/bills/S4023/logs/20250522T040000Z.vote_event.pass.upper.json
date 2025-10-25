@@ -1,0 +1,68 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-05-22T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "42412308-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "S4023",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Singer, Robert W.",
+      "voter_id": "~{\"name\": \"Singer, Robert W.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Cryan, Joseph P.",
+      "voter_id": "~{\"name\": \"Cryan, Joseph P.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Zwicker, Andrew",
+      "voter_id": "~{\"name\": \"Zwicker, Andrew\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Moriarty, Paul D.",
+      "voter_id": "~{\"name\": \"Moriarty, Paul D.\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Amato, Carmen F.",
+      "voter_id": "~{\"name\": \"Amato, Carmen F.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 4
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 1
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S4023_upper_Reported_favorably_out_of_committee_SHI"
+}

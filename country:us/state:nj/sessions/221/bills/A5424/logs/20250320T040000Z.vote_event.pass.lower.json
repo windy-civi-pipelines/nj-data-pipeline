@@ -1,0 +1,84 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-03-20T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "420beae4-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A5424",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Clifton, Robert D.",
+      "voter_id": "~{\"name\": \"Clifton, Robert D.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Lopez, Yvonne",
+      "voter_id": "~{\"name\": \"Lopez, Yvonne\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Moen, William F.",
+      "voter_id": "~{\"name\": \"Moen, William F.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Flynn, Victoria A.",
+      "voter_id": "~{\"name\": \"Flynn, Victoria A.\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Allen, John",
+      "voter_id": "~{\"name\": \"Allen, John\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Abdelaziz, Al",
+      "voter_id": "~{\"name\": \"Abdelaziz, Al\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Quijano, Annette",
+      "voter_id": "~{\"name\": \"Quijano, Annette\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 6
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 1
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A5424_lower_Reported_favorably_out_of_committee_AHO"
+}

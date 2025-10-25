@@ -1,0 +1,96 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-06-06T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "41f9ab40-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A4084",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Lampitt, Pamela R.",
+      "voter_id": "~{\"name\": \"Lampitt, Pamela R.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Swain, Lisa",
+      "voter_id": "~{\"name\": \"Swain, Lisa\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Simonsen, Erik K.",
+      "voter_id": "~{\"name\": \"Simonsen, Erik K.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Stanley, Sterley S.",
+      "voter_id": "~{\"name\": \"Stanley, Sterley S.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Matsikoudis, Michele",
+      "voter_id": "~{\"name\": \"Matsikoudis, Michele\"}",
+      "note": ""
+    },
+    {
+      "option": "no",
+      "voter_name": "Fantasia, Dawn",
+      "voter_id": "~{\"name\": \"Fantasia, Dawn\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Bagolie, Rosaura",
+      "voter_id": "~{\"name\": \"Bagolie, Rosaura\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Collazos-Gill, Alixon",
+      "voter_id": "~{\"name\": \"Collazos-Gill, Alixon\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Morales, Carmen Theresa",
+      "voter_id": "~{\"name\": \"Morales, Carmen Theresa\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 8
+    },
+    {
+      "option": "no",
+      "value": 1
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A4084_lower_Reported_favorably_out_of_committee_AED"
+}

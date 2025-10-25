@@ -1,0 +1,84 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Assembly committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-05-16T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "41edcea6-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A2776",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Sumter, Shavonda E.",
+      "voter_id": "~{\"name\": \"Sumter, Shavonda E.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Kennedy, James J.",
+      "voter_id": "~{\"name\": \"Kennedy, James J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Scharfenberger, Gerry",
+      "voter_id": "~{\"name\": \"Scharfenberger, Gerry\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Inganamort, Michael",
+      "voter_id": "~{\"name\": \"Inganamort, Michael\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Collazos-Gill, Alixon",
+      "voter_id": "~{\"name\": \"Collazos-Gill, Alixon\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Hall, Garnet R.",
+      "voter_id": "~{\"name\": \"Hall, Garnet R.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Katz, Andrea",
+      "voter_id": "~{\"name\": \"Katz, Andrea\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 7
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A2776_lower_Reported_out_of_Assembly_committee_with_amendments_AEN"
+}

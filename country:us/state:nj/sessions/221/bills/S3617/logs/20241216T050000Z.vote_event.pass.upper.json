@@ -1,0 +1,68 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Senate committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-12-16T05:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "42363b32-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "S3617",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Turner, Shirley K.",
+      "voter_id": "~{\"name\": \"Turner, Shirley K.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Beach, James",
+      "voter_id": "~{\"name\": \"Beach, James\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Holzapfel, James W.",
+      "voter_id": "~{\"name\": \"Holzapfel, James W.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Polistina, Vincent J.",
+      "voter_id": "~{\"name\": \"Polistina, Vincent J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McKeon, John F.",
+      "voter_id": "~{\"name\": \"McKeon, John F.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 4
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 1
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S3617_upper_Reported_out_of_Senate_committee_with_amendments_SSG"
+}

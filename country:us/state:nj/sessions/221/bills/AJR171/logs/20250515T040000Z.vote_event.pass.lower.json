@@ -1,0 +1,84 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Assembly committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-05-15T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "4213951e-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "AJR171",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Singh, Balvir",
+      "voter_id": "~{\"name\": \"Singh, Balvir\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Kean, Sean T.",
+      "voter_id": "~{\"name\": \"Kean, Sean T.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Speight, Shanique",
+      "voter_id": "~{\"name\": \"Speight, Shanique\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Scharfenberger, Gerry",
+      "voter_id": "~{\"name\": \"Scharfenberger, Gerry\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Stanley, Sterley S.",
+      "voter_id": "~{\"name\": \"Stanley, Sterley S.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Hutchison, Dan",
+      "voter_id": "~{\"name\": \"Hutchison, Dan\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Venezia, Michael",
+      "voter_id": "~{\"name\": \"Venezia, Michael\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 6
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 1
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "AJR171_lower_Reported_out_of_Assembly_committee_with_amendments_ARP"
+}

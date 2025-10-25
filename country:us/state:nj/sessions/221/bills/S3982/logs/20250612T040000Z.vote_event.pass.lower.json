@@ -1,0 +1,78 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-06-12T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "4240c534-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "S3982",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Murphy, Carol A.",
+      "voter_id": "~{\"name\": \"Murphy, Carol A.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Freiman, Roy",
+      "voter_id": "~{\"name\": \"Freiman, Roy\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Torrissi, Michael",
+      "voter_id": "~{\"name\": \"Torrissi, Michael\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Atkins, Reginald W.",
+      "voter_id": "~{\"name\": \"Atkins, Reginald W.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Miller, Cody D.",
+      "voter_id": "~{\"name\": \"Miller, Cody D.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Inganamort, Michael",
+      "voter_id": "~{\"name\": \"Inganamort, Michael\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 6
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S3982_lower_Reported_favorably_out_of_committee_AOF"
+}

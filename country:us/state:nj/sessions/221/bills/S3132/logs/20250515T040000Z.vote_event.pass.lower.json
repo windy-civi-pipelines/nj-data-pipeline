@@ -1,0 +1,78 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-05-15T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "4231bc42-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "S3132",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Rumpf, Brian E.",
+      "voter_id": "~{\"name\": \"Rumpf, Brian E.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Quijano, Annette",
+      "voter_id": "~{\"name\": \"Quijano, Annette\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Kean, Sean T.",
+      "voter_id": "~{\"name\": \"Kean, Sean T.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Reynolds-Jackson, Verlina",
+      "voter_id": "~{\"name\": \"Reynolds-Jackson, Verlina\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Sampson, William B.",
+      "voter_id": "~{\"name\": \"Sampson, William B.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Hall, Garnet R.",
+      "voter_id": "~{\"name\": \"Hall, Garnet R.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 5
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 1
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S3132_lower_Reported_favorably_out_of_committee_ACO"
+}

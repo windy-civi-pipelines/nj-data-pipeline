@@ -1,0 +1,84 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Assembly committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-09-23T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "41f9ef4c-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A4113",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Wimberly, Benjie E.",
+      "voter_id": "~{\"name\": \"Wimberly, Benjie E.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Carter, Linda S.",
+      "voter_id": "~{\"name\": \"Carter, Linda S.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Scharfenberger, Gerry",
+      "voter_id": "~{\"name\": \"Scharfenberger, Gerry\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Atkins, Reginald W.",
+      "voter_id": "~{\"name\": \"Atkins, Reginald W.\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Matsikoudis, Michele",
+      "voter_id": "~{\"name\": \"Matsikoudis, Michele\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Simmons, Heather",
+      "voter_id": "~{\"name\": \"Simmons, Heather\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Miller, Cody D.",
+      "voter_id": "~{\"name\": \"Miller, Cody D.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 6
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 1
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A4113_lower_Reported_out_of_Assembly_committee_with_amendments_AHI"
+}

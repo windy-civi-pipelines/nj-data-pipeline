@@ -1,0 +1,96 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-06-17T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "41fdc270-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A4530",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Drulis, Mitchelle",
+      "voter_id": "~{\"name\": \"Drulis, Mitchelle\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Marenco, Julio",
+      "voter_id": "~{\"name\": \"Marenco, Julio\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Rodriguez, Gabriel",
+      "voter_id": "~{\"name\": \"Rodriguez, Gabriel\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Peterson, Erik",
+      "voter_id": "~{\"name\": \"Peterson, Erik\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Danielsen, Joe",
+      "voter_id": "~{\"name\": \"Danielsen, Joe\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Murphy, Carol A.",
+      "voter_id": "~{\"name\": \"Murphy, Carol A.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Verrelli, Anthony S.",
+      "voter_id": "~{\"name\": \"Verrelli, Anthony S.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Scharfenberger, Gerry",
+      "voter_id": "~{\"name\": \"Scharfenberger, Gerry\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Flynn, Victoria A.",
+      "voter_id": "~{\"name\": \"Flynn, Victoria A.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 9
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A4530_lower_Reported_favorably_out_of_committee_APS"
+}

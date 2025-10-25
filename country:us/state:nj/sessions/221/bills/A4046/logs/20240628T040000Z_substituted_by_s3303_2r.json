@@ -1,0 +1,10 @@
+{
+  "action": {
+    "description": "Substituted by S3303 (2R)",
+    "date": "2024-06-28T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"upper\"}",
+    "classification": [],
+    "related_entities": []
+  },
+  "bill_id": "A4046"
+}

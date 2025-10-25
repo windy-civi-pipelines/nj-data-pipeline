@@ -1,0 +1,290 @@
+{
+  "identifier": "",
+  "motion_text": "CONCUR ASMB AMEND",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-12-19T05:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "4233616e-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "S3308",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Amato, Carmen F.",
+      "voter_id": "~{\"name\": \"Amato, Carmen F.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Beach, James",
+      "voter_id": "~{\"name\": \"Beach, James\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Bramnick, Jon M.",
+      "voter_id": "~{\"name\": \"Bramnick, Jon M.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Bucco, Anthony M.",
+      "voter_id": "~{\"name\": \"Bucco, Anthony M.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Burgess, Renee C.",
+      "voter_id": "~{\"name\": \"Burgess, Renee C.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Burzichelli, John J.",
+      "voter_id": "~{\"name\": \"Burzichelli, John J.\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Corrado, Kristin M.",
+      "voter_id": "~{\"name\": \"Corrado, Kristin M.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Cruz-Perez, Nilsa I.",
+      "voter_id": "~{\"name\": \"Cruz-Perez, Nilsa I.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Cryan, Joseph P.",
+      "voter_id": "~{\"name\": \"Cryan, Joseph P.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Diegnan, Patrick J.",
+      "voter_id": "~{\"name\": \"Diegnan, Patrick J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Gopal, Vin",
+      "voter_id": "~{\"name\": \"Gopal, Vin\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Greenstein, Linda R.",
+      "voter_id": "~{\"name\": \"Greenstein, Linda R.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Henry, Owen",
+      "voter_id": "~{\"name\": \"Henry, Owen\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Holzapfel, James W.",
+      "voter_id": "~{\"name\": \"Holzapfel, James W.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Johnson, Gordon M.",
+      "voter_id": "~{\"name\": \"Johnson, Gordon M.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Lagana, Joseph A.",
+      "voter_id": "~{\"name\": \"Lagana, Joseph A.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McKeon, John F.",
+      "voter_id": "~{\"name\": \"McKeon, John F.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McKnight, Angela V.",
+      "voter_id": "~{\"name\": \"McKnight, Angela V.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Moriarty, Paul D.",
+      "voter_id": "~{\"name\": \"Moriarty, Paul D.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Mukherji, Raj",
+      "voter_id": "~{\"name\": \"Mukherji, Raj\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "O'Scanlon, Declan J.",
+      "voter_id": "~{\"name\": \"O'Scanlon, Declan J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Pennacchio, Joseph",
+      "voter_id": "~{\"name\": \"Pennacchio, Joseph\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Polistina, Vincent J.",
+      "voter_id": "~{\"name\": \"Polistina, Vincent J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Pou, Nellie",
+      "voter_id": "~{\"name\": \"Pou, Nellie\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Ruiz, M. Teresa",
+      "voter_id": "~{\"name\": \"Ruiz, M. Teresa\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Sarlo, Paul A.",
+      "voter_id": "~{\"name\": \"Sarlo, Paul A.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Schepisi, Holly T.",
+      "voter_id": "~{\"name\": \"Schepisi, Holly T.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Scutari, Nicholas P.",
+      "voter_id": "~{\"name\": \"Scutari, Nicholas P.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Singer, Robert W.",
+      "voter_id": "~{\"name\": \"Singer, Robert W.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Singleton, Troy",
+      "voter_id": "~{\"name\": \"Singleton, Troy\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Smith, Bob",
+      "voter_id": "~{\"name\": \"Smith, Bob\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Space, Parker",
+      "voter_id": "~{\"name\": \"Space, Parker\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Stack, Brian P.",
+      "voter_id": "~{\"name\": \"Stack, Brian P.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Steinhardt, Douglas J.",
+      "voter_id": "~{\"name\": \"Steinhardt, Douglas J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Testa, Michael L.",
+      "voter_id": "~{\"name\": \"Testa, Michael L.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Timberlake, Britnee N.",
+      "voter_id": "~{\"name\": \"Timberlake, Britnee N.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Tiver, Latham",
+      "voter_id": "~{\"name\": \"Tiver, Latham\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Turner, Shirley K.",
+      "voter_id": "~{\"name\": \"Turner, Shirley K.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Vitale, Joseph F.",
+      "voter_id": "~{\"name\": \"Vitale, Joseph F.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Zwicker, Andrew",
+      "voter_id": "~{\"name\": \"Zwicker, Andrew\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 37
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 3
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S3308_upper_CONCUR_ASMB_AMEND"
+}

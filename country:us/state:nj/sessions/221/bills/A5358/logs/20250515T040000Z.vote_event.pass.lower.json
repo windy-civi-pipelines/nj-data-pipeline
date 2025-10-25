@@ -1,0 +1,108 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Assembly committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-05-15T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "420b5692-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A5358",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Schaer, Gary S.",
+      "voter_id": "~{\"name\": \"Schaer, Gary S.\"}",
+      "note": ""
+    },
+    {
+      "option": "no",
+      "voter_name": "Webber, Jay",
+      "voter_id": "~{\"name\": \"Webber, Jay\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Pintor Marin, Eliana",
+      "voter_id": "~{\"name\": \"Pintor Marin, Eliana\"}",
+      "note": ""
+    },
+    {
+      "option": "no",
+      "voter_name": "Auth, Robert",
+      "voter_id": "~{\"name\": \"Auth, Robert\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Reynolds-Jackson, Verlina",
+      "voter_id": "~{\"name\": \"Reynolds-Jackson, Verlina\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Swain, Lisa",
+      "voter_id": "~{\"name\": \"Swain, Lisa\"}",
+      "note": ""
+    },
+    {
+      "option": "no",
+      "voter_name": "McClellan, Antwan L.",
+      "voter_id": "~{\"name\": \"McClellan, Antwan L.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Haider, Shama A.",
+      "voter_id": "~{\"name\": \"Haider, Shama A.\"}",
+      "note": ""
+    },
+    {
+      "option": "no",
+      "voter_name": "Myhre, Gregory E.",
+      "voter_id": "~{\"name\": \"Myhre, Gregory E.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McCoy, Tennille R.",
+      "voter_id": "~{\"name\": \"McCoy, Tennille R.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Kane, Melinda",
+      "voter_id": "~{\"name\": \"Kane, Melinda\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 7
+    },
+    {
+      "option": "no",
+      "value": 4
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A5358_lower_Reported_out_of_Assembly_committee_with_amendments_AAP"
+}

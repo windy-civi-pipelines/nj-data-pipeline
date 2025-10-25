@@ -1,0 +1,12 @@
+{
+  "action": {
+    "description": "Introduced, 1st Reading without Reference, 2nd Reading",
+    "date": "2025-06-26T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"upper\"}",
+    "classification": [
+      "introduction"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "S4692"
+}

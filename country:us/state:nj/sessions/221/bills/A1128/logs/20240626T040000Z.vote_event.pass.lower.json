@@ -1,0 +1,132 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Assembly committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-06-26T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "41df7fae-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A1128",
+  "votes": [
+    {
+      "option": "other",
+      "voter_name": "Conaway, Herb",
+      "voter_id": "~{\"name\": \"Conaway, Herb\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Rumpf, Brian E.",
+      "voter_id": "~{\"name\": \"Rumpf, Brian E.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Schaer, Gary S.",
+      "voter_id": "~{\"name\": \"Schaer, Gary S.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Mu\u00f1oz, Nancy F.",
+      "voter_id": "~{\"name\": \"Mu\\u00f1oz, Nancy F.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Wimberly, Benjie E.",
+      "voter_id": "~{\"name\": \"Wimberly, Benjie E.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Pintor Marin, Eliana",
+      "voter_id": "~{\"name\": \"Pintor Marin, Eliana\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Murphy, Carol A.",
+      "voter_id": "~{\"name\": \"Murphy, Carol A.\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Freiman, Roy",
+      "voter_id": "~{\"name\": \"Freiman, Roy\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Reynolds-Jackson, Verlina",
+      "voter_id": "~{\"name\": \"Reynolds-Jackson, Verlina\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Scharfenberger, Gerry",
+      "voter_id": "~{\"name\": \"Scharfenberger, Gerry\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Dunn, Aura K.",
+      "voter_id": "~{\"name\": \"Dunn, Aura K.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Park, Ellen J.",
+      "voter_id": "~{\"name\": \"Park, Ellen J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Rodriguez, Gabriel",
+      "voter_id": "~{\"name\": \"Rodriguez, Gabriel\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Venezia, Michael",
+      "voter_id": "~{\"name\": \"Venezia, Michael\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Barlas, Al",
+      "voter_id": "~{\"name\": \"Barlas, Al\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 13
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 2
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A1128_lower_Reported_out_of_Assembly_committee_with_amendments_ABU"
+}

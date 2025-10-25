@@ -1,0 +1,12 @@
+{
+  "action": {
+    "description": "Approved P.L.2024, JR-1.",
+    "date": "2024-05-22T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"executive\"}",
+    "classification": [
+      "executive-signature"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "AJR86"
+}

@@ -1,0 +1,12 @@
+{
+  "action": {
+    "description": "Passed Senate (24-9)",
+    "date": "2024-05-13T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"upper\"}",
+    "classification": [
+      "passage"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "A4161"
+}

@@ -1,0 +1,86 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Senate committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-06-09T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "42413168-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "S4030",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Singer, Robert W.",
+      "voter_id": "~{\"name\": \"Singer, Robert W.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Vitale, Joseph F.",
+      "voter_id": "~{\"name\": \"Vitale, Joseph F.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Diegnan, Patrick J.",
+      "voter_id": "~{\"name\": \"Diegnan, Patrick J.\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Schepisi, Holly T.",
+      "voter_id": "~{\"name\": \"Schepisi, Holly T.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Burgess, Renee C.",
+      "voter_id": "~{\"name\": \"Burgess, Renee C.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Henry, Owen",
+      "voter_id": "~{\"name\": \"Henry, Owen\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McKeon, John F.",
+      "voter_id": "~{\"name\": \"McKeon, John F.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McKnight, Angela V.",
+      "voter_id": "~{\"name\": \"McKnight, Angela V.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 7
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 1
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S4030_upper_Reported_out_of_Senate_committee_with_amendments_SHH"
+}

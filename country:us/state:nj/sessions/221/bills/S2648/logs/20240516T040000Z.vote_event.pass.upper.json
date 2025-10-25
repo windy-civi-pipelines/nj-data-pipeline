@@ -1,0 +1,104 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2024-05-16T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "422d4cb6-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "S2648",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Stack, Brian P.",
+      "voter_id": "~{\"name\": \"Stack, Brian P.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Pou, Nellie",
+      "voter_id": "~{\"name\": \"Pou, Nellie\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Cruz-Perez, Nilsa I.",
+      "voter_id": "~{\"name\": \"Cruz-Perez, Nilsa I.\"}",
+      "note": ""
+    },
+    {
+      "option": "no",
+      "voter_name": "Corrado, Kristin M.",
+      "voter_id": "~{\"name\": \"Corrado, Kristin M.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Singleton, Troy",
+      "voter_id": "~{\"name\": \"Singleton, Troy\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Gopal, Vin",
+      "voter_id": "~{\"name\": \"Gopal, Vin\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Lagana, Joseph A.",
+      "voter_id": "~{\"name\": \"Lagana, Joseph A.\"}",
+      "note": ""
+    },
+    {
+      "option": "no",
+      "voter_name": "Testa, Michael L.",
+      "voter_id": "~{\"name\": \"Testa, Michael L.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Polistina, Vincent J.",
+      "voter_id": "~{\"name\": \"Polistina, Vincent J.\"}",
+      "note": ""
+    },
+    {
+      "option": "no",
+      "voter_name": "Bramnick, Jon M.",
+      "voter_id": "~{\"name\": \"Bramnick, Jon M.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Mukherji, Raj",
+      "voter_id": "~{\"name\": \"Mukherji, Raj\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 8
+    },
+    {
+      "option": "no",
+      "value": 3
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S2648_upper_Reported_favorably_out_of_committee_SJU"
+}

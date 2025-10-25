@@ -1,0 +1,68 @@
+{
+  "identifier": "",
+  "motion_text": "Reported favorably out of committee",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-02-13T05:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "423f2dfa-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "S3813",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Greenstein, Linda R.",
+      "voter_id": "~{\"name\": \"Greenstein, Linda R.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "O'Scanlon, Declan J.",
+      "voter_id": "~{\"name\": \"O'Scanlon, Declan J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Moriarty, Paul D.",
+      "voter_id": "~{\"name\": \"Moriarty, Paul D.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Henry, Owen",
+      "voter_id": "~{\"name\": \"Henry, Owen\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "McKnight, Angela V.",
+      "voter_id": "~{\"name\": \"McKnight, Angela V.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 5
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S3813_upper_Reported_favorably_out_of_committee_SLP"
+}

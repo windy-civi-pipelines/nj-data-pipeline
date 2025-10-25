@@ -1,0 +1,10 @@
+{
+  "action": {
+    "description": "Combined with A4303/A4304 (ACS)",
+    "date": "2024-06-24T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"lower\"}",
+    "classification": [],
+    "related_entities": []
+  },
+  "bill_id": "A4308"
+}

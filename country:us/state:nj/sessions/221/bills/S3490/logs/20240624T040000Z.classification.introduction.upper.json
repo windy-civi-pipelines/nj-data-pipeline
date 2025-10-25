@@ -1,0 +1,13 @@
+{
+  "action": {
+    "description": "Introduced in the Senate, Referred to Senate Health, Human Services and Senior Citizens Committee",
+    "date": "2024-06-24T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"upper\"}",
+    "classification": [
+      "introduction",
+      "referral-committee"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "S3490"
+}

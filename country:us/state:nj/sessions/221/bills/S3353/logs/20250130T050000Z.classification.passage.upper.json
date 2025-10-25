@@ -1,0 +1,12 @@
+{
+  "action": {
+    "description": "Passed Senate (34-2)",
+    "date": "2025-01-30T05:00:00+00:00",
+    "organization_id": "~{\"classification\": \"upper\"}",
+    "classification": [
+      "passage"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "S3353"
+}

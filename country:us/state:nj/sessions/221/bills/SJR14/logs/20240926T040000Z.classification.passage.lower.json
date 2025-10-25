@@ -1,0 +1,12 @@
+{
+  "action": {
+    "description": "Passed Assembly (Passed Both Houses) (76-0-0)",
+    "date": "2024-09-26T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"lower\"}",
+    "classification": [
+      "passage"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "SJR14"
+}

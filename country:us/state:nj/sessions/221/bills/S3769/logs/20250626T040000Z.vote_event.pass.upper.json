@@ -1,0 +1,116 @@
+{
+  "identifier": "",
+  "motion_text": "Reported out of Senate committee with amendments",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-06-26T04:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"upper\"}",
+  "legislative_session": "221",
+  "bill": "4237a9a4-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "S3769",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Sarlo, Paul A.",
+      "voter_id": "~{\"name\": \"Sarlo, Paul A.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Ruiz, M. Teresa",
+      "voter_id": "~{\"name\": \"Ruiz, M. Teresa\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Greenstein, Linda R.",
+      "voter_id": "~{\"name\": \"Greenstein, Linda R.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Cruz-Perez, Nilsa I.",
+      "voter_id": "~{\"name\": \"Cruz-Perez, Nilsa I.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Diegnan, Patrick J.",
+      "voter_id": "~{\"name\": \"Diegnan, Patrick J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "O'Scanlon, Declan J.",
+      "voter_id": "~{\"name\": \"O'Scanlon, Declan J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Testa, Michael L.",
+      "voter_id": "~{\"name\": \"Testa, Michael L.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Johnson, Gordon M.",
+      "voter_id": "~{\"name\": \"Johnson, Gordon M.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Zwicker, Andrew",
+      "voter_id": "~{\"name\": \"Zwicker, Andrew\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Burgess, Renee C.",
+      "voter_id": "~{\"name\": \"Burgess, Renee C.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Steinhardt, Douglas J.",
+      "voter_id": "~{\"name\": \"Steinhardt, Douglas J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Burzichelli, John J.",
+      "voter_id": "~{\"name\": \"Burzichelli, John J.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Amato, Carmen F.",
+      "voter_id": "~{\"name\": \"Amato, Carmen F.\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 13
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 0
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "S3769_upper_Reported_out_of_Senate_committee_with_amendments_SBA"
+}

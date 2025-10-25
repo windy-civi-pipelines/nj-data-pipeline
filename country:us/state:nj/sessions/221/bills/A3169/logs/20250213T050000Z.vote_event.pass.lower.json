@@ -1,0 +1,78 @@
+{
+  "identifier": "",
+  "motion_text": "Not reported out of Assembly Committee with Substitutes",
+  "motion_classification": [
+    "passage"
+  ],
+  "start_date": "2025-02-13T05:00:00+00:00",
+  "result": "pass",
+  "organization": "~{\"classification\": \"lower\"}",
+  "legislative_session": "221",
+  "bill": "41f14fa4-b14e-11f0-b334-6e9ae6e8fa42",
+  "bill_action": null,
+  "bill_identifier": "A3169",
+  "votes": [
+    {
+      "option": "yes",
+      "voter_name": "Kane, Melinda",
+      "voter_id": "~{\"name\": \"Kane, Melinda\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Rumpf, Brian E.",
+      "voter_id": "~{\"name\": \"Rumpf, Brian E.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "DeAngelo, Wayne P.",
+      "voter_id": "~{\"name\": \"DeAngelo, Wayne P.\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Tucker, Cleopatra G.",
+      "voter_id": "~{\"name\": \"Tucker, Cleopatra G.\"}",
+      "note": ""
+    },
+    {
+      "option": "other",
+      "voter_name": "Sauickie, Alex",
+      "voter_id": "~{\"name\": \"Sauickie, Alex\"}",
+      "note": ""
+    },
+    {
+      "option": "yes",
+      "voter_name": "Ramirez, Jessica",
+      "voter_id": "~{\"name\": \"Ramirez, Jessica\"}",
+      "note": ""
+    }
+  ],
+  "counts": [
+    {
+      "option": "yes",
+      "value": 5
+    },
+    {
+      "option": "no",
+      "value": 0
+    },
+    {
+      "option": "other",
+      "value": 1
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/downloads.asp",
+      "note": ""
+    }
+  ],
+  "extras": {},
+  "dedupe_key": "A3169_lower_Not_reported_out_of_Assembly_Committee_with_Substitutes_AMV"
+}

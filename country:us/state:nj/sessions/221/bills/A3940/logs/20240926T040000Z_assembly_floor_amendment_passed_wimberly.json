@@ -1,0 +1,12 @@
+{
+  "action": {
+    "description": "Assembly Floor Amendment Passed (Wimberly)",
+    "date": "2024-09-26T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"lower\"}",
+    "classification": [
+      "amendment-passage"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "A3940"
+}

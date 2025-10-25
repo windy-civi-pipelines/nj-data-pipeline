@@ -1,0 +1,12 @@
+{
+  "action": {
+    "description": "Assembly Floor Amendment Passed (Voice) (Pintor Marin)",
+    "date": "2024-12-19T05:00:00+00:00",
+    "organization_id": "~{\"classification\": \"lower\"}",
+    "classification": [
+      "amendment-passage"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "S1323"
+}

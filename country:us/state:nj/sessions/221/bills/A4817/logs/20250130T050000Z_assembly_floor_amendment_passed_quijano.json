@@ -1,0 +1,12 @@
+{
+  "action": {
+    "description": "Assembly Floor Amendment Passed (Quijano)",
+    "date": "2025-01-30T05:00:00+00:00",
+    "organization_id": "~{\"classification\": \"lower\"}",
+    "classification": [
+      "amendment-passage"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "A4817"
+}

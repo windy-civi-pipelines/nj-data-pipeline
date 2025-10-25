@@ -1,0 +1,12 @@
+{
+  "action": {
+    "description": "Approved P.L.2024, c.91.",
+    "date": "2024-11-18T05:00:00+00:00",
+    "organization_id": "~{\"classification\": \"executive\"}",
+    "classification": [
+      "executive-signature"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "S2310"
+}

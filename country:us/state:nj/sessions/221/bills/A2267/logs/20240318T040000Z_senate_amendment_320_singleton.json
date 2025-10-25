@@ -1,0 +1,12 @@
+{
+  "action": {
+    "description": "Senate Amendment (32-0) (Singleton)",
+    "date": "2024-03-18T04:00:00+00:00",
+    "organization_id": "~{\"classification\": \"upper\"}",
+    "classification": [
+      "amendment-passage"
+    ],
+    "related_entities": []
+  },
+  "bill_id": "A2267"
+}
