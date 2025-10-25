@@ -85,6 +85,7 @@
     "division_id": "ocd-division/country:us/state:nj"
   },
   "_processing": {
-    "logs_latest_update": "2025-10-25T02:59:22Z"
+    "logs_latest_update": "2025-10-25T02:59:22Z",
+    "text_extraction_latest_update": "2025-10-25T11:00:16.997562Z"
   }
 }
