@@ -1,16 +1,1082 @@
-Title: A2038
-Official Title: 
-Number of Sections: 1
-Source: versions - Introduced Version
-Media Type: text/html
+<html>
 
-================================================================================
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A2038</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
 
-Section 1:
-A2038 ASSEMBLY, No. 2038 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblywoman  ELIANA PINTOR MARIN District 29 (Essex and Hudson) SYNOPSIS Clarifies charitable role of health service corporations, revises membership of board of directors, establishes process to determine efficient level of surplus, and requires timely publication of certain information by DOBI. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning health service corporations and the publication of certain health insurance carrier information, amending and supplementing P.L.1985, c.236 and supplementing P.L.1997, c.192 (C.26:2S-1 et seq.). Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    Section 3 of P.L.1985, c.236 (C.17:48E-3) is amended to read as follows: 3.    a. [No] A health service corporation shall not be established as a corporation organized for pecuniary profit.  Every health service corporation established pursuant to the provisions of [this act] P.L.1985, c.236 (C.17:48E-1 et seq.) shall be operated for the benefit of its subscribers and shall have a charitable mission.  The charitable mission of the health service corporation shall be to: (1)   fulfill its obligation as an insurer of last resort in this State; (2)   provide affordable and accessible health insurance to subscribers; (3)   assist and support public and private health care initiatives for individuals without health insurance; (4)   promote the integration of the health care system that meets the health care needs of the residents of the State of New Jersey; (5)   acknowledge its obligation to the residents of this State to make health care coverage available to underserved markets by supporting and supplying community services in connection with the provision of health care; and (6)   recognize an ongoing responsibility to contribute to fundamental improvements in the overall health status of all New Jersey residents. A health service corporation shall develop goals, objectives, and strategies for carrying out, in accordance with this section, its statutory mission. b.    No person, firm, association or corporation, other than a health service corporation or an insurance company authorized to transact life or health insurance in accordance with Title 17B of the New Jersey Statutes, shall establish, maintain or operate a health service plan.  No person, firm, association or corporation, other than a hospital service corporation, a medical service corporation, a dental service corporation to the extent permitted by P.L.1968, c.305 (C.17:48C-1 et seq.), or an insurance company authorized to transact life or health insurance business or the kinds of insurance specified in subsection d. of R.S.17:17-1, shall otherwise contract in this State with persons to pay for or to provide for health services on the basis of premiums or other valuable considerations to be collected by the person, firm, association or corporation from any persons for the issuance of the contracts.  This section shall not be construed as preventing the exercise of any authority or privilege granted to any corporation by a certificate of authority issued by the commissioner pursuant to any law of this State, or as preventing any person, firm, association or corporation from furnishing health services required under any workers' compensation law, or law pertaining to health maintenance organizations, or as otherwise provided by law. c.     A health service corporation shall, unless prohibited by the commissioner, offer as an option medical-surgical contracts and dental subscriber contracts which afford subscribers prepaid or postpaid benefits pursuant to which payment is made to participating providers for medical-surgical and dental services rendered by a participating provider network with agreements granting an aggregate differential allowance or discount on charges, as well as a limit on total allowances which may or may not be related to the subscriber's income level, where the aggregate differential or discount on charges and limit on total allowances may be achieved by payment of either the individual provider's actual charge or the health service corporation's allowance on the charge, whichever is less. d.    A health service corporation shall maintain an open enrollment period for coverage to persons who are otherwise unable to obtain hospital, medical-surgical, or major medical coverage in accordance with the provisions of P.L.1992, c.161 (C.17B:27A-2 et al.). e.     No health service corporation shall have the power to underwrite life insurance as defined in Title 17B of the New Jersey Statutes directly, but a health service corporation may, at such time as the aggregate special contingent surplus is greater than 0%, own stock in, control, or otherwise become affiliated with a life, health or accident insurance company organized pursuant to Title 17B of the New Jersey Statutes or under the laws of any other state, provided that the company is admitted in this State. f.     No health service corporation shall solicit subscribers or enter into any contract with any subscriber until it has received from the commissioner a certificate of authority to do so, but if a health service corporation is established by means of the merger of a medical service corporation into a hospital service corporation, which hospital service corporation possesses a valid certificate of authority issued prior to the effective date of [this act] P.L.1985, c.236 (C.17:48E-1 et seq.), the health service corporation thus established need not reapply for a new certificate of authority, but the corporation shall file in the Department of Banking and Insurance any documents relating to the merger, including, but not limited to, information concerning the operation of the health service corporation as set forth in subsection a. of this section, which the commissioner may require. g.    Nothing in [this act] P.L.1985, c.236 (C.17:48E-1 et seq.) shall be deemed to prohibit a health service corporation from contracting with, or paying commissions to, any duly licensed affiliated or independent insurance producer, to the extent permitted by the laws applicable to those producers. h.    A health service corporation shall, on an annual basis, and in a form and manner prescribed by the Department of Banking and Insurance, file with the department information similar to the information required to be filed by a charitable organization in Internal Revenue Service Form 990 and Schedule A (990), which information the department shall post on its website. i.     On or before June 30, 2019, and annually thereafter, the commissioner shall report to the Governor, and to the Legislature pursuant to section 2 of P.L.1991, c.164 (C.52:14-19.1), on the compliance of a health service corporation with the provisions of P.L.     , c.      (C.        ) (pending before the Legislature as this bill). (cf: P.L.1992, c.161, s.18) 2.    Section 6 of P.L.1985, c.236 (C.17:48E-6) shall be amended to read as follows: 6.    The board of a health service corporation which is formed as the result of a merger between a medical service corporation and a hospital service corporation shall be composed of not more than 15 members. Initially, after the merger has been effected, the board shall be constituted as follows: a.     Four members of the board shall be public members, who shall be appointed by the Governor with the advice and consent of the Senate.  The public members so appointed shall be persons whose background and experience indicate that they are qualified to act in the broad public interest, who may or may not have coverage under a contract or contracts issued by the corporation, its subsidiaries or affiliates, and who, or whose spouses or minor children, are not officers, directors or owners of more than 10% of the stock of a corporation whose aggregate sales to hospitals, other health care facilities or other providers of health care services exceed 5% of its total sales.  The remaining [eleven] 11 members shall be selected by the board of directors of the health service corporation in accordance with the provisions of its certificate of incorporation and bylaws. b.    Of the initial members of the board, as provided for in subsection a. of this section, one public member and three members selected by the board of the health service corporation shall serve for a term of one year; one public member and three members selected by the board of the health service corporation shall serve for a term of two years; and two public members and five members selected by the board of the health service corporation shall serve for a term of three years. Thereafter, all members of the board shall serve for a term of three years, and shall hold office until their successors are appointed or elected and qualified. c.     After the constitution of the initial board as provided in subsection b. of this section, and as the initial terms expire as provided for in that [section] subsection, the board shall be constituted as follows: (1)   Four members shall be public members of the board appointed by the Governor with the advice and consent of the Senate; [and] (2)   [Eleven] Eight members shall be elected by the board of directors, as provided in the bylaws; and (3)   Three members shall be elected by qualified voters, pursuant to the process established in section 4 of P.L.    , c.   (C.     ) (pending before the Legislature as this bill). d.    The provisions of subsection c. of this section shall not be construed to preclude the reappointment or reelection of any member appointed or elected pursuant to subsection a. of this section. (cf:  P.L.1991, c.208, s.20) 3.    Section 7 of P.L.1985, c.236 (C.17:48E-7) is amended to read as follows: 7.    The board of directors of a health service corporation which is established in accordance with paragraph (1) of subsection a. of section 2 of P.L.1985, c.236 (C.17:48E-2) shall have four public members appointed by the Governor with the advice and consent of the Senate [and eleven] , eight members elected as provided in the bylaws, and three members elected by qualified voters, pursuant to the process established pursuant to section 4 of P.L.    , c.   (C.     ) (pending before the Legislature as this bill). (cf:  P.L.1991, c.208, s.21) 4.    (New section)  a. Within six months of the effective date of this section, a health service corporation shall submit to the commissioner a plan to create a process for three board members of the board of the health service corporation to be elected by qualified voters.  The plan shall allow every qualified voter to cast a vote in an election for each of the three subscriber-elected board positions.  The election shall not require the physical presence of the qualified voter to vote and shall include a mail-in vote option.  The plans shall include a process to phase in the three subscriber-elected board members upon the expiration of the terms of current board members.  The plan shall ensure that the subscriber-elected board member positions are filled within three years of the effective date of this section.  Upon the commissioners approval of the plan, which shall be no later than six months after the submission of the plan, the process shall become effective. b.    For the purposes of P.L. , c.     (C.        ) (pending before the Legislature as this bill), qualified voter means a subscriber who is 18 years of age or more, if an individual, and whose subscription certificate or contract has been in force for at least one year. 5.    (New section)  a.  The commissioner shall establish a public process to determine an appropriate, efficient surplus range for a health service corporation.  The process shall include input from the public including written and verbal testimony, public testimony from health insurance experts determined by the commissioner to be necessary to inform the process, and the opportunity for the health service corporation to respond to such public testimony.  Testimony submitted, including the health service corporation response, if provided, shall be made available on the departments website.  The commissioner shall determine, and notify the health service corporation, of the appropriate, efficient surplus range that is established pursuant to this section.  Once the public process, and notification to the health service corporation of the commissioners determination of the efficient range, is complete, the efficient surplus range shall remain in effect for the purposes of this section; provided, however, the commissioner may, at his discretion initiate a new public process pursuant to this section, if the commissioner deems it necessary to reevaluate the efficient surplus range. b.    A health service corporation surplus in excess of the maximum of the range established pursuant to subsection a. of this section shall be deemed inefficient.  The commissioner shall, on an annual basis, examine the surplus amount and the health service corporations annual regulatory filings for the prior calendar year, to determine whether the surplus is inefficient pursuant to this section. c.     (1)  If at any time the commissioner determines that a health service corporation surplus is inefficient, the department shall notify the health service corporation and the health service corporation shall, within 30 days of notice from the commissioner, file a report with the commissioner. (2)   The report shall either: (a)   justify, to the satisfaction of the commissioner and consistent with the range established pursuant to subsection a. of this section, that the current surplus level is appropriate and efficient; or (b)   provide a plan to reduce the current surplus level in a manner that results in the surplus being within the efficient surplus range established pursuant to subsection a. of this section.  The plan shall include: (i)    proposals to benefit to policyholders; and (ii)   proposals to improve the overall health status of all New Jersey residents by: expanding access to affordable, quality health care for underserved individuals; responding to emerging health care issues in New Jersey; and promoting fundamental improvements in the health status of all New Jersey residents, including but not limited to substance use disorder treatment and prevention, behavioral healthcare, maternal, child and chronic health services, cancer screening, research and treatment, and improving veterans access to health care. (3)   The commissioner shall review the report, make the report available on the departments website, and provide notice concerning a public comment period within 10 days of receipt of the report.  The commissioner shall afford all interested persons an opportunity to comment in writing on the intended action.  Written comments shall be submitted to the commissioner within the time established by the commissioner in the notice, which time shall not be less than 20 calendar days from the date of notice and posting on the departments website.  The commissioner shall give due consideration to all comments received. Within a reasonable period of time following submission of the comments pursuant to this paragraph, the commissioner shall prepare for public distribution a report listing all parties who provided written submissions concerning the intended action, summarizing the content of the submissions and providing the commissioners response to the submissions.  Based upon the comments submitted from the public, and in consultation with the Department of Health, the commissioner shall make a determination concerning the surplus.  The commissioner may: (a)   approve the surplus level if it is justified consistent with this section; (b)   approve the health service corporation plan to reduce the surplus to an efficient level; or (c)   direct the health service corporation to revise the plan to reduce the surplus to an efficient level.  If, after 30 days from the date of the end of the public comment period pursuant to this paragraph, the health service corporation and the commissioner do not agree on a revised plan to reduce the surplus, the commissioner shall order the health service corporation to deposit, no later than 60 days after the date of the written notification, with the State, in the New Jersey Quality Health and Wellness Fund established pursuant to subsection b. of section 6 of P.L.    , c.    (C.        ) (pending before the Legislature as this bill), the surplus amount, or portion thereof, determined by the commissioner to be in excess of the efficient range. d.    A health service corporation with a previous-year surplus in the efficient range, as established pursuant to subsection a. of this section, shall not include a risk or contingency factor in its filed premium rates unless and until the surplus level is at or below the lower bound of the surplus range. e.     In order to implement the provisions of this section, the department may engage and retain attorneys, appraisers, independent actuaries, independent certified public accountants or other professionals or examiners, at the expense of the health service corporation. 6.    (New section)  a.  If a health service corporation and the Commissioner of Banking and Insurance do not agree, pursuant to paragraph (3) of subsection c. of section 5 of P.L.    , c.    (C.        ) (pending before the Legislature as this bill) on a plan to reduce a surplus deemed in excess of the efficient surplus range, the Commissioner of Banking and Insurance shall order the health service corporation to deposit, no later than 60 days after the date of the written notification, with the State, in the New Jersey Quality Health and Wellness Fund established pursuant to this section, the surplus amount, or portion thereof, determined to be in excess of the efficient range. b.    There is established in the Department of Health a nonlapsing, revolving fund, to be known as the New Jersey Quality Health and Wellness Fund.  This fund shall consist of monies deposited by a health service corporation pursuant to this section. c.     The monies collected in the fund shall be dedicated, and may be appropriated by the Legislature after completion of the process to be administered by the Commissioner of Health pursuant to this subsection. (1)   The Commissioner of Health shall solicit and receive testimony concerning the manner in which to allocate the funds in the New Jersey Quality Health and Wellness Fund in a manner that benefits the public and is otherwise consistent with the provisions of P.L.    , c.    (C.        ) (pending before the Legislature as this bill). The testimony shall include testimony from members of the public and health care experts determined by the commissioner to be necessary to inform the process.  Testimony submitted shall be made available on the departments website. (2)   Once the process established pursuant to paragraph (1) of this subsection is completed, the Commissioner of Health shall make recommendations to the Legislature, based upon the testimony submitted, concerning the manner in which to appropriate the funds. d.    The Commissioner of Banking and Insurance shall suspend, and may revoke, the certificate of authority of a health service corporation until the time that the entire surplus amount, or portion thereof, determined to be in excess of the efficient range is deposited in the fund. 7.    (New section)  The Department of Banking and Insurance shall publish on its website the annual financial statement of each carrier required to file with the department within 30 days of the receipt of that statement. 8.    Sections 1 and 7 of this act shall take effect immediately and sections 2 through 6 shall take effect on February 1, 2018. STATEMENT This bill makes various revisions to the regulation of health service corporations.  The bill clarifies the charitable role of health service corporations, revises the membership of the board of directors of health service corporations, establishes a process to determine an efficient level of surplus, and directs the reduction of surplus that is in excess of an efficient range. Specifically, the bill provides that a health service corporation shall have a charitable mission to: (1)   fulfill its obligation as an insurer of last resort in this State; (2)   provide affordable and accessible health insurance to subscribers; (3)   assist and support public and private health care initiatives for individuals without health insurance; (4)   promote the integration of the health care system that meets the health care needs of the residents of the State of New Jersey; (5)   acknowledge its obligation to the residents of this State to make health care coverage available to underserved markets by supporting and supplying community services in connection with the provision of health care; and (6)   recognize an ongoing responsibility to contribute to fundamental improvements in the overall health status of all New Jersey residents. Additionally, a health service corporation is directed to develop goals, objectives, and strategies for carrying out, in accordance with this bill, its statutory mission. The bill also requires a health service corporation to file on an annual basis, and in a form and manner prescribed by the Department of Banking and Insurance, information similar to the information required to be filed by a charitable organization in Internal Revenue Service Form 990 and Schedule A (990), which information the department shall post on its website.  This form allows the IRS and the general public to evaluate a nonprofits operations; it includes information on the nonprofits mission, programs, and finances. The bill directs, on or before June 30, 2019, and annually thereafter, the commissioner to report to the Governor, and to the Legislature on the compliance of a health service corporation with the provisions of the bill. The bill also provides for three members of a health service corporation board of directors to be elected by its qualified voters. Qualified voters are health service corporation subscribers who are 18 years of age or more, if an individual, and whose subscription certificate or contract has been in force for at least one year. Regarding a health service corporations surplus, the bill requires the commissioner to establish a public process to determine an appropriate, efficient surplus range. The bill requires a public process, including input from experts, members of the public, and the health service corporation, to be established to determine an efficient and appropriate range of surplus for a health service corporation.  Once the public process, and notification to the health service corporation of the commissioners determination of the efficient range, is complete, the efficient surplus range shall remain in effect, provided, however, the commissioner may, at his discretion initiate a new public process, if the commissioner deems it necessary to reevaluate the efficient surplus range. The bill requires the commissioner to examine the surplus amount and the health service corporations annual regulatory filings for the prior calendar year on an annual basis to determine whether the surplus is inefficient.  If a surplus falls above the established efficient range and the health service corporation cannot justify the excess, the health service corporation must provide a plan to reduce the surplus level in a manner that results in the surplus being within the efficient surplus range. The plan to reduce the surplus must include: (1)   proposals to benefit to policyholders; and (2)   proposals to improve the overall health status of all New Jersey residents by: expanding access to affordable, quality health care for underserved individuals; responding to emerging health care issues in New Jersey; and promoting fundamental improvements in the health status of all New Jersey residents, including but not limited to substance use disorder treatment and prevention, behavioral healthcare, maternal, child and chronic health services, cancer screening, research and treatment, and improving veterans access to health care. The commissioner is directed to review the plan, make the plan available on the departments website, and provide notice concerning a public comment period within 10 days of receipt of the report.  The public is permitted an additional 20 day period to comment on the proposal and, based upon the comments submitted from the public, and in consultation with the Department of Health, the commissioner must make a determination concerning the surplus.  The commissioner may: (1)   approve the surplus level if it is justified consistent with the bills requirements; (2)   approve the health service corporation plan to reduce the surplus to an efficient level; or (3)   direct the health service corporation to revise the plan to reduce the surplus to an efficient level. If, after 30 days from the date of the end of the public comment period, the health service corporation and the commissioner do not agree on a revised plan to reduce the surplus, the commissioner is directed to order the health service corporation to deposit, no later than 60 days after the date of the written notification, with the State, in a newly created New Jersey Quality Health and Wellness Fund, the surplus amount, or portion thereof, determined to be in excess of the efficient range. The bill also establishes, in the Department of Health, a nonlapsing, revolving fund, to be known as the New Jersey Quality Health and Wellness Fund.  This fund shall consist of monies that may be deposited by a health service corporation if it is directed to do so by the Commissioner of Banking and Insurance after failing to otherwise agree on a method of reducing the surplus deemed in excess of the efficient range.  The monies collected in the fund shall be dedicated, and may be appropriated by the Legislature after completion of the public process to be administered by the Commissioner of Health concerning allocation of the funds in the New Jersey Quality Health and Wellness Fund in a manner that benefits the public and is otherwise consistent with this bill. The public process to determine the manner in which to allocate any funds in the New Jersey Quality Health and Wellness Fund shall include testimony from members of the public and health care experts determined by the commissioner to be necessary to inform the process.  Testimony submitted shall be made available on the departments website.  Once the public process is completed, the Commissioner of Health shall make recommendations to the Legislature, based upon the testimony submitted, concerning the manner in which to appropriate the funds.  The Commissioner of Banking and Insurance shall suspend, and may revoke, the certificate of authority of a health service corporation until the time that the entire surplus amount, or portion thereof, determined to be in excess of the efficient range is deposited in the fund. The bill also prohibits a health service corporation with a previous-year surplus in the efficient range from including a risk or contingency factor in its filed premium rates unless and until the surplus level is at or below the lower bound of the surplus range. Finally, the bill also supplements the Health Care Quality Act to require the Department of Banking and Insurance to publish on its website the annual financial statement of each carrier, as defined in that act, within 30 days of the receipt of that statement. The provisions of the bill that define the charitable mission of the health service corporation, require the filing of the Form 990, and require DOBI to post the financial statement of carriers, take effect immediately.  The remaining provisions of the bill concerning the revisions to a health service corporations board of directors and the process of establishing an efficient surplus, and reducing excess surplus, take effect on February 1, 2018.
+</head>
 
+<body lang=EN-US>
 
-================================================================================
+<div class=WordSection1>
 
-Raw Text:
-A2038 ASSEMBLY, No. 2038 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblywoman  ELIANA PINTOR MARIN District 29 (Essex and Hudson) SYNOPSIS Clarifies charitable role of health service corporations, revises membership of board of directors, establishes process to determine efficient level of surplus, and requires timely publication of certain information by DOBI. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning health service corporations and the publication of certain health insurance carrier information, amending and supplementing P.L.1985, c.236 and supplementing P.L.1997, c.192 (C.26:2S-1 et seq.). Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    Section 3 of P.L.1985, c.236 (C.17:48E-3) is amended to read as follows: 3.    a. [No] A health service corporation shall not be established as a corporation organized for pecuniary profit.  Every health service corporation established pursuant to the provisions of [this act] P.L.1985, c.236 (C.17:48E-1 et seq.) shall be operated for the benefit of its subscribers and shall have a charitable mission.  The charitable mission of the health service corporation shall be to: (1)   fulfill its obligation as an insurer of last resort in this State; (2)   provide affordable and accessible health insurance to subscribers; (3)   assist and support public and private health care initiatives for individuals without health insurance; (4)   promote the integration of the health care system that meets the health care needs of the residents of the State of New Jersey; (5)   acknowledge its obligation to the residents of this State to make health care coverage available to underserved markets by supporting and supplying community services in connection with the provision of health care; and (6)   recognize an ongoing responsibility to contribute to fundamental improvements in the overall health status of all New Jersey residents. A health service corporation shall develop goals, objectives, and strategies for carrying out, in accordance with this section, its statutory mission. b.    No person, firm, association or corporation, other than a health service corporation or an insurance company authorized to transact life or health insurance in accordance with Title 17B of the New Jersey Statutes, shall establish, maintain or operate a health service plan.  No person, firm, association or corporation, other than a hospital service corporation, a medical service corporation, a dental service corporation to the extent permitted by P.L.1968, c.305 (C.17:48C-1 et seq.), or an insurance company authorized to transact life or health insurance business or the kinds of insurance specified in subsection d. of R.S.17:17-1, shall otherwise contract in this State with persons to pay for or to provide for health services on the basis of premiums or other valuable considerations to be collected by the person, firm, association or corporation from any persons for the issuance of the contracts.  This section shall not be construed as preventing the exercise of any authority or privilege granted to any corporation by a certificate of authority issued by the commissioner pursuant to any law of this State, or as preventing any person, firm, association or corporation from furnishing health services required under any workers' compensation law, or law pertaining to health maintenance organizations, or as otherwise provided by law. c.     A health service corporation shall, unless prohibited by the commissioner, offer as an option medical-surgical contracts and dental subscriber contracts which afford subscribers prepaid or postpaid benefits pursuant to which payment is made to participating providers for medical-surgical and dental services rendered by a participating provider network with agreements granting an aggregate differential allowance or discount on charges, as well as a limit on total allowances which may or may not be related to the subscriber's income level, where the aggregate differential or discount on charges and limit on total allowances may be achieved by payment of either the individual provider's actual charge or the health service corporation's allowance on the charge, whichever is less. d.    A health service corporation shall maintain an open enrollment period for coverage to persons who are otherwise unable to obtain hospital, medical-surgical, or major medical coverage in accordance with the provisions of P.L.1992, c.161 (C.17B:27A-2 et al.). e.     No health service corporation shall have the power to underwrite life insurance as defined in Title 17B of the New Jersey Statutes directly, but a health service corporation may, at such time as the aggregate special contingent surplus is greater than 0%, own stock in, control, or otherwise become affiliated with a life, health or accident insurance company organized pursuant to Title 17B of the New Jersey Statutes or under the laws of any other state, provided that the company is admitted in this State. f.     No health service corporation shall solicit subscribers or enter into any contract with any subscriber until it has received from the commissioner a certificate of authority to do so, but if a health service corporation is established by means of the merger of a medical service corporation into a hospital service corporation, which hospital service corporation possesses a valid certificate of authority issued prior to the effective date of [this act] P.L.1985, c.236 (C.17:48E-1 et seq.), the health service corporation thus established need not reapply for a new certificate of authority, but the corporation shall file in the Department of Banking and Insurance any documents relating to the merger, including, but not limited to, information concerning the operation of the health service corporation as set forth in subsection a. of this section, which the commissioner may require. g.    Nothing in [this act] P.L.1985, c.236 (C.17:48E-1 et seq.) shall be deemed to prohibit a health service corporation from contracting with, or paying commissions to, any duly licensed affiliated or independent insurance producer, to the extent permitted by the laws applicable to those producers. h.    A health service corporation shall, on an annual basis, and in a form and manner prescribed by the Department of Banking and Insurance, file with the department information similar to the information required to be filed by a charitable organization in Internal Revenue Service Form 990 and Schedule A (990), which information the department shall post on its website. i.     On or before June 30, 2019, and annually thereafter, the commissioner shall report to the Governor, and to the Legislature pursuant to section 2 of P.L.1991, c.164 (C.52:14-19.1), on the compliance of a health service corporation with the provisions of P.L.     , c.      (C.        ) (pending before the Legislature as this bill). (cf: P.L.1992, c.161, s.18) 2.    Section 6 of P.L.1985, c.236 (C.17:48E-6) shall be amended to read as follows: 6.    The board of a health service corporation which is formed as the result of a merger between a medical service corporation and a hospital service corporation shall be composed of not more than 15 members. Initially, after the merger has been effected, the board shall be constituted as follows: a.     Four members of the board shall be public members, who shall be appointed by the Governor with the advice and consent of the Senate.  The public members so appointed shall be persons whose background and experience indicate that they are qualified to act in the broad public interest, who may or may not have coverage under a contract or contracts issued by the corporation, its subsidiaries or affiliates, and who, or whose spouses or minor children, are not officers, directors or owners of more than 10% of the stock of a corporation whose aggregate sales to hospitals, other health care facilities or other providers of health care services exceed 5% of its total sales.  The remaining [eleven] 11 members shall be selected by the board of directors of the health service corporation in accordance with the provisions of its certificate of incorporation and bylaws. b.    Of the initial members of the board, as provided for in subsection a. of this section, one public member and three members selected by the board of the health service corporation shall serve for a term of one year; one public member and three members selected by the board of the health service corporation shall serve for a term of two years; and two public members and five members selected by the board of the health service corporation shall serve for a term of three years. Thereafter, all members of the board shall serve for a term of three years, and shall hold office until their successors are appointed or elected and qualified. c.     After the constitution of the initial board as provided in subsection b. of this section, and as the initial terms expire as provided for in that [section] subsection, the board shall be constituted as follows: (1)   Four members shall be public members of the board appointed by the Governor with the advice and consent of the Senate; [and] (2)   [Eleven] Eight members shall be elected by the board of directors, as provided in the bylaws; and (3)   Three members shall be elected by qualified voters, pursuant to the process established in section 4 of P.L.    , c.   (C.     ) (pending before the Legislature as this bill). d.    The provisions of subsection c. of this section shall not be construed to preclude the reappointment or reelection of any member appointed or elected pursuant to subsection a. of this section. (cf:  P.L.1991, c.208, s.20) 3.    Section 7 of P.L.1985, c.236 (C.17:48E-7) is amended to read as follows: 7.    The board of directors of a health service corporation which is established in accordance with paragraph (1) of subsection a. of section 2 of P.L.1985, c.236 (C.17:48E-2) shall have four public members appointed by the Governor with the advice and consent of the Senate [and eleven] , eight members elected as provided in the bylaws, and three members elected by qualified voters, pursuant to the process established pursuant to section 4 of P.L.    , c.   (C.     ) (pending before the Legislature as this bill). (cf:  P.L.1991, c.208, s.21) 4.    (New section)  a. Within six months of the effective date of this section, a health service corporation shall submit to the commissioner a plan to create a process for three board members of the board of the health service corporation to be elected by qualified voters.  The plan shall allow every qualified voter to cast a vote in an election for each of the three subscriber-elected board positions.  The election shall not require the physical presence of the qualified voter to vote and shall include a mail-in vote option.  The plans shall include a process to phase in the three subscriber-elected board members upon the expiration of the terms of current board members.  The plan shall ensure that the subscriber-elected board member positions are filled within three years of the effective date of this section.  Upon the commissioners approval of the plan, which shall be no later than six months after the submission of the plan, the process shall become effective. b.    For the purposes of P.L. , c.     (C.        ) (pending before the Legislature as this bill), qualified voter means a subscriber who is 18 years of age or more, if an individual, and whose subscription certificate or contract has been in force for at least one year. 5.    (New section)  a.  The commissioner shall establish a public process to determine an appropriate, efficient surplus range for a health service corporation.  The process shall include input from the public including written and verbal testimony, public testimony from health insurance experts determined by the commissioner to be necessary to inform the process, and the opportunity for the health service corporation to respond to such public testimony.  Testimony submitted, including the health service corporation response, if provided, shall be made available on the departments website.  The commissioner shall determine, and notify the health service corporation, of the appropriate, efficient surplus range that is established pursuant to this section.  Once the public process, and notification to the health service corporation of the commissioners determination of the efficient range, is complete, the efficient surplus range shall remain in effect for the purposes of this section; provided, however, the commissioner may, at his discretion initiate a new public process pursuant to this section, if the commissioner deems it necessary to reevaluate the efficient surplus range. b.    A health service corporation surplus in excess of the maximum of the range established pursuant to subsection a. of this section shall be deemed inefficient.  The commissioner shall, on an annual basis, examine the surplus amount and the health service corporations annual regulatory filings for the prior calendar year, to determine whether the surplus is inefficient pursuant to this section. c.     (1)  If at any time the commissioner determines that a health service corporation surplus is inefficient, the department shall notify the health service corporation and the health service corporation shall, within 30 days of notice from the commissioner, file a report with the commissioner. (2)   The report shall either: (a)   justify, to the satisfaction of the commissioner and consistent with the range established pursuant to subsection a. of this section, that the current surplus level is appropriate and efficient; or (b)   provide a plan to reduce the current surplus level in a manner that results in the surplus being within the efficient surplus range established pursuant to subsection a. of this section.  The plan shall include: (i)    proposals to benefit to policyholders; and (ii)   proposals to improve the overall health status of all New Jersey residents by: expanding access to affordable, quality health care for underserved individuals; responding to emerging health care issues in New Jersey; and promoting fundamental improvements in the health status of all New Jersey residents, including but not limited to substance use disorder treatment and prevention, behavioral healthcare, maternal, child and chronic health services, cancer screening, research and treatment, and improving veterans access to health care. (3)   The commissioner shall review the report, make the report available on the departments website, and provide notice concerning a public comment period within 10 days of receipt of the report.  The commissioner shall afford all interested persons an opportunity to comment in writing on the intended action.  Written comments shall be submitted to the commissioner within the time established by the commissioner in the notice, which time shall not be less than 20 calendar days from the date of notice and posting on the departments website.  The commissioner shall give due consideration to all comments received. Within a reasonable period of time following submission of the comments pursuant to this paragraph, the commissioner shall prepare for public distribution a report listing all parties who provided written submissions concerning the intended action, summarizing the content of the submissions and providing the commissioners response to the submissions.  Based upon the comments submitted from the public, and in consultation with the Department of Health, the commissioner shall make a determination concerning the surplus.  The commissioner may: (a)   approve the surplus level if it is justified consistent with this section; (b)   approve the health service corporation plan to reduce the surplus to an efficient level; or (c)   direct the health service corporation to revise the plan to reduce the surplus to an efficient level.  If, after 30 days from the date of the end of the public comment period pursuant to this paragraph, the health service corporation and the commissioner do not agree on a revised plan to reduce the surplus, the commissioner shall order the health service corporation to deposit, no later than 60 days after the date of the written notification, with the State, in the New Jersey Quality Health and Wellness Fund established pursuant to subsection b. of section 6 of P.L.    , c.    (C.        ) (pending before the Legislature as this bill), the surplus amount, or portion thereof, determined by the commissioner to be in excess of the efficient range. d.    A health service corporation with a previous-year surplus in the efficient range, as established pursuant to subsection a. of this section, shall not include a risk or contingency factor in its filed premium rates unless and until the surplus level is at or below the lower bound of the surplus range. e.     In order to implement the provisions of this section, the department may engage and retain attorneys, appraisers, independent actuaries, independent certified public accountants or other professionals or examiners, at the expense of the health service corporation. 6.    (New section)  a.  If a health service corporation and the Commissioner of Banking and Insurance do not agree, pursuant to paragraph (3) of subsection c. of section 5 of P.L.    , c.    (C.        ) (pending before the Legislature as this bill) on a plan to reduce a surplus deemed in excess of the efficient surplus range, the Commissioner of Banking and Insurance shall order the health service corporation to deposit, no later than 60 days after the date of the written notification, with the State, in the New Jersey Quality Health and Wellness Fund established pursuant to this section, the surplus amount, or portion thereof, determined to be in excess of the efficient range. b.    There is established in the Department of Health a nonlapsing, revolving fund, to be known as the New Jersey Quality Health and Wellness Fund.  This fund shall consist of monies deposited by a health service corporation pursuant to this section. c.     The monies collected in the fund shall be dedicated, and may be appropriated by the Legislature after completion of the process to be administered by the Commissioner of Health pursuant to this subsection. (1)   The Commissioner of Health shall solicit and receive testimony concerning the manner in which to allocate the funds in the New Jersey Quality Health and Wellness Fund in a manner that benefits the public and is otherwise consistent with the provisions of P.L.    , c.    (C.        ) (pending before the Legislature as this bill). The testimony shall include testimony from members of the public and health care experts determined by the commissioner to be necessary to inform the process.  Testimony submitted shall be made available on the departments website. (2)   Once the process established pursuant to paragraph (1) of this subsection is completed, the Commissioner of Health shall make recommendations to the Legislature, based upon the testimony submitted, concerning the manner in which to appropriate the funds. d.    The Commissioner of Banking and Insurance shall suspend, and may revoke, the certificate of authority of a health service corporation until the time that the entire surplus amount, or portion thereof, determined to be in excess of the efficient range is deposited in the fund. 7.    (New section)  The Department of Banking and Insurance shall publish on its website the annual financial statement of each carrier required to file with the department within 30 days of the receipt of that statement. 8.    Sections 1 and 7 of this act shall take effect immediately and sections 2 through 6 shall take effect on February 1, 2018. STATEMENT This bill makes various revisions to the regulation of health service corporations.  The bill clarifies the charitable role of health service corporations, revises the membership of the board of directors of health service corporations, establishes a process to determine an efficient level of surplus, and directs the reduction of surplus that is in excess of an efficient range. Specifically, the bill provides that a health service corporation shall have a charitable mission to: (1)   fulfill its obligation as an insurer of last resort in this State; (2)   provide affordable and accessible health insurance to subscribers; (3)   assist and support public and private health care initiatives for individuals without health insurance; (4)   promote the integration of the health care system that meets the health care needs of the residents of the State of New Jersey; (5)   acknowledge its obligation to the residents of this State to make health care coverage available to underserved markets by supporting and supplying community services in connection with the provision of health care; and (6)   recognize an ongoing responsibility to contribute to fundamental improvements in the overall health status of all New Jersey residents. Additionally, a health service corporation is directed to develop goals, objectives, and strategies for carrying out, in accordance with this bill, its statutory mission. The bill also requires a health service corporation to file on an annual basis, and in a form and manner prescribed by the Department of Banking and Insurance, information similar to the information required to be filed by a charitable organization in Internal Revenue Service Form 990 and Schedule A (990), which information the department shall post on its website.  This form allows the IRS and the general public to evaluate a nonprofits operations; it includes information on the nonprofits mission, programs, and finances. The bill directs, on or before June 30, 2019, and annually thereafter, the commissioner to report to the Governor, and to the Legislature on the compliance of a health service corporation with the provisions of the bill. The bill also provides for three members of a health service corporation board of directors to be elected by its qualified voters. Qualified voters are health service corporation subscribers who are 18 years of age or more, if an individual, and whose subscription certificate or contract has been in force for at least one year. Regarding a health service corporations surplus, the bill requires the commissioner to establish a public process to determine an appropriate, efficient surplus range. The bill requires a public process, including input from experts, members of the public, and the health service corporation, to be established to determine an efficient and appropriate range of surplus for a health service corporation.  Once the public process, and notification to the health service corporation of the commissioners determination of the efficient range, is complete, the efficient surplus range shall remain in effect, provided, however, the commissioner may, at his discretion initiate a new public process, if the commissioner deems it necessary to reevaluate the efficient surplus range. The bill requires the commissioner to examine the surplus amount and the health service corporations annual regulatory filings for the prior calendar year on an annual basis to determine whether the surplus is inefficient.  If a surplus falls above the established efficient range and the health service corporation cannot justify the excess, the health service corporation must provide a plan to reduce the surplus level in a manner that results in the surplus being within the efficient surplus range. The plan to reduce the surplus must include: (1)   proposals to benefit to policyholders; and (2)   proposals to improve the overall health status of all New Jersey residents by: expanding access to affordable, quality health care for underserved individuals; responding to emerging health care issues in New Jersey; and promoting fundamental improvements in the health status of all New Jersey residents, including but not limited to substance use disorder treatment and prevention, behavioral healthcare, maternal, child and chronic health services, cancer screening, research and treatment, and improving veterans access to health care. The commissioner is directed to review the plan, make the plan available on the departments website, and provide notice concerning a public comment period within 10 days of receipt of the report.  The public is permitted an additional 20 day period to comment on the proposal and, based upon the comments submitted from the public, and in consultation with the Department of Health, the commissioner must make a determination concerning the surplus.  The commissioner may: (1)   approve the surplus level if it is justified consistent with the bills requirements; (2)   approve the health service corporation plan to reduce the surplus to an efficient level; or (3)   direct the health service corporation to revise the plan to reduce the surplus to an efficient level. If, after 30 days from the date of the end of the public comment period, the health service corporation and the commissioner do not agree on a revised plan to reduce the surplus, the commissioner is directed to order the health service corporation to deposit, no later than 60 days after the date of the written notification, with the State, in a newly created New Jersey Quality Health and Wellness Fund, the surplus amount, or portion thereof, determined to be in excess of the efficient range. The bill also establishes, in the Department of Health, a nonlapsing, revolving fund, to be known as the New Jersey Quality Health and Wellness Fund.  This fund shall consist of monies that may be deposited by a health service corporation if it is directed to do so by the Commissioner of Banking and Insurance after failing to otherwise agree on a method of reducing the surplus deemed in excess of the efficient range.  The monies collected in the fund shall be dedicated, and may be appropriated by the Legislature after completion of the public process to be administered by the Commissioner of Health concerning allocation of the funds in the New Jersey Quality Health and Wellness Fund in a manner that benefits the public and is otherwise consistent with this bill. The public process to determine the manner in which to allocate any funds in the New Jersey Quality Health and Wellness Fund shall include testimony from members of the public and health care experts determined by the commissioner to be necessary to inform the process.  Testimony submitted shall be made available on the departments website.  Once the public process is completed, the Commissioner of Health shall make recommendations to the Legislature, based upon the testimony submitted, concerning the manner in which to appropriate the funds.  The Commissioner of Banking and Insurance shall suspend, and may revoke, the certificate of authority of a health service corporation until the time that the entire surplus amount, or portion thereof, determined to be in excess of the efficient range is deposited in the fund. The bill also prohibits a health service corporation with a previous-year surplus in the efficient range from including a risk or contingency factor in its filed premium rates unless and until the surplus level is at or below the lower bound of the surplus range. Finally, the bill also supplements the Health Care Quality Act to require the Department of Banking and Insurance to publish on its website the annual financial statement of each carrier, as defined in that act, within 30 days of the receipt of that statement. The provisions of the bill that define the charitable mission of the health service corporation, require the filing of the Form 990, and require DOBI to post the financial statement of carriers, take effect immediately.  The remaining provisions of the bill concerning the revisions to a health service corporations board of directors and the process of establishing an efficient surplus, and reducing excess surplus, take effect on February 1, 2018.
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 2038 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblywoman  ELIANA PINTOR MARIN</p>
+
+<p class=bpuSponsor>District 29 (Essex and Hudson)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Clarifies charitable role of health service
+corporations, revises membership of board of directors, establishes process to
+determine efficient level of surplus, and requires timely publication of
+certain information by DOBI. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> </span>concerning health service corporations and the
+publication of certain health insurance carrier information, amending and
+supplementing P.L.1985, c.236 and supplementing P.L.1997, c.192 (C.26:2S-1 et
+seq.).</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    Section 3 of P.L.1985,
+c.236 (C.17:48E-3) is amended to read as follows: </p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    a. <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>No<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>A</u>
+health service corporation shall <u>not</u> be established as a corporation
+organized for pecuniary profit.  Every health service corporation established
+pursuant to the provisions of <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>this
+act<b><u><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></u></b>
+<u>P.L.1985, c.236 (C.17:48E-1 et seq.)</u> shall be operated for the benefit
+of its subscribers <u>and shall have a charitable mission.</u>  <u>The
+charitable mission of the health service corporation shall be to:</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(1)   fulfill its
+obligation as an insurer of last resort in this State;</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(2)   provide affordable
+and accessible health insurance to subscribers; </u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(3)   assist and support
+public and private health care initiatives for individuals without health
+insurance;</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(4)   promote the
+integration of the health care system that meets the health care needs of the
+residents of the State of New Jersey; </u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(5)   acknowledge its
+obligation to the residents of this State to make health care coverage
+available to underserved markets by supporting and supplying community services
+in connection with the provision of health care; and</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(6)   recognize an ongoing
+responsibility to contribute to fundamental improvements in the overall health
+status of all New Jersey residents.</u>  </p>
+
+<p class=MsoNormal style='line-height:150%'><u>A health service corporation
+shall develop goals, objectives, and strategies for carrying out, in accordance
+with this section, its statutory mission</u>.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    No person, firm, association
+or corporation, other than a health service corporation or an insurance company
+authorized to transact life or health insurance in accordance with Title 17B of
+the New Jersey Statutes, shall establish, maintain or operate a health service
+plan.  No person, firm, association or corporation, other than a hospital
+service corporation, a medical service corporation, a dental service
+corporation to the extent permitted by P.L.1968, c.305 (C.17:48C-1 et seq.), or
+an insurance company authorized to transact life or health insurance business
+or the kinds of insurance specified in subsection d. of R.S.17:17-1, shall
+otherwise contract in this State with persons to pay for or to provide for
+health services</p>
+
+<p class=MsoNormal style='line-height:150%'>on the basis of premiums or other
+valuable considerations to be collected by the person, firm, association or
+corporation from any persons for the issuance of the contracts.  This section
+shall not be construed as preventing the exercise of any authority or privilege
+granted to any corporation by a certificate of authority issued by the
+commissioner pursuant to any law of this State, or as preventing any person,
+firm, association or corporation from furnishing health services required under
+any workers' compensation law, or law pertaining to health maintenance
+organizations, or as otherwise provided by law.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     A health service
+corporation shall, unless prohibited by the commissioner, offer as an option
+medical-surgical contracts and dental subscriber contracts which afford
+subscribers prepaid or postpaid benefits pursuant to which payment is made to
+participating providers for medical-surgical and dental services rendered by a
+participating provider network with agreements granting an aggregate
+differential allowance or discount on charges, as well as a limit on total
+allowances which may or may not be related to the subscriber's income level,
+where the aggregate differential or discount on charges and limit on total
+allowances may be achieved by payment of either the individual provider's
+actual charge or the health service corporation's allowance on the charge,
+whichever is less.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    A health service
+corporation shall maintain an open enrollment period for coverage to persons
+who are otherwise unable to obtain hospital, medical-surgical, or major medical
+coverage in accordance with the provisions of P.L.1992, c.161 (C.17B:27A-2 et
+al.).</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     No health service
+corporation shall have the power to underwrite life insurance as defined in
+Title 17B of the New Jersey Statutes directly, but a health service corporation
+may, at such time as the aggregate special contingent surplus is greater than
+0%, own stock in, control, or otherwise become affiliated with a life, health
+or accident insurance company organized pursuant to Title 17B of the New Jersey
+Statutes or under the laws of any other state, provided that the company is
+admitted in this State.</p>
+
+<p class=MsoNormal style='line-height:150%'>     f.     No health service
+corporation shall solicit subscribers or enter into any contract with any
+subscriber until it has received from the commissioner a certificate of authority
+to do so, but if a health service corporation is established by means of the
+merger of a medical service corporation into a hospital service corporation,
+which hospital service corporation possesses a valid certificate of authority
+issued prior to the effective date of <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>this
+act<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b><span
+style='font-family:"Albertus Extra Bold",sans-serif'> </span><u>P.L.1985, c.236
+(C.17:48E-1 et seq.)</u>, the health service corporation thus established need
+not reapply for a new certificate of authority, but the corporation shall file
+in the Department of <u>Banking and</u> Insurance any documents relating to the
+merger<u>, including, but not limited to, information concerning the operation
+of the health service corporation as set forth in subsection a. of this
+section,</u> which the commissioner may require.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     g.    Nothing in <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>this act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>P.L.1985,
+c.236 (C.17:48E-1 et seq.)</u> shall be deemed to prohibit a health service
+corporation from contracting with, or paying commissions to, any duly licensed
+affiliated or independent insurance producer, to the extent permitted by the
+laws applicable to those producers.</p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>h.    A health service
+corporation shall, on an annual basis, and in a form and manner prescribed by
+the Department of Banking and Insurance, file with the department information similar
+to the information required to be filed by a charitable organization in Internal
+Revenue Service Form 990 and Schedule A (990), which information the department
+shall post on its website.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>i.     On or before June
+30, 2019, and annually thereafter, the commissioner shall report to the
+Governor, and to the Legislature pursuant to section 2 of P.L.1991, c.164
+(C.52:14-19.1), on the compliance of a health service corporation with the
+provisions of P.L.     , c.      (C.        ) (pending before the Legislature
+as this bill).  </u></p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.1992, c.161, s.18) </p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    Section 6 of P.L.1985,
+c.236 (C.17:48E-6) shall be amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     6.    The board of a health
+service corporation which is formed as the result of a merger between a medical
+service corporation and a hospital service corporation shall be composed of not
+more than 15 members. Initially, after the merger has been effected, the board
+shall be constituted as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     a.     Four members of the
+board shall be public members, who shall be appointed by the Governor with the
+advice and consent of the Senate.  The public members so appointed shall be
+persons whose background and experience indicate that they are qualified to act
+in the broad public interest, who may or may not have coverage under a contract
+or contracts issued by the corporation, its subsidiaries or affiliates, and
+who, or whose spouses or minor children, are not officers, directors or owners
+of more than 10% of the stock of a corporation whose aggregate sales to
+hospitals, other health care facilities or other providers of health care
+services exceed 5% of its total sales.  The remaining <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>eleven<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>11</u>
+members shall be selected by the board of directors of the health service
+corporation in accordance with the provisions of its certificate of
+incorporation and bylaws.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    Of the initial members
+of the board, as provided for in subsection a. of this section, one public
+member and three members selected by the board of the health service
+corporation shall serve for a term of one year; one public member and three
+members selected by the board of the health service corporation shall serve for
+a term of two years; and two public members and five members selected by the
+board of the health service corporation shall serve for a term of three years.
+Thereafter, all members of the board shall serve for a term of three years, and
+shall hold office until their successors are <u>appointed or</u> elected and
+qualified.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     After the constitution
+of the initial board as provided in subsection b. of this section, and as the
+initial terms expire as provided for in that <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>section<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>subsection</u>,
+the board shall be constituted as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   Four members shall be
+public members of the board appointed by the Governor with the advice and
+consent of the Senate; <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>and<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b></p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>Eleven<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>Eight</u>
+members shall be elected by the board of directors, as provided in the bylaws<u>;
+and</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(3)   Three members shall
+be elected by qualified voters, pursuant to the process established in section
+4 of P.L.    , c.   (C.     ) (pending before the Legislature as this bill)</u>.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    The provisions of
+subsection c. of this section shall not be construed to preclude the
+reappointment or reelection of any member appointed or elected pursuant to
+subsection a. of this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf:  P.L.1991, c.208, s.20)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    Section 7 of P.L.1985,
+c.236 (C.17:48E-7) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     7.    The board of directors
+of a health service corporation which is established in accordance with
+paragraph (1) of subsection a. of section 2 of P.L.1985, c.236 (C.17:48E-2)
+shall have four public members appointed by the Governor with the advice and
+consent of the Senate <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>and
+eleven<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b>
+<u>, eight</u> members elected as provided in the bylaws<u>, and three members
+elected by qualified voters, pursuant to the process established pursuant to
+section 4 of P.L.    , c.   (C.     ) (pending before the Legislature as this
+bill)</u>.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf:  P.L.1991, c.208, s.21)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     4.    (New section)  a. 
+Within six months of the effective date of this section, a health service
+corporation shall submit to the commissioner a plan to create a process for
+three board members of the board of the health service corporation to be
+elected by qualified voters.  The plan shall allow every qualified voter to
+cast a vote in an election for each of the three subscriber-elected board
+positions.  The election shall not require the physical presence of the
+qualified voter to vote and shall include a mail-in vote option.  The plans
+shall include a process to phase in the three subscriber-elected board members
+upon the expiration of the terms of current board members.  The plan shall
+ensure that the subscriber-elected board member positions are filled within
+three years of the effective date of this section.  Upon the commissioners
+approval of the plan, which shall be no later than six months after the
+submission of the plan, the process shall become effective.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    For the purposes of P.L.   
+, c.     (C.        ) (pending before the Legislature as this bill), qualified
+voter means a subscriber who is 18 years of age or more, if an individual, and
+whose subscription certificate or contract has been in force for at least one
+year.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     5.    (New section)  a.  The
+commissioner shall establish a public process to determine an appropriate,
+efficient surplus range for a health service corporation.  The process shall
+include input from the public including written and verbal testimony, public
+testimony from health insurance experts determined by the commissioner to be
+necessary to inform the process, and the opportunity for the health service
+corporation to respond to such public testimony.  Testimony submitted,
+including the health service corporation response, if provided, shall be made
+available on the departments website.  The commissioner shall determine, and
+notify the health service corporation, of the appropriate, efficient surplus
+range that is established pursuant to this section.  Once the public process,
+and notification to the health service corporation of the commissioners
+determination of the efficient range, is complete, the efficient surplus range
+shall remain in effect for the purposes of this section; provided, however, the
+commissioner may, at his discretion initiate a new public process pursuant to
+this section, if the commissioner deems it necessary to reevaluate the
+efficient surplus range.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    A health service
+corporation surplus in excess of the maximum of the range established pursuant
+to subsection a. of this section shall be deemed inefficient.  The commissioner
+shall, on an annual basis, examine the surplus amount and the health service
+corporations annual regulatory filings for the prior calendar year, to determine
+whether the surplus is inefficient pursuant to this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     (1)  If at any time the
+commissioner determines that a health service corporation surplus is
+inefficient, the department shall notify the health service corporation and the
+health service corporation shall, within 30 days of notice from the
+commissioner, file a report with the commissioner.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   The report shall either:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)   justify, to the
+satisfaction of the commissioner and consistent with the range established
+pursuant to subsection a. of this section, that the current surplus level is
+appropriate and efficient; or </p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   provide a plan to reduce
+the current surplus level in a manner that results in the surplus being within
+the efficient surplus range established pursuant to subsection a. of this
+section.  The plan shall include:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (i)    proposals to benefit to
+policyholders; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (ii)   proposals to improve
+the overall health status of all New Jersey residents by: expanding access to
+affordable, quality health care for underserved individuals; responding to
+emerging health care issues in New Jersey; and promoting fundamental
+improvements in the health status of all New Jersey residents, including but
+not limited to substance use disorder treatment and prevention, behavioral
+healthcare, maternal, child and chronic health services, cancer screening,
+research and treatment, and improving veterans access to health care. </p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   The commissioner shall
+review the report, make the report available on the departments website, and
+provide notice concerning a public comment period within 10 days of receipt of
+the report.  The commissioner shall afford all interested persons an
+opportunity to comment in writing on the intended action.  Written comments
+shall be submitted to the commissioner within the time established by the
+commissioner in the notice, which time shall not be less than 20 calendar days
+from the date of notice and posting on the departments website.  The
+commissioner shall give due consideration to all comments received. Within a
+reasonable period of time following submission of the comments pursuant to this
+paragraph, the commissioner shall prepare for public distribution a report
+listing all parties who provided written submissions concerning the intended
+action, summarizing the content of the submissions and providing the
+commissioners response to the submissions.  Based upon the comments submitted
+from the public, and in consultation with the Department of Health, the
+commissioner shall make a determination concerning the surplus.  The
+commissioner may: </p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)   approve the surplus
+level if it is justified consistent with this section;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   approve the health
+service corporation plan to reduce the surplus to an efficient level; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (c)   direct the health
+service corporation to revise the plan to reduce the surplus to an efficient
+level.  If, after 30 days from the date of the end of the public comment period
+pursuant to this paragraph, the health service corporation and the commissioner
+do not agree on a revised plan to reduce the surplus, the commissioner shall
+order the health service corporation to deposit, no later than 60 days after
+the date of the written notification, with the State, in the New Jersey
+Quality Health and Wellness Fund established pursuant to subsection b. of
+section 6 of P.L.    , c.    (C.        ) (pending before the Legislature as
+this bill), the surplus amount, or portion thereof, determined by the commissioner
+to be in excess of the efficient range.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    A health service
+corporation with a previous-year surplus in the efficient range, as established
+pursuant to subsection a. of this section, shall not include a risk or
+contingency factor in its filed premium rates unless and until the surplus
+level is at or below the lower bound of the surplus range.</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     In order to implement
+the provisions of this section, the department may engage and retain attorneys,
+appraisers, independent actuaries, independent certified public accountants or
+other professionals or examiners, at the expense of the health service
+corporation.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     6.    (New section)  a.  If a
+health service corporation and the Commissioner of Banking and Insurance do not
+agree, pursuant to paragraph (3) of subsection c. of section 5 of P.L.    ,
+c.    (C.        ) (pending before the Legislature as this bill) on a plan to
+reduce a surplus deemed in excess of the efficient surplus range, the Commissioner
+of Banking and Insurance shall order the health service corporation to deposit,
+no later than 60 days after the date of the written notification, with the
+State, in the New Jersey Quality Health and Wellness Fund established
+pursuant to this section, the surplus amount, or portion thereof, determined to
+be in excess of the efficient range.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    There is established in
+the Department of Health a nonlapsing, revolving fund, to be known as the New
+Jersey Quality Health and Wellness Fund.  This fund shall consist of monies
+deposited by a health service corporation pursuant to this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     The monies collected in
+the fund shall be dedicated, and may be appropriated by the Legislature after
+completion of the process to be administered by the Commissioner of Health
+pursuant to this subsection.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   The Commissioner of
+Health shall solicit and receive testimony concerning the manner in which to
+allocate the funds in the New Jersey Quality Health and Wellness Fund in a
+manner that benefits the public and is otherwise consistent with the provisions
+of P.L.    , c.    (C.        ) (pending before the Legislature as this bill). 
+The testimony shall include testimony from members of the public and health
+care experts determined by the commissioner to be necessary to inform the
+process.  Testimony submitted shall be made available on the departments
+website.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   Once the process
+established pursuant to paragraph (1) of this subsection is completed, the
+Commissioner of Health shall make recommendations to the Legislature, based
+upon the testimony submitted, concerning the manner in which to appropriate the
+funds.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    The Commissioner of
+Banking and Insurance shall suspend, and may revoke, the certificate of
+authority of a health service corporation until the time that the entire
+surplus amount, or portion thereof, determined to be in excess of the efficient
+range is deposited in the fund.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     7.    (New section)  The
+Department of Banking and Insurance shall publish on its website the annual
+financial statement of each carrier required to file with the department within
+30 days of the receipt of that statement. </p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     8.    Sections 1 and 7 of this
+act shall take effect immediately and sections 2 through 6 shall take effect on
+February 1, 2018. </p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill makes various
+revisions to the regulation of health service corporations.  The bill clarifies
+the charitable role of health service corporations, revises the membership of
+the board of directors of health service corporations, establishes a process to
+determine an efficient level of surplus, and directs the reduction of surplus
+that is in excess of an efficient range.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     Specifically, the bill
+provides that a health service corporation shall have a charitable mission to:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   fulfill its obligation
+as an insurer of last resort in this State;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   provide affordable and
+accessible health insurance to subscribers; </p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   assist and support
+public and private health care initiatives for individuals without health
+insurance;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   promote the integration
+of the health care system that meets the health care needs of the residents of
+the State of New Jersey; </p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   acknowledge its
+obligation to the residents of this State to make health care coverage
+available to underserved markets by supporting and supplying community services
+in connection with the provision of health care; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (6)   recognize an ongoing
+responsibility to contribute to fundamental improvements in the overall health
+status of all New Jersey residents.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     Additionally, a health service
+corporation is directed to develop goals, objectives, and strategies for
+carrying out, in accordance with this bill, its statutory mission.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill also requires a health
+service corporation to file on an annual basis, and in a form and manner
+prescribed by the Department of Banking and Insurance, information similar to
+the information required to be filed by a charitable organization in Internal
+Revenue Service Form 990 and Schedule A (990), which information the department
+shall post on its website.  This form allows the IRS and the general public to
+evaluate a nonprofits operations; it includes information on the nonprofits
+mission, programs, and finances.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill directs, on or before
+June 30, 2019, and annually thereafter, the commissioner to report to the
+Governor, and to the Legislature on the compliance of a health service
+corporation with the provisions of the bill.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill also provides for
+three members of a health service corporation board of directors to be elected
+by its qualified voters. Qualified voters are health service corporation
+subscribers who are 18 years of age or more, if an individual, and whose
+subscription certificate or contract has been in force for at least one year.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Regarding a health service
+corporations surplus, the bill requires the commissioner to establish a public
+process to determine an appropriate, efficient surplus range. The bill requires
+a public process, including input from experts, members of the public, and the
+health service corporation, to be established to determine an efficient and
+appropriate range of surplus for a health service corporation.  Once the public
+process, and notification to the health service corporation of the
+commissioners determination of the efficient range, is complete, the efficient
+surplus range shall remain in effect, provided, however, the commissioner may,
+at his discretion initiate a new public process, if the commissioner deems it
+necessary to reevaluate the efficient surplus range.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill requires the
+commissioner to examine the surplus amount and the health service corporations
+annual regulatory filings for the prior calendar year on an annual basis to
+determine whether the surplus is inefficient.  If a surplus falls above the
+established efficient range and the health service corporation cannot justify
+the excess, the health service corporation must provide a plan to reduce the
+surplus level in a manner that results in the surplus being within the
+efficient surplus range.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The plan to reduce the surplus
+must include:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   proposals to benefit to
+policyholders; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   proposals to improve the
+overall health status of all New Jersey residents by: expanding access to
+affordable, quality health care for underserved individuals; responding to
+emerging health care issues in New Jersey; and promoting fundamental
+improvements in the health status of all New Jersey residents, including but
+not limited to substance use disorder treatment and prevention, behavioral
+healthcare, maternal, child and chronic health services, cancer screening,
+research and treatment, and improving veterans access to health care. </p>
+
+<p class=MsoNormal style='line-height:150%'>     The commissioner is directed
+to review the plan, make the plan available on the departments website, and
+provide notice concerning a public comment period within 10 days of receipt of
+the report.  The public is permitted an additional 20 day period to comment on
+the proposal and, based upon the comments submitted from the public, and in
+consultation with the Department of Health, the commissioner must make a
+determination concerning the surplus.  The commissioner may:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   approve the surplus
+level if it is justified consistent with the bills requirements;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   approve the health
+service corporation plan to reduce the surplus to an efficient level; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   direct the health
+service corporation to revise the plan to reduce the surplus to an efficient
+level.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     If, after 30 days from the
+date of the end of the public comment period, the health service corporation
+and the commissioner do not agree on a revised plan to reduce the surplus, the
+commissioner is directed to order the health service corporation to deposit, no
+later than 60 days after the date of the written notification, with the State, in
+a newly created New Jersey Quality Health and Wellness Fund, the surplus
+amount, or portion thereof, determined to be in excess of the efficient range.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill also establishes, in
+the Department of Health, a nonlapsing, revolving fund, to be known as the New
+Jersey Quality Health and Wellness Fund.  This fund shall consist of monies that
+may be deposited by a health service corporation if it is directed to do so by
+the Commissioner of Banking and Insurance after failing to otherwise agree on a
+method of reducing the surplus deemed in excess of the efficient range.  The
+monies collected in the fund shall be dedicated, and may be appropriated by the
+Legislature after completion of the public process to be administered by the Commissioner
+of Health concerning allocation of the funds in the New Jersey Quality Health
+and Wellness Fund in a manner that benefits the public and is otherwise
+consistent with this bill.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     The public process to
+determine the manner in which to allocate any funds in the New Jersey Quality
+Health and Wellness Fund shall include testimony from members of the public
+and health care experts determined by the commissioner to be necessary to
+inform the process.  Testimony submitted shall be made available on the
+departments website.  Once the public process is completed, the Commissioner
+of Health shall make recommendations to the Legislature, based upon the
+testimony submitted, concerning the manner in which to appropriate the funds.  The
+Commissioner of Banking and Insurance shall suspend, and may revoke, the
+certificate of authority of a health service corporation until the time that
+the entire surplus amount, or portion thereof, determined to be in excess of
+the efficient range is deposited in the fund.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill also prohibits a
+health service corporation with a previous-year surplus in the efficient range
+from including a risk or contingency factor in its filed premium rates unless
+and until the surplus level is at or below the lower bound of the surplus
+range.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     Finally, the bill also
+supplements the Health Care Quality Act to require the Department of Banking
+and Insurance to publish on its website the annual financial statement of each
+carrier, as defined in that act, within 30 days of the receipt of that
+statement.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The provisions of the bill
+that define the charitable mission of the health service corporation, require
+the filing of the Form 990, and require DOBI to post the financial statement of
+carriers, take effect immediately.  The remaining provisions of the bill<br
+clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='line-height:150%'>concerning the revisions to a
+health service corporations board of directors and the process of establishing
+an efficient surplus, and reducing excess surplus, take effect on February 1,
+2018.</p>
+
+</div>
+
+</body>
+
+</html>

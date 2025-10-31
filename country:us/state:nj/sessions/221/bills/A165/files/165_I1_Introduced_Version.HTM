@@ -1,16 +1,602 @@
-Title: A165
-Official Title: 
-Number of Sections: 1
-Source: versions - Introduced Version
-Media Type: text/html
+<html>
 
-================================================================================
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A165</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
 
-Section 1:
-A165 ASSEMBLY, No. 165 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblywoman  DAWN FANTASIA District 24 (Morris, Sussex and Warren) Assemblyman  MICHAEL INGANAMORT District 24 (Morris, Sussex and Warren) SYNOPSIS Concerns endangered plant species in NJ. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning endangered plant species, and amending and supplementing P.L.1989, c.56. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    Section 3 of P.L.1989, c.56 (C.13:1B-15.153) is amended to read as follows: 3.    As used in this act: "Commissioner" means the Commissioner of the Department of Environmental Protection; "Department" means the Department of Environmental Protection; "Endangered species" or endangered plant species means any [native plant species whose survival in the State or the nation is in jeopardy, including, but not limited to,] plant species that (1) is designated as listed, proposed, or under review by the federal government as endangered or threatened throughout its range in the United States pursuant to the "Endangered Species Act of 1973," Pub.L.93-205 (16 U.S.C. s.1533), any additional species known or believed to be rare throughout its worldwide range, and any species having five or fewer extant populations within the State, and (2) is not an invasive species; Invasive species means any plant which has a high potential to become noxious or which is likely to spread to a degree that will likely cause damage to the environment, human economy, or human health; "Plant" means any member of the Plant Kingdom, including all roots, stems, leaves, flowers, fruits, seeds, spores, gametophytes and other parts thereof; and "Species" means any species, subspecies, or variety of plant. (cf: P.L.1989, c.56, s.3) 2.    Section 4 of P.L.1989, c.56 (C.13:1B-15.154) is amended to read as follows: 4.    a.   Within one year of the effective date of [this act] P.L.1989, c.56 (C.13:1B-15.151 et seq.) , the Division of Parks and Forestry in the Department of Environmental Protection shall, on the basis of research and investigations and other available scientific data on plant species, and with the benefit of public comment, develop and adopt, pursuant to the "Administrative Procedure Act," P.L.1968, c.410 (C.52:14B-1 et seq.), a list of plant species occurring in the State which are endangered, either by the destruction, drastic modification, or severe curtailment of their habitat; their over-collection for aesthetic, commercial, educational, recreational, or scientific purposes; the effect on them of disease, pollution, or predation; or any other factor or combination of factors, natural or man-made. b.    The department shall remove any plant from the endangered plant species list if (1) the plant is an invasive species and (2) is not on the federal endangered plant species list pursuant to the "Endangered Species Act of 1973," Pub.L.93-205 (16 U.S.C. s.1531 et seq.). (cf: P.L. 1989, c.56, s.4) 3.    (New Section)    The department shall have the authority to control or eliminate an invasive plant species regardless of the existence, or possible existence, of endangered plant species in the area being controlled, except as may be prohibited by federal law, rule, or regulation. 4.    This act shall take effect immediately. STATEMENT This bill would amend the definition of the term endangered species as used in the States Endangered Plant Species List Act to mean any plant species that (1) is designated as listed, proposed, or under review by the federal government as endangered or threatened throughout its range in the United States pursuant to the federal "Endangered Species Act of 1973," any additional species known or believed to be rare throughout its worldwide range, and any species having five or fewer extant populations within the State, and (2) is not an invasive species. The bill would define the term invasive species to mean any plant which has a high potential to become noxious or which is likely to spread to a degree that will likely cause damage to the environment, human economy, or human health. Some non-native plant species exhibit an aggressive growth habit and can out-compete and displace native plant species.  Invasive species also can degrade, change, or displace native habitats. This bill would also allow the Department of Environmental Protection to remove any plant from the endangered plant species list, if the plant is an invasive species, unless the plant is included on the federal endangered plant species list pursuant to the "Endangered Species Act of 1973."  Furthermore, the bill would authorize the department to control or eliminate an invasive plant species regardless of the existence, or possible existence, of endangered plant species in the area being controlled, except as may be prohibited by federal law, rule, or regulation.
+</head>
 
+<body lang=EN-US>
 
-================================================================================
+<div class=WordSection1>
 
-Raw Text:
-A165 ASSEMBLY, No. 165 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblywoman  DAWN FANTASIA District 24 (Morris, Sussex and Warren) Assemblyman  MICHAEL INGANAMORT District 24 (Morris, Sussex and Warren) SYNOPSIS Concerns endangered plant species in NJ. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning endangered plant species, and amending and supplementing P.L.1989, c.56. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    Section 3 of P.L.1989, c.56 (C.13:1B-15.153) is amended to read as follows: 3.    As used in this act: "Commissioner" means the Commissioner of the Department of Environmental Protection; "Department" means the Department of Environmental Protection; "Endangered species" or endangered plant species means any [native plant species whose survival in the State or the nation is in jeopardy, including, but not limited to,] plant species that (1) is designated as listed, proposed, or under review by the federal government as endangered or threatened throughout its range in the United States pursuant to the "Endangered Species Act of 1973," Pub.L.93-205 (16 U.S.C. s.1533), any additional species known or believed to be rare throughout its worldwide range, and any species having five or fewer extant populations within the State, and (2) is not an invasive species; Invasive species means any plant which has a high potential to become noxious or which is likely to spread to a degree that will likely cause damage to the environment, human economy, or human health; "Plant" means any member of the Plant Kingdom, including all roots, stems, leaves, flowers, fruits, seeds, spores, gametophytes and other parts thereof; and "Species" means any species, subspecies, or variety of plant. (cf: P.L.1989, c.56, s.3) 2.    Section 4 of P.L.1989, c.56 (C.13:1B-15.154) is amended to read as follows: 4.    a.   Within one year of the effective date of [this act] P.L.1989, c.56 (C.13:1B-15.151 et seq.) , the Division of Parks and Forestry in the Department of Environmental Protection shall, on the basis of research and investigations and other available scientific data on plant species, and with the benefit of public comment, develop and adopt, pursuant to the "Administrative Procedure Act," P.L.1968, c.410 (C.52:14B-1 et seq.), a list of plant species occurring in the State which are endangered, either by the destruction, drastic modification, or severe curtailment of their habitat; their over-collection for aesthetic, commercial, educational, recreational, or scientific purposes; the effect on them of disease, pollution, or predation; or any other factor or combination of factors, natural or man-made. b.    The department shall remove any plant from the endangered plant species list if (1) the plant is an invasive species and (2) is not on the federal endangered plant species list pursuant to the "Endangered Species Act of 1973," Pub.L.93-205 (16 U.S.C. s.1531 et seq.). (cf: P.L. 1989, c.56, s.4) 3.    (New Section)    The department shall have the authority to control or eliminate an invasive plant species regardless of the existence, or possible existence, of endangered plant species in the area being controlled, except as may be prohibited by federal law, rule, or regulation. 4.    This act shall take effect immediately. STATEMENT This bill would amend the definition of the term endangered species as used in the States Endangered Plant Species List Act to mean any plant species that (1) is designated as listed, proposed, or under review by the federal government as endangered or threatened throughout its range in the United States pursuant to the federal "Endangered Species Act of 1973," any additional species known or believed to be rare throughout its worldwide range, and any species having five or fewer extant populations within the State, and (2) is not an invasive species. The bill would define the term invasive species to mean any plant which has a high potential to become noxious or which is likely to spread to a degree that will likely cause damage to the environment, human economy, or human health. Some non-native plant species exhibit an aggressive growth habit and can out-compete and displace native plant species.  Invasive species also can degrade, change, or displace native habitats. This bill would also allow the Department of Environmental Protection to remove any plant from the endangered plant species list, if the plant is an invasive species, unless the plant is included on the federal endangered plant species list pursuant to the "Endangered Species Act of 1973."  Furthermore, the bill would authorize the department to control or eliminate an invasive plant species regardless of the existence, or possible existence, of endangered plant species in the area being controlled, except as may be prohibited by federal law, rule, or regulation.
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 165 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblywoman  DAWN FANTASIA</p>
+
+<p class=bpuSponsor>District 24 (Morris, Sussex and Warren)</p>
+
+<p class=bpuSponsor>Assemblyman  MICHAEL INGANAMORT</p>
+
+<p class=bpuSponsor>District 24 (Morris, Sussex and Warren)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Concerns endangered plant species in NJ. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> </span>concerning endangered plant species, and
+amending and supplementing P.L.1989, c.56.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    Section 3 of P.L.1989,
+c.56 (C.13:1B-15.153) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    As used in this act:</p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Commissioner&quot; means
+the Commissioner of the Department of Environmental Protection;</p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Department&quot; means
+the Department of Environmental Protection;</p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Endangered species&quot;
+<u>or endangered plant species</u> means any <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>native
+plant species whose survival in the State or the nation is in jeopardy,
+including, but not limited to,<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b>
+plant species <u>that (1) is</u> designated as listed, proposed, or under
+review by the federal government as endangered or threatened throughout its
+range in the United States pursuant to the &quot;Endangered Species Act of
+1973,&quot; Pub.L.93-205 (16 U.S.C. s.1533), any additional species known or
+believed to be rare throughout its worldwide range, and any species having five
+or fewer extant populations within the State, <u>and (2) is not an invasive
+species</u>; </p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>Invasive species means
+any </u><u><span lang=EN>plant which has a high potential to </span>become
+noxious or</u><u><span lang=EN> which is likely to spread to a degree that will
+likely cause damage to the environment, human economy, or human health; </span></u></p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Plant&quot; means any
+member of the Plant Kingdom, including all roots, stems, leaves, flowers,
+fruits, seeds, spores, gametophytes and other parts thereof; <u>and</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Species&quot; means any
+species, subspecies, or variety of plant.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.1989, c.56, s.3)</p>
+
+<p class=MsoNormal style='line-height:150%'><u><span style='text-decoration:
+ none'>&nbsp;</span></u></p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    Section 4 of P.L.1989,
+c.56 (C.13:1B-15.154) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     4.    <u>a.</u>   Within one
+year of the effective date of <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>this
+act<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>P.L.1989,
+c.56 (C.13:1B-15.151 et seq.)</u> , the Division of Parks and Forestry in the
+Department of Environmental Protection shall, on the basis of research and
+investigations and other available scientific data on plant species, and with
+the benefit of public comment, develop and adopt, pursuant to the
+&quot;Administrative Procedure Act,&quot; P.L.1968, c.410 (C.52:14B-1 et seq.),
+a list of plant species occurring in the State which are endangered, either by
+the destruction, drastic modification, or severe curtailment of their habitat;
+their over-collection for aesthetic, commercial, educational, recreational, or
+scientific purposes; the effect on them of disease, pollution, or predation; or
+any other factor or combination of factors, natural or man-made.</p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>b.    The department shall
+remove any plant from the endangered plant species list if (1) the plant is an
+invasive species and (2) is not on the federal endangered plant species list
+pursuant to the &quot;Endangered Species Act of 1973,&quot; Pub.L.93-205 (16
+U.S.C. s.1531 et seq.).</u></p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L. 1989, c.56, s.4)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    (New Section)    The
+department shall have the authority to control or eliminate an invasive plant
+species regardless of the existence, or possible existence, of endangered plant
+species in the area being controlled, except as may be prohibited by federal
+law, rule, or regulation. </p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     4.    This act shall take
+effect immediately. </p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill would amend the
+definition of the term endangered species as used in the States Endangered
+Plant Species List Act to mean any plant species that (1) is designated as
+listed, proposed, or under review by the federal government as endangered or
+threatened throughout its range in the United States pursuant to the federal
+&quot;Endangered Species Act of 1973,&quot; any additional species known or
+believed to be rare throughout its worldwide range, and any species having five
+or fewer extant populations within the State, and (2) is not an invasive
+species.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill would define the term
+invasive species to mean any <span lang=EN>plant which has a high potential
+to </span>become noxious or<span lang=EN> which is likely to spread to a degree
+that will likely cause damage to the environment, human economy, or human
+health. </span></p>
+
+<p class=MsoNormal style='line-height:150%'>     Some non-native plant species
+exhibit an aggressive growth habit and can out-compete and displace native
+plant species.  Invasive species also can degrade, change, or displace native
+habitats.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill would also allow the
+Department of Environmental Protection to remove any plant from the endangered
+plant species list, if the plant is an invasive species, unless the plant is
+included on the federal endangered plant species list pursuant to the
+&quot;Endangered Species Act of 1973.&quot;  Furthermore, the bill would
+authorize the department to control or eliminate an invasive plant species
+regardless of the existence, or possible existence, of endangered plant species
+in the area being controlled, except as may be prohibited by federal law, rule,
+or regulation.</p>
+
+</div>
+
+</body>
+
+</html>
