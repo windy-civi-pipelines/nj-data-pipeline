@@ -1,16 +1,740 @@
-Title: A4988
-Official Title: 
-Number of Sections: 1
-Source: versions - Introduced Version
-Media Type: text/html
+<html>
 
-================================================================================
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A4988</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Comment Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Comment Subject Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.fronterpagebillhead
+	{mso-style-name:fronterpagebillhead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FPHangingAnAct, li.FPHangingAnAct, div.FPHangingAnAct
+	{mso-style-name:FPHangingAnAct;
+	mso-style-link:"FPHangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.4in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.FPHangingAnActChar
+	{mso-style-name:"FPHangingAnAct Char";
+	mso-style-link:FPHangingAnAct;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-link:"Comment Text";
+	letter-spacing:.2pt;}
+span.CommentSubjectChar
+	{mso-style-name:"Comment Subject Char";
+	mso-style-link:"Comment Subject";
+	letter-spacing:.2pt;
+	font-weight:bold;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.0in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.3in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
 
-Section 1:
-A4988 ASSEMBLY, No. 4988 STATE OF NEW JERSEY 221st LEGISLATURE INTRODUCED OCTOBER 24, 2024 Sponsored by: Assemblywoman  CARMEN THERESA MORALES District 34 (Essex) SYNOPSIS Establishes Office of Bilingual and English Language Learner Education in DOE. CURRENT VERSION OF TEXT As introduced. An Act establishing the Office of Bilingual and English Language Learner Education in the Department of Education and supplementing chapter 6 of Title 18A of the New Jersey Statutes. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    The Legislature finds and declares that: a.     The number of students attending public schools both in New Jersey and across the nation with a first language other than English continues to rise. b.    Over the past five years, the English language learner student population in New Jersey public schools has increased steadily from nearly 94,000 students in the 2019-2020 school year to over 130,000 students in the 2023-2024 school year.  These students now represent approximately nine percent of the total Statewide public student population. c.     Nationwide, in terms of total enrollment, the number of English language learners rose over two percent between the years 2000 and 2020, with the English language learner student population itself growing approximately 35 percent between the years 2000 and 2020. d.    District boards of education are required to identify and provide English language learners with appropriate instructional programs. e.     With the continued rise in the number of English language learner students enrolling in public schools, it is imperative that New Jersey supports school districts and students by providing access to appropriate curriculum, professional development, academic support and counseling services, and resources to support parental involvement. 2.    a.  There is established in the Department of Education the Office of Bilingual and English Language Learner Education.  The objective of the office is to provide targeted support to students from Latino, Hispanic, and other non-English speaking communities in an effort to ensure equitable access to educational opportunities. b.    The Commissioner of Education shall appoint an executive director qualified by training and experience to serve, at the pleasure of the commissioner, as administrator of the Office of Bilingual and English Language Learner Education.  The executive director shall devote full-time to the performance of the duties of the office and shall receive a salary as shall be fixed by the commissioner. c.     The commissioner shall direct the executive director to employ personnel necessary to assist the executive director in performing the duties set forth in this act.  Employees shall receive a salary as shall be fixed by the commissioner. 3.    a.  The Office of Bilingual and English Language Learner Education shall include divisions dedicated to curriculum development, teacher training, student support services, and community outreach.  The duties of the office shall include, but not be limited to: (1)   creating and overseeing bilingual education programs, including bilingual education programs created pursuant to P.L.1974, c.197 (C.18A:35-15 et seq.), tailored to meet the needs of students from Latino, Hispanic, and other non-English speaking communities, which shall include developing instructional materials in multiple languages and integrating culturally responsive teaching practices; (2)   providing ongoing training and professional development opportunities for educators to enhance their ability to support bilingual and English language learner students, including certification programs for bilingual educators, workshops on culturally responsive teaching, strategies for differentiating instruction, and techniques for engaging students from diverse linguistic backgrounds; (3)   offering academic support and counseling services to bilingual and English language learner students to ensure academic success, including tutoring, mentoring, and language acquisition services and programs; (4)   developing and distributing parental resources, including providing parents with materials in multiple languages that explain the educational system, how to support children at home, ways to engage with schools, understanding students rights, available support services, and how to access translation and interpretation services; (5)   developing initiatives to engage parents and community members in the educational process, including providing resources in multiple languages, hosting informational workshops, and creating partnerships with community organizations; (6)   overseeing compliance with relevant federal and State law and regulation, including conducting regular audits of school districts to ensure they are providing required services to bilingual and English language learner students; and (7)   developing a central repository for all Department of Education bilingual and English language learner resources that shall be easily accessible on the offices webpage established pursuant to subsection b. of this section. b.    The Office of Bilingual and English Language Learner Education shall develop and maintain an Internet website within 60 days of the effective date of this act.  The website shall provide information on the website in the five most common languages spoken in the State. 4.    a.  Each school district in the State shall annually submit a report to the Department of Education detailing the enrollment, progress, and outcomes of bilingual and English language learner students enrolled in each school in the district. b.    The department shall analyze the data provided by a school district pursuant to subsection a. of this section to assess the effectiveness of the school districts bilingual and English language learner programs and identify areas for improvement. c.     If the department determines a school is not compliant with federal or State law or regulations governing bilingual and English language learner students, the school shall develop a corrective action plan to ensure compliance.  The corrective action plan shall include, but not be limited to, the following: (1)   identifying barriers to compliance with applicable laws and regulations; (2)   developing recommendations to address barriers to compliance; (3)   establishing protocols on informing and engaging parents to ensure the success of bilingual and English language learner students; and (4)   reviewing school policies to ensure compliance with applicable laws and regulations. d.    The school shall present the corrective action plan to the board of education and the department.  The school shall annually review and revise the corrective action plan, and present the revisions to the board of education and the department, until the department determines the school is in compliance with federal and State laws and regulations governing bilingual and English language learner education. 5.    The executive director of the Office of Bilingual and English Language Learner Education shall submit an annual report to the Commissioner of Education that includes a summary of bilingual and English language learner programs developed or offered by the office, services provided, community engagement programs offered, information on school district reporting required pursuant to section 3 of this act, and any recommendations the executive director deems appropriate and necessary for ensuring the academic success of bilingual and English language learner students. 6.    The Commissioner of Education shall promulgate rules pursuant to the Administrative Procedure Act, P.L.1968, c.410 (C.52:14B-1 et seq.), as necessary to effectuate the provisions of this act. 7.    This act shall take effect immediately. STATEMENT This bill establishes the Office of Bilingual and English Language Learner Education (office) in the Department of Education.  The objective of the office is to provide targeted support to students from Latino, Hispanic, and other non-English speaking communities in an effort to ensure equitable access to educational opportunities. The bill directs the Commissioner of Education to appoint an executive director of the office who is required to devote full-time to the performance of the duties of the office and who is to receive a salary as fixed by the commissioner. Under the bill, the office is required to include divisions dedicated to curriculum development, teacher training, student support services, and community outreach.  The duties of the office include, at a minimum: (1) creating and overseeing bilingual education programs tailored to meet the needs of students from Latino, Hispanic, and other non-English speaking communities; (2) providing ongoing training and professional development opportunities for educators to enhance their ability to support bilingual and English language learner students; (3) offering academic support and counseling services to bilingual and English language learner students; (4) developing and distributing parental resources; (5) developing initiatives to engage parents and community members in the academic process; (6) overseeing compliance with relevant federal and State laws and regulations; and (7) developing a central repository for all Department of Education bilingual and English language learner resources.  The bill requires the office to develop and maintain an Internet website within 60 days of the effective date of the bill and to provide information on the website in the five most common languages spoken in the State. Under the bill, each school district in the State is required to annually submit a report to the department detailing the enrollment, progress, and outcomes of bilingual and English language learner students enrolled in each school in the district.  The department is then required to analyze the data provided by the school district to assess the effectiveness of the school districts bilingual and English language learner programs and identify areas for improvement.  If the department determines that a school is not compliant with federal or State laws and regulations governing bilingual and English language learner students, the bill requires the school to develop a corrective active plan to ensure compliance.  The school is required to present the corrective action plan to the board of education and the department, and to annually review and revise the corrective action plan until the department determines the school is in compliance with applicable federal and State laws and regulations. Under the bill, the executive director of the office is to annually submit a report to the commissioner that includes a summary of any bilingual and English language learner programs developed or offered by the office, services provided, community engagement programs offered, information on school district reporting required under the bill, and any recommendations the executive director deems appropriate and necessary for ensuring the academic success of bilingual and English language learner students.
+</head>
 
+<body lang=EN-US link=blue vlink=purple>
 
-================================================================================
+<div class=WordSection1>
 
-Raw Text:
-A4988 ASSEMBLY, No. 4988 STATE OF NEW JERSEY 221st LEGISLATURE INTRODUCED OCTOBER 24, 2024 Sponsored by: Assemblywoman  CARMEN THERESA MORALES District 34 (Essex) SYNOPSIS Establishes Office of Bilingual and English Language Learner Education in DOE. CURRENT VERSION OF TEXT As introduced. An Act establishing the Office of Bilingual and English Language Learner Education in the Department of Education and supplementing chapter 6 of Title 18A of the New Jersey Statutes. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    The Legislature finds and declares that: a.     The number of students attending public schools both in New Jersey and across the nation with a first language other than English continues to rise. b.    Over the past five years, the English language learner student population in New Jersey public schools has increased steadily from nearly 94,000 students in the 2019-2020 school year to over 130,000 students in the 2023-2024 school year.  These students now represent approximately nine percent of the total Statewide public student population. c.     Nationwide, in terms of total enrollment, the number of English language learners rose over two percent between the years 2000 and 2020, with the English language learner student population itself growing approximately 35 percent between the years 2000 and 2020. d.    District boards of education are required to identify and provide English language learners with appropriate instructional programs. e.     With the continued rise in the number of English language learner students enrolling in public schools, it is imperative that New Jersey supports school districts and students by providing access to appropriate curriculum, professional development, academic support and counseling services, and resources to support parental involvement. 2.    a.  There is established in the Department of Education the Office of Bilingual and English Language Learner Education.  The objective of the office is to provide targeted support to students from Latino, Hispanic, and other non-English speaking communities in an effort to ensure equitable access to educational opportunities. b.    The Commissioner of Education shall appoint an executive director qualified by training and experience to serve, at the pleasure of the commissioner, as administrator of the Office of Bilingual and English Language Learner Education.  The executive director shall devote full-time to the performance of the duties of the office and shall receive a salary as shall be fixed by the commissioner. c.     The commissioner shall direct the executive director to employ personnel necessary to assist the executive director in performing the duties set forth in this act.  Employees shall receive a salary as shall be fixed by the commissioner. 3.    a.  The Office of Bilingual and English Language Learner Education shall include divisions dedicated to curriculum development, teacher training, student support services, and community outreach.  The duties of the office shall include, but not be limited to: (1)   creating and overseeing bilingual education programs, including bilingual education programs created pursuant to P.L.1974, c.197 (C.18A:35-15 et seq.), tailored to meet the needs of students from Latino, Hispanic, and other non-English speaking communities, which shall include developing instructional materials in multiple languages and integrating culturally responsive teaching practices; (2)   providing ongoing training and professional development opportunities for educators to enhance their ability to support bilingual and English language learner students, including certification programs for bilingual educators, workshops on culturally responsive teaching, strategies for differentiating instruction, and techniques for engaging students from diverse linguistic backgrounds; (3)   offering academic support and counseling services to bilingual and English language learner students to ensure academic success, including tutoring, mentoring, and language acquisition services and programs; (4)   developing and distributing parental resources, including providing parents with materials in multiple languages that explain the educational system, how to support children at home, ways to engage with schools, understanding students rights, available support services, and how to access translation and interpretation services; (5)   developing initiatives to engage parents and community members in the educational process, including providing resources in multiple languages, hosting informational workshops, and creating partnerships with community organizations; (6)   overseeing compliance with relevant federal and State law and regulation, including conducting regular audits of school districts to ensure they are providing required services to bilingual and English language learner students; and (7)   developing a central repository for all Department of Education bilingual and English language learner resources that shall be easily accessible on the offices webpage established pursuant to subsection b. of this section. b.    The Office of Bilingual and English Language Learner Education shall develop and maintain an Internet website within 60 days of the effective date of this act.  The website shall provide information on the website in the five most common languages spoken in the State. 4.    a.  Each school district in the State shall annually submit a report to the Department of Education detailing the enrollment, progress, and outcomes of bilingual and English language learner students enrolled in each school in the district. b.    The department shall analyze the data provided by a school district pursuant to subsection a. of this section to assess the effectiveness of the school districts bilingual and English language learner programs and identify areas for improvement. c.     If the department determines a school is not compliant with federal or State law or regulations governing bilingual and English language learner students, the school shall develop a corrective action plan to ensure compliance.  The corrective action plan shall include, but not be limited to, the following: (1)   identifying barriers to compliance with applicable laws and regulations; (2)   developing recommendations to address barriers to compliance; (3)   establishing protocols on informing and engaging parents to ensure the success of bilingual and English language learner students; and (4)   reviewing school policies to ensure compliance with applicable laws and regulations. d.    The school shall present the corrective action plan to the board of education and the department.  The school shall annually review and revise the corrective action plan, and present the revisions to the board of education and the department, until the department determines the school is in compliance with federal and State laws and regulations governing bilingual and English language learner education. 5.    The executive director of the Office of Bilingual and English Language Learner Education shall submit an annual report to the Commissioner of Education that includes a summary of bilingual and English language learner programs developed or offered by the office, services provided, community engagement programs offered, information on school district reporting required pursuant to section 3 of this act, and any recommendations the executive director deems appropriate and necessary for ensuring the academic success of bilingual and English language learner students. 6.    The Commissioner of Education shall promulgate rules pursuant to the Administrative Procedure Act, P.L.1968, c.410 (C.52:14B-1 et seq.), as necessary to effectuate the provisions of this act. 7.    This act shall take effect immediately. STATEMENT This bill establishes the Office of Bilingual and English Language Learner Education (office) in the Department of Education.  The objective of the office is to provide targeted support to students from Latino, Hispanic, and other non-English speaking communities in an effort to ensure equitable access to educational opportunities. The bill directs the Commissioner of Education to appoint an executive director of the office who is required to devote full-time to the performance of the duties of the office and who is to receive a salary as fixed by the commissioner. Under the bill, the office is required to include divisions dedicated to curriculum development, teacher training, student support services, and community outreach.  The duties of the office include, at a minimum: (1) creating and overseeing bilingual education programs tailored to meet the needs of students from Latino, Hispanic, and other non-English speaking communities; (2) providing ongoing training and professional development opportunities for educators to enhance their ability to support bilingual and English language learner students; (3) offering academic support and counseling services to bilingual and English language learner students; (4) developing and distributing parental resources; (5) developing initiatives to engage parents and community members in the academic process; (6) overseeing compliance with relevant federal and State laws and regulations; and (7) developing a central repository for all Department of Education bilingual and English language learner resources.  The bill requires the office to develop and maintain an Internet website within 60 days of the effective date of the bill and to provide information on the website in the five most common languages spoken in the State. Under the bill, each school district in the State is required to annually submit a report to the department detailing the enrollment, progress, and outcomes of bilingual and English language learner students enrolled in each school in the district.  The department is then required to analyze the data provided by the school district to assess the effectiveness of the school districts bilingual and English language learner programs and identify areas for improvement.  If the department determines that a school is not compliant with federal or State laws and regulations governing bilingual and English language learner students, the bill requires the school to develop a corrective active plan to ensure compliance.  The school is required to present the corrective action plan to the board of education and the department, and to annually review and revise the corrective action plan until the department determines the school is in compliance with applicable federal and State laws and regulations. Under the bill, the executive director of the office is to annually submit a report to the commissioner that includes a summary of any bilingual and English language learner programs developed or offered by the office, services provided, community engagement programs offered, information on school district reporting required under the bill, and any recommendations the executive director deems appropriate and necessary for ensuring the academic success of bilingual and English language learner students.
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 4988 </p>
+
+<p class=bpuWpGraphic><b><span style='font-size:32.0pt;line-height:120%;
+font-family:"Arial",sans-serif;letter-spacing:0pt'>STATE OF NEW JERSEY</span></b></p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>INTRODUCED OCTOBER 24, 2024</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:11.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblywoman  CARMEN THERESA MORALES</p>
+
+<p class=bpuSponsor>District 34 (Essex)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Establishes Office of Bilingual and English Language
+Learner Education in DOE.</p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     As introduced.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif;
+letter-spacing:.2pt'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> establishing the Office of Bilingual and English
+Language Learner Education in the Department of Education and supplementing
+chapter 6 of Title 18A of the New Jersey Statutes.</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    The Legislature finds
+and declares that:</p>
+
+<p class=MsoNormal style='line-height:150%'>     a.     The number of students
+attending public schools both in New Jersey and across the nation with a first
+language other than English continues to rise.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    Over the past five
+years, the English language learner student population in New Jersey public
+schools has increased steadily from nearly 94,000 students in the 2019-2020
+school year to over 130,000 students in the 2023-2024 school year.  These
+students now represent approximately nine percent of the total Statewide public
+student population.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     Nationwide, in terms of
+total enrollment, the number of English language learners rose over two percent
+between the years 2000 and 2020, with the English language learner student population
+itself growing approximately 35 percent between the years 2000 and 2020.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    District boards of
+education are required to identify and provide English language learners with
+appropriate instructional programs.</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     With the continued rise
+in the number of English language learner students enrolling in public schools,
+it is imperative that New Jersey supports school districts and students by
+providing access to appropriate curriculum, professional development, academic
+support and counseling services, and resources to support parental involvement.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    a.  There is established
+in the Department of Education the Office of Bilingual and English Language
+Learner Education.  The objective of the office is to provide targeted support
+to students from Latino, Hispanic, and other non-English speaking communities
+in an effort to ensure equitable access to educational opportunities.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    The Commissioner of
+Education shall appoint an executive director qualified by training and
+experience to serve, at the pleasure of the commissioner, as administrator of
+the Office of Bilingual and English Language Learner Education.  The executive
+director shall devote full-time to the performance of the duties of the office
+and shall receive a salary as shall be fixed by the commissioner.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     The commissioner shall
+direct the executive director to employ personnel necessary to assist the
+executive director in performing the duties set forth in this act.  Employees
+shall receive a salary as shall be fixed by the commissioner.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    a.  The Office of
+Bilingual and English Language Learner Education shall include divisions
+dedicated to curriculum development, teacher training, student support
+services, and community outreach.  The duties of the office shall include, but
+not be limited to:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   creating and overseeing
+bilingual education programs, including bilingual education programs created pursuant
+to P.L.1974, c.197 (C.18A:35-15 et seq.), tailored to meet the needs of
+students from Latino, Hispanic, and other non-English speaking communities, which
+shall include developing instructional materials in multiple languages and
+integrating culturally responsive teaching practices;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   providing ongoing
+training and professional development opportunities for educators to enhance
+their ability to support bilingual and English language learner students,
+including certification programs for bilingual educators, workshops on
+culturally responsive teaching, strategies for differentiating instruction, and
+techniques for engaging students from diverse linguistic backgrounds;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   offering academic
+support and counseling services to bilingual and English language learner
+students to ensure academic success, including tutoring, mentoring, and
+language acquisition services and programs; </p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   developing and distributing
+parental resources, including providing parents with materials in multiple
+languages that explain the educational system, how to support children at home,
+ways to engage with schools, understanding students rights, available support
+services, and how to access translation and interpretation services;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   developing initiatives
+to engage parents and community members in the educational process, including
+providing resources in multiple languages, hosting informational workshops, and
+creating partnerships with community organizations;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (6)   overseeing compliance
+with relevant federal and State law and regulation, including conducting
+regular audits of school districts to ensure they are providing required services
+to bilingual and English language learner students; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (7)   developing a central
+repository for all Department of Education bilingual and English language learner
+resources that shall be easily accessible on the offices webpage established
+pursuant to subsection b. of this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    The Office of Bilingual
+and English Language Learner Education shall develop and maintain an Internet
+website within 60 days of the effective date of this act.  The website shall provide
+information on the website in the five most common languages spoken in the
+State.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     4.    a.  Each school district
+in the State shall annually submit a report to the Department of Education
+detailing the enrollment, progress, and outcomes of bilingual and English language
+learner students enrolled in each school in the district.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    The department shall
+analyze the data provided by a school district pursuant to subsection a. of
+this section to assess the effectiveness of the school districts bilingual and
+English language learner programs and identify areas for improvement.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     If the department
+determines a school is not compliant with federal or State law or regulations
+governing bilingual and English language learner students, the school shall
+develop a corrective action plan to ensure compliance.  The corrective action plan
+shall include, but not be limited to, the following:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   identifying barriers to
+compliance with applicable laws and regulations;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   developing
+recommendations to address barriers to compliance; </p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   establishing protocols
+on informing and engaging parents to ensure the success of bilingual and
+English language learner students; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   reviewing school
+policies to ensure compliance with applicable laws and regulations.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    The school shall present
+the corrective action plan to the board of education and the department.  The
+school shall annually review and revise the corrective action plan, and present
+the revisions to the board of education and the department, until the
+department determines the school is in compliance with federal and State laws and
+regulations governing bilingual and English language learner education.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     5.    The executive director of
+the Office of Bilingual and English Language Learner Education shall submit an
+annual report to the Commissioner of Education that includes a summary of bilingual
+and English language learner programs developed or offered by the office, services
+provided, community engagement programs offered, information on school district
+reporting required pursuant to section 3 of this act, and any recommendations the
+executive director deems appropriate and necessary for ensuring the academic
+success of bilingual and English language learner students.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     6.    The Commissioner of
+Education shall promulgate rules pursuant to the Administrative Procedure
+Act, P.L.1968, c.410 (C.52:14B-1 et seq.), as necessary to effectuate the
+provisions of this act.<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='line-height:150%'>     7.    This act shall take
+effect immediately.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill establishes the
+Office of Bilingual and English Language Learner Education (office) in the
+Department of Education.  The objective of the office is to provide targeted
+support to students from Latino, Hispanic, and other non-English speaking
+communities in an effort to ensure equitable access to educational
+opportunities.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill directs the
+Commissioner of Education to appoint an executive director of the office who is
+required to devote full-time to the performance of the duties of the office and
+who is to receive a salary as fixed by the commissioner.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Under the bill, the office is
+required to include divisions dedicated to curriculum development, teacher
+training, student support services, and community outreach.  The duties of the
+office include, at a minimum: (1) creating and overseeing bilingual education
+programs tailored to meet the needs of students from Latino, Hispanic, and
+other non-English speaking communities; (2) providing ongoing training and
+professional development opportunities for educators to enhance their ability
+to support bilingual and English language learner students; (3) offering academic
+support and counseling services to bilingual and English language learner
+students; (4) developing and distributing parental resources; (5) developing
+initiatives to engage parents and community members in the academic process;
+(6) overseeing compliance with relevant federal and State laws and regulations;
+and (7) developing a central repository for all Department of Education
+bilingual and English language learner resources.  The bill requires the office
+to develop and maintain an Internet website within 60 days of the effective
+date of the bill and to provide information on the website in the five most
+common languages spoken in the State.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Under the bill, each school
+district in the State is required to annually submit a report to the department
+detailing the enrollment, progress, and outcomes of bilingual and English language
+learner students enrolled in each school in the district.  The department is
+then required to analyze the data provided by the school district to assess the
+effectiveness of the school districts bilingual and English language learner
+programs and identify areas for improvement.  If the department determines that
+a school is not compliant with federal or State laws and regulations governing
+bilingual and English language learner students, the bill requires the school
+to develop a corrective active plan to ensure compliance.  The school is
+required to present the corrective action plan to the board of education and
+the department, and to annually review and revise the corrective action plan
+until the department determines the school is in compliance with applicable
+federal and State laws and regulations.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Under the bill, the executive
+director of the office is to annually submit a report to the commissioner that
+includes a summary of any bilingual and English language learner programs
+developed or offered by the office, services provided, community engagement
+programs offered, information on school district reporting required under the
+bill, and any recommendations the executive director deems appropriate and
+necessary for ensuring the academic success of bilingual and English language learner
+students.</p>
+
+</div>
+
+</body>
+
+</html>
