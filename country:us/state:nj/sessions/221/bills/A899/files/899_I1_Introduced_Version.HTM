@@ -1,16 +1,663 @@
-Title: A899
-Official Title: 
-Number of Sections: 1
-Source: versions - Introduced Version
-Media Type: text/html
+<html>
 
-================================================================================
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A899</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
 
-Section 1:
-A899 ASSEMBLY, No. 899 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblywoman  VERLINA REYNOLDS-JACKSON District 15 (Hunterdon and Mercer) Assemblyman  HERB CONAWAY, JR. District 7 (Burlington) Assemblywoman  LINDA S. CARTER District 22 (Somerset and Union) Co-Sponsored by: Assemblymen Wimberly, Sampson, McClellan, Assemblywomen Tucker, Lopez, Sumter, Speight, Assemblymen Atkins, Spearman, Assemblywomen Quijano, Pintor Marin, Assemblyman Moen and Assemblywoman Murphy SYNOPSIS Establishes three-year sickle cell disease pilot program; appropriates $10,200,000. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning sickle cell disease and making an appropriation. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.   a.   The Department of Health, in consultation with the Department of Human Services, shall establish a three year sickle cell disease pilot program, under which federally qualified health centers shall be selected by the Department of Health for the purposes of developing and implementing comprehensive sickle cell disease treatment programs and services.  The Department of Health shall select federally qualified health centers for participation in the pilot program on a competitive basis based on criteria to be established by the Commissioner of Health.  First priority shall be given to federally qualified health centers located in the municipalities of Jersey City, Newark, Paterson, Plainfield, Trenton, Camden, and, subject to the availability of funds provided pursuant to section 2 of this act, to federally qualified health centers in other municipalities which demonstrate a patient population in that geographic area that is in need of sickle cell disease care.  The federally qualified health centers selected for participation in the pilot program shall be eligible for financial support from funds appropriated to the department pursuant to section 2 of this act. b.   The purpose of the pilot program shall be to: (1)  link outpatient sickle cell disease care to sickle cell disease care in inpatient health care settings and other health care settings, which may include, to the extent permitted by law, telehealth services; (2) provide coordinated, comprehensive, team-based medical, behavioral health, mental health, social support, and other services under the supervision of health care professionals who have expertise in treating individuals with sickle cell disease; (3)  foster outreach to individuals and families with sickle cell disease and providers of medical, nursing, and social services who serve and treat persons with sickle cell disease; (4)  promote sickle cell disease education and awareness including, but not limited to, education and public awareness campaigns in partnership with community organizations, sickle cell disease awareness groups, and youth organizations; (5) develop initiatives to build a State medical workforce of clinicians who are knowledgeable about the diagnosis and treatment of sickle cell disease; and (6)  establish practices for the collection of in-State data on sickle cell disease to monitor incidence, prevalence, demographics, morbidity, health care utilization, and costs. c.   Federally qualified health centers seeking to participate in the pilot program shall develop comprehensive sickle cell disease treatment programs and services that provide coordinated, comprehensive, team-based medical, behavioral health, mental health, social support, and monitoring services under the supervision of health care professionals who have expertise in treating individuals with sickle cell disease. d.   The Department of Health shall coordinate with federally qualified health centers participating in the pilot program and other health care facilities and health care professionals to establish centers of excellence for sickle cell disease research and innovation, as determined by the Commissioner of Health. 2. There is appropriated from the General Fund to the Department of Health the sum of $10,200,000, which sum shall be used by the department to support the purposes of this act through the provision of grants to federally qualified health centers selected pursuant to subsection a. of section 1 of this act for the duration of the pilot program.  Any unexpended funds shall revert to the General Fund once the pilot program expires. 3. This act shall take effect immediately and shall expire three years thereafter. STATEMENT This bill establishes a three-year sickle cell disease pilot program and appropriates $10,200,000. Under the bill, the Department of Health (department), in consultation with the Department of Human Services, is to establish a three-year sickle cell disease pilot program, under which federally qualified health centers are to be selected by the department to develop and implement comprehensive sickle cell disease treatment programs and services.  The department is to select federally qualified health centers for participation in the pilot program on a competitive basis based on criteria to be established by the Commissioner of Health (commissioner).  First priority is to be given to federally qualified health centers located in Jersey City, Newark, Paterson, Plainfield, Trenton, Camden, and, subject to the availability of funds, to federally qualified health centers in other municipalities which demonstrate a patient population in that geographic area that is in need of sickle cell disease care.  The federally qualified health centers selected for participation in the pilot program are to be eligible for financial support from funds appropriated to the department. The purpose of the pilot program is to: (1)  link outpatient sickle cell disease care to sickle cell disease care in inpatient health care settings and other health care settings, which may include, if permitted by law, telehealth services; (2)  provide coordinated, comprehensive, team-based medical, behavioral health, mental health, social support, and other services under the supervision of health care professionals who have expertise in treating individuals with sickle cell disease; (3)  foster outreach to individuals and families with sickle cell disease and providers of medical, nursing, and social services who serve and treat persons with sickle cell disease; (4)  promote sickle cell disease education and awareness; (5)  develop initiatives to build a State medical workforce of clinicians who are knowledgeable about the diagnosis and treatment of sickle cell disease; and (6)  establish practices for the collection of in-State data on sickle cell disease to monitor incidence, prevalence, demographics, morbidity, health care utilization, and costs. Federally qualified health centers seeking to participate in the pilot program are to develop comprehensive sickle cell disease treatment programs and services that provide coordinated, comprehensive, team-based medical, behavioral health, mental health, social support, and monitoring services under the supervision of health care professionals who have expertise in treating individuals with sickle cell disease.  The department is to coordinate with federally qualified health centers participating in the pilot program and other health care facilities and health care professionals to establish centers of excellence for sickle cell disease research and innovation, as determined by the commissioner.
+</head>
 
+<body lang=EN-US>
 
-================================================================================
+<div class=WordSection1>
 
-Raw Text:
-A899 ASSEMBLY, No. 899 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblywoman  VERLINA REYNOLDS-JACKSON District 15 (Hunterdon and Mercer) Assemblyman  HERB CONAWAY, JR. District 7 (Burlington) Assemblywoman  LINDA S. CARTER District 22 (Somerset and Union) Co-Sponsored by: Assemblymen Wimberly, Sampson, McClellan, Assemblywomen Tucker, Lopez, Sumter, Speight, Assemblymen Atkins, Spearman, Assemblywomen Quijano, Pintor Marin, Assemblyman Moen and Assemblywoman Murphy SYNOPSIS Establishes three-year sickle cell disease pilot program; appropriates $10,200,000. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning sickle cell disease and making an appropriation. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.   a.   The Department of Health, in consultation with the Department of Human Services, shall establish a three year sickle cell disease pilot program, under which federally qualified health centers shall be selected by the Department of Health for the purposes of developing and implementing comprehensive sickle cell disease treatment programs and services.  The Department of Health shall select federally qualified health centers for participation in the pilot program on a competitive basis based on criteria to be established by the Commissioner of Health.  First priority shall be given to federally qualified health centers located in the municipalities of Jersey City, Newark, Paterson, Plainfield, Trenton, Camden, and, subject to the availability of funds provided pursuant to section 2 of this act, to federally qualified health centers in other municipalities which demonstrate a patient population in that geographic area that is in need of sickle cell disease care.  The federally qualified health centers selected for participation in the pilot program shall be eligible for financial support from funds appropriated to the department pursuant to section 2 of this act. b.   The purpose of the pilot program shall be to: (1)  link outpatient sickle cell disease care to sickle cell disease care in inpatient health care settings and other health care settings, which may include, to the extent permitted by law, telehealth services; (2) provide coordinated, comprehensive, team-based medical, behavioral health, mental health, social support, and other services under the supervision of health care professionals who have expertise in treating individuals with sickle cell disease; (3)  foster outreach to individuals and families with sickle cell disease and providers of medical, nursing, and social services who serve and treat persons with sickle cell disease; (4)  promote sickle cell disease education and awareness including, but not limited to, education and public awareness campaigns in partnership with community organizations, sickle cell disease awareness groups, and youth organizations; (5) develop initiatives to build a State medical workforce of clinicians who are knowledgeable about the diagnosis and treatment of sickle cell disease; and (6)  establish practices for the collection of in-State data on sickle cell disease to monitor incidence, prevalence, demographics, morbidity, health care utilization, and costs. c.   Federally qualified health centers seeking to participate in the pilot program shall develop comprehensive sickle cell disease treatment programs and services that provide coordinated, comprehensive, team-based medical, behavioral health, mental health, social support, and monitoring services under the supervision of health care professionals who have expertise in treating individuals with sickle cell disease. d.   The Department of Health shall coordinate with federally qualified health centers participating in the pilot program and other health care facilities and health care professionals to establish centers of excellence for sickle cell disease research and innovation, as determined by the Commissioner of Health. 2. There is appropriated from the General Fund to the Department of Health the sum of $10,200,000, which sum shall be used by the department to support the purposes of this act through the provision of grants to federally qualified health centers selected pursuant to subsection a. of section 1 of this act for the duration of the pilot program.  Any unexpended funds shall revert to the General Fund once the pilot program expires. 3. This act shall take effect immediately and shall expire three years thereafter. STATEMENT This bill establishes a three-year sickle cell disease pilot program and appropriates $10,200,000. Under the bill, the Department of Health (department), in consultation with the Department of Human Services, is to establish a three-year sickle cell disease pilot program, under which federally qualified health centers are to be selected by the department to develop and implement comprehensive sickle cell disease treatment programs and services.  The department is to select federally qualified health centers for participation in the pilot program on a competitive basis based on criteria to be established by the Commissioner of Health (commissioner).  First priority is to be given to federally qualified health centers located in Jersey City, Newark, Paterson, Plainfield, Trenton, Camden, and, subject to the availability of funds, to federally qualified health centers in other municipalities which demonstrate a patient population in that geographic area that is in need of sickle cell disease care.  The federally qualified health centers selected for participation in the pilot program are to be eligible for financial support from funds appropriated to the department. The purpose of the pilot program is to: (1)  link outpatient sickle cell disease care to sickle cell disease care in inpatient health care settings and other health care settings, which may include, if permitted by law, telehealth services; (2)  provide coordinated, comprehensive, team-based medical, behavioral health, mental health, social support, and other services under the supervision of health care professionals who have expertise in treating individuals with sickle cell disease; (3)  foster outreach to individuals and families with sickle cell disease and providers of medical, nursing, and social services who serve and treat persons with sickle cell disease; (4)  promote sickle cell disease education and awareness; (5)  develop initiatives to build a State medical workforce of clinicians who are knowledgeable about the diagnosis and treatment of sickle cell disease; and (6)  establish practices for the collection of in-State data on sickle cell disease to monitor incidence, prevalence, demographics, morbidity, health care utilization, and costs. Federally qualified health centers seeking to participate in the pilot program are to develop comprehensive sickle cell disease treatment programs and services that provide coordinated, comprehensive, team-based medical, behavioral health, mental health, social support, and monitoring services under the supervision of health care professionals who have expertise in treating individuals with sickle cell disease.  The department is to coordinate with federally qualified health centers participating in the pilot program and other health care facilities and health care professionals to establish centers of excellence for sickle cell disease research and innovation, as determined by the commissioner.
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 899 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblywoman  VERLINA REYNOLDS-JACKSON</p>
+
+<p class=bpuSponsor>District 15 (Hunterdon and Mercer)</p>
+
+<p class=bpuSponsor>Assemblyman  HERB CONAWAY, JR.</p>
+
+<p class=bpuSponsor>District 7 (Burlington)</p>
+
+<p class=bpuSponsor>Assemblywoman  LINDA S. CARTER</p>
+
+<p class=bpuSponsor>District 22 (Somerset and Union)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>Co-Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblymen Wimberly, Sampson, McClellan, Assemblywomen
+Tucker, Lopez, Sumter, Speight, Assemblymen Atkins, Spearman, Assemblywomen
+Quijano, Pintor Marin, Assemblyman Moen and Assemblywoman Murphy</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Establishes three-year sickle cell disease pilot
+program; appropriates $10,200,000. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span>
+concerning sickle cell disease and making an appropriation.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'><span style='letter-spacing:0pt'>      1.   a.   The
+Department of Health, in consultation with the Department of Human Services,
+shall establish a three year sickle cell disease pilot program, under which
+federally qualified health centers shall be selected by the Department of
+Health for the purposes of developing and implementing comprehensive sickle
+cell disease treatment programs and services.  The Department of Health shall
+select federally qualified health centers for participation in the pilot
+program on a competitive basis based on criteria to be established by the
+Commissioner of Health.  First priority shall be given to federally qualified
+health centers located in the municipalities of Jersey City, Newark, Paterson,
+Plainfield, Trenton, Camden, and, subject to the availability of funds provided
+pursuant to section 2 of this act, to federally qualified health centers in
+other municipalities which demonstrate a patient population in that geographic
+area that is in need of sickle cell disease care.  The federally qualified
+health centers selected for participation in the pilot program shall be
+eligible for financial support from funds appropriated to the department
+pursuant to section 2 of this act.</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='letter-spacing:0pt'>      b.   The
+purpose of the pilot program shall be to:</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='letter-spacing:0pt'>      (1)  link
+outpatient sickle cell disease care to sickle cell disease care in inpatient
+health care settings and other health care settings, which may include, to the
+extent permitted by law, telehealth services; </span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='letter-spacing:0pt'>      (2)
+provide coordinated, comprehensive, team-based medical, behavioral health,
+mental health, social support, and other services </span><span
+style='color:black'>under the supervision of health care professionals who have
+expertise in treating individuals</span><span style='letter-spacing:0pt'> with
+sickle cell disease;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='letter-spacing:0pt'>      (3)  foster
+outreach to individuals and families with sickle cell disease and providers of
+medical, nursing, and social services who serve and treat persons with sickle
+cell disease; </span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='letter-spacing:0pt'>      (4)  promote
+sickle cell disease education and awareness including, but not limited to,
+education and public awareness campaigns in partnership with community
+organizations, sickle cell disease awareness groups, and youth organizations;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='letter-spacing:0pt'>       (5)
+develop initiatives to build a State medical workforce of clinicians who are
+knowledgeable about the diagnosis and treatment of sickle cell disease; and</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='letter-spacing:0pt'>      (6)  establish
+practices for the collection of in-State data on sickle cell disease to monitor
+incidence, prevalence, demographics, morbidity, health care utilization, and
+costs.</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='letter-spacing:0pt'>      c.   Federally
+qualified health centers seeking to participate in the pilot program shall develop
+comprehensive sickle cell disease treatment programs and services that provide
+coordinated, comprehensive, team-based medical, behavioral health, mental
+health, social support, and monitoring services under the supervision of health
+care professionals who have expertise in treating individuals with sickle cell disease.
+</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='letter-spacing:0pt'>      d.   The
+Department of Health shall coordinate with federally qualified health centers
+participating in the pilot program and other health care facilities and health
+care professionals to establish centers of excellence for sickle cell disease research
+and innovation, as determined by the Commissioner of Health.</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='letter-spacing:0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='letter-spacing:0pt'>      2.
+ There is appropriated from the General Fund to the Department of Health the
+sum of $10,200,000, which sum shall be used by the department to support the purposes
+of this act through the provision of grants to federally qualified health
+centers selected pursuant to subsection a. of section 1 of this act for the
+duration of the pilot program.  Any unexpended funds shall revert to the
+General Fund once the pilot program expires. </span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3. This act shall take effect immediately
+and shall expire three years thereafter.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>     This</span> bill establishes a three-year sickle cell
+disease pilot program and appropriates $10,200,000.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Under the bill, the Department
+of Health (department), in consultation with the Department of Human Services,
+is to establish a three-year sickle cell disease pilot program,<span
+style='line-height:150%;letter-spacing:0pt'> under which federally qualified
+health centers are to be selected by the department to develop and implement
+comprehensive sickle cell disease treatment programs and services.  The
+department is to select federally qualified health centers for participation in
+the pilot program on a competitive basis based on criteria to be established by
+the Commissioner of Health (commissioner).  First priority is to be given to
+federally qualified health centers located in Jersey City, Newark, Paterson, Plainfield,
+Trenton, Camden, and, subject to the availability of funds, to federally
+qualified health centers in other municipalities which demonstrate a patient
+population in that geographic area that is in need of sickle cell disease
+care.  The federally qualified health centers selected for participation in the
+pilot program are to be eligible for financial support from funds appropriated
+to the department.</span></p>
+
+<p class=MsoNormal style='line-height:150%'>      The purpose of the pilot
+program is to:  </p>
+
+<p class=MsoNormal style='line-height:150%'>      <span style='line-height:
+150%;letter-spacing:0pt'>(1)  link outpatient sickle cell disease care to
+sickle cell disease care in inpatient health care settings and other health
+care settings, which may include, if permitted by law, telehealth services; </span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      (2)  provide coordinated, comprehensive, team-based
+medical, behavioral health, mental health, social support, and other services </span><span
+style='color:black'>under the supervision of health care professionals </span><span
+style='line-height:150%;color:black'>who</span><span style='color:black'> have
+expertise in treating individuals</span><span style='line-height:150%;
+letter-spacing:0pt'> with sickle cell disease;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      (3)  foster outreach to individuals and families with
+sickle cell disease and providers of medical, nursing, and social services who
+serve and treat persons with sickle cell disease; </span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      (4)  promote sickle cell disease education and
+awareness;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      (5)  develop initiatives to build a State medical
+workforce of clinicians who are knowledgeable about the diagnosis and treatment
+of sickle cell disease; and</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      (6)  establish practices for the collection of
+in-State data on sickle cell disease</span><b><sup><span style='line-height:
+150%;font-family:"Albertus Extra Bold",sans-serif'> </span></sup></b><span
+style='line-height:150%;letter-spacing:0pt'>to monitor incidence, prevalence,
+demographics, morbidity, health care utilization, and costs.</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      Federally qualified health centers seeking to
+participate in the pilot program are to develop comprehensive sickle cell
+disease treatment programs and services that</span><b><sup><span
+style='line-height:150%;font-family:"Albertus Extra Bold",sans-serif'> </span></sup></b><span
+style='line-height:150%;letter-spacing:0pt'>provide coordinated, comprehensive,
+team-based medical, behavioral health, mental health, social support, and
+monitoring services under the supervision of health care professionals who have
+expertise in treating individuals with sickle cell disease.  The department is
+to coordinate with federally qualified health centers participating in the pilot
+program and other health care facilities and health care professionals to
+establish centers of excellence for sickle cell disease</span><b><sup><span
+style='line-height:150%;font-family:"Albertus Extra Bold",sans-serif'> </span></sup></b><span
+style='line-height:150%;letter-spacing:0pt'>research and innovation, as
+determined by the commissioner.</span></p>
+
+</div>
+
+</body>
+
+</html>
