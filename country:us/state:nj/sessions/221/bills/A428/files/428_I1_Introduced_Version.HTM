@@ -1,16 +1,661 @@
-Title: A428
-Official Title: 
-Number of Sections: 1
-Source: versions - Introduced Version
-Media Type: text/html
+<html>
 
-================================================================================
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A428</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
 
-Section 1:
-A428 ASSEMBLY, No. 428 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblyman  ROBERT AUTH District 39 (Bergen and Passaic) Co-Sponsored by: Assemblywomen Dunn, Fantasia and Assemblyman Inganamort SYNOPSIS Requires appropriate official file information on deaths in county with county clerk; provides additional ways for transferring deceased voters record to Statewide voter registration systems death file. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning the maintenance of the Statewide voter registration systems death file, amending R.S.19:31-16, and supplementing chapter 31 of Title 19 of the Revised Statues. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    R.S.19:31-16 is amended to read as follows: 19:31-16. a.  The health officer or other officer in charge of records of death in each municipality shall file with the commissioner of registration and the county clerk for the county in which the municipality is located once each month, during the first five days thereof, the age, date of death, and the names and addresses of all persons 18 years of age or older who have died within such municipality during the previous month.  Within 30 days after the receipt of such list, the commissioner and the county clerk shall make and complete such [investigation] investigations as [is] are necessary to establish to [his] the satisfaction of the commissioner and county clerk that such deceased person is registered as a voter in the county.  [If] The county clerk shall transfer the findings of the investigation to the commissioner and, if such fact is so established, the commissioner shall cause the registration and record of voting forms of the deceased registrant to be transferred to the death file as soon as possible.  If the deceased person was not so registered in the county, but the person maintained a residence in another county of this State, the officer in charge of records of death in the municipality in which the decedent died shall forward a copy of the notice of death to the officer in charge of records of death in the municipality in which the decedent resided. That officer having received the notice shall notify the commissioner and county clerk of the county in which that municipality is located of the death of the person.  Any commissioner or county clerk who receives such notification shall undertake the procedures prescribed herein with respect to the registration in that county of the decedent. b.    The State registrar of vital statistics shall file with the commissioner of registration and county clerk of each county no later than May 1 of each year an alphabetized list of the name, address, and date of birth, if available, of each resident of the county 18 years of age or older who died during the previous year.  Within 30 days after the receipt of the list the commissioner and county clerk shall undertake and complete such investigation as is necessary to establish that each person on the list is not registered as a voter in the county.  The county clerk shall transfer the findings of the investigation to the commissioner.  The commissioner shall cause the registration and record of voting forms of any deceased registrant found on the list to be transferred to the death file as soon as possible. (cf: P.L.2011, c.134, s.40) 2.    (New section)  a.  In addition to the provisions of R.S.19:31-16, a deceased registrants voter registration record shall be transferred to the death file by the commissioner of registration of the county in which the deceased registrant is a registered voter upon the proper execution by the next of kin of a form affirming the death of the deceased registrant, as prescribed by the Secretary of State, and a copy of the deceased registrants death certificate.  A copy of the deceased registrants death certificate and the affirmation statement shall be filed in person by the deceased registrants next of kin with the commissioner of registration.  The death certificate and affirmation statement may also be filed in person by the deceased registrants next of kin with the county clerk of the county in which the deceased registrant resided and, upon receipt, the county clerk shall transmit the statement to the commissioner of registration.  The affirmation statement shall be notarized. Upon receipt of the deceased registrants death certificate and the affirmation statement, the commissioner of registration shall transfer the deceased registrants voter registration record to the death file as soon as possible. b.    The Director of the Division of Veterans Healthcare Services in the Department of Military and Veterans Affairs or a nursing home administrator, as that term is defined in section 12 of P.L.1968, c.356 (C.30:11-22), shall execute a form prescribed by the Secretary of State to notify the commissioner of registration of the county in which the deceased registrant is a registered voter of the death of a veterans facility or nursing home facility resident who is a registered voter. The director or the nursing home administrators signature on such form shall be notarized.  Upon receipt of the form, the commissioner of registration shall transfer the deceased registrants voter registration record to the death file as soon as possible after the receipt of that persons death certificate. c.    A funeral director, as defined in subsection f. of section 3 of P.L.1952, c.340 (C.45:7-34), shall execute a form prescribed by the Secretary of State to notify the commissioner of registration of the county in which the deceased registrant is a registered voter of the death of a registered voter.  A funeral director may also transmit such form to the county clerk of the county in which the deceased registrant resided and, upon receipt, the county clerk shall transmit the form to the commissioner of registration.  The funeral directors signature on such form shall be notarized.  Upon receipt of the form, which shall be accompanied by the deceased registrants death certificate, the commissioner of registration shall transfer the deceased registrants voter registration record to the death file as soon as possible. 3.    This act shall take effect immediately. STATEMENT This bill requires that county clerks receive information on deaths in the county in addition to the commissioner of registration and provides additional ways for deceased voters to be transferred from the active file to the death file of the Statewide voter registration system. Under current law, each month, the health officer or other officer in charge of records of death in each municipality is required to file with the commissioner of registration of the county in which the municipality is located the age, date of death, and the names and addresses of all persons 18 years of age or older who have died within such municipality during the previous month.  In addition, the State registrar of vital statistics, the Commissioner of the Department of Health, and funeral directors across the State are required to file death certificates.  If the commissioner of registration finds sufficient evidence that the voter is deceased, the deceased voters record is transferred from the active file to the death file of the Statewide voter registration system. This bill requires the appropriate officers or State registrar to also file this information with the county clerk of the county.  The county clerk will undertake an investigation similar to that of the commissioner of registration and transmit the findings to the commissioner.  If sufficient evidence is found, the commissioner will transfer the record from the active file to the death file. This bill also provides additional ways for deceased voters records to be transferred to the death file.  Under the bill, the next of kin of a deceased voter will be permitted to submit, along with the death certificate, a notarized form created by the Secretary of State to the commissioner of registration, or the county clerk of the county in which the deceased voter resided, to have a deceased family member transferred from the active file to the death file.  If the form is submitted to the county clerk, the clerk would transmit the form to the commissioner.  In addition, the Director of the Division of Veterans Healthcare Services or an administrator of a nursing home facility would be required to submit a form created by the Secretary of State to notify the commissioner of registration of a deceased resident and have the resident transferred from the active file to the death file after receipt of that persons death certificate. Funeral home directors in the State would also be required to submit a form along with the persons death certificate to the commissioner or the county clerk.
+</head>
 
+<body lang=EN-US>
 
-================================================================================
+<div class=WordSection1>
 
-Raw Text:
-A428 ASSEMBLY, No. 428 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblyman  ROBERT AUTH District 39 (Bergen and Passaic) Co-Sponsored by: Assemblywomen Dunn, Fantasia and Assemblyman Inganamort SYNOPSIS Requires appropriate official file information on deaths in county with county clerk; provides additional ways for transferring deceased voters record to Statewide voter registration systems death file. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning the maintenance of the Statewide voter registration systems death file, amending R.S.19:31-16, and supplementing chapter 31 of Title 19 of the Revised Statues. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    R.S.19:31-16 is amended to read as follows: 19:31-16. a.  The health officer or other officer in charge of records of death in each municipality shall file with the commissioner of registration and the county clerk for the county in which the municipality is located once each month, during the first five days thereof, the age, date of death, and the names and addresses of all persons 18 years of age or older who have died within such municipality during the previous month.  Within 30 days after the receipt of such list, the commissioner and the county clerk shall make and complete such [investigation] investigations as [is] are necessary to establish to [his] the satisfaction of the commissioner and county clerk that such deceased person is registered as a voter in the county.  [If] The county clerk shall transfer the findings of the investigation to the commissioner and, if such fact is so established, the commissioner shall cause the registration and record of voting forms of the deceased registrant to be transferred to the death file as soon as possible.  If the deceased person was not so registered in the county, but the person maintained a residence in another county of this State, the officer in charge of records of death in the municipality in which the decedent died shall forward a copy of the notice of death to the officer in charge of records of death in the municipality in which the decedent resided. That officer having received the notice shall notify the commissioner and county clerk of the county in which that municipality is located of the death of the person.  Any commissioner or county clerk who receives such notification shall undertake the procedures prescribed herein with respect to the registration in that county of the decedent. b.    The State registrar of vital statistics shall file with the commissioner of registration and county clerk of each county no later than May 1 of each year an alphabetized list of the name, address, and date of birth, if available, of each resident of the county 18 years of age or older who died during the previous year.  Within 30 days after the receipt of the list the commissioner and county clerk shall undertake and complete such investigation as is necessary to establish that each person on the list is not registered as a voter in the county.  The county clerk shall transfer the findings of the investigation to the commissioner.  The commissioner shall cause the registration and record of voting forms of any deceased registrant found on the list to be transferred to the death file as soon as possible. (cf: P.L.2011, c.134, s.40) 2.    (New section)  a.  In addition to the provisions of R.S.19:31-16, a deceased registrants voter registration record shall be transferred to the death file by the commissioner of registration of the county in which the deceased registrant is a registered voter upon the proper execution by the next of kin of a form affirming the death of the deceased registrant, as prescribed by the Secretary of State, and a copy of the deceased registrants death certificate.  A copy of the deceased registrants death certificate and the affirmation statement shall be filed in person by the deceased registrants next of kin with the commissioner of registration.  The death certificate and affirmation statement may also be filed in person by the deceased registrants next of kin with the county clerk of the county in which the deceased registrant resided and, upon receipt, the county clerk shall transmit the statement to the commissioner of registration.  The affirmation statement shall be notarized. Upon receipt of the deceased registrants death certificate and the affirmation statement, the commissioner of registration shall transfer the deceased registrants voter registration record to the death file as soon as possible. b.    The Director of the Division of Veterans Healthcare Services in the Department of Military and Veterans Affairs or a nursing home administrator, as that term is defined in section 12 of P.L.1968, c.356 (C.30:11-22), shall execute a form prescribed by the Secretary of State to notify the commissioner of registration of the county in which the deceased registrant is a registered voter of the death of a veterans facility or nursing home facility resident who is a registered voter. The director or the nursing home administrators signature on such form shall be notarized.  Upon receipt of the form, the commissioner of registration shall transfer the deceased registrants voter registration record to the death file as soon as possible after the receipt of that persons death certificate. c.    A funeral director, as defined in subsection f. of section 3 of P.L.1952, c.340 (C.45:7-34), shall execute a form prescribed by the Secretary of State to notify the commissioner of registration of the county in which the deceased registrant is a registered voter of the death of a registered voter.  A funeral director may also transmit such form to the county clerk of the county in which the deceased registrant resided and, upon receipt, the county clerk shall transmit the form to the commissioner of registration.  The funeral directors signature on such form shall be notarized.  Upon receipt of the form, which shall be accompanied by the deceased registrants death certificate, the commissioner of registration shall transfer the deceased registrants voter registration record to the death file as soon as possible. 3.    This act shall take effect immediately. STATEMENT This bill requires that county clerks receive information on deaths in the county in addition to the commissioner of registration and provides additional ways for deceased voters to be transferred from the active file to the death file of the Statewide voter registration system. Under current law, each month, the health officer or other officer in charge of records of death in each municipality is required to file with the commissioner of registration of the county in which the municipality is located the age, date of death, and the names and addresses of all persons 18 years of age or older who have died within such municipality during the previous month.  In addition, the State registrar of vital statistics, the Commissioner of the Department of Health, and funeral directors across the State are required to file death certificates.  If the commissioner of registration finds sufficient evidence that the voter is deceased, the deceased voters record is transferred from the active file to the death file of the Statewide voter registration system. This bill requires the appropriate officers or State registrar to also file this information with the county clerk of the county.  The county clerk will undertake an investigation similar to that of the commissioner of registration and transmit the findings to the commissioner.  If sufficient evidence is found, the commissioner will transfer the record from the active file to the death file. This bill also provides additional ways for deceased voters records to be transferred to the death file.  Under the bill, the next of kin of a deceased voter will be permitted to submit, along with the death certificate, a notarized form created by the Secretary of State to the commissioner of registration, or the county clerk of the county in which the deceased voter resided, to have a deceased family member transferred from the active file to the death file.  If the form is submitted to the county clerk, the clerk would transmit the form to the commissioner.  In addition, the Director of the Division of Veterans Healthcare Services or an administrator of a nursing home facility would be required to submit a form created by the Secretary of State to notify the commissioner of registration of a deceased resident and have the resident transferred from the active file to the death file after receipt of that persons death certificate. Funeral home directors in the State would also be required to submit a form along with the persons death certificate to the commissioner or the county clerk.
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 428 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblyman  ROBERT AUTH</p>
+
+<p class=bpuSponsor>District 39 (Bergen and Passaic)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>Co-Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblywomen Dunn, Fantasia and Assemblyman Inganamort</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Requires appropriate official file information on
+deaths in county with county clerk; provides additional ways for transferring
+deceased voters record to Statewide voter registration systems death file. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> concerning the maintenance of the Statewide voter
+registration systems death file, amending R.S.19:31-16, and supplementing
+chapter 31 of Title 19 of the Revised Statues.</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    R.S.19:31-16 is amended
+to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'><span class=HangingAnActChar>     </span>19:31-16. 
+a.  The health officer or other officer in charge of records of death in each
+municipality shall file with the commissioner of registration <u>and the county
+clerk</u> for the county in which the municipality is located once each month,
+during the first five days thereof, the age, date of death, and the names and
+addresses of all persons 18 years of age or older who have died within such
+municipality during the previous month.  Within 30 days after the receipt of
+such list, the commissioner <u>and the county clerk</u> shall make and complete
+such <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>investigation<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>investigations</u>
+as <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>is<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>are</u> necessary
+to establish to <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>his<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>the</u>
+satisfaction <u>of the commissioner and county clerk</u> that such deceased
+person is registered as a voter in the county.  <b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>[</span></b>If<b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>]</span></b> <u>The county clerk shall
+transfer the findings of the investigation to the commissioner and, if</u> such
+fact is so established, the commissioner shall cause the registration and
+record of voting forms of the deceased registrant to be transferred to the
+death file as soon as possible.  If the deceased person was not so registered
+in the county, but the person maintained a residence in another county of this
+State, the officer in charge of records of death in the municipality in which
+the decedent died shall forward a copy of the notice of death to the officer in
+charge of records of death in the municipality in which the decedent resided. 
+That officer having received the notice shall notify the commissioner <u>and
+county clerk</u> of the county in which that municipality is located of the
+death of the person.  Any commissioner <u>or county clerk</u> who receives such
+notification shall undertake the procedures prescribed herein with respect to
+the registration in that county of the decedent.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    The State registrar of
+vital statistics shall file with the commissioner of registration <u>and county
+clerk</u> of each county no later than May 1 of each year an alphabetized list
+of the name, address, and date of birth, if available, of each resident of the
+county 18 years of age or older who died during the previous year.  Within 30
+days after the receipt of the list the commissioner <u>and county clerk</u>
+shall undertake and complete such investigation as is necessary to establish
+that each person on the list is not registered as a voter in the county.  <u>The
+county clerk shall transfer the findings of the investigation to the
+commissioner.</u>  The commissioner shall cause the registration and record of
+voting forms of any deceased registrant found on the list to be transferred to
+the death file as soon as possible.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2011, c.134, s.40)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    (New section)  a.  In
+addition to the provisions of R.S.19:31-16, a deceased registrants voter
+registration record shall be transferred to the death file by the commissioner
+of registration of the county in which the deceased registrant is a registered
+voter upon the proper execution by the next of kin of a form affirming the
+death of the deceased registrant, as prescribed by the Secretary of State, and
+a copy of the deceased registrants death certificate.  A copy of the deceased
+registrants death certificate and the affirmation statement shall be filed in
+person by the deceased registrants next of kin with the commissioner of
+registration.  The death certificate and affirmation statement may also be
+filed in person by the deceased registrants next of kin with the county clerk
+of the county in which the deceased registrant resided and, upon receipt, the
+county clerk shall transmit the statement to the commissioner of registration.  The
+affirmation statement shall be notarized. Upon receipt of the deceased
+registrants death certificate and the affirmation statement, the commissioner
+of registration shall transfer the deceased registrants voter registration
+record to the death file as soon as possible.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    The Director of the
+Division of Veterans Healthcare Services in the Department of Military and
+Veterans Affairs or a nursing home administrator, as that term is defined in
+section 12 of P.L.1968, c.356 (C.30:11-22), shall execute a form prescribed by
+the Secretary of State to notify the commissioner of registration of the county
+in which the deceased registrant is a registered voter of the death of a
+veterans facility or nursing home facility resident who is a registered voter.
+ The director or the nursing home administrators signature on such form shall
+be notarized.  Upon receipt of the form, the commissioner of registration shall
+transfer the deceased registrants voter registration record to the death file
+as soon as possible after the receipt of that persons death certificate.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.    A funeral director, as
+defined in subsection f. of section 3 of P.L.1952, c.340 (C.45:7-34), shall
+execute a form prescribed by the Secretary of State to notify the commissioner
+of registration of the county in which the deceased registrant is a registered
+voter of the death of a registered voter.  A funeral director may also transmit
+such form to the county clerk of the county in which the deceased registrant
+resided and, upon receipt, the county clerk shall transmit the form to the
+commissioner of registration.  The funeral directors signature on such form
+shall be notarized.  Upon receipt of the form, which shall be accompanied by
+the deceased registrants death certificate, the commissioner of registration
+shall transfer the deceased registrants voter registration record to the death
+file as soon as possible.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    This act shall take
+effect immediately.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill requires that county
+clerks receive information on deaths in the county in addition to the
+commissioner of registration and provides additional ways for deceased voters
+to be transferred from the active file to the death file of the Statewide voter
+registration system.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Under current law, each month,
+the health officer or other officer in charge of records of death in each
+municipality is required to file with the commissioner of registration of the
+county in which the municipality is located the age, date of death, and the
+names and addresses of all persons 18 years of age or older who have died
+within such municipality during the previous month.  In addition, the State
+registrar of vital statistics, the Commissioner of the Department of Health,
+and funeral directors across the State are required to file death
+certificates.  If the commissioner of registration finds sufficient evidence
+that the voter is deceased, the deceased voters record is transferred from the
+active file to the death file of the Statewide voter registration system. </p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill requires the
+appropriate officers or State registrar to also file this information with the
+county clerk of the county.  The county clerk will undertake an investigation
+similar to that of the commissioner of registration and transmit the findings
+to the commissioner.  If sufficient evidence is found, the commissioner will
+transfer the record from the active file to the death file.</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill also provides
+additional ways for deceased voters records to be transferred to the death
+file.  Under the bill, the next of kin of a deceased voter will be permitted to
+submit, along with the death certificate, a notarized form created by the
+Secretary of State to the commissioner of registration, or the county clerk of
+the county in which the deceased voter resided, to have a deceased family
+member transferred from the active file to the death file.  If the form is
+submitted to the county clerk, the clerk would transmit the form to the
+commissioner.  In addition, the Director of the Division of Veterans
+Healthcare Services or an administrator of a nursing home facility would be
+required to submit a form created by the Secretary of State to notify the commissioner
+of registration of a deceased resident and have the resident transferred from
+the active file to the death file after receipt of that persons death
+certificate. </p>
+
+<p class=MsoNormal style='line-height:150%'>Funeral home directors in the State
+would also be required to submit a form along with the persons death
+certificate to the commissioner or the county clerk.</p>
+
+</div>
+
+</body>
+
+</html>

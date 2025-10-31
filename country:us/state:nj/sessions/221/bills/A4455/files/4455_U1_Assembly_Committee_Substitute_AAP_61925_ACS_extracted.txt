@@ -1,0 +1,16 @@
+Title: A4455 ACS
+Official Title: 
+Number of Sections: 1
+Source: versions - Assembly Committee Substitute AAP 6/19/25 ACS
+Media Type: text/html
+
+================================================================================
+
+Section 1:
+A4455 ACS ASSEMBLY COMMITTEE SUBSTITUTE FOR ASSEMBLY, No. 4455 STATE OF NEW JERSEY 221st LEGISLATURE ADOPTED JUNE 19, 2025 Sponsored by: Assemblyman  ROY FREIMAN District 16 (Hunterdon, Mercer, Middlesex and Somerset) Assemblyman  GARY S. SCHAER District 36 (Bergen and Passaic) Assemblyman  ROBERT J. KARABINCHAK District 18 (Middlesex) Co-Sponsored by: Assemblymen Miller, Hutchison, Egan, Assemblywoman Park, Assemblyman Atkins, Assemblywoman Drulis, Assemblymen Spearman, Calabrese, Assemblywomen Reynolds-Jackson and Haider SYNOPSIS Allows exemption from New Jersey gross income of certain capital gains from sale or exchange of qualified small business stock. CURRENT VERSION OF TEXT Substitute as adopted by the Assembly Appropriations Committee. An Act allowing an exemption from New Jersey gross income of certain capital gains from the sale or exchange of qualified small business stock and supplementing Title 54A of the New Jersey Statutes. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    Notwithstanding any law or regulation to the contrary, gross income shall not include net gains or income derived from the sale, exchange, or other disposition of qualified small business stock to the extent such income is exempt from federal taxation pursuant to section 1202 of the federal Internal Revenue Code of 1986 (26 U.S.C. s.1202). 2.    This act shall take effect immediately and shall apply retroactively to taxable years beginning on or after January 1, 2025.
+
+
+================================================================================
+
+Raw Text:
+A4455 ACS ASSEMBLY COMMITTEE SUBSTITUTE FOR ASSEMBLY, No. 4455 STATE OF NEW JERSEY 221st LEGISLATURE ADOPTED JUNE 19, 2025 Sponsored by: Assemblyman  ROY FREIMAN District 16 (Hunterdon, Mercer, Middlesex and Somerset) Assemblyman  GARY S. SCHAER District 36 (Bergen and Passaic) Assemblyman  ROBERT J. KARABINCHAK District 18 (Middlesex) Co-Sponsored by: Assemblymen Miller, Hutchison, Egan, Assemblywoman Park, Assemblyman Atkins, Assemblywoman Drulis, Assemblymen Spearman, Calabrese, Assemblywomen Reynolds-Jackson and Haider SYNOPSIS Allows exemption from New Jersey gross income of certain capital gains from sale or exchange of qualified small business stock. CURRENT VERSION OF TEXT Substitute as adopted by the Assembly Appropriations Committee. An Act allowing an exemption from New Jersey gross income of certain capital gains from the sale or exchange of qualified small business stock and supplementing Title 54A of the New Jersey Statutes. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    Notwithstanding any law or regulation to the contrary, gross income shall not include net gains or income derived from the sale, exchange, or other disposition of qualified small business stock to the extent such income is exempt from federal taxation pursuant to section 1202 of the federal Internal Revenue Code of 1986 (26 U.S.C. s.1202). 2.    This act shall take effect immediately and shall apply retroactively to taxable years beginning on or after January 1, 2025.

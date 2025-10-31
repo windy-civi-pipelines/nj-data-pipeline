@@ -1,0 +1,16 @@
+Title: S3408
+Official Title: 
+Number of Sections: 1
+Source: versions - Introduced Version
+Media Type: text/html
+
+================================================================================
+
+Section 1:
+S3408 SENATE, No. 3408 STATE OF NEW JERSEY 221st LEGISLATURE INTRODUCED JUNE 10, 2024 Sponsored by: Senator  JOSEPH P. CRYAN District 20 (Union) SYNOPSIS Prohibits NJT from implementing automatic fare increases. CURRENT VERSION OF TEXT As introduced. An Act concerning fare increases by the New Jersey Transit Corporation and supplementing P.L.1979, c.150 (C.27:25-1 et al.). Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    a.  As used in this section, automatic fare increase means an increase in fares that occurs after a period of time has elapsed, provided that such fare increase was adopted by the New Jersey Transit Corporation as part of a plan to increase fares periodically after certain periods of time have elapsed. b.    The New Jersey Transit Corporation shall not implement an automatic fare increase for any motorbus regular route or rail passenger services. 2.    This act shall take effect immediately. STATEMENT This bill prohibits the New Jersey Transit Corporation from implementing automatic fare increases for any motorbus regular route or rail passenger services.  As defined in the bill, automatic fare increase means an increase in fares that occurs after a period of time has elapsed, provided that such fare increase was adopted by the corporation as part of a plan to increase fares periodically after certain periods of time have elapsed.
+
+
+================================================================================
+
+Raw Text:
+S3408 SENATE, No. 3408 STATE OF NEW JERSEY 221st LEGISLATURE INTRODUCED JUNE 10, 2024 Sponsored by: Senator  JOSEPH P. CRYAN District 20 (Union) SYNOPSIS Prohibits NJT from implementing automatic fare increases. CURRENT VERSION OF TEXT As introduced. An Act concerning fare increases by the New Jersey Transit Corporation and supplementing P.L.1979, c.150 (C.27:25-1 et al.). Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    a.  As used in this section, automatic fare increase means an increase in fares that occurs after a period of time has elapsed, provided that such fare increase was adopted by the New Jersey Transit Corporation as part of a plan to increase fares periodically after certain periods of time have elapsed. b.    The New Jersey Transit Corporation shall not implement an automatic fare increase for any motorbus regular route or rail passenger services. 2.    This act shall take effect immediately. STATEMENT This bill prohibits the New Jersey Transit Corporation from implementing automatic fare increases for any motorbus regular route or rail passenger services.  As defined in the bill, automatic fare increase means an increase in fares that occurs after a period of time has elapsed, provided that such fare increase was adopted by the corporation as part of a plan to increase fares periodically after certain periods of time have elapsed.

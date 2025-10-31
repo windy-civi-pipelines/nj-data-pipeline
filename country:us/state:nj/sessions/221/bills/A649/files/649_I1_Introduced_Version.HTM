@@ -1,16 +1,611 @@
-Title: A649
-Official Title: 
-Number of Sections: 1
-Source: versions - Introduced Version
-Media Type: text/html
+<html>
 
-================================================================================
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A649</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
 
-Section 1:
-A649 ASSEMBLY, No. 649 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblyman  SEAN T. KEAN District 30 (Monmouth and Ocean) SYNOPSIS Allows law enforcement officer to immediately impound motor vehicle operated by uninsured driver. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning motor vehicle liability insurance and amending P.L.1972, c.197. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    Section 2 of P.L.1972, c.197 (C.39:6B-2) is amended to read as follows: 2.    a.  An owner or registrant of a motor vehicle registered or principally garaged in this State who operates or causes to be operated a motor vehicle upon any public road or highway in this State without motor vehicle liability insurance coverage required by P.L.1972, c.197 (C.39:6B-1 et seq.), and an operator who operates or causes a motor vehicle to be operated and who knows or should know from the attendant circumstances that the motor vehicle is without motor vehicle liability insurance coverage required by P.L.1972, c.197 (C.39:6B-1 et seq.) shall be subject, for the first offense, to a fine of not less than $300 nor more than $1,000 and a period of community service to be determined by the court.  The court also shall suspend the person's right to operate a motor vehicle over the highways of this State for a period of one year from the date of conviction; provided, however, the period of license suspension may be reduced or eliminated if the person provides the court with satisfactory proof of motor vehicle liability insurance at the time of the hearing.  Upon subsequent conviction, the person shall be subject to a fine of up to $5,000 and shall be subject to imprisonment for a term of 14 days and shall be ordered by the court to perform community service for a period of 30 days, which shall be of a form and on terms as the court shall deem appropriate under the circumstances, and shall forfeit the person's right to operate a motor vehicle for a period of two years from the date of the conviction, and, after the expiration of the forfeiture, the person may make application to the Chief Administrator of the New Jersey Motor Vehicle Commission for a license to operate a motor vehicle, which application may be granted at the discretion of the chief administrator. The chief administrator's discretion shall be based upon an assessment of the likelihood that the individual will operate or cause a motor vehicle to be operated in the future without the insurance coverage required by this act.  A complaint for violation of this act may be made to a municipal court at any time within six months after the date of the alleged offense. Failure to produce at the time of trial an insurance identification card or an insurance policy which was in force for the time of operation for which the offense is charged creates a rebuttable presumption that the person was uninsured when charged with a violation of this section. b.    A law enforcement officer conducting a motor vehicle stop may, in the officers discretion, immediately impound a motor vehicle registered or principally garaged in this State if the officer determines that the motor vehicle is operated upon any public road or highway in this State without motor vehicle liability insurance coverage required by P.L.1972, c.197 (C.39:6B-1 et seq.).  A motor vehicle impounded pursuant to the provisions of this subsection shall be removed to a storage space or garage. The registrant of the motor vehicle shall be responsible for the cost of the removal and storage of the impounded vehicle. A registrant who violates this section may claim the impounded motor vehicle by providing to the issuing law enforcement agency an insurance identification card or other satisfactory proof of insurance.  If the registrant fails to claim a motor vehicle impounded pursuant to this subsection and pay the reasonable costs of removal and storage by midnight of the 30th day following impoundment, along with a fine of $100 to cover the administrative costs of the municipality in which the violation occurred, and after a hearing, the municipality may sell the motor vehicle at public auction.  The municipality shall give notice of the sale by certified mail to the registrant of the motor vehicle and to the holder of any security interest filed with the New Jersey Motor Vehicle Commission, and by publication in a form to be prescribed by the chief administrator by one insertion, at least five days before the date of the sale, in one or more newspapers published in this State and circulating in the municipality in which the motor vehicle has been impounded. At any time prior to the sale, the registrant or other person entitled to the motor vehicle may reclaim possession of it upon providing satisfactory proof of motor vehicle liability insurance coverage and payment of the reasonable costs of removal and storage of the motor vehicle and any outstanding fines or penalties; provided, however, if the other person entitled to the motor vehicle is a lessor or the holder of a lien on the motor vehicle, the person may reclaim the motor vehicle without payment.  In these cases, the registrant shall be liable for all outstanding costs, fines, and penalties, and the municipality shall have a lien against the property and income of that registrant for the total amount of those outstanding costs, fines, and penalties. Any proceeds obtained from the sale of a motor vehicle at public auction pursuant to this subsection in excess of the amount owed to the municipality for the reasonable costs of removal and storage of the motor vehicle and any outstanding fines or penalties shall be returned to the registrant of the vehicle. (cf: P.L.2013, c.237, s.1) 2.    This act shall take effect immediately. STATEMENT This bill allows a law enforcement officer conducting a motor vehicle stop to immediately impound a motor vehicle if the officer determines that the motor vehicle is being operated without liability insurance.  A motor vehicle registrant may claim the impounded motor vehicle by providing to the issuing law enforcement agency an insurance identification card or other satisfactory proof of insurance. Under current law, a motor vehicle may be impounded within 24 hours if the operator fails to display proof of insurance to the law enforcement officer.  This bill provides that an officer also may immediately impound a vehicle if the officer determines that the operator does not have liability insurance. The bill allows the motor vehicle registrant to claim the impounded motor vehicle by providing to the issuing law enforcement agency an insurance identification card or other satisfactory proof of insurance.  If the registrant fails to claim the impounded motor vehicle and pay the reasonable costs of removal and storage by midnight of the 30th day following impoundment, along with a fine of $100 to cover the administrative costs of the municipality in which the violation occurred, and after a hearing, the municipality may sell the motor vehicle at public auction.  The municipality is to give notice to the registrant of the motor vehicle by certified mail and by publication at least five days before the date of the sale, in one or more newspapers published in this State and circulating in the municipality in which the motor vehicle has been impounded. At any time prior to the sale, the registrant or other person entitled to the motor vehicle may reclaim possession of it upon providing satisfactory proof of motor vehicle liability insurance coverage and payment of the reasonable storage costs and any outstanding fines or penalties.  The bill requires proceeds obtained from the sale of a motor vehicle in excess of the amount owed to the municipality to be returned to the registrant of the vehicle.
+</head>
 
+<body lang=EN-US>
 
-================================================================================
+<div class=WordSection1>
 
-Raw Text:
-A649 ASSEMBLY, No. 649 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblyman  SEAN T. KEAN District 30 (Monmouth and Ocean) SYNOPSIS Allows law enforcement officer to immediately impound motor vehicle operated by uninsured driver. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning motor vehicle liability insurance and amending P.L.1972, c.197. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    Section 2 of P.L.1972, c.197 (C.39:6B-2) is amended to read as follows: 2.    a.  An owner or registrant of a motor vehicle registered or principally garaged in this State who operates or causes to be operated a motor vehicle upon any public road or highway in this State without motor vehicle liability insurance coverage required by P.L.1972, c.197 (C.39:6B-1 et seq.), and an operator who operates or causes a motor vehicle to be operated and who knows or should know from the attendant circumstances that the motor vehicle is without motor vehicle liability insurance coverage required by P.L.1972, c.197 (C.39:6B-1 et seq.) shall be subject, for the first offense, to a fine of not less than $300 nor more than $1,000 and a period of community service to be determined by the court.  The court also shall suspend the person's right to operate a motor vehicle over the highways of this State for a period of one year from the date of conviction; provided, however, the period of license suspension may be reduced or eliminated if the person provides the court with satisfactory proof of motor vehicle liability insurance at the time of the hearing.  Upon subsequent conviction, the person shall be subject to a fine of up to $5,000 and shall be subject to imprisonment for a term of 14 days and shall be ordered by the court to perform community service for a period of 30 days, which shall be of a form and on terms as the court shall deem appropriate under the circumstances, and shall forfeit the person's right to operate a motor vehicle for a period of two years from the date of the conviction, and, after the expiration of the forfeiture, the person may make application to the Chief Administrator of the New Jersey Motor Vehicle Commission for a license to operate a motor vehicle, which application may be granted at the discretion of the chief administrator. The chief administrator's discretion shall be based upon an assessment of the likelihood that the individual will operate or cause a motor vehicle to be operated in the future without the insurance coverage required by this act.  A complaint for violation of this act may be made to a municipal court at any time within six months after the date of the alleged offense. Failure to produce at the time of trial an insurance identification card or an insurance policy which was in force for the time of operation for which the offense is charged creates a rebuttable presumption that the person was uninsured when charged with a violation of this section. b.    A law enforcement officer conducting a motor vehicle stop may, in the officers discretion, immediately impound a motor vehicle registered or principally garaged in this State if the officer determines that the motor vehicle is operated upon any public road or highway in this State without motor vehicle liability insurance coverage required by P.L.1972, c.197 (C.39:6B-1 et seq.).  A motor vehicle impounded pursuant to the provisions of this subsection shall be removed to a storage space or garage. The registrant of the motor vehicle shall be responsible for the cost of the removal and storage of the impounded vehicle. A registrant who violates this section may claim the impounded motor vehicle by providing to the issuing law enforcement agency an insurance identification card or other satisfactory proof of insurance.  If the registrant fails to claim a motor vehicle impounded pursuant to this subsection and pay the reasonable costs of removal and storage by midnight of the 30th day following impoundment, along with a fine of $100 to cover the administrative costs of the municipality in which the violation occurred, and after a hearing, the municipality may sell the motor vehicle at public auction.  The municipality shall give notice of the sale by certified mail to the registrant of the motor vehicle and to the holder of any security interest filed with the New Jersey Motor Vehicle Commission, and by publication in a form to be prescribed by the chief administrator by one insertion, at least five days before the date of the sale, in one or more newspapers published in this State and circulating in the municipality in which the motor vehicle has been impounded. At any time prior to the sale, the registrant or other person entitled to the motor vehicle may reclaim possession of it upon providing satisfactory proof of motor vehicle liability insurance coverage and payment of the reasonable costs of removal and storage of the motor vehicle and any outstanding fines or penalties; provided, however, if the other person entitled to the motor vehicle is a lessor or the holder of a lien on the motor vehicle, the person may reclaim the motor vehicle without payment.  In these cases, the registrant shall be liable for all outstanding costs, fines, and penalties, and the municipality shall have a lien against the property and income of that registrant for the total amount of those outstanding costs, fines, and penalties. Any proceeds obtained from the sale of a motor vehicle at public auction pursuant to this subsection in excess of the amount owed to the municipality for the reasonable costs of removal and storage of the motor vehicle and any outstanding fines or penalties shall be returned to the registrant of the vehicle. (cf: P.L.2013, c.237, s.1) 2.    This act shall take effect immediately. STATEMENT This bill allows a law enforcement officer conducting a motor vehicle stop to immediately impound a motor vehicle if the officer determines that the motor vehicle is being operated without liability insurance.  A motor vehicle registrant may claim the impounded motor vehicle by providing to the issuing law enforcement agency an insurance identification card or other satisfactory proof of insurance. Under current law, a motor vehicle may be impounded within 24 hours if the operator fails to display proof of insurance to the law enforcement officer.  This bill provides that an officer also may immediately impound a vehicle if the officer determines that the operator does not have liability insurance. The bill allows the motor vehicle registrant to claim the impounded motor vehicle by providing to the issuing law enforcement agency an insurance identification card or other satisfactory proof of insurance.  If the registrant fails to claim the impounded motor vehicle and pay the reasonable costs of removal and storage by midnight of the 30th day following impoundment, along with a fine of $100 to cover the administrative costs of the municipality in which the violation occurred, and after a hearing, the municipality may sell the motor vehicle at public auction.  The municipality is to give notice to the registrant of the motor vehicle by certified mail and by publication at least five days before the date of the sale, in one or more newspapers published in this State and circulating in the municipality in which the motor vehicle has been impounded. At any time prior to the sale, the registrant or other person entitled to the motor vehicle may reclaim possession of it upon providing satisfactory proof of motor vehicle liability insurance coverage and payment of the reasonable storage costs and any outstanding fines or penalties.  The bill requires proceeds obtained from the sale of a motor vehicle in excess of the amount owed to the municipality to be returned to the registrant of the vehicle.
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 649 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblyman  SEAN T. KEAN</p>
+
+<p class=bpuSponsor>District 30 (Monmouth and Ocean)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Allows law enforcement officer to immediately impound
+motor vehicle operated by uninsured driver. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> concerning motor vehicle liability insurance and
+amending </span>P.L.1972, c.197.  </p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    Section 2 of P.L.1972,
+c.197 (C.39:6B-2) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    <u>a.</u>  An owner or
+registrant of a motor vehicle registered or principally garaged in this State
+who operates or causes to be operated a motor vehicle upon any public road or
+highway in this State without motor vehicle liability insurance coverage
+required by P.L.1972, c.197 (C.39:6B-1 et seq.), and an operator who operates
+or causes a motor vehicle to be operated and who knows or should know from the
+attendant circumstances that the motor vehicle is without motor vehicle liability
+insurance coverage required by P.L.1972, c.197 (C.39:6B-1 et seq.) shall be
+subject, for the first offense, to a fine of not less than $300 nor more than
+$1,000 and a period of community service to be determined by the court.  The
+court also shall suspend the person's right to operate a motor vehicle over the
+highways of this State for a period of one year from the date of conviction;
+provided, however, the period of license suspension may be reduced or
+eliminated if the person provides the court with satisfactory proof of motor
+vehicle liability insurance at the time of the hearing.  Upon subsequent
+conviction, the person shall be subject to a fine of up to $5,000 and shall be
+subject to imprisonment for a term of 14 days and shall be ordered by the court
+to perform community service for a period of 30 days, which shall be of a form
+and on terms as the court shall deem appropriate under the circumstances, and
+shall forfeit the person's right to operate a motor vehicle for a period of two
+years from the date of the conviction, and, after the expiration of the
+forfeiture, the person may make application to the Chief Administrator of the
+New Jersey Motor Vehicle Commission for a license to operate a motor vehicle,
+which application may be granted at the discretion of the chief administrator. 
+The chief administrator's discretion shall be based upon an assessment of the
+likelihood that the individual will operate or cause a motor vehicle to be
+operated in the future without the insurance coverage required by this act.  A
+complaint for violation of this act may be made to a municipal court at any
+time within six months after the date of the alleged offense.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Failure to produce at the time
+of trial an insurance identification card or an insurance policy which was in
+force for the time of operation for which the offense is charged creates a
+rebuttable presumption that the person was uninsured when charged with a
+violation of this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>b.    A law enforcement
+officer conducting a motor vehicle stop may, in the officers discretion, immediately
+impound a motor vehicle registered or principally garaged in this State if the
+officer determines that the motor vehicle is operated upon any public road or
+highway in this State without motor vehicle liability insurance coverage
+required by P.L.1972, c.197 (C.39:6B-1 et seq.).  A motor vehicle impounded
+pursuant to the provisions of this subsection shall be removed to a storage
+space or garage. The registrant of the motor vehicle shall be responsible for
+the cost of the removal and storage of the impounded vehicle.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>A registrant who violates
+this section may claim the impounded motor vehicle by providing to the issuing
+law enforcement agency an insurance identification card or other satisfactory
+proof of insurance.  If the registrant fails to claim a motor vehicle impounded
+pursuant to this subsection and pay the reasonable costs of removal and storage
+by midnight of the 30th day following impoundment, along with a fine of $100 to
+cover the administrative costs of the municipality in which the violation
+occurred, and after a hearing, the municipality may sell the motor vehicle at
+public auction.  The municipality shall give notice of the sale by certified
+mail to the registrant of the motor vehicle and to the holder of any security
+interest filed with the New Jersey Motor Vehicle Commission, and by publication
+in a form to be prescribed by the chief administrator by one insertion, at
+least five days before the date of the sale, in one or more newspapers
+published in this State and circulating in the municipality in which the motor
+vehicle has been impounded.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>At any time prior to the
+sale, the registrant or other person entitled to the motor vehicle may reclaim
+possession of it upon providing satisfactory proof of motor vehicle liability
+insurance coverage and payment of the reasonable costs of removal and storage
+of the motor vehicle and any outstanding fines or penalties; provided, however,
+if the other person entitled to the motor vehicle is a lessor or the holder of
+a lien on the motor vehicle, the person may reclaim the motor vehicle without
+payment.  In these cases, the registrant shall be liable for all outstanding
+costs, fines, and penalties, and the municipality shall have a lien against the
+property and income of that registrant for the total amount of those
+outstanding costs, fines, and penalties.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>Any proceeds obtained from
+the sale of a motor vehicle at public auction pursuant to this subsection in
+excess of the amount owed to the municipality for the reasonable costs of removal
+and storage of the motor vehicle and any outstanding fines or penalties shall
+be returned to the registrant of the vehicle.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2013, c.237, s.1)<br
+clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    This act shall take
+effect immediately.  </p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill allows a law
+enforcement officer conducting a motor vehicle stop to immediately impound a
+motor vehicle if the officer determines that the motor vehicle is being
+operated without liability insurance.  A motor vehicle registrant may claim the
+impounded motor vehicle by providing to the issuing law enforcement agency an
+insurance identification card or other satisfactory proof of insurance. </p>
+
+<p class=MsoNormal style='line-height:150%'>     Under current law, a motor
+vehicle may be impounded within 24 hours if the operator fails to display proof
+of insurance to the law enforcement officer.  This bill provides that an
+officer also may immediately impound a vehicle if the officer determines that
+the operator does not have liability insurance.   </p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill allows the motor
+vehicle registrant to claim the impounded motor vehicle by providing to the
+issuing law enforcement agency an insurance identification card or other
+satisfactory proof of insurance.  If the registrant fails to claim the
+impounded motor vehicle and pay the reasonable costs of removal and storage by
+midnight of the 30th day following impoundment, along with a fine of $100 to
+cover the administrative costs of the municipality in which the violation
+occurred, and after a hearing, the municipality may sell the motor vehicle at
+public auction.  The municipality is to give notice to the registrant of the
+motor vehicle by certified mail and by publication at least five days before
+the date of the sale, in one or more newspapers published in this State and
+circulating in the municipality in which the motor vehicle has been impounded. 
+At any time prior to the sale, the registrant or other person entitled to the
+motor vehicle may reclaim possession of it upon providing satisfactory proof of
+motor vehicle liability insurance coverage and payment of the reasonable storage
+costs and any outstanding fines or penalties.  The bill requires proceeds
+obtained from the sale of a motor vehicle in excess of the amount owed to the
+municipality to be returned to the registrant of the vehicle.</p>
+
+</div>
+
+</body>
+
+</html>

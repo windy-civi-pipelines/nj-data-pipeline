@@ -1,16 +1,1168 @@
-Title: S2048
-Official Title: 
-Number of Sections: 1
-Source: versions - Introduced Version
-Media Type: text/html
+<html>
 
-================================================================================
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>S2048</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
 
-Section 1:
-S2048 SENATE, No. 2048 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Senator  VIN GOPAL District 11 (Monmouth) Senator  ANDREW ZWICKER District 16 (Hunterdon, Mercer, Middlesex and Somerset) SYNOPSIS Modifies provisions of grant program that reimburses eligible costs for school district regionalization feasibility studies. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning school district regionalization and amending various parts of the statutory law. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    Section 4 of P.L.2018, c.67 (C.18A:7F-68) is amended to read as follows: 4.    a.  Notwithstanding the provisions of P.L.2007, c.260 (C.18A:7F-43 et al.) or any other law to the contrary, in the 2019-2020 through 2024-2025 school years, a school district or county vocational school district in which the State aid differential calculated is negative shall receive State school aid in an amount equal to the sum of the district's State aid in the prior school year plus the district's proportionate share of the sum of any increase in State aid included in the annual appropriations act for that fiscal year and the total State aid reduction pursuant to subsection b. of this section based on the district's State aid differential as a percent of the Statewide total State aid differential among all school districts and county vocational school districts for which the State aid differential is negative.  Any increase in State aid pursuant to this subsection shall first be allocated to equalization aid, followed by special education categorical aid, security categorical aid, and transportation aid, except that no category shall exceed the total amount as calculated in accordance with the provisions of sections 11, 13, 14, and 15 of P.L.2007, c.260 (C.18A:7F-53, C.18A:7F-55, C.18A:7F-56, and C.18A:7F-57), respectively. b.    Except as provided pursuant to subsection c. of this section, and notwithstanding the provisions of P.L.2007, c.260 (C.18A:7F-43 et al.) or any other law to the contrary, in the 2019-2020 through 2024-2025 school years, a school district or county vocational school district in which the State aid differential is positive shall receive State school aid in an amount equal to the district's State aid in the prior school year minus a percent of the State aid differential according to the following schedule: (1)   13 percent in the 2019-2020 school year; (2)   23 percent in the 2020-2021 school year; (3)   37 percent in the 2021-2022 school year; (4)   55 percent in the 2022-2023 school year; (5)   76 percent in the 2023-2024 school year; and (6) 100 percent in the 2024-2025 school year. c.     (1)  An SDA district that is located in a municipality in which the equalized total tax rate is greater than the Statewide average equalized total tax rate for the most recent available calendar year and is spending below adequacy as calculated pursuant to section 1 of P.L.2018, c.67 (C.18A:7F-70) shall not be subject to a reduction in State aid pursuant to subsection b. of this section. (2)   An SDA district that is located in a municipality in which the equalized total tax rate is greater than the Statewide average equalized total tax rate for the most recent available calendar year and is spending above adequacy as calculated pursuant to section 1 of P.L.2018, c.67 (C.18A:7F-70) shall be subject to a reduction not to exceed the amount by which the district is spending above adequacy multiplied by the corresponding percentage included in subsection b. of this section. (3)   A school district, other than an SDA district, that is located in a municipality in which the equalized total tax rate is at least 10 percent greater than the Statewide average equalized total tax rate for the most recent available calendar year and is spending at least 10 percent below adequacy as calculated pursuant to section 1 of P.L.2018, c.67 (C.18A:7F-70) shall not be subject to a reduction in State aid pursuant to subsection b. of this section. (4)   A school district that is a participating district under an application that is approved for a grant pursuant to subsection a. of section 4 of P.L.2021, c.402 (C.18A:13-47.4) [or] , a school district that is a participating district under an application that receives preliminary approval pursuant to subsection b. of section 4 of P.L.2021, c.402 (C.18A:13-47.4), or a school district that is a participating district under an application for which a lead district has successfully completed a grant agreement under a grant program administered by the Division of Local Government Services in the Department of Community Affairs for the purposes of completing a feasibility study for school district regionalization, and that has a State aid differential that is positive may elect to receive State school aid in an amount equal to the district's State aid in the prior school year minus a percent of the State aid differential according to the following schedule: [(1)] (a)     30 percent in the 2021-2022 school year; [(2)] (b)     37 percent in the 2022-2023 school year; [(3)] (c)     46 percent in the 2023-2024 school year; [(4)] (d)     55 percent in the 2024-2025 school year; [(5)] (e)     65.5 percent in the 2025-2026 school year; [(6)] (f)     76 percent in the 2026-2027 school year; [(7)] (g)     88 percent in the 2027-2028 school year; and [(8)] (h)     100 percent in the 2028-2029 school year. A school district [with a State aid differential that is positive, which is a participating district under an application that is approved for a grant pursuant to subsection a. of section 4 of P.L.2021, c.402 (C.18A:13-47.4) or that receives preliminary approval under subsection b. of section 4 of P.L.2021, c.402 (C.18A:13-47.4) but has not created or joined] that is otherwise eligible to receive State aid in accordance with the schedule enumerated in this paragraph shall no longer be eligible if the district has not adopted a resolution to place the question of creating or joining a limited purpose or all purpose regional school district before the voters of the district within two years following [the] grant application approval pursuant to subsection a. of section 4 of P.L.2021, c.402 (C.18A:13-47.4) or preliminary approval [shall not be eligible to receive State aid according to the schedule enumerated in this paragraph] pursuant to subsection b. of section 4 of P.L.2021, c.402 (C.18A:13-47.4), provided, however, that such a district shall not be required to return any State aid received by the district in accordance with the schedule enumerated in this paragraph. A school district that is otherwise eligible to receive State aid in accordance with the schedule enumerated in this paragraph shall no longer be eligible if the voters of each district that is to be regionalized have not approved a regionalization plan within three years following grant application approval or preliminary approval, provided, however, that such a district shall not be required to return any State aid received by the district in accordance with the schedule enumerated in this paragraph. A school district that is a participating district under an application for which a lead district has successfully completed a grant agreement under a grant program administered by the Division of Local Government Services in the Department of Community Affairs for the purposes of completing a feasibility study for school district regionalization shall no longer be eligible to receive State aid according to the schedule enumerated in this paragraph if the participating district has not adopted a resolution to place the question of creating or joining a limited purpose or all purpose regional school district before the voters of the district by the later of one year after the expiration of the grant agreement or one year after the effective date of P.L.    , c.    (C.        ) (pending before the Legislature as this bill), provided, however, that such a district shall not be required to return any State aid received by the district in accordance with the schedule enumerated in this paragraph. A school district that is a participating district under an application for which a lead district has successfully completed a grant agreement under a grant program administered by the Division of Local Government Services in the Department of Community Affairs for the purposes of completing a feasibility study for school district regionalization and that is otherwise eligible to receive State aid in accordance with the schedule enumerated in this paragraph shall no longer be eligible if the voters of each district that is to be regionalized have not approved a regionalization plan by the later of two years after the expiration of the grant agreement or two years after the effective date of P.L.    , c. (C.        ) (pending before the Legislature as this bill), provided, however, that such a district shall not be required to return any State aid received by the district in accordance with the schedule enumerated in this paragraph. Notwithstanding the provisions of this section to the contrary, a school district that is a single school district seeking to form a limited purpose or all purpose regional district pursuant to subsection c. of section 2 of P.L.2021, c.402 (C.18A:13-47.2) shall not be eligible to receive State aid according to the schedule enumerated in this paragraph unless at least one other board of education or governing body of a school district, which is included in a feasibility study proposed as part of an application pursuant to section 3 of P.L.2021, c.402 (C.18A:13-47.3), adopts a resolution to place the question of creating or joining a limited purpose or all purpose regional district before the voters of the district. As used in this paragraph, "participating district" means a school district whose board of education by resolution certifies a commitment to participate in a feasibility study submitted as part of an application under the grant program established pursuant to section 2 of P.L.2021, c.402 (C.18A:13-47.2) or a school district participating in a grant agreement for which a lead district has successfully completed a grant agreement under a grant program administered by the Division of Local Government Services in the Department of Community Affairs for the purposes of completing a feasibility study for school district regionalization. (5)   Notwithstanding the provisions of section 32 of P.L.1996, c.138 (C.18A:7F-32) or any other law, rule, or regulation to the contrary, a school district that is a regional school district created following the approval of a grant application pursuant to section 4 of P.L.2021, c.402 (C.18A:13-47.4) shall, from the first full school year following the creation of the regional school district through the 2028-2029 school year, receive State school aid in an amount that is the greater of: (a)   the amount of State school aid that the newly created regional school district would receive as a regional school district; or (b)   the sum of the amount of State school aid received by each school district constituting the newly created regional school district prior to the creation of such regional school district. d.   Any decrease in State aid pursuant to subsection b. or c. of this section shall first be deducted from a school district's or county vocational school district's allotment of adjustment aid.  Any additional reduction shall be deducted from the school district's or county vocational school district's allotment of non-SFRA aids, followed by equalization aid, special education categorical aid, security aid, and transportation aid. e.     Any remaining adjustment aid or non-SFRA aids shall be reallocated to other State aid categories in a manner to be determined by the commissioner. (cf: P.L.2021, c.402, s.22) 2.    N.J.S.18A:13-43 is amended to read as follows: 18A:13-43.  If the board of education of a regional district and the board or boards of education of one or more local districts, and the commissioner or [his] a representative, after consultation, study and investigation, shall determine that it is advisable to enlarge the regional school district so as to include [said] the local district or districts therein, the board of education of the regional district and of each [such] local district shall by resolution frame and adopt a proposal to that effect and shall submit upon the same day, in [such] the regional district and in each [such] local school district, at a special school election held pursuant to the provisions of P.L.1995, c.278 (C.19:60-1 et seq.) [or] , at an election to be held on the third Tuesday in April, or at the November school election, as applicable, the question whether or not [said] the proposal shall be approved briefly describing the contents of [said] the resolution and stating the date of its adoption and they may submit also at [such] the special election as part of [such] the proposal any other provision which may be submitted at [such a] the special election under the provisions of this chapter. (cf: P.L.2021, c.402, s.21) 3.    Section 2 of P.L.2021, c.402 (C.18A:13-47.2) is amended to read as follows: 2.    The Division of Local Government Services in the Department of Community Affairs shall establish a grant program, within the limit of funds appropriated or otherwise made available for the program, the purpose of which shall be to provide for the reimbursement of eligible costs associated with conducting feasibility studies that support the creation of meaningful and implementable plans to form or expand regional school districts.  The division shall retain one percent of funds appropriated or otherwise made available for the program for the purpose of offsetting the expenses related to the administration of the program.  In addition to funds being made available to boards of education and governing bodies seeking to conduct feasibility studies after the date of enactment of P.L.2021, c.402 (C.18A:13-47.1 et al.), funds under the grant program shall be made available to: a.     the boards of education or governing bodies of two or more school districts which have conducted within two years prior to the enactment of P.L.2021, c.402 (C.18A:13-47.1 et al.) a feasibility study for which: (1) no prior [reimbursement] grant award was made ; or (2) the amount of a prior grant award disbursed by the division under a grant program administered for the purposes of completing a feasibility study for school district regionalization is less than the total cost of the study; [and] b.    the boards of education or governing bodies of two or more school districts that are in the process of conducting a feasibility study as of the date of enactment of P.L.2021, c.402 (C.18A:13-47.1 et al.); and c.     the board of education or governing body of a single school district seeking to form a limited purpose or all purpose regional district. (cf: P.L.2021, c.402, s.2) 4.    Section 3 of P.L.2021, c.402 (C.18A:13-47.3) is amended to read as follows: 3.  a.  The boards of education or governing bodies of two or more school districts seeking to form a limited purpose or all purpose regional district and that wish to apply for funding under the grant program established pursuant to section 2 of P.L.2021, c.402 (C.18A:13-47.2) shall jointly submit an application to the division. The board of education or governing body of a single school district seeking to form a limited purpose or all purpose regional district may submit an application to the division without another participating district joining the application. The application shall identify and designate at least one project coordinator from one or more participating districts who shall be responsible for overseeing the activities associated with conducting the feasibility study proposed under the application and for fulfilling any requirements prescribed by the division in the receipt of a grant under the program.  The application shall also include: (1)   copies of the resolutions adopted by all participating boards of education or governing bodies, as applicable, certifying a commitment to participate in a feasibility study.  An application may propose a feasibility study that would include an analysis of the inclusion of non-participating districts in a proposed regional district, in which case the application shall state that the feasibility study will present findings and recommendations related both to the consolidation of participating districts into a regional district and alternative findings and recommendations contingent upon the inclusion of the non-participating districts; (2)   a detailed narrative describing the proposed regionalization plan or plans to be studied, as well as potential areas for educational and fiscal improvement.  The feasibility study shall include, but need not be limited to, options to address issues related to: (a)   facility utilization; (b)   cost sharing and methods of apportionment, including but not limited to, equalized valuation, pupil enrollment, or a combination of the two as well as whether such apportionment should take effect immediately or on a phase-in or transitional basis over a certain number of years; (c)   the allocation of existing school debt and proceeds from the sale of unutilized or underutilized facilities; (d)   projected enrollment trends, including the impact on the demographic breakdown of the student population, including race, ethnicity, and national origin, and projected changes in class size; (e)   current and projected staffing needs and costs, including retirement and attrition trends for instructional, administrative, and support staff; (f)   an analysis of the differences in the salaries and terms and conditions of employment in elementary, middle, and high school teachers', administrators', and support staffs' contracts among the various districts and the distribution of all compensation among covered employees, including the potential impact of expired contracts moving forward, which analysis shall be developed by school districts and the majority representatives of all recognized bargaining units; (g)   State aid and tax revenue projections; (h)   potential cost savings or increases from regionalization; (i)    student seat time and distance traveled, as well as potential increased or reduced transportation costs; (j)    kindergarten through 12 curriculum coordination improvements; (k)   potential enrichment of educational programs for students; and (l)    calculation and methods of apportionment for determining membership on the regional district board of education among the constituent districts; (3)   a description of the intended use of grant funding in supporting the costs associated with conducting the feasibility study; (4)   a demonstration of the boards' or governing bodies' capacities to oversee the proposed feasibility study; (5)   a list of personnel or outside consultants who would be conducting the feasibility study, which consultants shall be selected in accordance with applicable State law; (6)   a plan to incorporate public and stakeholder participation and ideas in the regionalization study process, which shall include school board members, parents, teachers, administrators, non-instructional staff, union representatives, municipal officials, and interested citizens; and (7)   any other materials or information as may be required by the division to effectively evaluate the proposed feasibility study and assess the costs associated with conducting the feasibility study. The division shall, prior to considering the approval of an application submitted pursuant to this section, either notify each non-participating district that is proposed to be included in a feasibility study of the districts inclusion in the study or require the applicant to notify each non-participating district in lieu of division notification, to ensure that the district is afforded an opportunity to provide comment on the proposed regionalization. b.    In order to be eligible to receive a grant under the grant program established pursuant to section 2 of P.L.2021, c.402 (C.18A:13-47.2), the boards of education or governing bodies shall demonstrate that the proposed regionalization: (1)   does not, and is not foreseeably likely to, increase or exacerbate the segregation of students by racial, socioeconomic, disability, or English Language Learner status as determined by the number and percentage of students enrolled in the school districts seeking to consolidate or, as applicable, in the school districts from which a school district is seeking to withdraw; (2)   to the maximum extent practicable, will lead to the establishment of a limited purpose or all purpose regional district; (3)   consolidates school districts that are in close geographic proximity of each other.  School districts need not be immediately contiguous as long as any geographic separation is not so large as to contradict the potential for improved efficiency and cost savings; (4)   possesses the potential for improved efficiency and cost savings; (5)   possesses the potential to advance an enhanced learning environment for participating districts; (6)   coordinates curriculum across schools and grades throughout the proposed limited purpose or all purpose regional school; and (7)   reflects a documented commitment from the participating districts to make good faith efforts to implement the recommendations of the feasibility study that promote efficiency and quality of education. c.     The Commissioner of Education shall review every application submitted pursuant to this section, except for an application eligible for preliminary approval pursuant to subsection b. of section 4 of P.L.2021, c.402 (C.18A:13-47.4), and shall certify, in writing, that the newly formed or enlarged regional district will not, and will not be foreseeably likely to, increase or exacerbate segregation among the districts seeking to regionalize or, as applicable, the school districts from which a school district is seeking to withdraw and school districts in the surrounding region as determined by the number and percentage of students affected by such consolidations or withdrawals. (cf: P.L.2021, c.402, s.3) 5.    Section 4 of P.L.2021, c.402 (C.18A:13-47.4) is amended to read as follows: 4.    a.  The division shall review all applications submitted pursuant to section 3 of P.L.2021, c.402 (C.18A:13-47.3) and shall only approve applications that meet the eligibility criteria set forth in subsection b. of section 3 of P.L.2021, c.402 (C.18A:13-47.3) and that are certified by the commissioner pursuant to subsection c. of section 3 of P.L.2021, c.402 (C.18A:13-47.3).  [Boards of education or governing bodies whose applications are denied approval for a grant shall be provided a notice describing the reasons for the denial and the applicant shall be afforded an opportunity for a hearing before an administrative law judge to contest the decision, which shall conform with the provisions applicable to such contested cases in this State as set forth in statute and regulation.] b.    The division may grant preliminary approval of an application submitted [by the boards of education or governing bodies of two or more school districts] pursuant to section 3 of P.L.2021, c.402 (C.18A:13-47.3) if the division determines that the application contains sufficient evidence to demonstrate that the proposed regionalization complies with the criteria enumerated in subsection b. of section 3 of P.L.2021, c.402 (C.18A:13-47.3) and is proposing to: (1)   form a countywide school district; or (2)   form an all purpose regional district by expanding an existing limited purpose regional district through consolidation with some or all of the constituent school districts of the existing limited purpose regional district. The division shall establish guidelines governing preliminary approval of applications submitted pursuant to this subsection.  A participating district that is part of an application that receives preliminary approval under this subsection and that has a State aid differential that is positive may elect to receive State school aid pursuant to the schedule established in paragraph (4) of subsection c. of section 4 of P.L.2018, c.67 (C.18A:7F-68). c.     Boards of education or governing bodies receiving application approval pursuant to this section shall be reimbursed for any eligible costs of the feasibility study up to an amount or percentage to be annually determined by the division, with 50 percent of the grant award to be distributed upon the division's final approval of the grant application and the remaining 50 percent of the grant award to be distributed upon the division's acceptance of the completed feasibility study.  Boards of education or governing bodies receiving application approval pursuant to subsection a. of this section, which have conducted within two years prior to the enactment of P.L.2021, c.402 (C.18A:13-47.1 et al.) a feasibility study for which: (1) no prior [reimbursement] grant award was made[,] ; or (2) the amount of a prior grant award disbursed by the division under a grant program administered for the purposes of completing a feasibility study for school district regionalization is less than the total cost of the study, shall be eligible for reimbursement up to an amount or percentage to be determined by the division of any costs associated with conducting the study upon execution of the regionalization outlined in the boards' or governing bodies' application.  The division shall also annually determine the costs that are eligible and ineligible for reimbursement under this section. (cf: P.L.2021, c.402, s.4) 6.    Section 7 of P.L.2021, c.402 (C.18A:13-47.7) is amended to read as follows: 7.  The Division of Local Government Services in the Department of Community Affairs shall provide [notice] a quarterly report to the Senate President, the Speaker of the General Assembly, the Minority Leader of the Senate, and the Minority Leader of the General Assembly [upon the division's receipt of an application for a grant award submitted pursuant to section 3 of P.L.2021, c.402 (C.18A:13-47.3).  The notice shall be provided within 15 days of the division's receipt of the application and] that shall include information identifying each applicant seeking a grant award to study the feasibility of forming or expanding a regional school district pursuant to section 2 of P.L.2021, c.402 (C.18A:13-47.2). (cf: P.L.2021, c.402, s.7) 7.    This act shall take effect immediately. STATEMENT This bill revises various portions of law establishing the School Regionalization Efficiency Program (SREP), which was enacted as P.L.2021, c.402. The grant program supports public school districts and governing bodies across New Jersey who wish to study the feasibility of school district regionalization and consolidation. Regarding the administering of the grant program, the bill does the following: · provides that the board of education or governing body of a single school district seeking to form a limited purpose or all purpose regional school district would be eligible for grant funding under the SREP; · expands eligibility for funding under the SREP to the boards of education or governing bodies of two or more school districts that conducted a school district regionalization feasibility study within two years prior to the enactment of P.L.2021, c.402, for which the amount of a prior grant award disbursed by the Division of Local Government Services (DLGS) in the Department of Community Affairs is less than the total cost of the study; · removes a provision of law that permits boards of education or governing bodies whose applications are denied approval for grant funding under the SREP to be afforded an opportunity to contest the decision; and · provides that the DLGS would, prior to considering the approval of a grant application, either notify each non-participating district that is proposed to be included in a regionalization feasibility study or require the applicant to notify each non-participating district, to ensure that the district is afforded an opportunity to provide comment on the proposed regionalization. The bill requires the DLGS to submit quarterly reports to the Legislature that would include information identifying each applicant seeking a grant award under the SREP. P.L.2021, c.402 extends the timeline by which a school district receiving approval or preliminary approval under the SREP would experience State aid reductions pursuant to current law, by a period of four additional years beyond what is provided for under the current State aid reduction timeline. The bill expands eligibility for this modified State aid schedule to a school district that is a participating district under an application for which a lead district has successfully completed a prior grant agreement with the DLGS for the purposes of completing a feasibility study for school district regionalization. The bill also provides various restrictions under which a district would not be eligible for this modified schedule: Finally, the bill provides that a vote on a proposal to enlarge a regional school district may be held at the November school election.
+</head>
 
+<body lang=EN-US>
 
-================================================================================
+<div class=WordSection1>
 
-Raw Text:
-S2048 SENATE, No. 2048 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Senator  VIN GOPAL District 11 (Monmouth) Senator  ANDREW ZWICKER District 16 (Hunterdon, Mercer, Middlesex and Somerset) SYNOPSIS Modifies provisions of grant program that reimburses eligible costs for school district regionalization feasibility studies. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning school district regionalization and amending various parts of the statutory law. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    Section 4 of P.L.2018, c.67 (C.18A:7F-68) is amended to read as follows: 4.    a.  Notwithstanding the provisions of P.L.2007, c.260 (C.18A:7F-43 et al.) or any other law to the contrary, in the 2019-2020 through 2024-2025 school years, a school district or county vocational school district in which the State aid differential calculated is negative shall receive State school aid in an amount equal to the sum of the district's State aid in the prior school year plus the district's proportionate share of the sum of any increase in State aid included in the annual appropriations act for that fiscal year and the total State aid reduction pursuant to subsection b. of this section based on the district's State aid differential as a percent of the Statewide total State aid differential among all school districts and county vocational school districts for which the State aid differential is negative.  Any increase in State aid pursuant to this subsection shall first be allocated to equalization aid, followed by special education categorical aid, security categorical aid, and transportation aid, except that no category shall exceed the total amount as calculated in accordance with the provisions of sections 11, 13, 14, and 15 of P.L.2007, c.260 (C.18A:7F-53, C.18A:7F-55, C.18A:7F-56, and C.18A:7F-57), respectively. b.    Except as provided pursuant to subsection c. of this section, and notwithstanding the provisions of P.L.2007, c.260 (C.18A:7F-43 et al.) or any other law to the contrary, in the 2019-2020 through 2024-2025 school years, a school district or county vocational school district in which the State aid differential is positive shall receive State school aid in an amount equal to the district's State aid in the prior school year minus a percent of the State aid differential according to the following schedule: (1)   13 percent in the 2019-2020 school year; (2)   23 percent in the 2020-2021 school year; (3)   37 percent in the 2021-2022 school year; (4)   55 percent in the 2022-2023 school year; (5)   76 percent in the 2023-2024 school year; and (6) 100 percent in the 2024-2025 school year. c.     (1)  An SDA district that is located in a municipality in which the equalized total tax rate is greater than the Statewide average equalized total tax rate for the most recent available calendar year and is spending below adequacy as calculated pursuant to section 1 of P.L.2018, c.67 (C.18A:7F-70) shall not be subject to a reduction in State aid pursuant to subsection b. of this section. (2)   An SDA district that is located in a municipality in which the equalized total tax rate is greater than the Statewide average equalized total tax rate for the most recent available calendar year and is spending above adequacy as calculated pursuant to section 1 of P.L.2018, c.67 (C.18A:7F-70) shall be subject to a reduction not to exceed the amount by which the district is spending above adequacy multiplied by the corresponding percentage included in subsection b. of this section. (3)   A school district, other than an SDA district, that is located in a municipality in which the equalized total tax rate is at least 10 percent greater than the Statewide average equalized total tax rate for the most recent available calendar year and is spending at least 10 percent below adequacy as calculated pursuant to section 1 of P.L.2018, c.67 (C.18A:7F-70) shall not be subject to a reduction in State aid pursuant to subsection b. of this section. (4)   A school district that is a participating district under an application that is approved for a grant pursuant to subsection a. of section 4 of P.L.2021, c.402 (C.18A:13-47.4) [or] , a school district that is a participating district under an application that receives preliminary approval pursuant to subsection b. of section 4 of P.L.2021, c.402 (C.18A:13-47.4), or a school district that is a participating district under an application for which a lead district has successfully completed a grant agreement under a grant program administered by the Division of Local Government Services in the Department of Community Affairs for the purposes of completing a feasibility study for school district regionalization, and that has a State aid differential that is positive may elect to receive State school aid in an amount equal to the district's State aid in the prior school year minus a percent of the State aid differential according to the following schedule: [(1)] (a)     30 percent in the 2021-2022 school year; [(2)] (b)     37 percent in the 2022-2023 school year; [(3)] (c)     46 percent in the 2023-2024 school year; [(4)] (d)     55 percent in the 2024-2025 school year; [(5)] (e)     65.5 percent in the 2025-2026 school year; [(6)] (f)     76 percent in the 2026-2027 school year; [(7)] (g)     88 percent in the 2027-2028 school year; and [(8)] (h)     100 percent in the 2028-2029 school year. A school district [with a State aid differential that is positive, which is a participating district under an application that is approved for a grant pursuant to subsection a. of section 4 of P.L.2021, c.402 (C.18A:13-47.4) or that receives preliminary approval under subsection b. of section 4 of P.L.2021, c.402 (C.18A:13-47.4) but has not created or joined] that is otherwise eligible to receive State aid in accordance with the schedule enumerated in this paragraph shall no longer be eligible if the district has not adopted a resolution to place the question of creating or joining a limited purpose or all purpose regional school district before the voters of the district within two years following [the] grant application approval pursuant to subsection a. of section 4 of P.L.2021, c.402 (C.18A:13-47.4) or preliminary approval [shall not be eligible to receive State aid according to the schedule enumerated in this paragraph] pursuant to subsection b. of section 4 of P.L.2021, c.402 (C.18A:13-47.4), provided, however, that such a district shall not be required to return any State aid received by the district in accordance with the schedule enumerated in this paragraph. A school district that is otherwise eligible to receive State aid in accordance with the schedule enumerated in this paragraph shall no longer be eligible if the voters of each district that is to be regionalized have not approved a regionalization plan within three years following grant application approval or preliminary approval, provided, however, that such a district shall not be required to return any State aid received by the district in accordance with the schedule enumerated in this paragraph. A school district that is a participating district under an application for which a lead district has successfully completed a grant agreement under a grant program administered by the Division of Local Government Services in the Department of Community Affairs for the purposes of completing a feasibility study for school district regionalization shall no longer be eligible to receive State aid according to the schedule enumerated in this paragraph if the participating district has not adopted a resolution to place the question of creating or joining a limited purpose or all purpose regional school district before the voters of the district by the later of one year after the expiration of the grant agreement or one year after the effective date of P.L.    , c.    (C.        ) (pending before the Legislature as this bill), provided, however, that such a district shall not be required to return any State aid received by the district in accordance with the schedule enumerated in this paragraph. A school district that is a participating district under an application for which a lead district has successfully completed a grant agreement under a grant program administered by the Division of Local Government Services in the Department of Community Affairs for the purposes of completing a feasibility study for school district regionalization and that is otherwise eligible to receive State aid in accordance with the schedule enumerated in this paragraph shall no longer be eligible if the voters of each district that is to be regionalized have not approved a regionalization plan by the later of two years after the expiration of the grant agreement or two years after the effective date of P.L.    , c. (C.        ) (pending before the Legislature as this bill), provided, however, that such a district shall not be required to return any State aid received by the district in accordance with the schedule enumerated in this paragraph. Notwithstanding the provisions of this section to the contrary, a school district that is a single school district seeking to form a limited purpose or all purpose regional district pursuant to subsection c. of section 2 of P.L.2021, c.402 (C.18A:13-47.2) shall not be eligible to receive State aid according to the schedule enumerated in this paragraph unless at least one other board of education or governing body of a school district, which is included in a feasibility study proposed as part of an application pursuant to section 3 of P.L.2021, c.402 (C.18A:13-47.3), adopts a resolution to place the question of creating or joining a limited purpose or all purpose regional district before the voters of the district. As used in this paragraph, "participating district" means a school district whose board of education by resolution certifies a commitment to participate in a feasibility study submitted as part of an application under the grant program established pursuant to section 2 of P.L.2021, c.402 (C.18A:13-47.2) or a school district participating in a grant agreement for which a lead district has successfully completed a grant agreement under a grant program administered by the Division of Local Government Services in the Department of Community Affairs for the purposes of completing a feasibility study for school district regionalization. (5)   Notwithstanding the provisions of section 32 of P.L.1996, c.138 (C.18A:7F-32) or any other law, rule, or regulation to the contrary, a school district that is a regional school district created following the approval of a grant application pursuant to section 4 of P.L.2021, c.402 (C.18A:13-47.4) shall, from the first full school year following the creation of the regional school district through the 2028-2029 school year, receive State school aid in an amount that is the greater of: (a)   the amount of State school aid that the newly created regional school district would receive as a regional school district; or (b)   the sum of the amount of State school aid received by each school district constituting the newly created regional school district prior to the creation of such regional school district. d.   Any decrease in State aid pursuant to subsection b. or c. of this section shall first be deducted from a school district's or county vocational school district's allotment of adjustment aid.  Any additional reduction shall be deducted from the school district's or county vocational school district's allotment of non-SFRA aids, followed by equalization aid, special education categorical aid, security aid, and transportation aid. e.     Any remaining adjustment aid or non-SFRA aids shall be reallocated to other State aid categories in a manner to be determined by the commissioner. (cf: P.L.2021, c.402, s.22) 2.    N.J.S.18A:13-43 is amended to read as follows: 18A:13-43.  If the board of education of a regional district and the board or boards of education of one or more local districts, and the commissioner or [his] a representative, after consultation, study and investigation, shall determine that it is advisable to enlarge the regional school district so as to include [said] the local district or districts therein, the board of education of the regional district and of each [such] local district shall by resolution frame and adopt a proposal to that effect and shall submit upon the same day, in [such] the regional district and in each [such] local school district, at a special school election held pursuant to the provisions of P.L.1995, c.278 (C.19:60-1 et seq.) [or] , at an election to be held on the third Tuesday in April, or at the November school election, as applicable, the question whether or not [said] the proposal shall be approved briefly describing the contents of [said] the resolution and stating the date of its adoption and they may submit also at [such] the special election as part of [such] the proposal any other provision which may be submitted at [such a] the special election under the provisions of this chapter. (cf: P.L.2021, c.402, s.21) 3.    Section 2 of P.L.2021, c.402 (C.18A:13-47.2) is amended to read as follows: 2.    The Division of Local Government Services in the Department of Community Affairs shall establish a grant program, within the limit of funds appropriated or otherwise made available for the program, the purpose of which shall be to provide for the reimbursement of eligible costs associated with conducting feasibility studies that support the creation of meaningful and implementable plans to form or expand regional school districts.  The division shall retain one percent of funds appropriated or otherwise made available for the program for the purpose of offsetting the expenses related to the administration of the program.  In addition to funds being made available to boards of education and governing bodies seeking to conduct feasibility studies after the date of enactment of P.L.2021, c.402 (C.18A:13-47.1 et al.), funds under the grant program shall be made available to: a.     the boards of education or governing bodies of two or more school districts which have conducted within two years prior to the enactment of P.L.2021, c.402 (C.18A:13-47.1 et al.) a feasibility study for which: (1) no prior [reimbursement] grant award was made ; or (2) the amount of a prior grant award disbursed by the division under a grant program administered for the purposes of completing a feasibility study for school district regionalization is less than the total cost of the study; [and] b.    the boards of education or governing bodies of two or more school districts that are in the process of conducting a feasibility study as of the date of enactment of P.L.2021, c.402 (C.18A:13-47.1 et al.); and c.     the board of education or governing body of a single school district seeking to form a limited purpose or all purpose regional district. (cf: P.L.2021, c.402, s.2) 4.    Section 3 of P.L.2021, c.402 (C.18A:13-47.3) is amended to read as follows: 3.  a.  The boards of education or governing bodies of two or more school districts seeking to form a limited purpose or all purpose regional district and that wish to apply for funding under the grant program established pursuant to section 2 of P.L.2021, c.402 (C.18A:13-47.2) shall jointly submit an application to the division. The board of education or governing body of a single school district seeking to form a limited purpose or all purpose regional district may submit an application to the division without another participating district joining the application. The application shall identify and designate at least one project coordinator from one or more participating districts who shall be responsible for overseeing the activities associated with conducting the feasibility study proposed under the application and for fulfilling any requirements prescribed by the division in the receipt of a grant under the program.  The application shall also include: (1)   copies of the resolutions adopted by all participating boards of education or governing bodies, as applicable, certifying a commitment to participate in a feasibility study.  An application may propose a feasibility study that would include an analysis of the inclusion of non-participating districts in a proposed regional district, in which case the application shall state that the feasibility study will present findings and recommendations related both to the consolidation of participating districts into a regional district and alternative findings and recommendations contingent upon the inclusion of the non-participating districts; (2)   a detailed narrative describing the proposed regionalization plan or plans to be studied, as well as potential areas for educational and fiscal improvement.  The feasibility study shall include, but need not be limited to, options to address issues related to: (a)   facility utilization; (b)   cost sharing and methods of apportionment, including but not limited to, equalized valuation, pupil enrollment, or a combination of the two as well as whether such apportionment should take effect immediately or on a phase-in or transitional basis over a certain number of years; (c)   the allocation of existing school debt and proceeds from the sale of unutilized or underutilized facilities; (d)   projected enrollment trends, including the impact on the demographic breakdown of the student population, including race, ethnicity, and national origin, and projected changes in class size; (e)   current and projected staffing needs and costs, including retirement and attrition trends for instructional, administrative, and support staff; (f)   an analysis of the differences in the salaries and terms and conditions of employment in elementary, middle, and high school teachers', administrators', and support staffs' contracts among the various districts and the distribution of all compensation among covered employees, including the potential impact of expired contracts moving forward, which analysis shall be developed by school districts and the majority representatives of all recognized bargaining units; (g)   State aid and tax revenue projections; (h)   potential cost savings or increases from regionalization; (i)    student seat time and distance traveled, as well as potential increased or reduced transportation costs; (j)    kindergarten through 12 curriculum coordination improvements; (k)   potential enrichment of educational programs for students; and (l)    calculation and methods of apportionment for determining membership on the regional district board of education among the constituent districts; (3)   a description of the intended use of grant funding in supporting the costs associated with conducting the feasibility study; (4)   a demonstration of the boards' or governing bodies' capacities to oversee the proposed feasibility study; (5)   a list of personnel or outside consultants who would be conducting the feasibility study, which consultants shall be selected in accordance with applicable State law; (6)   a plan to incorporate public and stakeholder participation and ideas in the regionalization study process, which shall include school board members, parents, teachers, administrators, non-instructional staff, union representatives, municipal officials, and interested citizens; and (7)   any other materials or information as may be required by the division to effectively evaluate the proposed feasibility study and assess the costs associated with conducting the feasibility study. The division shall, prior to considering the approval of an application submitted pursuant to this section, either notify each non-participating district that is proposed to be included in a feasibility study of the districts inclusion in the study or require the applicant to notify each non-participating district in lieu of division notification, to ensure that the district is afforded an opportunity to provide comment on the proposed regionalization. b.    In order to be eligible to receive a grant under the grant program established pursuant to section 2 of P.L.2021, c.402 (C.18A:13-47.2), the boards of education or governing bodies shall demonstrate that the proposed regionalization: (1)   does not, and is not foreseeably likely to, increase or exacerbate the segregation of students by racial, socioeconomic, disability, or English Language Learner status as determined by the number and percentage of students enrolled in the school districts seeking to consolidate or, as applicable, in the school districts from which a school district is seeking to withdraw; (2)   to the maximum extent practicable, will lead to the establishment of a limited purpose or all purpose regional district; (3)   consolidates school districts that are in close geographic proximity of each other.  School districts need not be immediately contiguous as long as any geographic separation is not so large as to contradict the potential for improved efficiency and cost savings; (4)   possesses the potential for improved efficiency and cost savings; (5)   possesses the potential to advance an enhanced learning environment for participating districts; (6)   coordinates curriculum across schools and grades throughout the proposed limited purpose or all purpose regional school; and (7)   reflects a documented commitment from the participating districts to make good faith efforts to implement the recommendations of the feasibility study that promote efficiency and quality of education. c.     The Commissioner of Education shall review every application submitted pursuant to this section, except for an application eligible for preliminary approval pursuant to subsection b. of section 4 of P.L.2021, c.402 (C.18A:13-47.4), and shall certify, in writing, that the newly formed or enlarged regional district will not, and will not be foreseeably likely to, increase or exacerbate segregation among the districts seeking to regionalize or, as applicable, the school districts from which a school district is seeking to withdraw and school districts in the surrounding region as determined by the number and percentage of students affected by such consolidations or withdrawals. (cf: P.L.2021, c.402, s.3) 5.    Section 4 of P.L.2021, c.402 (C.18A:13-47.4) is amended to read as follows: 4.    a.  The division shall review all applications submitted pursuant to section 3 of P.L.2021, c.402 (C.18A:13-47.3) and shall only approve applications that meet the eligibility criteria set forth in subsection b. of section 3 of P.L.2021, c.402 (C.18A:13-47.3) and that are certified by the commissioner pursuant to subsection c. of section 3 of P.L.2021, c.402 (C.18A:13-47.3).  [Boards of education or governing bodies whose applications are denied approval for a grant shall be provided a notice describing the reasons for the denial and the applicant shall be afforded an opportunity for a hearing before an administrative law judge to contest the decision, which shall conform with the provisions applicable to such contested cases in this State as set forth in statute and regulation.] b.    The division may grant preliminary approval of an application submitted [by the boards of education or governing bodies of two or more school districts] pursuant to section 3 of P.L.2021, c.402 (C.18A:13-47.3) if the division determines that the application contains sufficient evidence to demonstrate that the proposed regionalization complies with the criteria enumerated in subsection b. of section 3 of P.L.2021, c.402 (C.18A:13-47.3) and is proposing to: (1)   form a countywide school district; or (2)   form an all purpose regional district by expanding an existing limited purpose regional district through consolidation with some or all of the constituent school districts of the existing limited purpose regional district. The division shall establish guidelines governing preliminary approval of applications submitted pursuant to this subsection.  A participating district that is part of an application that receives preliminary approval under this subsection and that has a State aid differential that is positive may elect to receive State school aid pursuant to the schedule established in paragraph (4) of subsection c. of section 4 of P.L.2018, c.67 (C.18A:7F-68). c.     Boards of education or governing bodies receiving application approval pursuant to this section shall be reimbursed for any eligible costs of the feasibility study up to an amount or percentage to be annually determined by the division, with 50 percent of the grant award to be distributed upon the division's final approval of the grant application and the remaining 50 percent of the grant award to be distributed upon the division's acceptance of the completed feasibility study.  Boards of education or governing bodies receiving application approval pursuant to subsection a. of this section, which have conducted within two years prior to the enactment of P.L.2021, c.402 (C.18A:13-47.1 et al.) a feasibility study for which: (1) no prior [reimbursement] grant award was made[,] ; or (2) the amount of a prior grant award disbursed by the division under a grant program administered for the purposes of completing a feasibility study for school district regionalization is less than the total cost of the study, shall be eligible for reimbursement up to an amount or percentage to be determined by the division of any costs associated with conducting the study upon execution of the regionalization outlined in the boards' or governing bodies' application.  The division shall also annually determine the costs that are eligible and ineligible for reimbursement under this section. (cf: P.L.2021, c.402, s.4) 6.    Section 7 of P.L.2021, c.402 (C.18A:13-47.7) is amended to read as follows: 7.  The Division of Local Government Services in the Department of Community Affairs shall provide [notice] a quarterly report to the Senate President, the Speaker of the General Assembly, the Minority Leader of the Senate, and the Minority Leader of the General Assembly [upon the division's receipt of an application for a grant award submitted pursuant to section 3 of P.L.2021, c.402 (C.18A:13-47.3).  The notice shall be provided within 15 days of the division's receipt of the application and] that shall include information identifying each applicant seeking a grant award to study the feasibility of forming or expanding a regional school district pursuant to section 2 of P.L.2021, c.402 (C.18A:13-47.2). (cf: P.L.2021, c.402, s.7) 7.    This act shall take effect immediately. STATEMENT This bill revises various portions of law establishing the School Regionalization Efficiency Program (SREP), which was enacted as P.L.2021, c.402. The grant program supports public school districts and governing bodies across New Jersey who wish to study the feasibility of school district regionalization and consolidation. Regarding the administering of the grant program, the bill does the following: · provides that the board of education or governing body of a single school district seeking to form a limited purpose or all purpose regional school district would be eligible for grant funding under the SREP; · expands eligibility for funding under the SREP to the boards of education or governing bodies of two or more school districts that conducted a school district regionalization feasibility study within two years prior to the enactment of P.L.2021, c.402, for which the amount of a prior grant award disbursed by the Division of Local Government Services (DLGS) in the Department of Community Affairs is less than the total cost of the study; · removes a provision of law that permits boards of education or governing bodies whose applications are denied approval for grant funding under the SREP to be afforded an opportunity to contest the decision; and · provides that the DLGS would, prior to considering the approval of a grant application, either notify each non-participating district that is proposed to be included in a regionalization feasibility study or require the applicant to notify each non-participating district, to ensure that the district is afforded an opportunity to provide comment on the proposed regionalization. The bill requires the DLGS to submit quarterly reports to the Legislature that would include information identifying each applicant seeking a grant award under the SREP. P.L.2021, c.402 extends the timeline by which a school district receiving approval or preliminary approval under the SREP would experience State aid reductions pursuant to current law, by a period of four additional years beyond what is provided for under the current State aid reduction timeline. The bill expands eligibility for this modified State aid schedule to a school district that is a participating district under an application for which a lead district has successfully completed a prior grant agreement with the DLGS for the purposes of completing a feasibility study for school district regionalization. The bill also provides various restrictions under which a district would not be eligible for this modified schedule: Finally, the bill provides that a vote on a proposal to enlarge a regional school district may be held at the November school election.
+<p class=bpuBill><a name=bpuFrontPg></a>SENATE, No. 2048 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Senator  VIN GOPAL</p>
+
+<p class=bpuSponsor>District 11 (Monmouth)</p>
+
+<p class=bpuSponsor>Senator  ANDREW ZWICKER</p>
+
+<p class=bpuSponsor>District 16 (Hunterdon, Mercer, Middlesex and Somerset)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Modifies provisions of grant program that reimburses
+eligible costs for school district regionalization feasibility studies. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> concerning school district regionalization and amending
+various parts of the statutory law.</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    Section 4 of P.L.2018,
+c.67 (C.18A:7F-68) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     4.    a.  Notwithstanding the
+provisions of P.L.2007, c.260 (C.18A:7F-43 et al.) or any other law to the
+contrary, in the 2019-2020 through 2024-2025 school years, a school district or
+county vocational school district in which the State aid differential
+calculated is negative shall receive State school aid in an amount equal to the
+sum of the district's State aid in the prior school year plus the district's
+proportionate share of the sum of any increase in State aid included in the
+annual appropriations act for that fiscal year and the total State aid
+reduction pursuant to subsection b. of this section based on the district's
+State aid differential as a percent of the Statewide total State aid
+differential among all school districts and county vocational school districts
+for which the State aid differential is negative.  Any increase in State aid
+pursuant to this subsection shall first be allocated to equalization aid,
+followed by special education categorical aid, security categorical aid, and
+transportation aid, except that no category shall exceed the total amount as
+calculated in accordance with the provisions of sections 11, 13, 14, and 15 of
+P.L.2007, c.260 (C.18A:7F-53, C.18A:7F-55, C.18A:7F-56, and C.18A:7F-57),
+respectively.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    Except as provided
+pursuant to subsection c. of this section, and notwithstanding the provisions
+of P.L.2007, c.260 <br>
+(C.18A:7F-43 et al.) or any other law to the contrary, in the 2019-2020 through
+2024-2025 school years, a school district or county vocational school district
+in which the State aid differential is positive shall receive State school aid
+in an amount equal to the district's State aid in the prior school year minus a
+percent of the State aid differential according to the following schedule:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   13 percent in the
+2019-2020 school year;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   23 percent in the
+2020-2021 school year;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   37 percent in the
+2021-2022 school year;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   55 percent in the
+2022-2023 school year;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   76 percent in the
+2023-2024 school year; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (6) 100 percent in the
+2024-2025 school year.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     (1)  An SDA district
+that is located in a municipality in which the equalized total tax rate is
+greater than the Statewide average equalized total tax rate for the most recent
+available calendar year and is spending below adequacy as calculated pursuant
+to section 1 of P.L.2018, c.67 (C.18A:7F-70) shall not be subject to a
+reduction in State aid pursuant to subsection b. of this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   An SDA district that is
+located in a municipality in which the equalized total tax rate is greater than
+the Statewide average equalized total tax rate for the most recent available
+calendar year and is spending above adequacy as calculated pursuant to section
+1 of P.L.2018, c.67 (C.18A:7F-70) shall be subject to a reduction not to exceed
+the amount by which the district is spending above adequacy multiplied by the
+corresponding percentage included in subsection b. of this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   A school district, other
+than an SDA district, that is located in a municipality in which the equalized
+total tax rate is at least 10 percent greater than the Statewide average
+equalized total tax rate for the most recent available calendar year and is
+spending at least 10 percent below adequacy as calculated pursuant to section 1
+of P.L.2018, c.67 (C.18A:7F-70) shall not be subject to a reduction in State
+aid pursuant to subsection b. of this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   A school district that
+is a participating district under an application that is approved for a grant
+pursuant to subsection a. of section 4 of P.L.2021, c.402 (C.18A:13-47.4) <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>or<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>,</u> a
+school district that is a participating district under an application that
+receives preliminary approval pursuant to subsection b. of section 4 of
+P.L.2021, c.402 (C.18A:13-47.4)<u>, or a school district that is a
+participating district under an application for which a lead district has
+successfully completed a grant agreement under a grant program administered by
+the Division of Local Government Services in the Department of Community
+Affairs for the purposes of completing a feasibility study for school district
+regionalization,</u> and that has a State aid differential that is positive may
+elect to receive State school aid in an amount equal to the district's State
+aid in the prior school year minus a percent of the State aid differential
+according to the following schedule:</p>
+
+<p class=MsoNormal style='line-height:150%'>     <b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>[</span></b>(1)<b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>]</span></b> <u>(a)</u>     30 percent in the
+2021-2022 school year;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>[</span></b>(2)<b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>]</span></b> <u>(b)</u>     37 percent in the
+2022-2023 school year;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>[</span></b>(3)<b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>]</span></b> <u>(c)</u>     46 percent in the
+2023-2024 school year;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>[</span></b>(4)<b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>]</span></b> <u>(d)</u>     55 percent in the
+2024-2025 school year;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>[</span></b>(5)<b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>]</span></b> <u>(e)</u>     65.5 percent in
+the 2025-2026 school year;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>[</span></b>(6)<b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>]</span></b> <u>(f)</u>     76 percent in the
+2026-2027 school year;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>[</span></b>(7)<b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>]</span></b> <u>(g)</u>     88 percent in the
+2027-2028 school year; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     <b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>[</span></b>(8)<b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>]</span></b> <u>(h)</u>     100 percent in
+the 2028-2029 school year.</p>
+
+<p class=MsoNormal style='line-height:150%'>     A school district <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>with a State
+aid differential that is positive, which is a participating district under an
+application that is approved for a grant pursuant to subsection a. of section 4
+of P.L.2021, c.402 (C.18A:13-47.4) or that receives preliminary approval under
+subsection b. of section 4 of P.L.2021, c.402 (C.18A:13-47.4) but has not
+created or joined<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b>
+<u>that is otherwise eligible to receive State aid in accordance with the
+schedule enumerated in this paragraph shall no longer be eligible if the
+district has not adopted a resolution to place the question of creating or
+joining</u> a limited purpose or all purpose regional school district <u>before
+the voters of the district</u> within two years following <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>the<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> grant
+application approval <u>pursuant to subsection a. of section 4 of P.L.2021,
+c.402 (C.18A:13-47.4)</u> or preliminary approval <b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>[</span></b>shall not be eligible to receive
+State aid according to the schedule enumerated in this paragraph<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>pursuant
+to subsection b. of section 4 of P.L.2021, c.402 (C.18A:13-47.4), provided,
+however, that such a district shall not be required to return any State aid
+received by the district in accordance with the schedule enumerated in this
+paragraph. A school district that is otherwise eligible to receive State aid in
+accordance with the schedule enumerated in this paragraph shall no longer be
+eligible if the voters of each district that is to be regionalized have not
+approved a regionalization plan within three years following grant application
+approval or preliminary approval, provided, however, that such a district shall
+not be required to return any State aid received by the district in accordance
+with the schedule enumerated in this paragraph.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>A school district that is a
+participating district under an application for which a lead district has
+successfully completed a grant agreement under a grant program administered by
+the Division of Local Government Services in the Department of Community
+Affairs for the purposes of completing a feasibility study for school district
+regionalization shall no longer be eligible to receive State aid according to
+the schedule enumerated in this paragraph if the participating district has not
+adopted a resolution to place the question of creating or joining a limited
+purpose or all purpose regional school district before the voters of the
+district by the later of one year after the expiration of the grant agreement
+or one year after the effective date of P.L.    , c.    (C.        ) (pending
+before the Legislature as this bill), provided, however, that such a district
+shall not be required to return any State aid received by the district in
+accordance with the schedule enumerated in this paragraph. A school district
+that is a participating district under an application for which a lead district
+has successfully completed a grant agreement under a grant program administered
+by the Division of Local Government Services in the Department of Community
+Affairs for the purposes of completing a feasibility study for school district
+regionalization and that is otherwise eligible to receive State aid in
+accordance with the schedule enumerated in this paragraph shall no longer be
+eligible if the voters of each district that is to be regionalized have not
+approved a regionalization plan by the later of two years after the expiration
+of the grant agreement or two years after the effective date of P.L.    , c.   
+(C.        ) (pending before the Legislature as this bill), provided, however,
+that such a district shall not be required to return any State aid received by
+the district in accordance with the schedule enumerated in this paragraph.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>Notwithstanding the
+provisions of this section to the contrary, a school district that is a single
+school district seeking to form a limited purpose or all purpose regional district
+pursuant to subsection c. of section 2 of P.L.2021, c.402 (C.18A:13-47.2) shall
+not be eligible to receive State aid according to the schedule enumerated in
+this paragraph unless at least one other board of education or governing body
+of a school district, which is included in a feasibility study proposed as part
+of an application pursuant to section 3 of P.L.2021, c.402 (C.18A:13-47.3),
+adopts a resolution to place the question of creating or joining a limited
+purpose or all purpose regional district before the voters of the district</u>.</p>
+
+<p class=MsoNormal style='line-height:150%'>     As used in this paragraph,
+&quot;participating district&quot; means a school district whose board of
+education by resolution certifies a commitment to participate in a feasibility
+study submitted as part of an application under the grant program established
+pursuant to section 2 of P.L.2021, c.402 (C.18A:13-47.2) <u>or a school
+district participating in a grant agreement for which a lead district has
+successfully completed a grant agreement under a grant program administered by
+the Division of Local Government Services in the Department of Community
+Affairs for the purposes of completing a feasibility study for school district
+regionalization</u>.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   Notwithstanding the
+provisions of section 32 of P.L.1996, c.138 (C.18A:7F-32) or any other law,
+rule, or regulation to the contrary, a school district that is a regional
+school district created following the approval of a grant application pursuant
+to section 4 of P.L.2021, c.402 (C.18A:13-47.4) shall, from the first full
+school year following the creation of the regional school district through the
+2028-2029 school year, receive State school aid in an amount that is the
+greater of:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)   the amount of State
+school aid that the newly created regional school district would receive as a
+regional school district; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   the sum of the amount of
+State school aid received by each school district constituting the newly
+created regional school district prior to the creation of such regional school
+district.</p>
+
+<p class=MsoNormal style='line-height:150%'>      d.   Any decrease in State
+aid pursuant to subsection b. or c. of this section shall first be deducted
+from a school district's or county vocational school district's allotment of
+adjustment aid.  Any additional reduction shall be deducted from the school
+district's or county vocational school district's allotment of non-SFRA aids,
+followed by equalization aid, special education categorical aid, security aid,
+and transportation aid.</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     Any remaining
+adjustment aid or non-SFRA aids shall be reallocated to other State aid
+categories in a manner to be determined by the commissioner.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2021, c.402, s.22)</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    N.J.S.18A:13-43 is
+amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     18A:13-43.  If the board of
+education of a regional district and the board or boards of education of one or
+more local districts, and the commissioner or <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>his<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>a</u>
+representative, after consultation, study and investigation, shall determine
+that it is advisable to enlarge the regional school district so as to include <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>said<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>the</u>
+local district or districts therein, the board of education of the regional
+district and of each <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>such<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> local
+district shall by resolution frame and adopt a proposal to that effect and
+shall submit upon the same day, in <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>such<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>the</u> regional
+district and in each <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>such<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> local school
+district, at a special school election held pursuant to the provisions of
+P.L.1995, c.278 (C.19:60-1 et seq.) <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>or<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>,</u> at
+an election to be held on the third Tuesday in April<u>, or at the November
+school election, as applicable,</u> the question whether or not <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>said<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>the</u> proposal
+shall be approved briefly describing the contents of <b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>[</span></b>said<b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>]</span></b> <u>the</u> resolution and
+stating the date of its adoption and they may submit also at <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>such<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>the</u>
+special election as part of <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>such<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>the</u>
+proposal any other provision which may be submitted at <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>such a<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>the</u>
+special election under the provisions of this chapter.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2021, c.402, s.21)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    Section 2 of P.L.2021,
+c.402 (C.18A:13-47.2) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    The Division of Local
+Government Services in the Department of Community Affairs shall establish a
+grant program, within the limit of funds appropriated or otherwise made
+available for the program, the purpose of which shall be to provide for the
+reimbursement of eligible costs associated with conducting feasibility studies
+that support the creation of meaningful and implementable plans to form or
+expand regional school districts.  The division shall retain one percent of
+funds appropriated or otherwise made available for the program for the purpose
+of offsetting the expenses related to the administration of the program.  In
+addition to funds being made available to boards of education and governing
+bodies seeking to conduct feasibility studies after the date of enactment of
+P.L.2021, c.402 (C.18A:13-47.1 et al.), funds under the grant program shall be
+made available to:</p>
+
+<p class=MsoNormal style='line-height:150%'>     a.     the boards of education
+or governing bodies of two or more school districts which have conducted within
+two years prior to the enactment of P.L.2021, c.402 (C.18A:13-47.1 et al.) a
+feasibility study for which<u>: (1)</u> no prior <b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>[</span></b>reimbursement<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>grant
+award</u> was made <u>; or (2) the amount of a prior grant award disbursed by
+the division under a grant program administered for the purposes of completing
+a feasibility study for school district regionalization is less than the total
+cost of the study</u>; <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>and<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b></p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    the boards of education
+or governing bodies of two or more school districts that are in the process of
+conducting a feasibility study as of the date of enactment of P.L.2021, c.402 <br>
+(C.18A:13-47.1 et al.)<u>; and</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>c.     the board of
+education or governing body of a single school district seeking to form a
+limited purpose or all purpose regional district</u>.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2021, c.402, s.2)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     4.    Section 3 of P.L.2021,
+c.402 (C.18A:13-47.3) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.  a.  The boards of
+education or governing bodies of two or more school districts seeking to form a
+limited purpose or all purpose regional district and that wish to apply for
+funding under the grant program established pursuant to section 2 of P.L.2021,
+c.402 (C.18A:13-47.2) shall jointly submit an application to the division.<u>
+The board of education or governing body of a single school district seeking to
+form a limited purpose or all purpose regional district may submit an
+application to the division without another participating district joining the
+application.</u> The application shall identify and designate at least one
+project coordinator from one or more participating districts who shall be
+responsible for overseeing the activities associated with conducting the
+feasibility study proposed under the application and for fulfilling any
+requirements prescribed by the division in the receipt of a grant under the
+program.  The application shall also include:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   copies of the
+resolutions adopted by all participating boards of education or governing
+bodies, as applicable, certifying a commitment to participate in a feasibility
+study.  An application may propose a feasibility study that would include an
+analysis of the inclusion of non-participating districts in a proposed regional
+district, in which case the application shall state that the feasibility study
+will present findings and recommendations related both to the consolidation of
+participating districts into a regional district and alternative findings and
+recommendations contingent upon the inclusion of the non-participating
+districts;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   a detailed narrative
+describing the proposed regionalization plan or plans to be studied, as well as
+potential areas for educational and fiscal improvement.  The feasibility study
+shall include, but need not be limited to, options to address issues related
+to:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)   facility utilization;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   cost sharing and methods
+of apportionment, including but not limited to, equalized valuation, pupil
+enrollment, or a combination of the two as well as whether such apportionment
+should take effect immediately or on a phase-in or transitional basis over a
+certain number of years;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (c)   the allocation of
+existing school debt and proceeds from the sale of unutilized or underutilized
+facilities;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (d)   projected enrollment
+trends, including the impact on the demographic breakdown of the student
+population, including race, ethnicity, and national origin, and projected
+changes in class size;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (e)   current and projected
+staffing needs and costs, including retirement and attrition trends for
+instructional, administrative, and support staff;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (f)   an analysis of the
+differences in the salaries and terms and conditions of employment in
+elementary, middle, and high school teachers', administrators', and support
+staffs' contracts among the various districts and the distribution of all
+compensation among covered employees, including the potential impact of expired
+contracts moving forward, which analysis shall be developed by school districts
+and the majority representatives of all recognized bargaining units;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (g)   State aid and tax
+revenue projections;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (h)   potential cost savings
+or increases from regionalization;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (i)    student seat time and
+distance traveled, as well as potential increased or reduced transportation
+costs;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (j)    kindergarten through 12
+curriculum coordination improvements;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (k)   potential enrichment of
+educational programs for students; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (l)    calculation and methods
+of apportionment for determining membership on the regional district board of
+education among the constituent districts;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   a description of the
+intended use of grant funding in supporting the costs associated with
+conducting the feasibility study;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   a demonstration of the
+boards' or governing bodies' capacities to oversee the proposed feasibility
+study;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   a list of personnel or outside
+consultants who would be conducting the feasibility study, which consultants
+shall be selected in accordance with applicable State law;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (6)   a plan to incorporate
+public and stakeholder participation and ideas in the regionalization study
+process, which shall include school board members, parents, teachers,
+administrators, non-instructional staff, union representatives, municipal
+officials, and interested citizens; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (7)   any other materials or
+information as may be required by the division to effectively evaluate the
+proposed feasibility study and assess the costs associated with conducting the
+feasibility study.</p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>The division shall, prior
+to considering the approval of an application submitted pursuant to this
+section, either notify each non-participating district that is proposed to be
+included in a feasibility study of the districts inclusion in the study or
+require the applicant to notify each non-participating district in lieu of
+division notification, to ensure that the district is afforded an opportunity
+to provide comment on the proposed regionalization.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    In order to be eligible
+to receive a grant under the grant program established pursuant to section 2 of
+P.L.2021, c.402 (C.18A:13-47.2), the boards of education or governing bodies
+shall demonstrate that the proposed regionalization:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   does not, and is not
+foreseeably likely to, increase or exacerbate the segregation of students by
+racial, socioeconomic, disability, or English Language Learner status as
+determined by the number and percentage of students enrolled in the school
+districts seeking to consolidate or, as applicable, in the school districts
+from which a school district is seeking to withdraw;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   to the maximum extent
+practicable, will lead to the establishment of a limited purpose or all purpose
+regional district;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   consolidates school
+districts that are in close geographic proximity of each other.  School
+districts need not be immediately contiguous as long as any geographic
+separation is not so large as to contradict the potential for improved
+efficiency and cost savings;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   possesses the potential
+for improved efficiency and cost savings;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   possesses the potential
+to advance an enhanced learning environment for participating districts;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (6)   coordinates curriculum across
+schools and grades throughout the proposed limited purpose or all purpose
+regional school; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (7)   reflects a documented
+commitment from the participating districts to make good faith efforts to
+implement the recommendations of the feasibility study that promote efficiency
+and quality of education.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     The Commissioner of
+Education shall review every application submitted pursuant to this section,
+except for an application eligible for preliminary approval pursuant to
+subsection b. of section 4 of P.L.2021, c.402 (C.18A:13-47.4), and shall
+certify, in writing, that the newly formed or enlarged regional district will
+not, and will not be foreseeably likely to, increase or exacerbate segregation
+among the districts seeking to regionalize or, as applicable, the school
+districts from which a school district is seeking to withdraw and school
+districts in the surrounding region as determined by the number and percentage
+of students affected by such consolidations or withdrawals.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2021, c.402, s.3)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     5.    Section 4 of P.L.2021,
+c.402 (C.18A:13-47.4) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     4.    a.  The division shall
+review all applications submitted pursuant to section 3 of P.L.2021, c.402
+(C.18A:13-47.3) and shall only approve applications that meet the eligibility
+criteria set forth in subsection b. of section 3 of P.L.2021, c.402
+(C.18A:13-47.3) and that are certified by the commissioner pursuant to
+subsection c. of section 3 of P.L.2021, c.402 (C.18A:13-47.3).  <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>Boards of
+education or governing bodies whose applications are denied approval for a
+grant shall be provided a notice describing the reasons for the denial and the
+applicant shall be afforded an opportunity for a hearing before an
+administrative law judge to contest the decision, which shall conform with the
+provisions applicable to such contested cases in this State as set forth in
+statute and regulation.<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b></p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    The division may grant
+preliminary approval of an application submitted <b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>[</span></b>by the boards of education or
+governing bodies of two or more school districts<b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>]</span></b> pursuant to section 3 of
+P.L.2021, c.402 (C.18A:13-47.3) if the division determines that the application
+contains sufficient evidence to demonstrate that the proposed regionalization
+complies with the criteria enumerated in subsection b. of section 3 of
+P.L.2021, c.402 (C.18A:13-47.3) and is proposing to:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   form a countywide school
+district; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   form an all purpose
+regional district by expanding an existing limited purpose regional district
+through consolidation with some or all of the constituent school districts of
+the existing limited purpose regional district.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The division shall establish
+guidelines governing preliminary approval of applications submitted pursuant to
+this subsection.  A participating district that is part of an application that
+receives preliminary approval under this subsection and that has a State aid
+differential that is positive may elect to receive State school aid pursuant to
+the schedule established in paragraph (4) of subsection c. of section 4 of
+P.L.2018, c.67 (C.18A:7F-68).</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     Boards of education or
+governing bodies receiving application approval pursuant to this section shall
+be reimbursed for any eligible costs of the feasibility study up to an amount
+or percentage to be annually determined by the division, with 50 percent of the
+grant award to be distributed upon the division's final approval of the grant
+application and the remaining 50 percent of the grant award to be distributed
+upon the division's acceptance of the completed feasibility study.  Boards of education
+or governing bodies receiving application approval pursuant to subsection a. of
+this section, which have conducted within two years prior to the enactment of
+P.L.2021, c.402 (C.18A:13-47.1 et al.) a feasibility study for which<u>: (1)</u>
+no prior <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>reimbursement<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>grant
+award</u> was made<b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>,<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>; or (2)
+the amount of a prior grant award disbursed by the division under a grant
+program administered for the purposes of completing a feasibility study for
+school district regionalization is less than the total cost of the study,</u>
+shall be eligible for reimbursement up to an amount or percentage to be
+determined by the division of any costs associated with conducting the study
+upon execution of the regionalization outlined in the boards' or governing
+bodies' application.  The division shall also annually determine the costs that
+are eligible and ineligible for reimbursement under this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2021, c.402, s.4)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     6.    Section 7 of P.L.2021,
+c.402 (C.18A:13-47.7) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     7.  The Division of Local
+Government Services in the Department of Community Affairs shall provide <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>notice<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>a
+quarterly report</u> to the Senate President, the Speaker of the General
+Assembly, the Minority Leader of the Senate, and the Minority Leader of the
+General Assembly <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>upon
+the division's receipt of an application for a grant award submitted pursuant
+to section 3 of P.L.2021, c.402 (C.18A:13-47.3).  The notice shall be provided
+within 15 days of the division's receipt of the application and<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>that</u>
+shall include information identifying each applicant seeking a grant award <u>to
+study the feasibility of forming or expanding a regional school district
+pursuant to section 2 of P.L.2021, c.402 <br>
+(C.18A:13-47.2)</u>.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2021, c.402, s.7)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     7.    This act shall take
+effect immediately.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill revises various
+portions of law establishing the School Regionalization Efficiency Program
+(SREP), which was enacted as P.L.2021, c.402. The grant program supports public
+school districts and governing bodies across New Jersey who wish to study the
+feasibility of school district regionalization and consolidation. </p>
+
+<p class=MsoNormal style='line-height:150%'>     Regarding the administering of
+the grant program, the bill does the following:</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:150%'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>provides that the board of education or governing body of a
+single school district seeking to form a limited purpose or all purpose
+regional school district would be eligible for grant funding under the SREP; </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:150%'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>expands eligibility for funding under the SREP to the boards of
+education or governing bodies of two or more school districts that conducted a
+school district regionalization feasibility study within two years prior to the
+enactment of P.L.2021, c.402, for which the amount of a prior grant award
+disbursed by the Division of Local Government Services (DLGS) in the Department
+of Community Affairs is less than the total cost of the study;</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:150%'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>removes a provision of law that permits boards of education or
+governing bodies whose applications are denied approval for grant funding under
+the SREP to be afforded an opportunity to contest the decision; and</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:150%'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>provides that the DLGS would, prior to considering the approval
+of a grant application, either notify each non-participating district that is
+proposed to be included in a regionalization feasibility study or require the
+applicant to notify each non-participating district, to ensure that the
+district is afforded an opportunity to provide comment on the proposed
+regionalization.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill requires the DLGS to
+submit quarterly reports to the Legislature that would include information
+identifying each applicant seeking a grant award under the SREP. </p>
+
+<p class=MsoNormal style='line-height:150%'>     P.L.2021, c.402 extends the
+timeline by which a school district receiving approval or preliminary approval
+under the SREP would experience State aid reductions pursuant to current law,
+by a period of four additional years beyond what is provided for under the
+current State aid reduction timeline. The bill expands eligibility for this
+modified State aid schedule to a school district that is a participating
+district under an application for which a lead district has successfully
+completed a prior grant agreement with the DLGS for the purposes of completing
+a feasibility study for school district regionalization. The bill also provides
+various restrictions under which a district would not be eligible for this
+modified schedule: </p>
+
+<p class=MsoNormal style='line-height:150%'>     Finally, the bill provides
+that a vote on a proposal to enlarge a regional school district may be held at
+the November school election.</p>
+
+</div>
+
+</body>
+
+</html>
