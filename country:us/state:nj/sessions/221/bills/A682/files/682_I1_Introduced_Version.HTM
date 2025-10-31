@@ -1,16 +1,658 @@
-Title: A682
-Official Title: 
-Number of Sections: 1
-Source: versions - Introduced Version
-Media Type: text/html
+<html>
 
-================================================================================
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A682</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
 
-Section 1:
-A682 ASSEMBLY, No. 682 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblyman  SEAN T. KEAN District 30 (Monmouth and Ocean) Assemblywoman  DAWN FANTASIA District 24 (Morris, Sussex and Warren) Assemblyman  DAVID BAILEY, JR. District 3 (Cumberland, Gloucester and Salem) Co-Sponsored by: Assemblymen McGuckin, Torrissi, Peterson, DePhillips, Assemblywoman Sumter, Assemblymen Auth, Miller, Assemblywoman Swift, Assemblymen Inganamort and Schnall SYNOPSIS Establishes program, in DEP, for acquisition of development easements on privately-owned woodlands. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning the acquisition, by the State, of development easements on privately-owned woodlands and supplementing Title 13 of the Revised Statutes. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.  a.  (1)  Notwithstanding the provisions of any other law, rule, or regulation, to the contrary, the Department of Environmental Protection shall establish a program for the acquisition, by the State, of development easements, conservation restrictions or easements, or any other restrictions or easements restricting, in perpetuity, development on privately-owned woodlands. (2)  In order to be eligible for acquisition under the program, the woodlands shall: (a)   be of at least five contiguous acres in size; and (b)  be managed by the landowner in accordance with a forest stewardship plan approved pursuant to section 3 of P.L.2009, c.256 (C.13:1L-31) or a woodland management plan pursuant to section 3 of the "Farmland Assessment Act of 1964," P.L.1964, c.48 (C.54:4-23.3). b.    (1)  There is established in the General Fund a special nonlapsing fund, to be known as the Woodlands Protection Fund.  Monies in the fund shall be dedicated to the acquisition, by the State, of development easements, conservation restrictions or easements, or any other restrictions or easements restricting, in perpetuity, development on privately-owned woodlands. (2)  The fund shall be credited with: (a)  any federal funds made available for this purpose, including monies from the Forest Legacy Program administered by the United States Forest Service; (b)  any donations by private individuals or foundations received by the department for this purpose; (c) any monies as may be appropriated to the fund by the Legislature or otherwise provided to the fund; and (d)  any return on the investment of moneys deposited in the fund. The Department of Environmental Protection shall request annually, as part of its annual budget proposal, such amount as may be necessary to fund the program established pursuant to this section.  The department shall also coordinate with the United States Forest Service and any other applicable State or federal agency to pursue any federal, State, local, and private funding that may be available to fund the program established pursuant to this section. c.    (1) Within one year after the effective date of this section, the State Forester designated pursuant to section 17 of P.L.1983, c.324 (C.13:1L-17), shall adopt rules and regulations, pursuant to the "Administrative Procedure Act," P.L.1968, c.410 (C.52:14B-1 et seq.), for the establishment and implementation of the program required by this section, including, but not limited to:  application procedures; criteria and policies for the evaluation and priority ranking of projects; and management techniques, which are designed to ensure the sustainability of acquired lands, and which may be required to be undertaken by participating landowners. (2)  The rules and regulations adopted pursuant to this subsection may incorporate the provisions of rules and regulations, adopted pursuant to section 8 of P.L.2009, c.256 (C.13:1L-36), which are designed to ensure the sustainability of forest lands, as determined to be appropriate by the State Forester. d.    (1) Any development easement, conservation restriction or easement, or other restriction or easement permanently restricting, in perpetuity, development on privately-owned woodlands acquired pursuant to this section shall be filed with the municipal tax assessor and recorded with the county clerk in the same manner as a deed. (2)  A landowner shall not be required to provide public access to woodlands acquired pursuant to this section. 2.  This act shall take effect immediately. STATEMENT This bill directs the Department of Environmental Protection (DEP) to establish a program for the acquisition of development easements, conservation restrictions or easements, or other restrictions or easements permanently restricting development on privately-owned woodlands. The bill directs the State Forester to adopt rules and regulations to establish the program within one year after the date the bill is enacted into law.  To be eligible for the program, the woodlands would be required to (1) be of at least five contiguous acres in size, and (2) be managed by the landowner in accordance with a forest stewardship plan approved pursuant to section 3 of P.L.2009, c.256 (C.13:1L-31) or a woodland management plan pursuant to section 3 of the "Farmland Assessment Act of 1964," P.L.1964, c.48 (C.54:4-23.3).  A landowner would not be required to provide public access to woodlands preserved by the program. In order to fund acquisitions under the program, the bill would establish a Woodlands Protection Fund.  The fund would be credited with:  any federal funds made available for this purpose, including monies from the Forest Legacy Program administered by the United States Forest Service; any donations by private individuals or foundations received by the DEP for this purpose; any monies appropriated to the fund by the Legislature; and any return on the investment of moneys deposited in the fund. According to the New Jersey State Forest Action Plan, which was prepared and published by the DEPs Division of Parks and Forestry in December 2020, New Jerseys forests cover approximately 40 percent of the total land area of the State, and almost half of the total amount of forested land within the State is in private ownership. The action plan notes that, while the amount of forest land has remained relatively stable since the 1970s, this trend is not expected to continue, as forested land area is under severe development pressure.  The action plan further notes that family forest owners make up the majority of the privately held forested landholdings, and over 40 percent of family forest land is owned by people who are 65 years of age or older.  In such a densely populated state as New Jersey, it is critical to protect and preserve forested areas and to manage them sustainably.  Decreases in forest land cover can affect the amount of overall habitat available for plant and animal species, as well as the ability of various forest species to interact with each other. The federal Forest Legacy Program encourages the protection of privately owned forest lands, both through the establishment of easements on private property and the purchase of property under programs like the DEPs Green Acres Program.  This bill would establish a State program, in DEP, specifically for the acquisition of easements on privately-owned woodlands in order to preserve these vital resources and the benefits that they provide to the State.
+</head>
 
+<body lang=EN-US>
 
-================================================================================
+<div class=WordSection1>
 
-Raw Text:
-A682 ASSEMBLY, No. 682 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblyman  SEAN T. KEAN District 30 (Monmouth and Ocean) Assemblywoman  DAWN FANTASIA District 24 (Morris, Sussex and Warren) Assemblyman  DAVID BAILEY, JR. District 3 (Cumberland, Gloucester and Salem) Co-Sponsored by: Assemblymen McGuckin, Torrissi, Peterson, DePhillips, Assemblywoman Sumter, Assemblymen Auth, Miller, Assemblywoman Swift, Assemblymen Inganamort and Schnall SYNOPSIS Establishes program, in DEP, for acquisition of development easements on privately-owned woodlands. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning the acquisition, by the State, of development easements on privately-owned woodlands and supplementing Title 13 of the Revised Statutes. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.  a.  (1)  Notwithstanding the provisions of any other law, rule, or regulation, to the contrary, the Department of Environmental Protection shall establish a program for the acquisition, by the State, of development easements, conservation restrictions or easements, or any other restrictions or easements restricting, in perpetuity, development on privately-owned woodlands. (2)  In order to be eligible for acquisition under the program, the woodlands shall: (a)   be of at least five contiguous acres in size; and (b)  be managed by the landowner in accordance with a forest stewardship plan approved pursuant to section 3 of P.L.2009, c.256 (C.13:1L-31) or a woodland management plan pursuant to section 3 of the "Farmland Assessment Act of 1964," P.L.1964, c.48 (C.54:4-23.3). b.    (1)  There is established in the General Fund a special nonlapsing fund, to be known as the Woodlands Protection Fund.  Monies in the fund shall be dedicated to the acquisition, by the State, of development easements, conservation restrictions or easements, or any other restrictions or easements restricting, in perpetuity, development on privately-owned woodlands. (2)  The fund shall be credited with: (a)  any federal funds made available for this purpose, including monies from the Forest Legacy Program administered by the United States Forest Service; (b)  any donations by private individuals or foundations received by the department for this purpose; (c) any monies as may be appropriated to the fund by the Legislature or otherwise provided to the fund; and (d)  any return on the investment of moneys deposited in the fund. The Department of Environmental Protection shall request annually, as part of its annual budget proposal, such amount as may be necessary to fund the program established pursuant to this section.  The department shall also coordinate with the United States Forest Service and any other applicable State or federal agency to pursue any federal, State, local, and private funding that may be available to fund the program established pursuant to this section. c.    (1) Within one year after the effective date of this section, the State Forester designated pursuant to section 17 of P.L.1983, c.324 (C.13:1L-17), shall adopt rules and regulations, pursuant to the "Administrative Procedure Act," P.L.1968, c.410 (C.52:14B-1 et seq.), for the establishment and implementation of the program required by this section, including, but not limited to:  application procedures; criteria and policies for the evaluation and priority ranking of projects; and management techniques, which are designed to ensure the sustainability of acquired lands, and which may be required to be undertaken by participating landowners. (2)  The rules and regulations adopted pursuant to this subsection may incorporate the provisions of rules and regulations, adopted pursuant to section 8 of P.L.2009, c.256 (C.13:1L-36), which are designed to ensure the sustainability of forest lands, as determined to be appropriate by the State Forester. d.    (1) Any development easement, conservation restriction or easement, or other restriction or easement permanently restricting, in perpetuity, development on privately-owned woodlands acquired pursuant to this section shall be filed with the municipal tax assessor and recorded with the county clerk in the same manner as a deed. (2)  A landowner shall not be required to provide public access to woodlands acquired pursuant to this section. 2.  This act shall take effect immediately. STATEMENT This bill directs the Department of Environmental Protection (DEP) to establish a program for the acquisition of development easements, conservation restrictions or easements, or other restrictions or easements permanently restricting development on privately-owned woodlands. The bill directs the State Forester to adopt rules and regulations to establish the program within one year after the date the bill is enacted into law.  To be eligible for the program, the woodlands would be required to (1) be of at least five contiguous acres in size, and (2) be managed by the landowner in accordance with a forest stewardship plan approved pursuant to section 3 of P.L.2009, c.256 (C.13:1L-31) or a woodland management plan pursuant to section 3 of the "Farmland Assessment Act of 1964," P.L.1964, c.48 (C.54:4-23.3).  A landowner would not be required to provide public access to woodlands preserved by the program. In order to fund acquisitions under the program, the bill would establish a Woodlands Protection Fund.  The fund would be credited with:  any federal funds made available for this purpose, including monies from the Forest Legacy Program administered by the United States Forest Service; any donations by private individuals or foundations received by the DEP for this purpose; any monies appropriated to the fund by the Legislature; and any return on the investment of moneys deposited in the fund. According to the New Jersey State Forest Action Plan, which was prepared and published by the DEPs Division of Parks and Forestry in December 2020, New Jerseys forests cover approximately 40 percent of the total land area of the State, and almost half of the total amount of forested land within the State is in private ownership. The action plan notes that, while the amount of forest land has remained relatively stable since the 1970s, this trend is not expected to continue, as forested land area is under severe development pressure.  The action plan further notes that family forest owners make up the majority of the privately held forested landholdings, and over 40 percent of family forest land is owned by people who are 65 years of age or older.  In such a densely populated state as New Jersey, it is critical to protect and preserve forested areas and to manage them sustainably.  Decreases in forest land cover can affect the amount of overall habitat available for plant and animal species, as well as the ability of various forest species to interact with each other. The federal Forest Legacy Program encourages the protection of privately owned forest lands, both through the establishment of easements on private property and the purchase of property under programs like the DEPs Green Acres Program.  This bill would establish a State program, in DEP, specifically for the acquisition of easements on privately-owned woodlands in order to preserve these vital resources and the benefits that they provide to the State.
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 682 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblyman  SEAN T. KEAN</p>
+
+<p class=bpuSponsor>District 30 (Monmouth and Ocean)</p>
+
+<p class=bpuSponsor>Assemblywoman  DAWN FANTASIA</p>
+
+<p class=bpuSponsor>District 24 (Morris, Sussex and Warren)</p>
+
+<p class=bpuSponsor>Assemblyman  DAVID BAILEY, JR.</p>
+
+<p class=bpuSponsor>District 3 (Cumberland, Gloucester and Salem)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>Co-Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblymen McGuckin, Torrissi, Peterson, DePhillips,
+Assemblywoman Sumter, Assemblymen Auth, Miller, Assemblywoman Swift,
+Assemblymen Inganamort and Schnall</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Establishes program, in DEP, for acquisition of
+development easements on privately-owned woodlands.</p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> concerning the acquisition, by the State, of
+development easements on privately-owned woodlands and supplementing Title 13
+of the Revised Statutes.  </span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.  a.  (1)  Notwithstanding
+the provisions of any other law, rule, or regulation, to the contrary, the
+Department of Environmental Protection shall establish a program for the
+acquisition, by the State, of development easements, conservation restrictions
+or easements, or any other restrictions or easements restricting, in
+perpetuity, development on privately-owned woodlands.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)  In order to be eligible
+for acquisition under the program, the woodlands shall:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)   be of at least five
+contiguous acres in size; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)  be managed by the
+landowner in accordance with a forest stewardship plan approved pursuant to
+section 3 of P.L.2009, c.256 (C.13:1L-31) or a woodland management plan
+pursuant to section 3 of the &quot;Farmland Assessment Act of 1964,&quot;
+P.L.1964, c.48 (C.54:4-23.3).</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    (1)  There is
+established in the General Fund a special nonlapsing fund, to be known as the
+Woodlands Protection Fund.  Monies in the fund shall be dedicated to the acquisition,
+by the State, of development easements, conservation restrictions or easements,
+or any other restrictions or easements restricting, in perpetuity, development
+on privately-owned woodlands.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)  The fund shall be
+credited with:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)  any federal funds made
+available for this purpose, including monies from the Forest Legacy Program
+administered by the United States Forest Service; </p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)  any donations by private
+individuals or foundations received by the department for this purpose; </p>
+
+<p class=MsoNormal style='line-height:150%'>     (c) any monies as may be
+appropriated to the fund by the Legislature or otherwise provided to the fund;
+and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (d)  any return on the
+investment of moneys deposited in the fund.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The Department of
+Environmental Protection shall request annually, as part of its annual budget
+proposal, such amount as may be necessary to fund the program established
+pursuant to this section.  The department shall also coordinate with the United
+States Forest Service and any other applicable State or federal agency to
+pursue any federal, State, local, and private funding that may be available to
+fund the program established pursuant to this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.    (1) Within one year
+after the effective date of this section, the State Forester designated
+pursuant to section 17 of P.L.1983, c.324 (C.13:1L-17), shall adopt rules and
+regulations, pursuant to the &quot;Administrative Procedure Act,&quot;
+P.L.1968, c.410 (C.52:14B-1 et seq.), for the establishment and implementation
+of the program required by this section, including, but not limited to:  application
+procedures; criteria and policies for the evaluation and priority ranking of
+projects; and management techniques, which are designed to ensure the
+sustainability of acquired lands, and which may be required to be undertaken by
+participating landowners.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)  The rules and regulations
+adopted pursuant to this subsection may incorporate the provisions of rules and
+regulations, adopted pursuant to section 8 of P.L.2009, c.256 (C.13:1L-36),
+which are designed to ensure the sustainability of forest lands, as determined
+to be appropriate by the State Forester.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    (1) Any development
+easement, conservation restriction or easement, or other restriction or
+easement permanently restricting, in perpetuity, development on privately-owned
+woodlands acquired pursuant to this section shall be filed with the municipal
+tax assessor and recorded with the county clerk in the same manner as a deed.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)  A landowner shall not be
+required to provide public access to woodlands acquired pursuant to this
+section.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.  This act shall take effect
+immediately.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill directs the
+Department of Environmental Protection (DEP) to establish a program for the
+acquisition of development easements, conservation restrictions or easements,
+or other restrictions or easements permanently restricting development on
+privately-owned woodlands.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill directs the State
+Forester to adopt rules and regulations to establish the program within one
+year after the date the bill is enacted into law.  To be eligible for the
+program, the woodlands would be required to (1) be of at least five contiguous
+acres in size, and (2) be managed by the landowner in accordance with a forest
+stewardship plan approved pursuant to section 3 of P.L.2009, c.256 (C.13:1L-31)
+or a woodland management plan pursuant to section 3 of the &quot;Farmland
+Assessment Act of 1964,&quot; P.L.1964, c.48 (C.54:4-23.3).  A landowner would
+not be required to provide public access to woodlands preserved by the program.</p>
+
+<p class=MsoNormal style='line-height:150%'>     In order to fund acquisitions
+under the program, the bill would establish a Woodlands Protection Fund.  The
+fund would be credited with:  any federal funds made available for this
+purpose, including monies from the Forest Legacy Program administered by the
+United States Forest Service; any donations by private individuals or
+foundations received by the DEP for this purpose; any monies appropriated to
+the fund by the Legislature; and any return on the investment of moneys
+deposited in the fund.</p>
+
+<p class=MsoNormal style='line-height:150%'>     According to the New Jersey
+State Forest Action Plan, which was prepared and published by the DEPs
+Division of Parks and Forestry in December 2020, New Jerseys forests cover
+approximately 40 percent of the total land area of the State, and almost half
+of the total amount of forested land within the State is in private ownership. 
+The action plan notes that, while the amount of forest land has remained
+relatively stable since the 1970s, this trend is not expected to continue, as
+forested land area is under severe development pressure.  The action plan
+further notes that family forest owners make up the majority of the privately
+held forested landholdings, and over 40 percent of family forest land is owned by
+people who are 65 years of age or older.  In such a densely populated state as
+New Jersey, it is critical to protect and preserve forested areas and to manage
+them sustainably.  Decreases in forest land cover can affect the amount of
+overall habitat available for plant and animal species, as well as the ability
+of various forest species to interact with each other.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     The federal Forest Legacy
+Program encourages the protection of privately owned forest lands, both through
+the establishment of easements on private property and the purchase of property
+under programs like the DEPs Green Acres Program.  This bill would establish a
+State program, in DEP, specifically for the acquisition of easements on
+privately-owned woodlands in order to preserve these vital resources and the
+benefits that they provide to the State.</p>
+
+</div>
+
+</body>
+
+</html>
