@@ -1,0 +1,1161 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A162</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 162 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblywoman  DAWN FANTASIA</p>
+
+<p class=bpuSponsor>District 24 (Morris, Sussex and Warren)</p>
+
+<p class=bpuSponsor>Assemblyman  MICHAEL INGANAMORT</p>
+
+<p class=bpuSponsor>District 24 (Morris, Sussex and Warren)</p>
+
+<p class=bpuSponsor>Assemblywoman  AURA K. DUNN</p>
+
+<p class=bpuSponsor>District 25 (Morris and Passaic)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>Co-Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblywomen Swift and Matsikoudis</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Allows possession of bear spray under certain
+conditions. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> concerning possession of bear spray under certain
+conditions and amending P.L.1993, c.211 and N.J.S.2C:39-6.</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.  Section 1 of P.L.1993,
+c.211 (C.2A:62A-20) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    Notwithstanding any
+provisions of law to the contrary, a person who possesses a chemical substance
+for the purpose of personal self-defense in accordance with subsection i. of
+N.J.S.2C:39-6 <u>or repelling an aggressive bear in accordance with subsection
+o. of N.J.S.2C:39-6</u> and who releases or discharges that chemical substance
+upon or toward another person shall not be liable in any civil action for
+damages resulting from that release or discharge when the actor reasonably
+believes that the releasing or discharging of that chemical substance is
+immediately necessary for the purpose of personal self-defense.  Nothing in
+this section shall be deemed to grant immunity to any person causing any damage
+by <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>his<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>the</u>
+willful, wanton <u>,</u> or grossly negligent unlawful releasing or discharging
+of such a chemical substance upon or toward another person.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf:  P.L.1993, c.211, s.1)  </p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.  N.J.S.2C:39-6 is amended
+to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     2C:39-6.  a.  Provided a
+person complies with the requirements of subsection j. of this section,
+N.J.S.2C:39-5 does not apply to:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   Members of the Armed
+Forces of the United States or of the National Guard while actually on duty, or
+while traveling between places of duty and carrying authorized weapons in the
+manner prescribed by the appropriate military authorities;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   Federal law enforcement
+officers, and any other federal officers and employees required to carry
+firearms in the performance of their official duties;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   Members of the State
+Police and, under conditions prescribed by the superintendent, members of the
+Marine Law Enforcement Bureau of the Division of State Police;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   A sheriff, undersheriff,
+sheriff's officer, county prosecutor, assistant prosecutor, prosecutor's
+detective or investigator, deputy attorney general or State investigator
+employed by the Division of Criminal Justice of the Department of Law and
+Public Safety, investigator employed by the State Commission of Investigation,
+inspector of the Alcoholic Beverage Control Enforcement Bureau of the Division
+of State Police in the Department of Law and Public Safety authorized to carry
+weapons by the Superintendent of State Police, State park police officer, or
+State conservation police officer;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   Except as hereinafter
+provided, a State correctional police officer, or a prison or jail warden of
+any penal institution in this State or the warden's deputies, or an employee of
+the Department of Corrections engaged in the interstate transportation of
+convicted offenders, while in the performance of the employee's duties, and
+when required to possess the weapon by a superior officer, or a correctional
+police officer or keeper of a penal institution in this State at all times
+while in the State of New Jersey, provided the person annually passes an
+examination approved by the superintendent testing the person's proficiency in
+the handling of firearms;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (6)   A civilian employee of
+the United States Government under the supervision of the commanding officer of
+any post, camp, station, base or other military or naval installation located
+in this State who is required, in the performance of the employee's official
+duties, to carry firearms, and who is authorized to carry firearms by the
+commanding officer, while in the actual performance of the employee's official
+duties;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (7) (a) A regularly employed
+member, including a detective, of the police department of any county or
+municipality, or of any State, interstate, municipal or county park police
+force or boulevard police force, at all times while in the State of New Jersey;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   A special law
+enforcement officer authorized to carry a weapon as provided in subsection b.
+of section 7 of P.L.1985, c.439 (C.40A:14-146.14);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (c)   An airport security
+officer or a special law enforcement officer appointed by the governing body of
+any county or municipality, except as provided in subparagraph (b) of this
+paragraph, or by the commission, board or other body having control of a county
+park or airport or boulevard police force, while engaged in the actual
+performance of the officer's official duties and when specifically authorized
+by the governing body to carry weapons;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (8)   A full-time, paid member
+of a paid or part-paid fire department or force of any municipality who is
+assigned full-time or part-time to an arson investigation unit created pursuant
+to section 1 of P.L.1981, c.409 (C.40A:14-7.1) or to the county arson
+investigation unit in the county prosecutor's office, while either engaged in
+the actual performance of arson investigation duties or while actually on call
+to perform arson investigation duties and when specifically authorized by the
+governing body or the county prosecutor, as the case may be, to carry weapons.
+Prior to being permitted to carry a firearm, a member shall take and
+successfully<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='line-height:150%'>complete a firearms training course
+administered by the Police Training Commission pursuant to P.L.1961, c.56
+(C.52:17B-66 et seq.), and shall annually qualify in the use of a revolver or
+similar weapon prior to being permitted to carry a firearm;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (9)   A juvenile correctional
+police officer in the employment of the Juvenile Justice Commission established
+pursuant to section 2 of P.L.1995, c.284 (C.52:17B-170) subject to the
+regulations promulgated by the commission;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (10) A designated employee or
+designated licensed agent for a nuclear power plant under license of the
+Nuclear Regulatory Commission, while in the actual performance of the person's
+official duties, if the federal licensee certifies that the designated employee
+or designated licensed agent is assigned to perform site protection, guard,
+armed response or armed escort duties and is appropriately trained and
+qualified, as prescribed by federal regulation, to perform those duties.  Any
+firearm utilized by an employee or agent for a nuclear power plant pursuant to
+this paragraph shall be returned each day at the end of the employee's or
+agent's authorized official duties to the employee's or agent's supervisor. 
+All firearms returned each day pursuant to this paragraph shall be stored in
+locked containers located in a secure area;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (11) A county correctional
+police officer at all times while in the State of New Jersey, provided the
+officer annually passes an examination approved by the superintendent testing
+the officer's proficiency in the handling of firearms.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    Subsections a., b. and
+c. of N.J.S.2C:39-5 do not apply to:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   A law enforcement
+officer employed by a governmental agency outside of the State of New Jersey
+while actually engaged in the officer's official duties, provided, however,
+that the officer has first notified the superintendent or the chief law
+enforcement officer of the municipality or the prosecutor of the county in
+which the officer is engaged; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   A licensed dealer in
+firearms and the dealer's registered employees during the course of their
+normal business while traveling to and from their place of business and other
+places for the purpose of demonstration, exhibition or delivery in connection
+with a sale, provided, however, that the weapon is carried in the manner
+specified in subsection g. of this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     Provided a person
+complies with the requirements of subsection j. of this section, subsections b.
+and c. of N.J.S.2C:39-5 do not apply to:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   A special agent of the
+Division of Taxation who has passed an examination in an approved police
+training program testing proficiency in the handling of any firearm which the
+agent may be required to carry, while in the actual performance of the agent's
+official duties and while going to or from the agent's place of duty, or any
+other police officer, while in the actual performance of the officer's official
+duties;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   A State deputy
+conservation police officer or a full-time employee of the Division of Parks
+and Forestry having the power of arrest and authorized to carry weapons, while
+in the actual performance of the officer's official duties;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   (Deleted by amendment,
+P.L.1986, c.150.)</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   A court attendant
+appointed by the sheriff of the county or by the judge of any municipal court
+or other court of this State, while in the actual performance of the
+attendant's official duties;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   A guard employed by any
+railway express company, banking or building and loan or savings and loan
+institution of this State, while in the actual performance of the guard's
+official duties;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (6)   A member of a legally
+recognized military organization while actually under orders or while going to
+or from the prescribed place of meeting and carrying the weapons prescribed for
+drill, exercise or parade;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (7)   A municipal humane law
+enforcement officer, authorized pursuant to subsection d. of section 25 of
+P.L.2017, c.331 (C.4:22-14.1), or humane law enforcement officer of a county
+society for the prevention of cruelty to animals authorized pursuant to
+subsection c. of section 29 of P.L.2017, c.331 (C.4:22-14.5), while in the
+actual performance of the officer's duties;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (8)   An employee of a public
+utilities corporation actually engaged in the transportation of explosives;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (9)   A railway policeman,
+except a transit police officer of the New Jersey Transit Police Department, at
+all times while in the State of New Jersey, provided that the person has passed
+an approved police academy training program consisting of at least 280 hours.  The
+training program shall include, but need not be limited to, the handling of
+firearms, community relations, and juvenile relations;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (10) A campus police officer
+appointed under P.L.1970, c.211 (C.18A:6-4.2 et seq.) at all times.  Prior to
+being permitted to carry a firearm, a campus police officer shall take and
+successfully complete a firearms training course administered by the Police
+Training Commission, pursuant to P.L.1961, c.56 (C.52:17B-66 et seq.), and
+shall annually qualify in the use of a revolver or similar weapon prior to
+being permitted to carry a firearm;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (11) (Deleted by amendment,
+P.L.2003, c.168).</p>
+
+<p class=MsoNormal style='line-height:150%'>     (12) A transit police officer
+of the New Jersey Transit Police Department, at all times while in the State of
+New Jersey, provided the officer has satisfied the training requirements of the
+Police Training Commission, pursuant to subsection c. of section 2 of P.L.1989,
+c.291 (C.27:25-15.1);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (13) A parole officer employed
+by the State Parole Board at all times.  Prior to being permitted to carry a
+firearm, a parole officer shall take and successfully complete a basic course
+for regular police officer training administered by the Police Training
+Commission, pursuant to P.L.1961, c.56 (C.52:17B-66 et seq.), and shall
+annually qualify in the use of a revolver or similar weapon prior to being
+permitted to carry a firearm;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (14) A Human Services police
+officer at all times while in the State of New Jersey, as authorized by the
+Commissioner of Human Services;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (15) A person or employee of
+any person who, pursuant to and as required by a contract with a governmental
+entity, supervises or transports persons charged with or convicted of an
+offense;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (16) A housing authority
+police officer appointed under P.L.1997, c.210 (C.40A:14-146.19 et al.) at all
+times while in the State of New Jersey; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (17) A probation officer
+assigned to the &quot;Probation Officer Community Safety Unit&quot; created by
+section 2 of P.L.2001, c.362 (C.2B:10A-2) while in the actual performance of
+the probation officer's official duties.  Prior to being permitted to carry a
+firearm, a probation officer shall take and successfully complete a basic
+course for regular police officer training administered by the Police Training
+Commission, pursuant to P.L.1961, c.56 (C.52:17B-66 et seq.), and shall
+annually qualify in the use of a revolver or similar weapon prior to being
+permitted to carry a firearm.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d. (1) Subsections c. and d.
+of N.J.S.2C:39-5 do not apply to antique firearms, provided that the antique
+firearms are unloaded or are being fired for the purposes of exhibition or
+demonstration at an authorized target range or in another manner approved in
+writing by the chief law enforcement officer of the municipality in which the
+exhibition or demonstration is held, or if not held on property under the
+control of a particular municipality, the superintendent.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   Subsection a. of
+N.J.S.2C:39-3 and subsection d. of N.J.S.2C:39-5 do not apply to an antique
+cannon that is capable of being fired but that is unloaded and immobile,
+provided that the antique cannon is possessed by (a) a scholastic institution,
+a museum, a municipality, a county or the State, or (b) a person who obtained a
+firearms purchaser identification card as specified in N.J.S.2C:58-3.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   Subsection a. of
+N.J.S.2C:39-3 and subsection d. of N.J.S.2C:39-5 do not apply to an unloaded
+antique cannon that is being transported by one eligible to possess it, in
+compliance with regulations the superintendent may promulgate, between its
+permanent location and place of purchase or repair.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   Subsection a. of
+N.J.S.2C:39-3 and subsection d. of N.J.S.2C:39-5 do not apply to antique
+cannons that are being loaded or fired by one eligible to possess an antique
+cannon, for purposes of exhibition or demonstration at an authorized target
+range or in the manner as has been approved in writing by the chief law
+enforcement officer of the municipality in which the exhibition or
+demonstration is held, or if not held on property under the control of a
+particular municipality, the superintendent, provided that performer has given
+at least 30 days' notice to the superintendent.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   Subsection a. of
+N.J.S.2C:39-3 and subsection d. of N.J.S.2C:39-5 do not apply to the
+transportation of unloaded antique cannons directly to or from exhibitions or
+demonstrations authorized under paragraph (4) of subsection d. of this section,
+provided that the transportation is in compliance with safety regulations the
+superintendent may promulgate.  Those subsections shall not apply to
+transportation directly to or from exhibitions or demonstrations authorized
+under the law of another jurisdiction, provided that the superintendent has
+been given 30 days' notice and that the transportation is in compliance with
+safety regulations the superintendent may promulgate.</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     Nothing in subsections
+b., c., and d. of N.J.S.2C:39-5 shall be construed to prevent a person keeping
+or carrying about the person's place of business, residence, premises or other
+land owned or possessed by the person, any firearm, or from carrying the same,
+in the manner specified in subsection g. of this section, from any place of
+purchase to the person's residence or place of business, between the person's
+dwelling and place of business, between one place of business or residence and
+another when moving, or between the person's dwelling or place of business and
+place where the firearms are repaired, for the purpose of repair.  For the
+purposes of this section, a place of business shall be deemed to be a fixed
+location.</p>
+
+<p class=MsoNormal style='line-height:150%'>     f.     Nothing in subsections
+b., c., and d. of N.J.S.2C:39-5 shall be construed to prevent:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   A member of any rifle or
+pistol club organized in accordance with the rules prescribed by the National
+Board for the Promotion of Rifle Practice, in going to or from a place of
+target practice, carrying firearms necessary for target practice, provided that
+the club has filed a copy of its charter with the superintendent and annually
+submits a list of its members to the superintendent and provided further that
+the firearms are carried in the manner specified in subsection g. of this
+section;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   A person carrying a
+firearm or knife in the woods or fields or upon the waters of this State for
+the purpose of hunting, target practice or fishing, provided that the firearm
+or knife is legal and appropriate for hunting or fishing purposes in this State
+and the person has in his possession a valid hunting license, or, with respect
+to fresh water fishing, a valid fishing license;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   A person transporting
+any firearm or knife while traveling:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)   Directly to or from any place
+for the purpose of hunting or fishing, provided the person has in possession a
+valid hunting or fishing license; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   Directly to or from any
+target range, or other authorized place for the purpose of practice, match,
+target, trap or skeet shooting exhibitions, provided in all cases that during
+the course of the travel all firearms are carried in the manner specified in
+subsection g. of this section and the person has complied with all the
+provisions and requirements of Title 23 of the Revised Statutes and any
+amendments thereto and all rules and regulations promulgated thereunder; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (c)   In the case of a
+firearm, directly to or from any exhibition or display of firearms which is
+sponsored by any law enforcement agency, any rifle or pistol club, or any
+firearms collectors club, for the purpose of displaying the firearms to the
+public or to the members of the organization or club, provided, however, that
+not less than 30 days prior to the exhibition or display, notice of the
+exhibition or display shall be given to the Superintendent of the State Police
+by the sponsoring organization or club, and the sponsor has complied with any
+reasonable safety regulations the superintendent may promulgate.  Any firearms
+transported pursuant to this section shall be transported in the manner
+specified in subsection g. of this section;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   A person from keeping or
+carrying about a private or commercial aircraft or any boat, or from
+transporting to or from the aircraft or boat for the purpose of installation or
+repair of a visual distress signaling device approved by the United States
+Coast Guard.</p>
+
+<p class=MsoNormal style='line-height:150%'>     g.    Any weapon being
+transported under paragraph (2) of subsection b., subsection e., or paragraph
+(1) or (3) of subsection f. of this section shall be carried unloaded and contained
+in a closed and fastened case, gunbox, securely tied package, or locked in the
+trunk of the automobile in which it is being transported, and in the course of
+travel shall include only deviations as are reasonably necessary under the
+circumstances.</p>
+
+<p class=MsoNormal style='line-height:150%'>     h.    Nothing in subsection d.
+of N.J.S.2C:39-5 shall be construed to prevent any employee of a public
+utility, as defined in R.S.48:2-13, doing business in this State or any United
+States Postal Service employee, while in the actual performance of duties which
+specifically require regular and frequent visits to private premises, from
+possessing, carrying or using any device which projects, releases or emits any
+substance specified as being noninjurious to canines or other animals by the
+Commissioner of Health and which immobilizes only on a temporary basis and
+produces only temporary physical discomfort through being vaporized or
+otherwise dispensed in the air for the sole purpose of repelling canine or
+other animal attacks.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The device shall be used
+solely to repel only those canine or other animal attacks when the canines or
+other animals are not restrained in a fashion sufficient to allow the employee
+to properly perform the employee's duties.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Any device used pursuant to
+this act shall be selected from a list of products, which consist of active and
+inert ingredients, permitted by the Commissioner of Health.</p>
+
+<p class=MsoNormal style='line-height:150%'>     i. (1) Nothing in
+N.J.S.2C:39-5 shall be construed to prevent any person who is 18 years of age
+or older and who has not been convicted of a crime, from possession for the
+purpose of personal self-defense of one pocket-sized device which contains and
+releases not more than three-quarters of an ounce of chemical substance not
+ordinarily capable of lethal use or of inflicting serious bodily injury, but rather,
+is intended to produce temporary physical discomfort or disability through
+being vaporized or otherwise dispensed in the air. Any person in possession of
+any device in violation of this subsection shall be deemed and adjudged to be a
+disorderly person, and upon conviction thereof, shall be punished by a fine of
+not less than $100.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   Notwithstanding the
+provisions of paragraph (1) of this subsection, nothing in N.J.S.2C:39-5 shall
+be construed to prevent a health inspector or investigator operating pursuant
+to the provisions of section 7 of P.L.1977, c.443 (C.26:3A2-25) or a building
+inspector from possessing a device which is capable of releasing more than
+three-quarters of an ounce of a chemical substance, as described in paragraph
+(1) of this subsection, while in the actual performance of the inspector's or
+investigator's duties, provided that the device does not exceed the size of
+those used by law enforcement.</p>
+
+<p class=MsoNormal style='line-height:150%'>     j.     A person shall qualify
+for an exemption from the provisions of N.J.S.2C:39-5, as specified under
+subsections a. and c. of this section, if the person has satisfactorily
+completed a firearms training course approved by the Police Training
+Commission.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The exempt person shall not
+possess or carry a firearm until the person has satisfactorily completed a
+firearms training course and shall annually qualify in the use of a revolver or
+similar weapon. For purposes of this subsection, a &quot;firearms training
+course&quot; means a course of instruction in the safe use, maintenance and
+storage of firearms which is approved by the Police Training Commission.  The
+commission shall approve a firearms training course if the requirements of the
+course are substantially equivalent to the requirements for firearms training
+provided by police training courses which are certified under section 6 of
+P.L.1961, c.56 (C.52:17B-71). A person who is specified in paragraph (1), (2),
+(3), or (6) of subsection a. of this section shall be exempt from the
+requirements of this subsection.</p>
+
+<p class=MsoNormal style='line-height:150%'>     k.    Nothing in subsection d.
+of N.J.S.2C:39-5 shall be construed to prevent any financial institution, or
+any duly authorized personnel of the institution, from possessing, carrying or
+using for the protection of money or property, any device which projects,
+releases or emits tear gas or other substances intended to produce temporary
+physical discomfort or temporary identification.</p>
+
+<p class=MsoNormal style='line-height:150%'>     l.     Nothing in subsection
+b. of N.J.S.2C:39-5 shall be construed to prevent a law enforcement officer who
+retired in good standing, including a retirement because of a disability
+pursuant to section 6 of P.L.1944, c.255 (C.43:16A-6), section 7 of P.L.1944,
+c.255 (C.43:16A-7), section 1 of P.L.1989, c.103 (C.43:16A-6.1), or any
+substantially similar statute governing the disability retirement of federal
+law enforcement officers, provided the officer was a regularly employed,
+full-time law enforcement officer for an aggregate of four or more years prior
+to the officer's disability retirement and further provided that the disability
+which constituted the basis for the officer's retirement did not involve a
+certification that the officer was mentally incapacitated for the performance
+of the officer's usual law enforcement duties and any other available duty in
+the department which the officer's employer was willing to assign to the
+officer or does not subject that retired officer to any of the disabilities set
+forth in subsection c. of N.J.S.2C:58-3 which would disqualify the retired
+officer from possessing or carrying a firearm, who semi-annually qualifies in
+the use of the handgun the officer is permitted to carry in accordance with the
+requirements and procedures established by the Attorney General pursuant to
+subsection j. of this section and pays the actual costs associated with those
+semi-annual qualifications, who is 75 years of age or younger, and who was
+regularly employed as a full-time member of the State Police; a full-time
+member of an interstate police force; a full-time member of a county or
+municipal police department in this State; a full-time member of a State law
+enforcement agency; a full-time sheriff, undersheriff or sheriff's officer of a
+county of this State; a full-time State or county correctional police officer;
+a full-time State correctional police officer or county correctional police
+officer; a full-time State or county park police officer; a full-time special
+agent of the Division of Taxation; a full-time Human Services police officer; a
+full-time transit police officer of the New Jersey Transit Police Department; a
+full-time campus police officer exempted pursuant to paragraph (10) of
+subsection c. of this section; a full-time State conservation police officer
+exempted pursuant to paragraph (4) of subsection a. of this section; a
+full-time Palisades Interstate Park officer appointed pursuant to R.S.32:14-21;
+a full-time Burlington County Bridge police officer appointed pursuant to
+section 1 of P.L.1960, c.168 (C.27:19-36.3); a full-time housing authority
+police officer exempted pursuant to paragraph (16) of subsection c. of this
+section; a full-time juvenile correctional police officer exempted pursuant to
+paragraph (9) of subsection a. of this section; a full-time parole officer
+exempted pursuant to paragraph (13) of subsection c. of this section; a
+full-time railway policeman exempted pursuant to paragraph (9) of subsection c.
+of this section; a full-time county prosecutor's detective or investigator; a
+full-time federal law enforcement officer; or is a qualified retired law
+enforcement officer, as used in the federal &quot;Law Enforcement Officers Safety
+Act of 2004,&quot; Pub.L. 108-277, domiciled in this State from carrying a
+handgun in the same manner as law enforcement officers exempted under paragraph
+(7) of subsection a. of this section under the conditions provided herein:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   The retired law
+enforcement officer shall make application in writing to the Superintendent of
+State Police for approval to carry a handgun for one year.  An application for
+annual renewal shall be submitted in the same manner.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   Upon receipt of the
+written application of the retired law enforcement officer, the superintendent
+shall request a verification of service from the chief law enforcement officer
+of the organization in which the retired officer was last regularly employed as
+a full-time law enforcement officer prior to retiring.  The verification of
+service shall include:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)   The name and address of
+the retired officer;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   The date that the
+retired officer was hired and the date that the officer retired;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (c)   A list of all handguns
+known to be registered to that officer;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (d)   A statement that, to the
+reasonable knowledge of the chief law enforcement officer, the retired officer
+is not subject to any of the restrictions set forth in subsection c. of
+N.J.S.2C:58-3; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (e)   A statement that the
+officer retired in good standing. </p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   If the superintendent
+approves a retired officer's application or reapplication to carry a handgun
+pursuant to the provisions of this subsection, the superintendent shall notify
+in writing the chief law enforcement officer of the municipality wherein that
+retired officer resides.  In the event the retired officer resides in a
+municipality which has no chief law enforcement officer or law enforcement
+agency, the superintendent shall maintain a record of the approval.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   The superintendent shall
+issue to an approved retired officer an identification card permitting the
+retired officer to carry a handgun pursuant to this subsection.  This
+identification card shall be valid for one year from the date of issuance and
+shall be valid throughout the State.  The identification card shall not be
+transferable to any other person.  The identification card shall be carried at
+all times on the person of the retired officer while the retired officer is
+carrying a handgun.  The retired officer shall produce the identification card
+for review on the demand of any law enforcement officer or authority.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   Any person aggrieved by
+the denial of the superintendent of approval for a permit to carry a handgun
+pursuant to this subsection may request a hearing in the Superior Court of New
+Jersey in the county in which the person resides by filing a written request
+for a hearing within 30 days of the denial.  Copies of the request shall be
+served upon the superintendent and the county prosecutor.  The hearing shall be
+held within 30 days of the filing of the request, and no formal pleading or
+filing fee shall be required.  Appeals from the determination of the hearing
+shall be in accordance with law and the rules governing the courts of this
+State.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (6)   A judge of the Superior
+Court may revoke a retired officer's privilege to carry a handgun pursuant to
+this subsection for good cause shown on the application of any interested
+person.  A person who becomes subject to any of the disabilities set forth in
+subsection c. of N.J.S.2C:58-3 shall surrender, as prescribed by the
+superintendent, the person's identification card issued under paragraph (4) of
+this subsection to the chief law enforcement officer of the municipality
+wherein the person resides or the superintendent, and shall be permanently
+disqualified to carry a handgun under this subsection.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (7)   The superintendent may
+charge a reasonable application fee to retired officers to offset any costs
+associated with administering the application process set forth in this
+subsection.</p>
+
+<p class=MsoNormal style='line-height:150%'>     m.   Nothing in subsection d.
+of N.J.S.2C:39-5 shall be construed to prevent duly authorized personnel of the
+New Jersey Division of Fish and Wildlife, while in the actual performance of
+duties, from possessing, transporting or using any device that projects,
+releases or emits any substance specified as being non-injurious to wildlife by
+the Director of the Division of Animal Health in the Department of Agriculture,
+and which may immobilize wildlife and produces only temporary physical discomfort
+through being vaporized or otherwise dispensed in the air for the purpose of
+repelling bear or other animal attacks or for the aversive conditioning of
+wildlife.</p>
+
+<p class=MsoNormal style='line-height:150%'>     n.    Nothing in subsection
+b., c., d. or e. of N.J.S.2C:39-5 shall be construed to prevent duly authorized
+personnel of the New Jersey Division of Fish and Wildlife, while in the actual
+performance of duties, from possessing, transporting or using hand held
+pistol-like devices, rifles or shotguns that launch pyrotechnic missiles for
+the sole purpose of frightening, hazing or aversive conditioning of nuisance or
+depredating wildlife; from possessing, transporting or using rifles, pistols or
+similar devices for the sole purpose of chemically immobilizing wild or
+non-domestic animals; or, provided the duly authorized person complies with the
+requirements of subsection j. of this section, from possessing, transporting or
+using rifles or shotguns, upon completion of a Police Training Commission
+approved training course, in order to dispatch injured or dangerous animals or
+for non-lethal use for the purpose of frightening, hazing or aversive
+conditioning of nuisance or depredating wildlife.</p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>o.  Nothing in subsection
+i. of this section shall be construed to prevent a person who is 18 years of
+age or older from possessing, for the sole purpose of repelling an aggressive bear
+while hiking, biking, or engaging in any other outdoor recreational activity, a
+bear deterrent or bear spray product approved and registered by the United
+States Environmental Protection Agency and clearly identified as such on the
+product label.  </u></p>
+
+<p class=MsoNormal style='line-height:150%'>(cf:  P.L.2019, c.407, s.2)<br
+clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.  This act shall take effect
+immediately.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill would allow
+individuals 18 years of age or older to possess, under certain conditions, bear
+spray for the purpose of repelling an aggressive bear.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     Under current law, a person 18
+years of age or older, who has not been convicted of a crime, may possess a
+small, pocket-sized device capable of spraying a non-lethal chemical substance
+which causes temporary physical discomfort, also known as pepper spray.  The
+law limits the size of the device to one which contains and releases not more
+than three-quarters of an ounce of pepper spray.  A person possessing a larger
+quantity would be guilty of a disorderly persons offense and subject to a fine
+of at least $100.  However, because bear spray devices contain much more than
+three-quarters of an ounce of a chemical substance, current law effectively
+prohibits the possession of bear spray. </p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill would allow any
+person who is 18 years of age or older to possess, for the sole purpose of
+repelling an aggressive bear while hiking, biking, or engaging in any other
+outdoor recreational activity, a bear deterrent or bear spray product approved
+and registered by the United States Environmental Protection Agency (EPA) and
+clearly identified as such on the product label.  The EPA regulates bear spray
+as a pesticide under federal law, and manufacturers of bear spray must
+register their products with, and receive approval from, the EPA.  To be
+approved by the EPA, a bear spray device must, among other things, contain a
+minimum content of 7.6 ounces, which is significantly larger than the maximum
+content of three-quarters of an ounce allowed under State law.  The labels on
+bear sprays approved by the EPA show the EPA registration and EPA establishment
+number for the product.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     In addition, the bill provides
+that a person who uses bear spray upon or toward another person would not be
+liable in any civil action for damages resulting from that release or discharge
+when the actor reasonably believes that the releasing or discharging of the
+bear spray is immediately necessary for the purpose of personal self-defense. 
+However, nothing in the bill would be deemed to grant immunity to any person
+causing any damage by the willful, wanton, or grossly negligent unlawful
+releasing or discharging of bear spray upon or toward another person.  A person
+who knowingly possesses and uses bear spray in a manner contrary to the
+provisions of the bill would be guilty of a crime of the fourth degree in
+accordance with the penalty in current law.<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='line-height:150%'>     Bear spray products approved
+by the EPA have been shown to be an effective, non-lethal deterrent capable of
+stopping aggressive behavior in bears.  Personal defense sprays do not contain
+the correct active ingredients or have the amount necessary to divert or stop a
+charging or attacking bear.  </p>
+
+</div>
+
+</body>
+
+</html>
