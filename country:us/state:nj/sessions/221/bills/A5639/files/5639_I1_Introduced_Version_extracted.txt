@@ -1,0 +1,16 @@
+Title: A5639
+Official Title: 
+Number of Sections: 1
+Source: versions - Introduced Version
+Media Type: text/html
+
+================================================================================
+
+Section 1:
+A5639 ASSEMBLY, No. 5639 STATE OF NEW JERSEY 221st LEGISLATURE INTRODUCED MAY 8, 2025 Sponsored by: Assemblywoman  JESSICA RAMIREZ District 32 (Hudson) SYNOPSIS Removes municipal authority to charge application fee for representation by municipal public defender. CURRENT VERSION OF TEXT As introduced. An Act concerning municipal public defenders and repealing section 17 of P.L.1997, c.256. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    Section 17 of P.L.1997, c.256 (C.2B:24-17) is repealed. 2.    This act shall take effect immediately. STATEMENT This bill repeals the law permitting a municipality to impose an application fee for a person applying for representation by a municipal public defender. Under current law, N.J.S.A.2B:24-17, a municipality is permitted to impose, by ordinance, an application fee of up to $200 on any person applying for representation by a municipal public defender.  A court is permitted to waive any required application fee, in whole or in part, if the court determines that the application fee represents an unreasonable burden on the person seeking representation. This bill would repeal this statute and thus remove the authority of a municipality to impose such fee. It is the sponsors intent to remove any barrier, including the imposition of a fee, to a persons Sixth Amendment right under the U.S. Constitution, which guarantees individuals accused of crimes the right to counsel.
+
+
+================================================================================
+
+Raw Text:
+A5639 ASSEMBLY, No. 5639 STATE OF NEW JERSEY 221st LEGISLATURE INTRODUCED MAY 8, 2025 Sponsored by: Assemblywoman  JESSICA RAMIREZ District 32 (Hudson) SYNOPSIS Removes municipal authority to charge application fee for representation by municipal public defender. CURRENT VERSION OF TEXT As introduced. An Act concerning municipal public defenders and repealing section 17 of P.L.1997, c.256. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    Section 17 of P.L.1997, c.256 (C.2B:24-17) is repealed. 2.    This act shall take effect immediately. STATEMENT This bill repeals the law permitting a municipality to impose an application fee for a person applying for representation by a municipal public defender. Under current law, N.J.S.A.2B:24-17, a municipality is permitted to impose, by ordinance, an application fee of up to $200 on any person applying for representation by a municipal public defender.  A court is permitted to waive any required application fee, in whole or in part, if the court determines that the application fee represents an unreasonable burden on the person seeking representation. This bill would repeal this statute and thus remove the authority of a municipality to impose such fee. It is the sponsors intent to remove any barrier, including the imposition of a fee, to a persons Sixth Amendment right under the U.S. Constitution, which guarantees individuals accused of crimes the right to counsel.

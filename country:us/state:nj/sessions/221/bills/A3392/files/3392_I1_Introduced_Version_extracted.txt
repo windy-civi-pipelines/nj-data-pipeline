@@ -1,0 +1,16 @@
+Title: A3392
+Official Title: 
+Number of Sections: 1
+Source: versions - Introduced Version
+Media Type: text/html
+
+================================================================================
+
+Section 1:
+A3392 ASSEMBLY, No. 3392 STATE OF NEW JERSEY 221st LEGISLATURE INTRODUCED FEBRUARY 1, 2024 Sponsored by: Assemblyman  CHRISTOPHER P. DEPHILLIPS District 40 (Bergen, Essex and Passaic) Assemblyman  JOHN V. AZZARITI JR., M.D. District 39 (Bergen) Assemblyman  JAY WEBBER District 26 (Morris and Passaic) Co-Sponsored by: Assemblyman Inganamort and Assemblywoman Fantasia SYNOPSIS Prohibits mandatory vaccination against COVID-19 as condition of attending public K-12 schools. CURRENT VERSION OF TEXT As introduced. An Act concerning student immunization requirements and supplementing Title 18A of the New Jersey Statutes. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    In no case shall the Commissioner of Health or any other entity of State government require immunization against SARS-CoV-2 as a condition of attendance at a public primary or secondary school. 2.    This act shall take effect immediately. STATEMENT This bill prohibits the Commissioner of Health and other State governmental entities from requiring immunization against SARS-CoV-2, the virus that causes coronavirus disease 2019 (COVID-19), as a condition of attendance at a public primary or secondary school.
+
+
+================================================================================
+
+Raw Text:
+A3392 ASSEMBLY, No. 3392 STATE OF NEW JERSEY 221st LEGISLATURE INTRODUCED FEBRUARY 1, 2024 Sponsored by: Assemblyman  CHRISTOPHER P. DEPHILLIPS District 40 (Bergen, Essex and Passaic) Assemblyman  JOHN V. AZZARITI JR., M.D. District 39 (Bergen) Assemblyman  JAY WEBBER District 26 (Morris and Passaic) Co-Sponsored by: Assemblyman Inganamort and Assemblywoman Fantasia SYNOPSIS Prohibits mandatory vaccination against COVID-19 as condition of attending public K-12 schools. CURRENT VERSION OF TEXT As introduced. An Act concerning student immunization requirements and supplementing Title 18A of the New Jersey Statutes. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    In no case shall the Commissioner of Health or any other entity of State government require immunization against SARS-CoV-2 as a condition of attendance at a public primary or secondary school. 2.    This act shall take effect immediately. STATEMENT This bill prohibits the Commissioner of Health and other State governmental entities from requiring immunization against SARS-CoV-2, the virus that causes coronavirus disease 2019 (COVID-19), as a condition of attendance at a public primary or secondary school.

@@ -1,16 +1,881 @@
-Title: A157
-Official Title: 
-Number of Sections: 1
-Source: versions - Introduced Version
-Media Type: text/html
+<html>
 
-================================================================================
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A157</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
 
-Section 1:
-A157 ASSEMBLY, No. 157 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblywoman  DAWN FANTASIA District 24 (Morris, Sussex and Warren) Assemblyman  MICHAEL INGANAMORT District 24 (Morris, Sussex and Warren) SYNOPSIS Prohibits exemption of school purposes property taxes under Long Term Tax Exemption Law. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning financial agreements for certain property tax exemptions and amending P.L.1991, c.431. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    Section 9 of P.L.1991, c.431 (C.40A:20-9) is amended to read as follows: 9.    Every approved project shall be evidenced by a financial agreement between the municipality and the urban renewal entity.  The agreement shall be prepared by the entity and submitted as a separate part of its application for project approval.  The agreement shall not take effect until approved by ordinance of the municipality.  Any amendments or modifications of the agreement made thereafter shall be by mutual consent of the municipality and the urban renewal entity, and shall be subject to approval by ordinance of the municipal governing body upon recommendation of the mayor or other chief executive officer of the municipality prior to taking effect. The financial agreement shall be in the form of a contract requiring full performance within 30 years from the date of completion of the project, and shall include the following: a.     That the profits of or dividends payable by the urban renewal entity shall be limited according to terms appropriate for the type of entity in conformance with the provisions of P.L.1991, c.431 (C.40A:20-1 et seq.). b.    That [all] improvements and land, to the extent authorized pursuant to section 12 of P.L.1991, c.431 (C.40A:20-12), in the project to be constructed or acquired by the urban renewal entity shall be exempt from taxation [as provided] to the extent authorized in section 12 of P.L.1991, c.431 [(C.40A:20-1 et seq.)] (C.40A:20-12). c.     That the urban renewal entity shall make payments for municipal services as provided in P.L.1991, c.431 (C.40A:20-1 et seq.). d.    That the urban renewal entity shall submit annually, within 90 days after the close of its fiscal year, its auditor's reports to the mayor and governing body of the municipality. e.     That the urban renewal entity shall, upon request, permit inspection of property, equipment, buildings and other facilities of the entity, and also permit examination and audit of its books, contracts, records, documents and papers by authorized representatives of the municipality or the State. f.     That in the event of any dispute between the parties matters in controversy shall be resolved by arbitration in the manner provided in the financial agreement. g.    That operation under the financial agreement shall be terminable by the urban renewal entity in the manner provided by P.L.1991, c.431 (C.40A:20-1 et seq.). h.    That the urban renewal entity shall at all times prior to the expiration or other termination of the financial agreement remain bound by the provisions of P.L.1991, c.431 (C.40A:20-1 et seq.). The financial agreement shall contain detailed representations and covenants by the urban renewal entity as to the manner in which it proposes to use, manage or operate the project.  The financial agreement shall further set forth the method for computing gross revenue for the urban renewal entity, the method of determining insurance, operating and maintenance expenses paid by a tenant which are ordinarily paid by a landlord, the plans for financing the project, including the estimated total project cost, the amortization rate on the total project cost, the source of funds, the interest rates to be paid on the construction financing, the source and amount of paid-in capital, the terms of mortgage amortization or payment of principal on any mortgage, a good faith projection of initial sales prices of any condominium units and expenses to be incurred in promoting and consummating such sales, and the rental schedules and lease terms to be used in the project.  Any financial agreement may allow the municipality to levy an annual administrative fee, not to exceed two percent of the annual service charge. (cf: P.L.2015, c.95, s.28) 2.    Section 11 of P.L.1991, c.431 (C.40A:20-11) is amended to read as follows: 11.  A financial agreement approved pursuant to this act shall include findings by the municipality, approved by the municipal governing body, setting forth appropriate tax exemption provisions and an appropriate annual service charge schedule which shall be based upon the provisions of section 12 of [this act] P.L.1991, c.431 (C.40A:20-12) and the municipality's determinations as to: a.     The relative benefits of the project to the redevelopment of the redevelopment area when compared to the costs, if any, associated with the tax exemption; b.    An assessment of the importance of the tax exemption to be granted in obtaining the development of the project and in influencing the locational decisions of probable occupants of the project or units of the project. (cf: P.L.1991, c.431, s.11) 3.    Section 12 of P.L.1991, c.431 (C.40A:20-12) is amended to read as follows: 12.  The rehabilitation or improvements made in the development or redevelopment of a redevelopment area or area appurtenant thereto or for a redevelopment relocation housing project, pursuant to P.L.1991, c.431 (C.40A:20-1 et seq.), shall be exempt from taxation for a limited period as hereinafter provided.  However, with respect to any project for which a long term tax exemption is sought by an urban renewal entity after the effective date of P.L.    , c. (C.       ) (pending before the Legislature as this bill), the rehabilitation or improvements shall not be exempt from property taxes for school purposes. When housing is to be constructed, acquired or rehabilitated by an urban renewal entity, the land upon which that housing is situated shall be exempt from taxation, except for property taxes for school purposes, as set forth in this section for a limited period as hereinafter provided.  The exemption shall be allowed when the clerk of the municipality wherein the property is situated shall certify to the municipal tax assessor that a financial agreement with an urban renewal entity for the development or the redevelopment of the property, or the provision of a redevelopment relocation housing project, or the provision of a low and moderate income housing project has been entered into and is in effect as required by P.L.1991, c.431 (C.40A:20-1 et seq.). Delivery by the municipal clerk to the municipal tax assessor of a certified copy of the ordinance of the governing body approving the tax exemption and financial agreement with the urban renewal entity shall constitute the required certification.  For each exemption granted pursuant to P.L.2003, c.125 (C.40A:12A-4.1 et al.), upon certification as required hereunder, the tax assessor shall implement the exemption and continue to enforce that exemption without further certification by the clerk until the expiration of the entitlement to exemption by the terms of the financial agreement or until the tax assessor has been duly notified by the clerk that the exemption has been terminated. Within 10 calendar days following the later of the effective date of an ordinance following its final adoption by the governing body approving the tax exemption or the execution of the financial agreement by the urban renewal entity, the municipal clerk shall transmit a certified copy of the ordinance and financial agreement to the chief financial officer of the county and to the county counsel for informational purposes. Whenever an exemption status changes during a tax year, the procedure for the apportionment of the taxes for the year shall be the same as in the case of other changes in tax exemption status during the tax year.  Tax exemptions granted pursuant to P.L.2003, c.125 (C.40A:12A-4.1 et al.) represent long term financial agreements between the municipality and the urban renewal entity and as such constitute a single continuing exemption from local property taxation to the extent permitted in this section for the duration of the financial agreement.  The validity of a financial agreement or any exemption granted pursuant thereto may be challenged only by filing an action in lieu of prerogative writ within 20 days from the publication of a notice of the adoption of an ordinance by the governing body granting the exemption and approving the financial agreement. Such notice shall be published in a newspaper of general circulation in the municipality and in a newspaper of general circulation in the county if different from the municipal newspaper. a.     The financial agreement shall specify the duration of the exemption for urban renewal entities in accordance with the parameters of either paragraph (1) or paragraph (2) of this subsection: (1)   the financial agreement may specify a duration of not more than 30 years from the completion of the entire project, or unit of the project if the project is undertaken in units, or not more than 35 years from the execution of the financial agreement between the municipality and the urban renewal entity; or (2)   for each project undertaken pursuant to a redevelopment agreement which allows the redeveloper to undertake two or more projects sequentially, the financial agreement may specify a duration of not more than 30 years from the completion of a project, or unit of the project if the project is undertaken in units, or not more than 50 years from the execution of the first financial agreement implementing a project under the redevelopment agreement.  As used in this subsection, "redevelopment agreement" means an agreement entered into pursuant to subsection f. of section 8 of P.L.1992, c.79 (C.40A:12A-8) between a municipality or redevelopment entity and a redeveloper. A financial agreement may provide for an exemption period of less than 30 years from the completion of the entire project, less than 35 years from the execution of the financial agreement, or less than 50 years from the execution of the first financial agreement implementing a project under the redevelopment agreement.  Nothing in this subsection shall be construed as requiring a financial agreement for a project undertaken pursuant to a redevelopment agreement which allows the redeveloper to undertake two or more projects sequentially to specify a duration within the parameters of paragraph (2) of this subsection. b.    During the term of any exemption, in lieu of [any] taxes, other than school purposes property taxes, to be paid on the buildings and improvements of the project and, to the extent authorized pursuant to this section, on the land, the urban renewal entity shall make payment to the municipality of an annual service charge, which shall remit a portion of that revenue to the county as provided hereinafter.  In addition, the municipality may assess an administrative fee, not to exceed two percent of the annual service charge, for the processing of the application.  The annual service charge for municipal services supplied to the project to be paid by the urban renewal entity for any period of exemption, shall be determined as follows: (1)   An annual amount equal to a percentage determined pursuant to this subsection and section 11 of P.L.1991, c.431 (C.40A:20-11), of the annual gross revenue from each unit of the project, if the project is undertaken in units, or from the total project, if the project is not undertaken in units.  The percentage of the annual gross revenue shall not be more than [15%] 15 percent in the case of a low and moderate income housing project, nor less than [10%] 10 percent in the case of all other projects. At the option of the municipality, or where because of the nature of the development, ownership, use or occupancy of the project or any unit thereof, if the project is to be undertaken in units, the total annual gross rental or gross shelter rent or annual gross revenue cannot be reasonably ascertained, the governing body shall provide in the financial agreement that the annual service charge shall be a sum equal to a percentage determined pursuant to this subsection and section 11 of P.L.1991, c.431 (C.40A:20-11), of the total project cost or total project unit cost determined pursuant to P.L.1991, c.431 (C.40A:20-1 et seq.) calculated from the first day of the month following the substantial completion of the project or any unit thereof, if the project is undertaken in units.  The percentage of the total project cost or total project unit cost shall not be more than [2%] two percent in the case of a low and moderate income housing project, and shall not be less than [2%] two percent in the case of all other projects. (2)   In either case, the financial agreement shall establish a schedule of annual service charges to be paid over the term of the exemption period, which shall be in stages as follows: (a)   For the first stage of the exemption period, which shall commence with the date of completion of the unit or of the project, as the case may be, and continue for a time of not less than six years nor more than 15 years, as specified in the financial agreement, the urban renewal entity shall pay the municipality an annual service charge for municipal services supplied to the project in an annual amount equal to the amount determined pursuant to paragraph (1) of this subsection and section 11 of P.L.1991, c.431 (C.40A:20-11).  For the remainder of the period of the exemption, if any, the annual service charge shall be determined as follows: (b)   For the second stage of the exemption period, which shall not be less than one year nor more than six years, as specified in the financial agreement, an amount equal to either the amount determined pursuant to paragraph (1) of this subsection and section 11 of P.L.1991, c.431 (C.40A:20-11), or [20%] 20 percent of the amount of taxes otherwise due on the value of the land and improvements, whichever shall be greater; (c)   For the third stage of the exemption period, which shall not be less than one year nor more than six years, as specified in the financial agreement, an amount equal to either the amount determined pursuant to paragraph (1) of this subsection and section 11 of P.L.1991, c.431 (C.40A:20-11), or [40%] 40 percent of the amount of taxes otherwise due on the value of the land and improvements, whichever shall be greater; (d)   For the fourth stage of the exemption period, which shall not be less than one year nor more than six years, as specified in the financial agreement, an amount equal to either the amount determined pursuant to paragraph (1) of this subsection and section 11 of P.L.1991, c.431 (C.40A:20-11), or [60%] 60 percent of the amount of taxes otherwise due on the value of the land and improvements, whichever shall be greater; and (e)   For the final stage of the exemption period, the duration of which shall not be less than one year and shall be specified in the financial agreement, an amount equal to either the amount determined pursuant to paragraph (1) of this subsection and section 11 of P.L.1991, c.431 (C.40A:20-11), or [80%] 80 percent of the amount of taxes otherwise due on the value of the land and improvements, whichever shall be greater. If the financial agreement provides for an exemption period of less than 30 years from the completion of the entire project,  less than 35 years from the execution of the financial agreement, or less than 50 years from the execution of the first financial agreement implementing a project under the redevelopment agreement, the financial agreement shall set forth a schedule of annual service charges for the exemption period which shall be based upon the minimum service charges and staged adjustments set forth in this section. The annual service charge shall be paid to the municipality on a quarterly basis in a manner consistent with the municipality's tax collection schedule. Each municipality which enters into a financial agreement on or after the effective date of P.L.2003, c.125 (C.40A:12A-4.1 et al.) shall remit [5] five percent of the annual service charge collected by the municipality to the county in accordance with the provisions of R.S.54:4-74. Against the annual service charge the urban renewal entity shall be entitled to credit for the amount, without interest, of the real estate taxes on land paid by it in the last four preceding quarterly installments. Notwithstanding the provisions of this section or of the financial agreement, the minimum annual service charge shall be the amount of the total taxes levied against all real property in the area covered by the project in the last full tax year in which the area was subject to taxation, and the minimum annual service charge shall be paid in each year in which the annual service charge calculated pursuant to this section or the financial agreement would be less than the minimum annual service charge. c.     All exemptions granted pursuant to the provisions of P.L.1991, c.431 (C.40A:20-1 et seq.) shall terminate at the time prescribed in the financial agreement. Upon the termination of the exemption granted pursuant to the provisions of P.L.1991, c.431 (C.40A:20-1 et seq.), the project, all affected parcels, land and all improvements made thereto shall be assessed and subject to taxation as are other taxable properties in the municipality.  After the date of termination, all restrictions and limitations upon the urban renewal entity shall terminate and be at an end upon the entity's rendering its final accounting to and with the municipality. (cf: P.L.2018, c.97, s.17) 4.    This act shall take effect immediately and shall apply to every financial agreement entered into after the effective date of this act. STATEMENT This bill would amend the Long Term Tax Exemption Law, P.L.1991, c.431 (C.40A:20-1 et seq.) to prohibit the exemption of property taxes for school purposes for any project for which a long term tax exemption is sought by an urban renewal entity after the effective date of the bill. The exemption of property taxes for school purposes on real property subject to a long term property tax exemption under the Long Term Tax Exemption Law requires that the property tax levy for school purposes be allocated among all property taxpayers whose property is not subject to such a property tax exemption, thereby increasing their property tax burden.  The purpose of this bill is to prevent these circumstances from occurring as the result of property tax exemptions granted after the effective date of the bill.
+</head>
 
+<body lang=EN-US>
 
-================================================================================
+<div class=WordSection1>
 
-Raw Text:
-A157 ASSEMBLY, No. 157 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblywoman  DAWN FANTASIA District 24 (Morris, Sussex and Warren) Assemblyman  MICHAEL INGANAMORT District 24 (Morris, Sussex and Warren) SYNOPSIS Prohibits exemption of school purposes property taxes under Long Term Tax Exemption Law. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning financial agreements for certain property tax exemptions and amending P.L.1991, c.431. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    Section 9 of P.L.1991, c.431 (C.40A:20-9) is amended to read as follows: 9.    Every approved project shall be evidenced by a financial agreement between the municipality and the urban renewal entity.  The agreement shall be prepared by the entity and submitted as a separate part of its application for project approval.  The agreement shall not take effect until approved by ordinance of the municipality.  Any amendments or modifications of the agreement made thereafter shall be by mutual consent of the municipality and the urban renewal entity, and shall be subject to approval by ordinance of the municipal governing body upon recommendation of the mayor or other chief executive officer of the municipality prior to taking effect. The financial agreement shall be in the form of a contract requiring full performance within 30 years from the date of completion of the project, and shall include the following: a.     That the profits of or dividends payable by the urban renewal entity shall be limited according to terms appropriate for the type of entity in conformance with the provisions of P.L.1991, c.431 (C.40A:20-1 et seq.). b.    That [all] improvements and land, to the extent authorized pursuant to section 12 of P.L.1991, c.431 (C.40A:20-12), in the project to be constructed or acquired by the urban renewal entity shall be exempt from taxation [as provided] to the extent authorized in section 12 of P.L.1991, c.431 [(C.40A:20-1 et seq.)] (C.40A:20-12). c.     That the urban renewal entity shall make payments for municipal services as provided in P.L.1991, c.431 (C.40A:20-1 et seq.). d.    That the urban renewal entity shall submit annually, within 90 days after the close of its fiscal year, its auditor's reports to the mayor and governing body of the municipality. e.     That the urban renewal entity shall, upon request, permit inspection of property, equipment, buildings and other facilities of the entity, and also permit examination and audit of its books, contracts, records, documents and papers by authorized representatives of the municipality or the State. f.     That in the event of any dispute between the parties matters in controversy shall be resolved by arbitration in the manner provided in the financial agreement. g.    That operation under the financial agreement shall be terminable by the urban renewal entity in the manner provided by P.L.1991, c.431 (C.40A:20-1 et seq.). h.    That the urban renewal entity shall at all times prior to the expiration or other termination of the financial agreement remain bound by the provisions of P.L.1991, c.431 (C.40A:20-1 et seq.). The financial agreement shall contain detailed representations and covenants by the urban renewal entity as to the manner in which it proposes to use, manage or operate the project.  The financial agreement shall further set forth the method for computing gross revenue for the urban renewal entity, the method of determining insurance, operating and maintenance expenses paid by a tenant which are ordinarily paid by a landlord, the plans for financing the project, including the estimated total project cost, the amortization rate on the total project cost, the source of funds, the interest rates to be paid on the construction financing, the source and amount of paid-in capital, the terms of mortgage amortization or payment of principal on any mortgage, a good faith projection of initial sales prices of any condominium units and expenses to be incurred in promoting and consummating such sales, and the rental schedules and lease terms to be used in the project.  Any financial agreement may allow the municipality to levy an annual administrative fee, not to exceed two percent of the annual service charge. (cf: P.L.2015, c.95, s.28) 2.    Section 11 of P.L.1991, c.431 (C.40A:20-11) is amended to read as follows: 11.  A financial agreement approved pursuant to this act shall include findings by the municipality, approved by the municipal governing body, setting forth appropriate tax exemption provisions and an appropriate annual service charge schedule which shall be based upon the provisions of section 12 of [this act] P.L.1991, c.431 (C.40A:20-12) and the municipality's determinations as to: a.     The relative benefits of the project to the redevelopment of the redevelopment area when compared to the costs, if any, associated with the tax exemption; b.    An assessment of the importance of the tax exemption to be granted in obtaining the development of the project and in influencing the locational decisions of probable occupants of the project or units of the project. (cf: P.L.1991, c.431, s.11) 3.    Section 12 of P.L.1991, c.431 (C.40A:20-12) is amended to read as follows: 12.  The rehabilitation or improvements made in the development or redevelopment of a redevelopment area or area appurtenant thereto or for a redevelopment relocation housing project, pursuant to P.L.1991, c.431 (C.40A:20-1 et seq.), shall be exempt from taxation for a limited period as hereinafter provided.  However, with respect to any project for which a long term tax exemption is sought by an urban renewal entity after the effective date of P.L.    , c. (C.       ) (pending before the Legislature as this bill), the rehabilitation or improvements shall not be exempt from property taxes for school purposes. When housing is to be constructed, acquired or rehabilitated by an urban renewal entity, the land upon which that housing is situated shall be exempt from taxation, except for property taxes for school purposes, as set forth in this section for a limited period as hereinafter provided.  The exemption shall be allowed when the clerk of the municipality wherein the property is situated shall certify to the municipal tax assessor that a financial agreement with an urban renewal entity for the development or the redevelopment of the property, or the provision of a redevelopment relocation housing project, or the provision of a low and moderate income housing project has been entered into and is in effect as required by P.L.1991, c.431 (C.40A:20-1 et seq.). Delivery by the municipal clerk to the municipal tax assessor of a certified copy of the ordinance of the governing body approving the tax exemption and financial agreement with the urban renewal entity shall constitute the required certification.  For each exemption granted pursuant to P.L.2003, c.125 (C.40A:12A-4.1 et al.), upon certification as required hereunder, the tax assessor shall implement the exemption and continue to enforce that exemption without further certification by the clerk until the expiration of the entitlement to exemption by the terms of the financial agreement or until the tax assessor has been duly notified by the clerk that the exemption has been terminated. Within 10 calendar days following the later of the effective date of an ordinance following its final adoption by the governing body approving the tax exemption or the execution of the financial agreement by the urban renewal entity, the municipal clerk shall transmit a certified copy of the ordinance and financial agreement to the chief financial officer of the county and to the county counsel for informational purposes. Whenever an exemption status changes during a tax year, the procedure for the apportionment of the taxes for the year shall be the same as in the case of other changes in tax exemption status during the tax year.  Tax exemptions granted pursuant to P.L.2003, c.125 (C.40A:12A-4.1 et al.) represent long term financial agreements between the municipality and the urban renewal entity and as such constitute a single continuing exemption from local property taxation to the extent permitted in this section for the duration of the financial agreement.  The validity of a financial agreement or any exemption granted pursuant thereto may be challenged only by filing an action in lieu of prerogative writ within 20 days from the publication of a notice of the adoption of an ordinance by the governing body granting the exemption and approving the financial agreement. Such notice shall be published in a newspaper of general circulation in the municipality and in a newspaper of general circulation in the county if different from the municipal newspaper. a.     The financial agreement shall specify the duration of the exemption for urban renewal entities in accordance with the parameters of either paragraph (1) or paragraph (2) of this subsection: (1)   the financial agreement may specify a duration of not more than 30 years from the completion of the entire project, or unit of the project if the project is undertaken in units, or not more than 35 years from the execution of the financial agreement between the municipality and the urban renewal entity; or (2)   for each project undertaken pursuant to a redevelopment agreement which allows the redeveloper to undertake two or more projects sequentially, the financial agreement may specify a duration of not more than 30 years from the completion of a project, or unit of the project if the project is undertaken in units, or not more than 50 years from the execution of the first financial agreement implementing a project under the redevelopment agreement.  As used in this subsection, "redevelopment agreement" means an agreement entered into pursuant to subsection f. of section 8 of P.L.1992, c.79 (C.40A:12A-8) between a municipality or redevelopment entity and a redeveloper. A financial agreement may provide for an exemption period of less than 30 years from the completion of the entire project, less than 35 years from the execution of the financial agreement, or less than 50 years from the execution of the first financial agreement implementing a project under the redevelopment agreement.  Nothing in this subsection shall be construed as requiring a financial agreement for a project undertaken pursuant to a redevelopment agreement which allows the redeveloper to undertake two or more projects sequentially to specify a duration within the parameters of paragraph (2) of this subsection. b.    During the term of any exemption, in lieu of [any] taxes, other than school purposes property taxes, to be paid on the buildings and improvements of the project and, to the extent authorized pursuant to this section, on the land, the urban renewal entity shall make payment to the municipality of an annual service charge, which shall remit a portion of that revenue to the county as provided hereinafter.  In addition, the municipality may assess an administrative fee, not to exceed two percent of the annual service charge, for the processing of the application.  The annual service charge for municipal services supplied to the project to be paid by the urban renewal entity for any period of exemption, shall be determined as follows: (1)   An annual amount equal to a percentage determined pursuant to this subsection and section 11 of P.L.1991, c.431 (C.40A:20-11), of the annual gross revenue from each unit of the project, if the project is undertaken in units, or from the total project, if the project is not undertaken in units.  The percentage of the annual gross revenue shall not be more than [15%] 15 percent in the case of a low and moderate income housing project, nor less than [10%] 10 percent in the case of all other projects. At the option of the municipality, or where because of the nature of the development, ownership, use or occupancy of the project or any unit thereof, if the project is to be undertaken in units, the total annual gross rental or gross shelter rent or annual gross revenue cannot be reasonably ascertained, the governing body shall provide in the financial agreement that the annual service charge shall be a sum equal to a percentage determined pursuant to this subsection and section 11 of P.L.1991, c.431 (C.40A:20-11), of the total project cost or total project unit cost determined pursuant to P.L.1991, c.431 (C.40A:20-1 et seq.) calculated from the first day of the month following the substantial completion of the project or any unit thereof, if the project is undertaken in units.  The percentage of the total project cost or total project unit cost shall not be more than [2%] two percent in the case of a low and moderate income housing project, and shall not be less than [2%] two percent in the case of all other projects. (2)   In either case, the financial agreement shall establish a schedule of annual service charges to be paid over the term of the exemption period, which shall be in stages as follows: (a)   For the first stage of the exemption period, which shall commence with the date of completion of the unit or of the project, as the case may be, and continue for a time of not less than six years nor more than 15 years, as specified in the financial agreement, the urban renewal entity shall pay the municipality an annual service charge for municipal services supplied to the project in an annual amount equal to the amount determined pursuant to paragraph (1) of this subsection and section 11 of P.L.1991, c.431 (C.40A:20-11).  For the remainder of the period of the exemption, if any, the annual service charge shall be determined as follows: (b)   For the second stage of the exemption period, which shall not be less than one year nor more than six years, as specified in the financial agreement, an amount equal to either the amount determined pursuant to paragraph (1) of this subsection and section 11 of P.L.1991, c.431 (C.40A:20-11), or [20%] 20 percent of the amount of taxes otherwise due on the value of the land and improvements, whichever shall be greater; (c)   For the third stage of the exemption period, which shall not be less than one year nor more than six years, as specified in the financial agreement, an amount equal to either the amount determined pursuant to paragraph (1) of this subsection and section 11 of P.L.1991, c.431 (C.40A:20-11), or [40%] 40 percent of the amount of taxes otherwise due on the value of the land and improvements, whichever shall be greater; (d)   For the fourth stage of the exemption period, which shall not be less than one year nor more than six years, as specified in the financial agreement, an amount equal to either the amount determined pursuant to paragraph (1) of this subsection and section 11 of P.L.1991, c.431 (C.40A:20-11), or [60%] 60 percent of the amount of taxes otherwise due on the value of the land and improvements, whichever shall be greater; and (e)   For the final stage of the exemption period, the duration of which shall not be less than one year and shall be specified in the financial agreement, an amount equal to either the amount determined pursuant to paragraph (1) of this subsection and section 11 of P.L.1991, c.431 (C.40A:20-11), or [80%] 80 percent of the amount of taxes otherwise due on the value of the land and improvements, whichever shall be greater. If the financial agreement provides for an exemption period of less than 30 years from the completion of the entire project,  less than 35 years from the execution of the financial agreement, or less than 50 years from the execution of the first financial agreement implementing a project under the redevelopment agreement, the financial agreement shall set forth a schedule of annual service charges for the exemption period which shall be based upon the minimum service charges and staged adjustments set forth in this section. The annual service charge shall be paid to the municipality on a quarterly basis in a manner consistent with the municipality's tax collection schedule. Each municipality which enters into a financial agreement on or after the effective date of P.L.2003, c.125 (C.40A:12A-4.1 et al.) shall remit [5] five percent of the annual service charge collected by the municipality to the county in accordance with the provisions of R.S.54:4-74. Against the annual service charge the urban renewal entity shall be entitled to credit for the amount, without interest, of the real estate taxes on land paid by it in the last four preceding quarterly installments. Notwithstanding the provisions of this section or of the financial agreement, the minimum annual service charge shall be the amount of the total taxes levied against all real property in the area covered by the project in the last full tax year in which the area was subject to taxation, and the minimum annual service charge shall be paid in each year in which the annual service charge calculated pursuant to this section or the financial agreement would be less than the minimum annual service charge. c.     All exemptions granted pursuant to the provisions of P.L.1991, c.431 (C.40A:20-1 et seq.) shall terminate at the time prescribed in the financial agreement. Upon the termination of the exemption granted pursuant to the provisions of P.L.1991, c.431 (C.40A:20-1 et seq.), the project, all affected parcels, land and all improvements made thereto shall be assessed and subject to taxation as are other taxable properties in the municipality.  After the date of termination, all restrictions and limitations upon the urban renewal entity shall terminate and be at an end upon the entity's rendering its final accounting to and with the municipality. (cf: P.L.2018, c.97, s.17) 4.    This act shall take effect immediately and shall apply to every financial agreement entered into after the effective date of this act. STATEMENT This bill would amend the Long Term Tax Exemption Law, P.L.1991, c.431 (C.40A:20-1 et seq.) to prohibit the exemption of property taxes for school purposes for any project for which a long term tax exemption is sought by an urban renewal entity after the effective date of the bill. The exemption of property taxes for school purposes on real property subject to a long term property tax exemption under the Long Term Tax Exemption Law requires that the property tax levy for school purposes be allocated among all property taxpayers whose property is not subject to such a property tax exemption, thereby increasing their property tax burden.  The purpose of this bill is to prevent these circumstances from occurring as the result of property tax exemptions granted after the effective date of the bill.
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 157 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblywoman  DAWN FANTASIA</p>
+
+<p class=bpuSponsor>District 24 (Morris, Sussex and Warren)</p>
+
+<p class=bpuSponsor>Assemblyman  MICHAEL INGANAMORT</p>
+
+<p class=bpuSponsor>District 24 (Morris, Sussex and Warren)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Prohibits exemption of school purposes property taxes
+under Long Term Tax Exemption Law. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> </span>concerning financial agreements for certain
+property tax exemptions and amending P.L.1991, c.431.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    Section 9 of P.L.1991,
+c.431 (C.40A:20-9) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     9.    Every approved project
+shall be evidenced by a financial agreement between the municipality and the
+urban renewal entity.  The agreement shall be prepared by the entity and
+submitted as a separate part of its application for project approval.  The
+agreement shall not take effect until approved by ordinance of the
+municipality.  Any amendments or modifications of the agreement made thereafter
+shall be by mutual consent of the municipality and the urban renewal entity,
+and shall be subject to approval by ordinance of the municipal governing body
+upon recommendation of the mayor or other chief executive officer of the
+municipality prior to taking effect.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     The financial agreement shall
+be in the form of a contract requiring full performance within 30 years from
+the date of completion of the project, and shall include the following:</p>
+
+<p class=MsoNormal style='line-height:150%'>     a.     That the profits of or
+dividends payable by the urban renewal entity shall be limited according to
+terms appropriate for the type of entity in conformance with the provisions of
+P.L.1991,&nbsp;c.431 (C.40A:20-1 et seq.).</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    That <span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span>all<span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span> improvements and
+land, to the extent authorized pursuant to section 12 of P.L.1991, c.431
+(C.40A:20-12), in the project to be constructed or acquired by the urban
+renewal entity shall be exempt from taxation <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>as
+provided<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b>
+<u>to the extent authorized</u> in <u>section 12 of</u> P.L.1991, c.431 <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>(C.40A:20-1 et
+seq.)<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b>
+<u>(C.40A:20-12)</u>.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     That the urban renewal
+entity shall make payments for municipal services as provided in P.L.1991,
+c.431 (C.40A:20-1 et seq.).</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    That the urban renewal
+entity shall submit annually, within 90 days after the close of its fiscal
+year, its auditor's reports to the mayor and governing body of the
+municipality.</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     That the urban renewal
+entity shall, upon request, permit inspection of property, equipment, buildings
+and other facilities of the entity, and also permit examination and audit of
+its books, contracts, records, documents and papers by authorized
+representatives of the municipality or the State.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     f.     That in the event of
+any dispute between the parties matters in controversy shall be resolved by
+arbitration in the manner provided in the financial agreement.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     g.    That operation under the
+financial agreement shall be terminable by the urban renewal entity in the
+manner provided by P.L.1991, c.431 (C.40A:20-1 et seq.).</p>
+
+<p class=MsoNormal style='line-height:150%'>     h.    That the urban renewal
+entity shall at all times prior to the expiration or other termination of the
+financial agreement remain bound by the provisions of P.L.1991, c.431
+(C.40A:20-1 et seq.).</p>
+
+<p class=MsoNormal style='line-height:150%'>     The financial agreement shall
+contain detailed representations and covenants by the urban renewal entity as
+to the manner in which it proposes to use, manage or operate the project.  The
+financial agreement shall further set forth the method for computing gross
+revenue for the urban renewal entity, the method of determining insurance,
+operating and maintenance expenses paid by a tenant which are ordinarily paid
+by a landlord, the plans for financing the project, including the estimated
+total project cost, the amortization rate on the total project cost, the source
+of funds, the interest rates to be paid on the construction financing, the
+source and amount of paid-in capital, the terms of mortgage amortization or
+payment of principal on any mortgage, a good faith projection of initial sales
+prices of any condominium units and expenses to be incurred in promoting and
+consummating such sales, and the rental schedules and lease terms to be used in
+the project.  Any financial agreement may allow the municipality to levy an
+annual administrative fee, not to exceed two percent of the annual service
+charge.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2015, c.95, s.28)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    Section 11 of P.L.1991,
+c.431 (C.40A:20-11) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     11.  A financial agreement
+approved pursuant to this act shall include findings by the municipality,
+approved by the municipal governing body, setting forth appropriate tax
+exemption provisions and an appropriate annual service charge schedule which
+shall be based upon the provisions of section 12 of <span style='font-family:
+"Albertus Extra Bold",sans-serif'>[</span>this act<span style='font-family:
+"Albertus Extra Bold",sans-serif'>]</span> <u>P.L.1991,&nbsp;c.431
+(C.40A:20-12)</u> and the municipality's determinations as to:</p>
+
+<p class=MsoNormal style='line-height:150%'>     a.     The relative benefits
+of the project to the redevelopment of the redevelopment area when compared to
+the costs, if any, associated with the tax exemption;  </p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    An assessment of the
+importance of the tax exemption to be granted in obtaining the development of
+the project and in influencing the locational decisions of probable occupants
+of the project or units of the project.  </p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.1991, c.431, s.11)<br
+clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    Section 12 of P.L.1991,
+c.431 (C.40A:20-12) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     12.  The rehabilitation or
+improvements made in the development or redevelopment of a redevelopment area
+or area appurtenant thereto or for a redevelopment relocation housing project,
+pursuant to P.L.1991, c.431 (C.40A:20-1 et seq.), shall be exempt from taxation
+for a limited period as hereinafter provided.  <u>However, with respect to any
+project for which a long term tax exemption is sought by an urban renewal
+entity after the effective date of P.L.&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;c.   
+(C.       ) (pending before the Legislature as this bill), the rehabilitation
+or improvements shall not be exempt from property taxes for school purposes.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     When housing is to be
+constructed, acquired or rehabilitated by an urban renewal entity, the land
+upon which that housing is situated shall be exempt from taxation<u>,</u><u><span
+style='font-size:11.5pt;line-height:150%'> except for property taxes for school
+purposes, as set forth in this section</span></u> for a limited period as
+hereinafter provided.  The exemption shall be allowed when the clerk of the
+municipality wherein the property is situated shall certify to the municipal
+tax assessor that a financial agreement with an urban renewal entity for the development
+or the redevelopment of the property, or the provision of a redevelopment
+relocation housing project, or the provision of a low and moderate income
+housing project has been entered into and is in effect as required by P.L.1991,
+c.431 (C.40A:20-1 et seq.).</p>
+
+<p class=MsoNormal style='line-height:150%'>     Delivery by the municipal
+clerk to the municipal tax assessor of a certified copy of the ordinance of the
+governing body approving the tax exemption and financial agreement with the
+urban renewal entity shall constitute the required certification.  For each
+exemption granted pursuant to P.L.2003, c.125 (C.40A:12A-4.1 et al.), upon
+certification as required hereunder, the tax assessor shall implement the
+exemption and continue to enforce that exemption without further certification
+by the clerk until the expiration of the entitlement to exemption by the terms
+of the financial agreement or until the tax assessor has been duly notified by
+the clerk that the exemption has been terminated.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Within 10 calendar days
+following the later of the effective date of an ordinance following its final
+adoption by the governing body approving the tax exemption or the execution of
+the financial agreement by the urban renewal entity, the municipal clerk shall
+transmit a certified copy of the ordinance and financial agreement to the chief
+financial officer of the county and to the county counsel for informational
+purposes.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Whenever an exemption status
+changes during a tax year, the procedure for the apportionment of the taxes for
+the year shall be the same as in the case of other changes in tax exemption
+status during the tax year.  Tax exemptions granted pursuant to
+P.L.2003,&nbsp;c.125 (C.40A:12A-4.1 et al.) represent long term financial
+agreements between the municipality and the urban renewal entity and as such constitute
+a single continuing exemption from local property taxation <u>to the extent
+permitted in this section</u> for the duration of the financial agreement.  The
+validity of a financial agreement or any exemption granted pursuant thereto may
+be challenged only by filing an action in lieu of prerogative writ within 20
+days from the publication of a notice of the adoption of an ordinance by the
+governing body granting the exemption and approving the financial agreement. 
+Such notice shall be published in a newspaper of general circulation in the
+municipality and in a newspaper of general circulation in the county if
+different from the municipal newspaper.</p>
+
+<p class=MsoNormal style='line-height:150%'>     a.     The financial agreement
+shall specify the duration of the exemption for urban renewal entities in
+accordance with the parameters of either paragraph (1) or paragraph (2) of this
+subsection: </p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   the financial agreement
+may specify a duration of not more than 30 years from the completion of the
+entire project, or unit of the project if the project is undertaken in units,
+or not more than 35 years from the execution of the financial agreement between
+the municipality and the urban renewal entity; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   for each project
+undertaken pursuant to a redevelopment agreement which allows the redeveloper
+to undertake two or more projects sequentially, the financial agreement may
+specify a duration of not more than 30 years from the completion of a project,
+or unit of the project if the project is undertaken in units, or not more than
+50 years from the execution of the first financial agreement implementing a
+project under the redevelopment agreement.  As used in this subsection,
+&quot;redevelopment agreement&quot; means an agreement entered into pursuant to
+subsection f. of section 8 of P.L.1992, c.79 (C.40A:12A-8) between a municipality
+or redevelopment entity and a redeveloper. </p>
+
+<p class=MsoNormal style='line-height:150%'>     A financial agreement may
+provide for an exemption period of less than 30 years from the completion of
+the entire project, less than 35 years from the execution of the financial
+agreement, or less than 50 years from the execution of the first financial
+agreement implementing a project under the redevelopment agreement.  Nothing in
+this subsection shall be construed as requiring a financial agreement for a
+project undertaken pursuant to a redevelopment agreement which allows the
+redeveloper to undertake two or more projects sequentially to specify a
+duration within the parameters of paragraph (2) of this subsection.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    During the term of any
+exemption, in lieu of <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>any<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> taxes<u>,</u><u><span
+style='font-size:11.5pt;line-height:150%'> other than school purposes property taxes,</span></u><span
+style='font-size:11.5pt;line-height:150%'> </span>to be paid on the buildings
+and improvements of the project and, to the extent authorized pursuant to this
+section, on the land, the urban renewal entity shall make payment to the
+municipality of an annual service charge, which shall remit a portion of that
+revenue to the county as provided hereinafter.  In addition, the municipality
+may assess an administrative fee, not to exceed two percent of the annual
+service charge, for the processing of the application.  The annual service
+charge for municipal services supplied to the project to be paid by the urban
+renewal entity for any period of exemption, shall be determined as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   An annual amount equal
+to a percentage determined pursuant to this subsection and section 11 of
+P.L.1991, c.431 (C.40A:20-11), of the annual gross revenue from each unit of
+the project, if the project is undertaken in units, or from the total project,
+if the project is not undertaken in units.  The percentage of the annual gross
+revenue shall not be more than <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>15%<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>15 percent</u>
+in the case of a low and moderate income housing project, nor less than <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>10%<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>10 percent</u>
+in the case of all other projects.</p>
+
+<p class=MsoNormal style='line-height:150%'>     At the option of the
+municipality, or where because of the nature of the development, ownership, use
+or occupancy of the project or any unit thereof, if the project is to be
+undertaken in units, the total annual gross rental or gross shelter rent or
+annual gross revenue cannot be reasonably ascertained, the governing body shall
+provide in the financial agreement that the annual service charge shall be a
+sum equal to a percentage determined pursuant to this subsection and section 11
+of P.L.1991, c.431 (C.40A:20-11), of the total project cost or total project
+unit cost determined pursuant to P.L.1991, c.431 (C.40A:20-1 et seq.) calculated
+from the first day of the month following the substantial completion of the
+project or any unit thereof, if the project is undertaken in units.  The
+percentage of the total project cost or total project unit cost shall not be
+more than <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>2%<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>two percent</u>
+in the case of a low and moderate income housing project, and shall not be less
+than <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>2%<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>two
+percent</u> in the case of all other projects.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   In either case, the
+financial agreement shall establish a schedule of annual service charges to be
+paid over the term of the exemption period, which shall be in stages as
+follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)   For the first stage of
+the exemption period, which shall commence with the date of completion of the
+unit or of the project, as the case may be, and continue for a time of not less
+than six years nor more than 15 years, as specified in the financial agreement,
+the urban renewal entity shall pay the municipality an annual service charge
+for municipal services supplied to the project in an annual amount equal to the
+amount determined pursuant to paragraph (1) of this subsection and section 11
+of P.L.1991, c.431 (C.40A:20-11).  For the remainder of the period of the
+exemption, if any, the annual service charge shall be determined as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   For the second stage of
+the exemption period, which shall not be less than one year nor more than six
+years, as specified in the financial agreement, an amount equal to either the
+amount determined pursuant to paragraph (1) of this subsection and section 11
+of P.L.1991, c.431 (C.40A:20-11), or <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>20%<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>20 percent</u>
+of the amount of taxes otherwise due on the value of the land and improvements,
+whichever shall be greater;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (c)   For the third stage of
+the exemption period, which shall not be less than one year nor more than six
+years, as specified in the financial agreement, an amount equal to either the
+amount determined pursuant to paragraph (1) of this subsection and section 11
+of P.L.1991, c.431 (C.40A:20-11), or <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>40%<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>40 percent</u>
+of the amount of taxes otherwise due on the value of the land and improvements,
+whichever shall be greater;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (d)   For the fourth stage of
+the exemption period, which shall not be less than one year nor more than six
+years, as specified in the financial agreement, an amount equal to either the
+amount determined pursuant to paragraph (1) of this subsection and section 11
+of P.L.1991, c.431 (C.40A:20-11), or <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>60%<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>60 percent</u>
+of the amount of taxes otherwise due on the value of the land and improvements,
+whichever shall be greater; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (e)   For the final stage of
+the exemption period, the duration of which shall not be less than one year and
+shall be specified in the financial agreement, an amount equal to either the
+amount determined pursuant to paragraph (1) of this subsection and section 11
+of P.L.1991, c.431 (C.40A:20-11), or <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>80%<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>80 percent</u>
+of the amount of taxes otherwise due on the value of the land and improvements,
+whichever shall be greater.</p>
+
+<p class=MsoNormal style='line-height:150%'>     If the financial agreement
+provides for an exemption period of less than 30 years from the completion of
+the entire project,  less than 35 years from the execution of the financial
+agreement, or less than 50 years from the execution of the first financial
+agreement implementing a project under the redevelopment agreement, the
+financial agreement shall set forth a schedule of annual service charges for
+the exemption period which shall be based upon the minimum service charges and
+staged adjustments set forth in this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The annual service charge
+shall be paid to the municipality on a quarterly basis in a manner consistent
+with the municipality's tax collection schedule.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Each municipality which enters
+into a financial agreement on or after the effective date of P.L.2003, c.125
+(C.40A:12A-4.1 et al.) shall remit <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>5<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>five</u>
+percent of the annual service charge collected by the municipality to the
+county in accordance with the provisions of R.S.54:4-74.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Against the annual service
+charge the urban renewal entity shall be entitled to credit for the amount,
+without interest, of the real estate taxes on land paid by it in the last four
+preceding quarterly installments.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Notwithstanding the provisions
+of this section or of the financial agreement, the minimum annual service
+charge shall be the amount of the total taxes levied against all real property
+in the area covered by the project in the last full tax year in which the area
+was subject to taxation, and the minimum annual service charge shall be paid in
+each year in which the annual service charge calculated pursuant to this
+section or the financial agreement would be less than the minimum annual
+service charge.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     All exemptions granted
+pursuant to the provisions of P.L.1991, c.431 (C.40A:20-1 et seq.) shall
+terminate at the time prescribed in the financial agreement.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Upon the termination of the
+exemption granted pursuant to the provisions of P.L.1991, c.431 (C.40A:20-1 et
+seq.), the project, all affected parcels, land and all improvements made
+thereto shall be assessed and subject to taxation as are other taxable
+properties in the municipality.  After the date of termination, all restrictions
+and limitations upon the urban renewal entity shall terminate and be at an end
+upon the entity's rendering its final accounting to and with the municipality.</p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:150%'>(cf:
+P.L.2018, c.97, s.17)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     4.    This act shall take
+effect immediately and shall apply to every financial agreement entered into
+after the effective date of this act.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill would amend the
+Long Term Tax Exemption Law, P.L.1991, c.431 (C.40A:20-1 et seq.) to prohibit
+the exemption of property taxes for school purposes for any project for which a
+long term tax exemption is sought by an urban renewal entity after the
+effective date of the bill.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The exemption of property
+taxes for school purposes on real property subject to a long term property tax
+exemption under the Long Term Tax Exemption Law requires that the property
+tax levy for school purposes be allocated among all property taxpayers whose
+property is not subject to such a property tax exemption, thereby increasing
+their property tax burden.  The purpose of this bill is to prevent these
+circumstances from occurring as the result of property tax exemptions granted
+after the effective date of the bill.</p>
+
+</div>
+
+</body>
+
+</html>
