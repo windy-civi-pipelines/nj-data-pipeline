@@ -1,16 +1,804 @@
-Title: A191
-Official Title: 
-Number of Sections: 1
-Source: versions - Introduced Version
-Media Type: text/html
+<html>
 
-================================================================================
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A191</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
 
-Section 1:
-A191 ASSEMBLY, No. 191 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblywoman  DAWN FANTASIA District 24 (Morris, Sussex and Warren) Assemblyman  MICHAEL INGANAMORT District 24 (Morris, Sussex and Warren) Co-Sponsored by: Assemblyman Auth SYNOPSIS Bans foreign ownership of agricultural or horticultural land and agricultural woodlands in State. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning the ownership of agricultural and horticultural land and agricultural woodlands in the State, and supplementing Title 4 of the Revised Statutes. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.  As used in this act: "Agricultural development areas" means the same as the term is defined in P.L.1983, c.32 (C.4:1C-13). "Agricultural or horticultural land" means any land actively devoted to agricultural or horticultural use, any land located in agricultural development areas, any land subject to an agricultural deed restriction for farmland preservation purposes, or any land zoned for agricultural or horticultural use regardless of the use of the land upon the effective date of this act. "Agricultural or horticultural use" means:  the production of plants, animals, and agricultural or horticultural products from plants or animals useful to man, including, but not limited to, forages or sod crops, grains or feed crops, dairy animals or dairy products, poultry or poultry products, livestock animals, including beef cattle, sheep, swine, horses, ponies, mules, or goats, and animal products,  bees or apiary products, or fur animals; aquacultured aquatic organisms or products; trees or forest products, hops or other crops used in the production of beer or mead, vegetables or fruits of all kinds, including grapes, nuts, and berries, or nursery, floral, ornamental, or greenhouse products; the production, harvesting, storage, grading, packaging, processing, or wholesale and retail marketing of crops, plants, animals, or other related commodities; the use of vineyards for the production of wine; the use and application of techniques and methods related to soil preparation and management, fertilization, weed, disease or pest control, animal breeding or grazing, farm waste disposal, irrigation, or drainage and water management; or any use that meets the requirements and qualifications for payments or other compensation authorized pursuant to a soil conservation program under an agreement with an agency of the federal government. "Agricultural woodlands" means forested acres of land that support an agricultural or horticultural use, and forested acres of land used in the production of specialty crops and other products that are:  derived from trees or from the production and sale of trees and forest products; are subject to a woodland management plan adopted pursuant to section 3 of the "Farmland Assessment Act of 1964," P.L.1964, c.48 (C.54:4-23.3); or are subject to a forest stewardship plan adopted pursuant to section 3 of P.L.2009, c.256 (C.13:1L-31). "Department" means the Department of Agriculture. "Foreign government" means any government other than the government of the United States or of its states, territories, possessions, or any political subdivision thereof. "Foreign government" includes an agent, trustee, or fiduciary thereof, acting for a foreign government. "Foreign person" means any individual who is not a citizen of the United States and is a nonresident alien or a resident alien of the United States or one of its states, territories, or possessions; any corporation, partnership, association, or other legal entity created under the laws of a foreign government; or any corporation, partnership, association, or other legal entity, created under the laws of the United States or any of its political subdivisions, the majority of the ownership of which is directly or indirectly held, legally or beneficially, by one or more foreign governments, by one or more foreign persons, by one or more legal entities created under the laws of a foreign government, or by any combination thereof.  Foreign person includes an agent, trustee, or fiduciary thereof, acting for a foreign person. "Secretary" means the Secretary of Agriculture. 2.  a.  Notwithstanding any law, rule, or regulation to the contrary, no foreign government or foreign person shall acquire, purchase, or otherwise obtain a legal, beneficial, or other interest in any agricultural or horticultural land or agricultural woodlands in the State on or after the effective date of this act. b.  Any foreign government or foreign person owning or holding an interest in agricultural or horticultural land or agricultural woodlands in the State upon the effective date of this act may continue to own or hold an interest therein for a maximum of five years after the effective date of this act, and shall not acquire, purchase, or otherwise obtain an interest in, any other agricultural or horticultural land or agricultural woodlands, in the State, on or after the effective date of this act, except: (1) pursuant to a process of law involving the collection of debt the execution of a deed in lieu of foreclosure, the forfeiture of a contract for deed, or the imposition of a lien or claim on the land, whether created by a mortgage or otherwise, in which case, the provisions of subsection d. of this section shall apply; or (2) by devise or descent, or through the establishment of a bona fide encumbrance on agricultural or horticultural land or agricultural woodlands taken for the purposes of security, in which case, the provisions of subsection f. of this section shall apply. c.  A foreign government or foreign person owning or holding an interest in agricultural or horticultural land or agricultural woodlands in the State upon the effective date of this act shall sell or otherwise convey the ownership of, or interest in, the agricultural or horticultural land or agricultural woodlands, as applicable, within five years after the effective date of this act, with a deed of easement attached to the land requiring the land to remain devoted to agricultural or horticultural use or be maintained as agricultural woodlands, as applicable. The land or interest therein shall be sold or conveyed to an individual, trust, corporation, partnership, or other business entity that is not a foreign government or foreign person subject to the provisions of this act. d.  (1)  Agricultural or horticultural land or agricultural woodlands acquired by a foreign government or foreign person on or after the effective date of this act, pursuant to the exception established in paragraph (1) of subsection b. of this section, shall be sold or conveyed, by the foreign owner thereof, within two years after title to the land is transferred thereto.  Upon such sale or conveyance of the land, a deed of easement shall be attached to the land requiring the land to remain devoted to agricultural or horticultural use or to be maintained as agricultural woodlands, as applicable. (2)   Whenever a land assessment valuation is undertaken in association with a foreign government or persons acquisition of agricultural or horticultural land and agricultural woodlands, pursuant to paragraph (1) of subsection b. of this section, the valuation of the land shall incorporate and reflect the requirement that the land is to remain devoted to agricultural or horticultural use or to be maintained as agricultural woodlands, as applicable. (3)   Land sold or conveyed pursuant to this subsection shall be sold or conveyed to an individual, trust, corporation, partnership, or other business entity that is not a foreign government or foreign person subject to the provisions of this act. e.  A foreign government or foreign person shall not transfer title or interest in agricultural or horticultural land or agricultural woodlands to another foreign government or foreign person, except by devise or descent, as authorized pursuant to paragraph (2) of subsection b. of this section. f.  Subsection a. of this section shall not apply to agricultural or horticultural land or agricultural woodlands acquired by a foreign government or foreign person, pursuant to paragraph (2) of subsection b. of this section, through devise or descent or the establishment of a bona fide encumbrance on agricultural or horticultural land or agricultural woodlands taken for the purposes of security, including land for which title has been transferred, pursuant to subsection e. of this section, from one foreign government or foreign person to another. g.  Any provision of this section that is inconsistent with, or in violation of, any treaty between the United States and another country shall not apply to the foreign government or a foreign person of the country that is party to such treaty. 3.  a.  No later than 90 days after the effective date of this act, and annually thereafter, the Secretary of Agriculture shall compile and report to the Governor and, pursuant to section 2 of P.L.1991, c.164 (C.52:14-19.1), to the Legislature: (1)  the total acreage of agricultural or horticultural land and agricultural woodlands in the State that is owned by foreign governments or foreign persons; (2)  the percentage change in the amount of in-State agricultural or horticultural land and agricultural woodlands acreage owned by foreign governments or foreign persons, per year, over the preceding 10 years; (3)  the top 10 nationalities of foreign governments or foreign persons owning agricultural or horticultural land or agricultural woodlands in the State, by total amount of acreage owned; and (4)  the purposes for which agricultural or horticultural land and agricultural woodlands owned by foreign governments or foreign persons has been used in the preceding five years, and any significant changes or trends in the uses of such land. b.  The secretary may base the data compiled pursuant to subsection a. of this section on the reports submitted to the Department of Agriculture, by the United States Department of Agriculture, pursuant to 7 U.S.C. s.3505, or any other relevant information available to the department.  The State Agriculture Development Committee and other State agencies and departments, as well as county boards of agriculture and other local agencies, boards, or political subdivisions in the State, shall provide the secretary with any relevant information available to those entities concerning the data required to be compiled and reported pursuant to subsection a. of this section. 4.  This act shall take effect immediately. STATEMENT This bill would prohibit any foreign government or foreign person from acquiring, purchasing, or otherwise obtaining a legal, beneficial, or other interest in any agricultural or horticultural land or agricultural woodlands in the State on or after the bills effective date, with limited exceptions, as described below. The bill would permit a foreign government or foreign person that already owns or holds an interest in agricultural or horticultural land or agricultural woodlands in the State, on the bills effective date, to continue to own or hold the interest in such land for a maximum of five years thereafter.  Within five years after the bills effective date, the foreign government or foreign person would be required to sell or otherwise convey the ownership of, or interest in, the agricultural or horticultural land or agricultural woodlands to an individual, trust, corporation, partnership, or other business entity that is not a foreign government or foreign person, with a deed of easement attached to the land requiring the land to remain devoted to agricultural or horticultural use or be maintained as agricultural woodlands, as applicable. The bill would provide the following exceptions to the general prohibition on the continued foreign ownership of agricultural or horticultural land and agricultural woodlands: 1)  a foreign government or foreign person may acquire agricultural or horticultural land or agricultural woodlands, on or after the bills effective date, through a process of law involving the collection of debt, the execution of a deed in lieu of foreclosure, the forfeiture of a contract for deed, or the imposition of a lien or claim on the land, whether by mortgage or otherwise, but such person or government would then be required to sell or convey the land, within two years after the transfer of title thereto, to an individual, trust, corporation, partnership, or other business entity that is not a foreign government or foreign person, with a deed of easement attached to the land requiring the land to remain devoted to agricultural or horticultural use or be maintained as agricultural woodlands, as applicable; and 2)  the provisions of the bill would not be applicable to agricultural or horticultural land or agricultural woodlands acquired by devise or descent or pursuant to a bona fide encumbrance established on agricultural or horticultural land or agricultural woodlands taken for the purposes of security. The bill further provides that, whenever land assessment valuation is undertaken in association with the acquisition of land by a foreign government or foreign person pursuant to a process of law involving the collection of debt, the execution of a deed in lieu of foreclosure, the forfeiture of a contract for deed, or the imposition of a lien or claim on the land, whether created by a mortgage or otherwise, the valuation is to incorporate and reflect the fact that the land is to remain devoted to agricultural or horticultural use or maintained as agricultural woodlands, as applicable. The bill provides that any provision of the bill which is inconsistent with, or in violation of, any treaty between the United States and another country would not apply to any foreign government or foreign person residing in a country that is party to the treaty. Finally, the bill requires the Secretary of Agriculture, no more than 90 days after the effective date of the bill, and annually thereafter, to report to the Governor and the Legislature: 1)  the total acreage of agricultural or horticultural land and agricultural woodlands in the State that is owned by foreign governments or foreign persons; 2)  the percentage change in the amount of in-State agricultural or horticultural land and agricultural woodlands acreage owned by foreign governments or foreign persons, per year, over the preceding 10 years; 3)  the top 10 nationalities of foreign governments or foreign persons owning agricultural or horticultural land or agricultural woodlands in the State, by total amount of acreage owned; and 4)  the purposes for which agricultural or horticultural land and agricultural woodlands owned by foreign governments or foreign persons has been used in the preceding five years, and any significant changes or trends in the use of such land. The bill authorizes the secretary to base the requisite data on:  reports that are submitted, to the Department of Agriculture, by the United States Department of Agriculture pursuant to federal law; or any other relevant information available to the department.  The bill also directs the State Agriculture Development Committee and other State agencies and departments, as well as county boards of agriculture and other local agencies, boards, or political subdivisions in the State, to provide the secretary with any relevant information available concerning the data required to be compiled and reported by the bill.
+</head>
 
+<body lang=EN-US>
 
-================================================================================
+<div class=WordSection1>
 
-Raw Text:
-A191 ASSEMBLY, No. 191 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblywoman  DAWN FANTASIA District 24 (Morris, Sussex and Warren) Assemblyman  MICHAEL INGANAMORT District 24 (Morris, Sussex and Warren) Co-Sponsored by: Assemblyman Auth SYNOPSIS Bans foreign ownership of agricultural or horticultural land and agricultural woodlands in State. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning the ownership of agricultural and horticultural land and agricultural woodlands in the State, and supplementing Title 4 of the Revised Statutes. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.  As used in this act: "Agricultural development areas" means the same as the term is defined in P.L.1983, c.32 (C.4:1C-13). "Agricultural or horticultural land" means any land actively devoted to agricultural or horticultural use, any land located in agricultural development areas, any land subject to an agricultural deed restriction for farmland preservation purposes, or any land zoned for agricultural or horticultural use regardless of the use of the land upon the effective date of this act. "Agricultural or horticultural use" means:  the production of plants, animals, and agricultural or horticultural products from plants or animals useful to man, including, but not limited to, forages or sod crops, grains or feed crops, dairy animals or dairy products, poultry or poultry products, livestock animals, including beef cattle, sheep, swine, horses, ponies, mules, or goats, and animal products,  bees or apiary products, or fur animals; aquacultured aquatic organisms or products; trees or forest products, hops or other crops used in the production of beer or mead, vegetables or fruits of all kinds, including grapes, nuts, and berries, or nursery, floral, ornamental, or greenhouse products; the production, harvesting, storage, grading, packaging, processing, or wholesale and retail marketing of crops, plants, animals, or other related commodities; the use of vineyards for the production of wine; the use and application of techniques and methods related to soil preparation and management, fertilization, weed, disease or pest control, animal breeding or grazing, farm waste disposal, irrigation, or drainage and water management; or any use that meets the requirements and qualifications for payments or other compensation authorized pursuant to a soil conservation program under an agreement with an agency of the federal government. "Agricultural woodlands" means forested acres of land that support an agricultural or horticultural use, and forested acres of land used in the production of specialty crops and other products that are:  derived from trees or from the production and sale of trees and forest products; are subject to a woodland management plan adopted pursuant to section 3 of the "Farmland Assessment Act of 1964," P.L.1964, c.48 (C.54:4-23.3); or are subject to a forest stewardship plan adopted pursuant to section 3 of P.L.2009, c.256 (C.13:1L-31). "Department" means the Department of Agriculture. "Foreign government" means any government other than the government of the United States or of its states, territories, possessions, or any political subdivision thereof. "Foreign government" includes an agent, trustee, or fiduciary thereof, acting for a foreign government. "Foreign person" means any individual who is not a citizen of the United States and is a nonresident alien or a resident alien of the United States or one of its states, territories, or possessions; any corporation, partnership, association, or other legal entity created under the laws of a foreign government; or any corporation, partnership, association, or other legal entity, created under the laws of the United States or any of its political subdivisions, the majority of the ownership of which is directly or indirectly held, legally or beneficially, by one or more foreign governments, by one or more foreign persons, by one or more legal entities created under the laws of a foreign government, or by any combination thereof.  Foreign person includes an agent, trustee, or fiduciary thereof, acting for a foreign person. "Secretary" means the Secretary of Agriculture. 2.  a.  Notwithstanding any law, rule, or regulation to the contrary, no foreign government or foreign person shall acquire, purchase, or otherwise obtain a legal, beneficial, or other interest in any agricultural or horticultural land or agricultural woodlands in the State on or after the effective date of this act. b.  Any foreign government or foreign person owning or holding an interest in agricultural or horticultural land or agricultural woodlands in the State upon the effective date of this act may continue to own or hold an interest therein for a maximum of five years after the effective date of this act, and shall not acquire, purchase, or otherwise obtain an interest in, any other agricultural or horticultural land or agricultural woodlands, in the State, on or after the effective date of this act, except: (1) pursuant to a process of law involving the collection of debt the execution of a deed in lieu of foreclosure, the forfeiture of a contract for deed, or the imposition of a lien or claim on the land, whether created by a mortgage or otherwise, in which case, the provisions of subsection d. of this section shall apply; or (2) by devise or descent, or through the establishment of a bona fide encumbrance on agricultural or horticultural land or agricultural woodlands taken for the purposes of security, in which case, the provisions of subsection f. of this section shall apply. c.  A foreign government or foreign person owning or holding an interest in agricultural or horticultural land or agricultural woodlands in the State upon the effective date of this act shall sell or otherwise convey the ownership of, or interest in, the agricultural or horticultural land or agricultural woodlands, as applicable, within five years after the effective date of this act, with a deed of easement attached to the land requiring the land to remain devoted to agricultural or horticultural use or be maintained as agricultural woodlands, as applicable. The land or interest therein shall be sold or conveyed to an individual, trust, corporation, partnership, or other business entity that is not a foreign government or foreign person subject to the provisions of this act. d.  (1)  Agricultural or horticultural land or agricultural woodlands acquired by a foreign government or foreign person on or after the effective date of this act, pursuant to the exception established in paragraph (1) of subsection b. of this section, shall be sold or conveyed, by the foreign owner thereof, within two years after title to the land is transferred thereto.  Upon such sale or conveyance of the land, a deed of easement shall be attached to the land requiring the land to remain devoted to agricultural or horticultural use or to be maintained as agricultural woodlands, as applicable. (2)   Whenever a land assessment valuation is undertaken in association with a foreign government or persons acquisition of agricultural or horticultural land and agricultural woodlands, pursuant to paragraph (1) of subsection b. of this section, the valuation of the land shall incorporate and reflect the requirement that the land is to remain devoted to agricultural or horticultural use or to be maintained as agricultural woodlands, as applicable. (3)   Land sold or conveyed pursuant to this subsection shall be sold or conveyed to an individual, trust, corporation, partnership, or other business entity that is not a foreign government or foreign person subject to the provisions of this act. e.  A foreign government or foreign person shall not transfer title or interest in agricultural or horticultural land or agricultural woodlands to another foreign government or foreign person, except by devise or descent, as authorized pursuant to paragraph (2) of subsection b. of this section. f.  Subsection a. of this section shall not apply to agricultural or horticultural land or agricultural woodlands acquired by a foreign government or foreign person, pursuant to paragraph (2) of subsection b. of this section, through devise or descent or the establishment of a bona fide encumbrance on agricultural or horticultural land or agricultural woodlands taken for the purposes of security, including land for which title has been transferred, pursuant to subsection e. of this section, from one foreign government or foreign person to another. g.  Any provision of this section that is inconsistent with, or in violation of, any treaty between the United States and another country shall not apply to the foreign government or a foreign person of the country that is party to such treaty. 3.  a.  No later than 90 days after the effective date of this act, and annually thereafter, the Secretary of Agriculture shall compile and report to the Governor and, pursuant to section 2 of P.L.1991, c.164 (C.52:14-19.1), to the Legislature: (1)  the total acreage of agricultural or horticultural land and agricultural woodlands in the State that is owned by foreign governments or foreign persons; (2)  the percentage change in the amount of in-State agricultural or horticultural land and agricultural woodlands acreage owned by foreign governments or foreign persons, per year, over the preceding 10 years; (3)  the top 10 nationalities of foreign governments or foreign persons owning agricultural or horticultural land or agricultural woodlands in the State, by total amount of acreage owned; and (4)  the purposes for which agricultural or horticultural land and agricultural woodlands owned by foreign governments or foreign persons has been used in the preceding five years, and any significant changes or trends in the uses of such land. b.  The secretary may base the data compiled pursuant to subsection a. of this section on the reports submitted to the Department of Agriculture, by the United States Department of Agriculture, pursuant to 7 U.S.C. s.3505, or any other relevant information available to the department.  The State Agriculture Development Committee and other State agencies and departments, as well as county boards of agriculture and other local agencies, boards, or political subdivisions in the State, shall provide the secretary with any relevant information available to those entities concerning the data required to be compiled and reported pursuant to subsection a. of this section. 4.  This act shall take effect immediately. STATEMENT This bill would prohibit any foreign government or foreign person from acquiring, purchasing, or otherwise obtaining a legal, beneficial, or other interest in any agricultural or horticultural land or agricultural woodlands in the State on or after the bills effective date, with limited exceptions, as described below. The bill would permit a foreign government or foreign person that already owns or holds an interest in agricultural or horticultural land or agricultural woodlands in the State, on the bills effective date, to continue to own or hold the interest in such land for a maximum of five years thereafter.  Within five years after the bills effective date, the foreign government or foreign person would be required to sell or otherwise convey the ownership of, or interest in, the agricultural or horticultural land or agricultural woodlands to an individual, trust, corporation, partnership, or other business entity that is not a foreign government or foreign person, with a deed of easement attached to the land requiring the land to remain devoted to agricultural or horticultural use or be maintained as agricultural woodlands, as applicable. The bill would provide the following exceptions to the general prohibition on the continued foreign ownership of agricultural or horticultural land and agricultural woodlands: 1)  a foreign government or foreign person may acquire agricultural or horticultural land or agricultural woodlands, on or after the bills effective date, through a process of law involving the collection of debt, the execution of a deed in lieu of foreclosure, the forfeiture of a contract for deed, or the imposition of a lien or claim on the land, whether by mortgage or otherwise, but such person or government would then be required to sell or convey the land, within two years after the transfer of title thereto, to an individual, trust, corporation, partnership, or other business entity that is not a foreign government or foreign person, with a deed of easement attached to the land requiring the land to remain devoted to agricultural or horticultural use or be maintained as agricultural woodlands, as applicable; and 2)  the provisions of the bill would not be applicable to agricultural or horticultural land or agricultural woodlands acquired by devise or descent or pursuant to a bona fide encumbrance established on agricultural or horticultural land or agricultural woodlands taken for the purposes of security. The bill further provides that, whenever land assessment valuation is undertaken in association with the acquisition of land by a foreign government or foreign person pursuant to a process of law involving the collection of debt, the execution of a deed in lieu of foreclosure, the forfeiture of a contract for deed, or the imposition of a lien or claim on the land, whether created by a mortgage or otherwise, the valuation is to incorporate and reflect the fact that the land is to remain devoted to agricultural or horticultural use or maintained as agricultural woodlands, as applicable. The bill provides that any provision of the bill which is inconsistent with, or in violation of, any treaty between the United States and another country would not apply to any foreign government or foreign person residing in a country that is party to the treaty. Finally, the bill requires the Secretary of Agriculture, no more than 90 days after the effective date of the bill, and annually thereafter, to report to the Governor and the Legislature: 1)  the total acreage of agricultural or horticultural land and agricultural woodlands in the State that is owned by foreign governments or foreign persons; 2)  the percentage change in the amount of in-State agricultural or horticultural land and agricultural woodlands acreage owned by foreign governments or foreign persons, per year, over the preceding 10 years; 3)  the top 10 nationalities of foreign governments or foreign persons owning agricultural or horticultural land or agricultural woodlands in the State, by total amount of acreage owned; and 4)  the purposes for which agricultural or horticultural land and agricultural woodlands owned by foreign governments or foreign persons has been used in the preceding five years, and any significant changes or trends in the use of such land. The bill authorizes the secretary to base the requisite data on:  reports that are submitted, to the Department of Agriculture, by the United States Department of Agriculture pursuant to federal law; or any other relevant information available to the department.  The bill also directs the State Agriculture Development Committee and other State agencies and departments, as well as county boards of agriculture and other local agencies, boards, or political subdivisions in the State, to provide the secretary with any relevant information available concerning the data required to be compiled and reported by the bill.
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 191 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblywoman  DAWN FANTASIA</p>
+
+<p class=bpuSponsor>District 24 (Morris, Sussex and Warren)</p>
+
+<p class=bpuSponsor>Assemblyman  MICHAEL INGANAMORT</p>
+
+<p class=bpuSponsor>District 24 (Morris, Sussex and Warren)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>Co-Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblyman Auth</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Bans foreign ownership of agricultural or
+horticultural land and agricultural woodlands in State. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> concerning the ownership of agricultural and
+horticultural land and agricultural woodlands in the State, and supplementing
+Title 4 of the Revised Statutes.</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.  As used in this act:</p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Agricultural development
+areas&quot; means the same as the term is defined in P.L.1983, c.32
+(C.4:1C-13).</p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Agricultural or
+horticultural land&quot; means any land actively devoted to agricultural or
+horticultural use, any land located in agricultural development areas, any land
+subject to an agricultural deed restriction for farmland preservation purposes,
+or any land zoned for agricultural or horticultural use regardless of the use
+of the land upon the effective date of this act.</p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Agricultural or
+horticultural use&quot; means:  the production of plants, animals, and
+agricultural or horticultural products from plants or animals useful to man,
+including, but not limited to, forages or sod crops, grains or feed crops, dairy
+animals or dairy products, poultry or poultry products, livestock animals,
+including beef cattle, sheep, swine, horses, ponies, mules, or goats, and
+animal products,  bees or apiary products, or fur animals; aquacultured aquatic
+organisms or products; trees or forest products, hops or other crops used in
+the production of beer or mead, vegetables or fruits of all kinds, including
+grapes, nuts, and berries, or nursery, floral, ornamental, or greenhouse
+products; the production, harvesting, storage, grading, packaging, processing, or
+wholesale and retail marketing of crops, plants, animals, or other related
+commodities; the use of vineyards for the production of wine; the use and
+application of techniques and methods related to soil preparation and
+management, fertilization, weed, disease or pest control, animal breeding or
+grazing, farm waste disposal, irrigation, or drainage and water management; or
+any use that meets the requirements and qualifications for payments or other
+compensation authorized pursuant to a soil conservation program under an agreement
+with an agency of the federal government.</p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Agricultural
+woodlands&quot; means forested acres of land that support an agricultural or
+horticultural use, and forested acres of land used in the production of
+specialty crops and other products that are:  derived from trees or from the
+production and sale of trees and forest products; are subject to a woodland
+management plan adopted pursuant to section 3 of the &quot;Farmland Assessment
+Act of 1964,&quot; P.L.1964, c.48 (C.54:4-23.3); or are subject to a forest
+stewardship plan adopted pursuant to section 3 of P.L.2009, c.256 (C.13:1L-31).</p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Department&quot; means
+the Department of Agriculture.</p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Foreign government&quot;
+means any government other than the government of the United States or of its
+states, territories, possessions, or any political subdivision thereof. 
+&quot;Foreign government&quot; includes an agent, trustee, or fiduciary
+thereof, acting for a foreign government.</p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Foreign person&quot;
+means any individual who is not a citizen of the United States and is a
+nonresident alien or a resident alien of the United States or one of its
+states, territories, or possessions; any corporation, partnership, association,
+or other legal entity created under the laws of a foreign government; or any corporation,
+partnership, association, or other legal entity, created under the laws of the
+United States or any of its political subdivisions, the majority of the
+ownership of which is directly or indirectly held, legally or beneficially, by
+one or more foreign governments, by one or more foreign persons, by one or more
+legal entities created under the laws of a foreign government, or by any
+combination thereof.  Foreign person includes an agent, trustee, or fiduciary
+thereof, acting for a foreign person.</p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Secretary&quot; means
+the Secretary of Agriculture.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.  a.  Notwithstanding any
+law, rule, or regulation to the contrary, no foreign government or foreign
+person shall acquire, purchase, or otherwise obtain a legal, beneficial, or
+other interest in any agricultural or horticultural land or agricultural
+woodlands in the State on or after the effective date of this act.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.  Any foreign government or
+foreign person owning or holding an interest in agricultural or horticultural
+land or agricultural woodlands in the State upon the effective date of this act
+may continue to own or hold an interest therein for a maximum of five years
+after the effective date of this act, and shall not acquire, purchase, or
+otherwise obtain an interest in, any other agricultural or horticultural land
+or agricultural woodlands, in the State, on or after the effective date of this
+act, except:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1) pursuant to a process of
+law involving the collection of debt the execution of a deed in lieu of
+foreclosure, the forfeiture of a contract for deed, or the imposition of a lien
+or claim on the land, whether created by a mortgage or otherwise, in which
+case, the provisions of subsection d. of this section shall apply; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2) by devise or descent, or
+through the establishment of a bona fide encumbrance on agricultural or
+horticultural land or agricultural woodlands taken for the purposes of
+security, in which case, the provisions of subsection f. of this section shall
+apply.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.  A foreign government or
+foreign person owning or holding an interest in agricultural or horticultural
+land or agricultural woodlands in the State upon the effective date of this act
+shall sell or otherwise convey the ownership of, or interest in, the
+agricultural or horticultural land or agricultural woodlands, as applicable,
+within five years after the effective date of this act, with a deed of easement
+attached to the land requiring the land to remain devoted to agricultural or
+horticultural use or be maintained as agricultural woodlands, as applicable. 
+The land or interest therein shall be sold or conveyed to an individual, trust,
+corporation, partnership, or other business entity that is not a foreign
+government or foreign person subject to the provisions of this act.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.  (1)  Agricultural or
+horticultural land or agricultural woodlands acquired by a foreign government
+or foreign person on or after the effective date of this act, pursuant to the
+exception established in paragraph (1) of subsection b. of this section, shall
+be sold or conveyed, by the foreign owner thereof, within two years after title
+to the land is transferred thereto.  Upon such sale or conveyance of the land,
+a deed of easement shall be attached to the land requiring the land to remain
+devoted to agricultural or horticultural use or to be maintained as
+agricultural woodlands, as applicable.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   Whenever a land
+assessment valuation is undertaken in association with a foreign government or
+persons acquisition of agricultural or horticultural land and agricultural
+woodlands, pursuant to paragraph (1) of subsection b. of this section, the
+valuation of the land shall incorporate and reflect the requirement that the
+land is to remain devoted to agricultural or horticultural use or to be
+maintained as agricultural woodlands, as applicable.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   Land sold or conveyed
+pursuant to this subsection shall be sold or conveyed to an individual, trust,
+corporation, partnership, or other business entity that is not a foreign
+government or foreign person subject to the provisions of this act.</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.  A foreign government or
+foreign person shall not transfer title or interest in agricultural or
+horticultural land or agricultural woodlands to another foreign government or
+foreign person, except by devise or descent, as authorized pursuant to
+paragraph (2) of subsection b. of this section.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     f.  Subsection a. of this
+section shall not apply to agricultural or horticultural land or agricultural
+woodlands acquired by a foreign government or foreign person, pursuant to
+paragraph (2) of subsection b. of this section, through devise or descent or
+the establishment of a bona fide encumbrance on agricultural or horticultural
+land or agricultural woodlands taken for the purposes of security, including
+land for which title has been transferred, pursuant to subsection e. of this
+section, from one foreign government or foreign person to another.</p>
+
+<p class=MsoNormal style='line-height:150%'>     g.  Any provision of this
+section that is inconsistent with, or in violation of, any treaty between the
+United States and another country shall not apply to the foreign government or
+a foreign person of the country that is party to such treaty.   </p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.  a.  No later than 90 days
+after the effective date of this act, and annually thereafter, the Secretary of
+Agriculture shall compile and report to the Governor and, pursuant to section 2
+of P.L.1991, c.164 (C.52:14-19.1), to the Legislature:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)  the total acreage of
+agricultural or horticultural land and agricultural woodlands in the State that
+is owned by foreign governments or foreign persons;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)  the percentage change in
+the amount of in-State agricultural or horticultural land and agricultural
+woodlands acreage owned by foreign governments or foreign persons, per year,
+over the preceding 10 years;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)  the top 10 nationalities
+of foreign governments or foreign persons owning agricultural or horticultural
+land or agricultural woodlands in the State, by total amount of acreage owned;
+and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)  the purposes for which
+agricultural or horticultural land and agricultural woodlands owned by foreign
+governments or foreign persons has been used in the preceding five years, and
+any significant changes or trends in the uses of such land.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.  The secretary may base the
+data compiled pursuant to subsection a. of this section on the reports
+submitted to the Department of Agriculture, by the United States Department of
+Agriculture, pursuant to 7 U.S.C. s.3505, or any other relevant information
+available to the department.  The State Agriculture Development Committee and
+other State agencies and departments, as well as county boards of agriculture
+and other local agencies, boards, or political subdivisions in the State, shall
+provide the secretary with any relevant information available to those entities
+concerning the data required to be compiled and reported pursuant to subsection
+a. of this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     4.  This act shall take effect
+immediately.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill would prohibit any
+foreign government or foreign person from acquiring, purchasing, or otherwise
+obtaining a legal, beneficial, or other interest in any agricultural or
+horticultural land or agricultural woodlands in the State on or after the
+bills effective date, with limited exceptions, as described below.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill would permit a
+foreign government or foreign person that already owns or holds an interest in
+agricultural or horticultural land or agricultural woodlands in the State, on
+the bills effective date, to continue to own or hold the interest in such land
+for a maximum of five years thereafter.  Within five years after the bills
+effective date, the foreign government or foreign person would be required to
+sell or otherwise convey the ownership of, or interest in, the agricultural or
+horticultural land or agricultural woodlands to an individual, trust,
+corporation, partnership, or other business entity that is not a foreign
+government or foreign person, with a deed of easement attached to the land
+requiring the land to remain devoted to agricultural or horticultural use or be
+maintained as agricultural woodlands, as applicable.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill would provide the
+following exceptions to the general prohibition on the continued foreign
+ownership of agricultural or horticultural land and agricultural woodlands:</p>
+
+<p class=MsoNormal style='line-height:150%'>     1)  a foreign government or
+foreign person may acquire agricultural or horticultural land or agricultural
+woodlands, on or after the bills effective date, through a process of law
+involving the collection of debt, the execution of a deed in lieu of
+foreclosure, the forfeiture of a contract for deed, or the imposition of a lien
+or claim on the land, whether by mortgage or otherwise, but such person or
+government would then be required to sell or convey the land, within two years
+after the transfer of title thereto, to an individual, trust, corporation,
+partnership, or other business entity that is not a foreign government or
+foreign person, with a deed of easement attached to the land requiring the land
+to remain devoted to agricultural or horticultural use or be maintained as
+agricultural woodlands, as applicable; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     2)  the provisions of the bill
+would not be applicable to agricultural or horticultural land or agricultural
+woodlands acquired by devise or descent or pursuant to a bona fide encumbrance
+established on agricultural or horticultural land or agricultural woodlands
+taken for the purposes of security.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill further provides
+that, whenever land assessment valuation is undertaken in association with the
+acquisition of land by a foreign government or foreign person pursuant to a
+process of law involving the collection of debt, the execution of a deed in
+lieu of foreclosure, the forfeiture of a contract for deed, or the imposition
+of a lien or claim on the land, whether created by a mortgage or otherwise, the
+valuation is to incorporate and reflect the fact that the land is to remain
+devoted to agricultural or horticultural use or maintained as agricultural
+woodlands, as applicable.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill provides that any
+provision of the bill which is inconsistent with, or in violation of, any
+treaty between the United States and another country would not apply to any
+foreign government or foreign person residing in a country that is party to the
+treaty.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Finally, the bill requires the
+Secretary of Agriculture, no more than 90 days after the effective date of the
+bill, and annually thereafter, to report to the Governor and the Legislature:</p>
+
+<p class=MsoNormal style='line-height:150%'>     1)  the total acreage of
+agricultural or horticultural land and agricultural woodlands in the State that
+is owned by foreign governments or foreign persons;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2)  the percentage change in
+the amount of in-State agricultural or horticultural land and agricultural
+woodlands acreage owned by foreign governments or foreign persons, per year,
+over the preceding 10 years;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3)  the top 10 nationalities
+of foreign governments or foreign persons owning agricultural or horticultural
+land or agricultural woodlands in the State, by total amount of acreage owned;
+and</p>
+
+<p class=MsoNormal style='line-height:150%'>     4)  the purposes for which
+agricultural or horticultural land and agricultural woodlands owned by foreign
+governments or foreign persons has been used in the preceding five years, and
+any significant changes or trends in the use of such land.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill authorizes the
+secretary to base the requisite data on:  reports that are submitted, to the
+Department of Agriculture, by the United States Department of Agriculture
+pursuant to federal law; or any other relevant information available to the
+department.  The bill also directs the State Agriculture Development Committee
+and other State agencies and departments, as well as county boards of
+agriculture and other local agencies, boards, or political subdivisions in the
+State, to provide the secretary with any relevant information available
+concerning the data required to be compiled and reported by the bill.</p>
+
+</div>
+
+</body>
+
+</html>
