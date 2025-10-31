@@ -1,16 +1,705 @@
-Title: A106
-Official Title: 
-Number of Sections: 1
-Source: versions - Introduced Version
-Media Type: text/html
+<html>
 
-================================================================================
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A106</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 94.5pt 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
 
-Section 1:
-A106 ASSEMBLY, No. 106 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblyman  DONALD A. GUARDIAN District 2 (Atlantic) Co-Sponsored by: Assemblyman Torrissi SYNOPSIS Provides corporation business tax credits and gross income tax credits to farm employers for providing lodging or transportation benefits. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act providing corporation business tax credits and gross income tax credits to farm employers for providing certain lodging or transportation benefits, supplementing P.L.1945, c.162 (C.54:10A-1 et seq.) and Title 54A of the New Jersey Statutes. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    a.  (1)  A taxpayer that is a farm employer shall be allowed a credit against the tax imposed pursuant to section 5 of P.L.1945, c.162 (C.54:10A-5), for a privilege period in the amount of $250 for each employee to whom the farm employer provides lodging and in an amount not to exceed $500 for each employee to whom the farm employer provides transportation benefits.  The credit allowed pursuant to this section for transportation benefits shall be equal to the dollar value of those transportation benefits provided during the privilege period, not to exceed the limit specified in this section. (2)   In order to qualify for the lodging credit allowed pursuant to this section, the lodging provided to an employee shall be: (a)   furnished on the premises of the farm employers business; (b)   furnished for the convenience of the farm employer; (c)   required as a condition of employment; and (d)   for a continuous period of at least six weeks during the privilege period. (3)   In order to qualify for the transportation credit allowed pursuant to this section, the transportation benefit provided to an employee shall be: (a)   used to assist with the cost of the employees commute or travel to or from the farm employers premises; and (b)   provided in cash to reimburse a substantiated transportation expense of the employee, including, but not limited to, the cost of public transportation, parking, train tickets, airfare, or motor fuel used in a vehicle to transport the employee to or from the farm employers premises. b.    The order of priority of the application of the credit allowed pursuant to this section and any other credits allowed by law shall be as prescribed by the director.  The amount of the credit applied under this section against the tax imposed pursuant to section 5 of P.L.1945, c.162 (C.54:10A-5) for a privilege period, together with any other credits allowed by law, shall not exceed 50 percent of the tax liability otherwise due and shall not reduce the tax liability to an amount less than the statutory minimum provided in subsection (e) of section 5 of P.L.1945, c.162 (C.54:10A-5). c.     The amount of the tax credit otherwise allowable under this section which cannot be applied for the privilege period may be carried forward, if necessary, to the four privilege periods following the privilege period for which a portion of the tax credit was allowed. d.    No tax credit shall be allowed pursuant to this section for any costs or expenses included in the calculation of any other tax credit or exemption granted pursuant to a claim made on a tax return filed with the director, or included in the calculation of an award of business assistance or incentive, for a period of time that coincides with the privilege period for which a tax credit pursuant to this section is allowed. e.     A farm employer shall apply in a form and manner to be determined by the director for the tax credit provided pursuant to this section. f.     As used in this section: Employee means an individual who is engaged by the farm employer on a piece-rate or regular hourly rate basis to labor on a farm. Farm employer means a taxpayer in this State who engages individuals in this State on a piece-rate or regular hourly rate basis to labor on a farm. 2.    a.  (1) A taxpayer that is a farm employer shall be allowed a credit against the tax otherwise due under the New Jersey Gross Income Tax Act, N.J.S.54A:1-1 et seq., for a taxable year in the amount of $250 for each employee to whom the farm employer provides lodging and in an amount not to exceed $500 for each employee to whom the farm employer provides transportation benefits.  The credit allowed pursuant to this section for transportation benefits shall be equal to the dollar value of those transportation benefits provided during the taxable year, not to exceed the limit specified in this section. (2)   In order to qualify for the lodging credit allowed pursuant to this section, the lodging provided to an employee shall be: (a)   furnished on the premises of the farm employers business; (b)   furnished for the convenience of the farm employer; (c)   required as a condition of employment; and (d)   for a continuous period of at least six weeks during the taxable year. (3)   In order to qualify for the transportation credit allowed pursuant to this section, the transportation benefit provided to an employee shall be: (a)   used to assist with the cost of the employees commute or travel to or from the farm employers premises; and (b)   provided in cash to reimburse a substantiated transportation expense of the employee, including, but not limited to, the cost of public transportation, parking, train tickets, airfare, or motor fuel used in a vehicle to transport the employee to or from the farm employers premises. b.    The amount of the credit allowed pursuant to this section shall be applied against the tax otherwise due under the "New Jersey Gross Income Tax Act," N.J.S.54A:1-1 et seq., after all other credits and payments.  If the credit exceeds the amount of tax liability otherwise due, that amount of excess shall be an overpayment for the purposes of N.J.S.54A:9-7, provided, however, that subsection (f) of N.J.S.54A:9-7 shall not apply. c.     No tax credit shall be allowed pursuant to this section for any costs or expenses included in the calculation of any other tax credit or exemption granted pursuant to a claim made on a tax return filed with the director, or included in the calculation of an award of business assistance or incentive, for a period of time that coincides with the taxable year, for which a tax credit authorized pursuant to this section is allowed. d.    (1) A business entity that is classified as a partnership for federal income tax purposes shall not be allowed a tax credit pursuant to this section directly, but the amount of tax credit of a taxpayer in respect to distributive share of entity income, shall be determined by allocating to the taxpayer that proportion of the tax credit acquired by the entity that is equal to the taxpayers share, whether or not distributed, of the total distributive income or gain of the entity for its taxable year ending within or with the taxpayers taxable year. (2)   A New Jersey S Corporation shall not be allowed a tax credit pursuant to this section directly, but the amount of the tax credit of a taxpayer in respect of a pro rata share of S Corporation income, shall be determined by allocating to the taxpayer that proportion of the tax credit acquired by the New Jersey S Corporation that is equal to the taxpayers share, whether or not distributed, of the total pro rata share of S Corporation income of the New Jersey S Corporation for its privilege period ending within or with the taxpayers taxable year. e.     A farm employer shall apply in a form and manner to be determined by the director for the tax credit provided pursuant to this section. f.     As used in this section: Employee means an individual who is engaged by the farm employer on a piece-rate or regular hourly rate basis to labor on a farm. Farm employer means a taxpayer in this State who engages individuals in this State on a piece-rate or regular hourly rate basis to labor on a farm. 3.    This act shall take effect immediately and apply to taxable years and privilege periods beginning on or after January 1 next following the date of enactment. STATEMENT This bill provides corporation business tax (CBT) credits and gross income tax (GIT) credits to farm employers for providing lodging or transportation benefits. The bill provides farm employers with tax credits in an amount equal to $250 for each employee that the farm employer provides lodging to, and up to $500 for each employee that the farm employer provides transportation benefits to during the taxable year. The lodging provided to an employee is required to be: (a) furnished on the premises of the farm employers business; (b) furnished for the convenience of the farm employer; (c) required as a condition of employment; and (d) for a continuous period of at least six weeks during the taxable year.  The transportation benefit provided by the farm employer is to assist with an employees cost to commute or travel to or from work by reimbursing the employee for related and substantiated expenses. Any amount of the tax credit that cannot be applied against a farm employers CBT liability for a privilege period can be carried forward to the four privilege periods following the privilege period for which a portion of the tax credit was allowed.  If the GIT credit exceeds farm employers liability, the farm employer can receive a refund for the amount in excess. The bill requires the Director of the Division of Taxation in the Department of the Treasury to determine the form and manner by which a taxpayer can apply for the tax credit.
+</head>
 
+<body lang=EN-US>
 
-================================================================================
+<div class=WordSection1>
 
-Raw Text:
-A106 ASSEMBLY, No. 106 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Assemblyman  DONALD A. GUARDIAN District 2 (Atlantic) Co-Sponsored by: Assemblyman Torrissi SYNOPSIS Provides corporation business tax credits and gross income tax credits to farm employers for providing lodging or transportation benefits. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act providing corporation business tax credits and gross income tax credits to farm employers for providing certain lodging or transportation benefits, supplementing P.L.1945, c.162 (C.54:10A-1 et seq.) and Title 54A of the New Jersey Statutes. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    a.  (1)  A taxpayer that is a farm employer shall be allowed a credit against the tax imposed pursuant to section 5 of P.L.1945, c.162 (C.54:10A-5), for a privilege period in the amount of $250 for each employee to whom the farm employer provides lodging and in an amount not to exceed $500 for each employee to whom the farm employer provides transportation benefits.  The credit allowed pursuant to this section for transportation benefits shall be equal to the dollar value of those transportation benefits provided during the privilege period, not to exceed the limit specified in this section. (2)   In order to qualify for the lodging credit allowed pursuant to this section, the lodging provided to an employee shall be: (a)   furnished on the premises of the farm employers business; (b)   furnished for the convenience of the farm employer; (c)   required as a condition of employment; and (d)   for a continuous period of at least six weeks during the privilege period. (3)   In order to qualify for the transportation credit allowed pursuant to this section, the transportation benefit provided to an employee shall be: (a)   used to assist with the cost of the employees commute or travel to or from the farm employers premises; and (b)   provided in cash to reimburse a substantiated transportation expense of the employee, including, but not limited to, the cost of public transportation, parking, train tickets, airfare, or motor fuel used in a vehicle to transport the employee to or from the farm employers premises. b.    The order of priority of the application of the credit allowed pursuant to this section and any other credits allowed by law shall be as prescribed by the director.  The amount of the credit applied under this section against the tax imposed pursuant to section 5 of P.L.1945, c.162 (C.54:10A-5) for a privilege period, together with any other credits allowed by law, shall not exceed 50 percent of the tax liability otherwise due and shall not reduce the tax liability to an amount less than the statutory minimum provided in subsection (e) of section 5 of P.L.1945, c.162 (C.54:10A-5). c.     The amount of the tax credit otherwise allowable under this section which cannot be applied for the privilege period may be carried forward, if necessary, to the four privilege periods following the privilege period for which a portion of the tax credit was allowed. d.    No tax credit shall be allowed pursuant to this section for any costs or expenses included in the calculation of any other tax credit or exemption granted pursuant to a claim made on a tax return filed with the director, or included in the calculation of an award of business assistance or incentive, for a period of time that coincides with the privilege period for which a tax credit pursuant to this section is allowed. e.     A farm employer shall apply in a form and manner to be determined by the director for the tax credit provided pursuant to this section. f.     As used in this section: Employee means an individual who is engaged by the farm employer on a piece-rate or regular hourly rate basis to labor on a farm. Farm employer means a taxpayer in this State who engages individuals in this State on a piece-rate or regular hourly rate basis to labor on a farm. 2.    a.  (1) A taxpayer that is a farm employer shall be allowed a credit against the tax otherwise due under the New Jersey Gross Income Tax Act, N.J.S.54A:1-1 et seq., for a taxable year in the amount of $250 for each employee to whom the farm employer provides lodging and in an amount not to exceed $500 for each employee to whom the farm employer provides transportation benefits.  The credit allowed pursuant to this section for transportation benefits shall be equal to the dollar value of those transportation benefits provided during the taxable year, not to exceed the limit specified in this section. (2)   In order to qualify for the lodging credit allowed pursuant to this section, the lodging provided to an employee shall be: (a)   furnished on the premises of the farm employers business; (b)   furnished for the convenience of the farm employer; (c)   required as a condition of employment; and (d)   for a continuous period of at least six weeks during the taxable year. (3)   In order to qualify for the transportation credit allowed pursuant to this section, the transportation benefit provided to an employee shall be: (a)   used to assist with the cost of the employees commute or travel to or from the farm employers premises; and (b)   provided in cash to reimburse a substantiated transportation expense of the employee, including, but not limited to, the cost of public transportation, parking, train tickets, airfare, or motor fuel used in a vehicle to transport the employee to or from the farm employers premises. b.    The amount of the credit allowed pursuant to this section shall be applied against the tax otherwise due under the "New Jersey Gross Income Tax Act," N.J.S.54A:1-1 et seq., after all other credits and payments.  If the credit exceeds the amount of tax liability otherwise due, that amount of excess shall be an overpayment for the purposes of N.J.S.54A:9-7, provided, however, that subsection (f) of N.J.S.54A:9-7 shall not apply. c.     No tax credit shall be allowed pursuant to this section for any costs or expenses included in the calculation of any other tax credit or exemption granted pursuant to a claim made on a tax return filed with the director, or included in the calculation of an award of business assistance or incentive, for a period of time that coincides with the taxable year, for which a tax credit authorized pursuant to this section is allowed. d.    (1) A business entity that is classified as a partnership for federal income tax purposes shall not be allowed a tax credit pursuant to this section directly, but the amount of tax credit of a taxpayer in respect to distributive share of entity income, shall be determined by allocating to the taxpayer that proportion of the tax credit acquired by the entity that is equal to the taxpayers share, whether or not distributed, of the total distributive income or gain of the entity for its taxable year ending within or with the taxpayers taxable year. (2)   A New Jersey S Corporation shall not be allowed a tax credit pursuant to this section directly, but the amount of the tax credit of a taxpayer in respect of a pro rata share of S Corporation income, shall be determined by allocating to the taxpayer that proportion of the tax credit acquired by the New Jersey S Corporation that is equal to the taxpayers share, whether or not distributed, of the total pro rata share of S Corporation income of the New Jersey S Corporation for its privilege period ending within or with the taxpayers taxable year. e.     A farm employer shall apply in a form and manner to be determined by the director for the tax credit provided pursuant to this section. f.     As used in this section: Employee means an individual who is engaged by the farm employer on a piece-rate or regular hourly rate basis to labor on a farm. Farm employer means a taxpayer in this State who engages individuals in this State on a piece-rate or regular hourly rate basis to labor on a farm. 3.    This act shall take effect immediately and apply to taxable years and privilege periods beginning on or after January 1 next following the date of enactment. STATEMENT This bill provides corporation business tax (CBT) credits and gross income tax (GIT) credits to farm employers for providing lodging or transportation benefits. The bill provides farm employers with tax credits in an amount equal to $250 for each employee that the farm employer provides lodging to, and up to $500 for each employee that the farm employer provides transportation benefits to during the taxable year. The lodging provided to an employee is required to be: (a) furnished on the premises of the farm employers business; (b) furnished for the convenience of the farm employer; (c) required as a condition of employment; and (d) for a continuous period of at least six weeks during the taxable year.  The transportation benefit provided by the farm employer is to assist with an employees cost to commute or travel to or from work by reimbursing the employee for related and substantiated expenses. Any amount of the tax credit that cannot be applied against a farm employers CBT liability for a privilege period can be carried forward to the four privilege periods following the privilege period for which a portion of the tax credit was allowed.  If the GIT credit exceeds farm employers liability, the farm employer can receive a refund for the amount in excess. The bill requires the Director of the Division of Taxation in the Department of the Treasury to determine the form and manner by which a taxpayer can apply for the tax credit.
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 106 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblyman  DONALD A. GUARDIAN</p>
+
+<p class=bpuSponsor>District 2 (Atlantic)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>Co-Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblyman Torrissi</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Provides corporation business tax credits and gross
+income tax credits to farm employers for providing lodging or transportation
+benefits. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> providing corporation business tax credits and gross
+income tax credits to farm employers for providing certain lodging or transportation
+benefits, supplementing P.L.1945, c.162 (C.54:10A-1 et seq.) and Title 54A of
+the New Jersey Statutes.</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    a.  (1)  A taxpayer that
+is a farm employer shall be allowed a credit against the tax imposed pursuant
+to section 5 of P.L.1945, c.162 (C.54:10A-5), for a privilege period in the
+amount of $250 for each employee to whom the farm employer provides lodging and
+in an amount not to exceed $500 for each employee to whom the farm employer
+provides transportation benefits.  The credit allowed pursuant to this section
+for transportation benefits shall be equal to the dollar value of those
+transportation benefits provided during the privilege period, not to exceed the
+limit specified in this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   In order to qualify for
+the lodging credit allowed pursuant to this section, the lodging provided to an
+employee shall be:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)   furnished on the
+premises of the farm employers business;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   furnished for the
+convenience of the farm employer; </p>
+
+<p class=MsoNormal style='line-height:150%'>     (c)   required as a condition
+of employment; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (d)   for a continuous period
+of at least six weeks during the privilege period.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   In order to qualify for
+the transportation credit allowed pursuant to this section, the transportation
+benefit provided to an employee shall be:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)   used to assist with the
+cost of the employees commute or travel to or from the farm employers
+premises; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   provided in cash to
+reimburse a substantiated transportation expense of the employee, including,
+but not limited to, the cost of public transportation, parking, train tickets,
+airfare, or motor fuel used in a vehicle to transport the employee to or from
+the farm employers premises.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    The order of priority of
+the application of the credit allowed pursuant to this section and any other
+credits allowed by law shall be as prescribed by the director.  The amount of
+the credit applied under this section against the tax imposed pursuant to
+section 5 of P.L.1945, c.162 (C.54:10A-5) for a privilege period, together with
+any other credits allowed by law, shall not exceed 50 percent of the tax
+liability otherwise due and shall not reduce the tax liability to an amount
+less than the statutory minimum provided in subsection (e) of section 5 of
+P.L.1945, c.162 (C.54:10A-5).  </p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     The amount of the tax
+credit otherwise allowable under this section which cannot be applied for the
+privilege period may be carried forward, if necessary, to the four privilege
+periods following the privilege period for which a portion of the tax credit
+was allowed.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    No tax credit shall be
+allowed pursuant to this section for any costs or expenses included in the
+calculation of any other tax credit or exemption granted pursuant to a claim
+made on a tax return filed with the director, or included in the calculation of
+an award of business assistance or incentive, for a period of time that
+coincides with the privilege period for which a tax credit pursuant to this
+section is allowed.</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     A farm employer shall apply
+in a form and manner to be determined by the director for the tax credit
+provided pursuant to this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     f.     As used in this
+section:</p>
+
+<p class=MsoNormal style='line-height:150%'>     Employee means an individual
+who is engaged by the farm employer on a piece-rate or regular hourly rate
+basis to labor on a farm.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Farm employer means a
+taxpayer in this State who engages individuals in this State on a piece-rate or
+regular hourly rate basis to labor on a farm.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    a.  (1) A taxpayer that
+is a farm employer shall be allowed a credit against the tax otherwise due
+under the New Jersey Gross Income Tax Act, N.J.S.54A:1-1 et seq., for a
+taxable year in the amount of $250 for each employee to whom the farm employer
+provides lodging and in an amount not to exceed $500 for each employee to whom
+the farm employer provides transportation benefits.  The credit allowed
+pursuant to this section for transportation benefits shall be equal to the
+dollar value of those transportation benefits provided during the taxable year,
+not to exceed the limit specified in this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   In order to qualify for
+the lodging credit allowed pursuant to this section, the lodging provided to an
+employee shall be:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)   furnished on the
+premises of the farm employers business;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   furnished for the
+convenience of the farm employer; </p>
+
+<p class=MsoNormal style='line-height:150%'>     (c)   required as a condition
+of employment; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (d)   for a continuous period
+of at least six weeks during the taxable year.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   In order to qualify for
+the transportation credit allowed pursuant to this section, the transportation
+benefit provided to an employee shall be:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)   used to assist with the
+cost of the employees commute or travel to or from the farm employers
+premises; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   provided in cash to
+reimburse a substantiated transportation expense of the employee, including, but
+not limited to, the cost of public transportation, parking, train tickets,
+airfare, or motor fuel used in a vehicle to transport the employee to or from
+the farm employers premises.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    The amount of the credit
+allowed pursuant to this section shall be applied against the tax otherwise due
+under the &quot;New Jersey Gross Income Tax Act,&quot; N.J.S.54A:1-1 et seq.,
+after all other credits and payments.  If the credit exceeds the amount of tax
+liability otherwise due, that amount of excess shall be an overpayment for the
+purposes of N.J.S.54A:9-7, provided, however, that subsection (f) of
+N.J.S.54A:9-7 shall not apply.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     No tax credit shall be
+allowed pursuant to this section for any costs or expenses included in the
+calculation of any other tax credit or exemption granted pursuant to a claim
+made on a tax return filed with the director, or included in the calculation of
+an award of business assistance or incentive, for a period of time that
+coincides with the taxable year, for which a tax credit authorized pursuant to
+this section is allowed.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    (1) A business entity
+that is classified as a partnership for federal income tax purposes shall not
+be allowed a tax credit pursuant to this section directly, but the amount of
+tax credit of a taxpayer in respect to distributive share of entity income,
+shall be determined by allocating to the taxpayer that proportion of the tax
+credit acquired by the entity that is equal to the taxpayers share, whether or
+not distributed, of the total distributive income or gain of the entity for its
+taxable year ending within or with the taxpayers taxable year.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   A New Jersey S
+Corporation shall not be allowed a tax credit pursuant to this section
+directly, but the amount of the tax credit of a taxpayer in respect of a pro
+rata share of S Corporation income, shall be determined by allocating to the
+taxpayer that proportion of the tax credit acquired by the New Jersey S
+Corporation that is equal to the taxpayers share, whether or not distributed,
+of the total pro rata share of S Corporation income of the New Jersey S
+Corporation for its privilege period ending within or with the taxpayers
+taxable year.</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     A farm employer shall apply
+in a form and manner to be determined by the director for the tax credit
+provided pursuant to this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     f.     As used in this
+section:</p>
+
+<p class=MsoNormal style='line-height:150%'>     Employee means an individual
+who is engaged by the farm employer on a piece-rate or regular hourly rate
+basis to labor on a farm.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Farm employer means a
+taxpayer in this State who engages individuals in this State on a piece-rate or
+regular hourly rate basis to labor on a farm.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    This act shall take
+effect immediately and apply to taxable years and privilege periods beginning
+on or after January 1 next following the date of enactment. <br clear=all
+style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill provides corporation
+business tax (CBT) credits and gross income tax (GIT) credits <span
+class=HangingAnActChar>to farm employers for providing lodging or
+transportation benefits</span>.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill provides farm
+employers with tax credits in an amount equal to $250 for each employee that
+the farm employer provides lodging to, and up to $500 for each employee that
+the farm employer provides transportation benefits to during the taxable year. 
+The lodging provided to an employee is required to be: (a) furnished on the
+premises of the farm employers business; (b) furnished for the convenience of
+the farm employer; (c) required as a condition of employment; and (d) for a
+continuous period of at least six weeks during the taxable year.  The
+transportation benefit provided by the farm employer is to assist with an
+employees cost to commute or travel to or from work by reimbursing the
+employee for related and substantiated expenses.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Any amount of the tax credit
+that cannot be applied against a farm employers CBT liability for a privilege period
+can be carried forward to the four privilege periods following the privilege
+period for which a portion of the tax credit was allowed.  If the GIT credit
+exceeds farm employers liability, the farm employer can receive a refund for
+the amount in excess.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill requires the Director
+of the Division of Taxation in the Department of the Treasury to determine the
+form and manner by which a taxpayer can apply for the tax credit.  </p>
+
+</div>
+
+</body>
+
+</html>
