@@ -1,0 +1,920 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A901</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 901 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblywoman  VERLINA REYNOLDS-JACKSON</p>
+
+<p class=bpuSponsor>District 15 (Hunterdon and Mercer)</p>
+
+<p class=bpuSponsor>Assemblyman  REGINALD W. ATKINS</p>
+
+<p class=bpuSponsor>District 20 (Union)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>Co-Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblyman Venezia</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Protects financial institutions and insurers doing
+business with cannabis industry from being penalized by State regulators. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> </span>concerning cannabis and the protection of
+insurers and financial institutions and supplementing Title 17 of the Revised
+Statutes.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    As used in this act:</p>
+
+<p class=MsoNormal style='line-height:150%'>     Business associate means a
+person that is a customer or supplier of goods or services to or for the
+benefit of an alternative treatment center, cannabis cultivator, cannabis
+delivery service, cannabis distributor, cannabis testing facility, or any other
+cannabis establishment, as these terms are defined pursuant to section 3 of
+P.L.2021, c.16 (C.24:6I-33), or an officer or director, owner, operator,
+shareholder, member, employee, agent or financial backer of a cannabis
+establishment.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Cannabis means marihuana
+as defined pursuant to section 2 of the New Jersey Controlled Dangerous
+Substances Act, P.L.1970, c.226 (C.24:2l-2).</p>
+
+<p class=MsoNormal style='line-height:150%'>     Cannabis product means a
+product that contains cannabis, a cannabis extract or a cannabis concentrate,
+including, but not limited to, edible product, beverages, topicals, ointments,
+oils, tinctures, capsules, pills, suppositories, or inhaled products.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Department means the
+Department of Banking and Insurance.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Depository institution
+means:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   a depository institution
+as defined in section 3 of the Federal Deposit Insurance Act, 12 U.S.C.
+s.1811;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   a federal credit union
+as defined in section 101 of the Federal Credit Union Act, 12 U.S.C. s.1751
+et seq; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   a State credit union as
+defined in section 101 of the Federal Credit Union Act, 12 U.S.C. s.1751 et
+seq.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Federal financial regulatory
+agency means the Federal Reserve System, the United States Department of the
+Treasury, the Office of the Comptroller of the Currency, the National Credit
+Union Administration, the Federal Deposit Insurance Corporation, the United
+States Securities and Exchange Commission, and the Consumer Financial Protection
+Bureau. </p>
+
+<p class=MsoNormal style='line-height:150%'>     Financial institution means
+a financial institution as defined pursuant to section 2 of P.L.1998, c.121
+(C.17:16T-2);</p>
+
+<p class=MsoNormal style='line-height:150%'>     Financial service means a
+financial product or service:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   as defined by section
+5481 of the Dodd-Frank Wall Street Reform and Consumer Protection act, 12
+U.S.C. s.5301 et seq.; </p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   permitted to be provided
+under the authority of:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)   a national bank or a
+financial subsidiary pursuant to 12 U.S.C. ss.24, 24a, and 92a;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   a federal credit union
+pursuant to the Federal Credit Union Act, 12 U.S.C. s.1751 et seq.;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (c)   a corporation, as
+defined pursuant to section 2.1 of the New Jersey Business Corporation Act,
+P.L.1988, c.94 (C.14A:1-2.1);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (d)   a credit union, pursuant
+to the The Credit Union Act of 1984, P.L.1984, c.171 (C.17:13-79 et seq.);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (e)   a person registered, or
+exempt from registration, to offer or sell any security, or to act as a broker,
+dealer, transfer agency, clearing agency or investment company under the
+federal Investment Company Act of 1940, 15 U.S.C. s.80a-1et seq.;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (f)   a person registered, or
+exempt from registration, to:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (i)    offer or sell any
+security, pursuant to the federal Securities Act of 1933, 15 U.S.C. s.77a et
+seq.;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (ii)   act as an exchange, a
+broker, dealer, transfer agent or clearing agent pursuant to the federal Securities
+Exchange Act of 1934, 15 U.S.C. s.78a et seq.;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (iii)  act as an investment
+adviser pursuant to the federal Investment Advisers Act of 1940, 15 U.S.C.
+s.80b-1 et seq.; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (iv)  act as an investment
+company pursuant to the federal Investment Company Act of 1940, 15 U.S.C. s. s.80a-1et
+seq.; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (g)   a person acting as a
+broker-dealer, agent, or investment adviser pursuant to the Uniform Securities
+Law, P.L.1967, c.93 (C.49:3-47 et seq.); or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   that includes a service,
+whether performed directly or indirectly, authorizing, processing, clearing,
+settling, billing, transferring for deposit, transmitting, delivering,
+instructing to be delivered, reconciling, collecting or otherwise effectuating
+or facilitating the payments of funds, where funds payments or funds are made
+or transferred by any means, including by the use of credit cards, debit cards
+or other access devices, accounts, original or substitute checks or electronic
+funds transfers.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Hemp means the plant
+Cannabis sativa L. and any part of that plant, as defined pursuant to section 3
+of P.L.2019, c.238 <br>
+(C.4:28-8).</p>
+
+<p class=MsoNormal style='line-height:150%'>     Insurance service means a
+service authorized to be provided by an insurer in this State.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Insurer means an entity or
+person authorized by the department to transact the business of insurance in
+this State or designated as a surplus lines insurer as defined pursuant to
+section 7 of P.L.1960, c.32 (C.17:22-6.41).</p>
+
+<p class=MsoNormal style='line-height:150%'>     Legitimate cannabis-related
+business means a person that participates in any business or organized
+activity that involves handling cannabis or a cannabis product, including
+cultivating, producing, manufacturing, selling, transporting, displaying,
+dispensing, distributing or purchasing cannabis or a cannabis product in
+compliance with the laws of this State or a law established by another state.</p>
+
+<p class=MsoNormal style='line-height:150%'>     State means any state,
+territory or possession of the United States, the District of Columbia, the
+Commonwealth of Puerto Rico, the Commonwealth of the Northern Mariana Islands,
+Guam, American Samoa, the United States Virgin Islands, or any federally
+recognized Indian tribe as defined by the Secretary of the Interior under the
+Federally Recognized Indian Tribe List Act of 1994, 25 U.S.C. s.5131.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Trust company means:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   a national bank
+authorized to exercise trust powers as authorized by 12 U.S.C. s.92a; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   a bank or trust company
+organized under the laws of this State.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    a.  A financial
+institution authorized to engage in business in this State may provide financial
+services to or for the benefit of a legitimate cannabis-related business and
+the business associates of a legitimate cannabis-related business subject to:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   the laws and regulations
+applicable to the provision of financial services to other customers of the
+financial institution;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   any applicable consumer
+protection laws of this State;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   any additional
+requirements applicable to the institution established for the provision of
+services to a legitimate cannabis-related business or its business associates
+by a federal financial regulatory agency, the department or a financial
+regulatory agency of the State under which the institution is organized; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   to the extent the
+institution is providing services to a legitimate cannabis-related business or
+its business associates in another jurisdiction, any additional requirements
+applicable to the institution established for the provision of the services by
+a financial regulatory agency of that jurisdiction.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    An insurer may provide
+insurance services to or for the benefit of a legitimate cannabis-related
+business and the business associates of a legitimate cannabis-related business
+subject to:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   the laws and regulations
+applicable to the provision of insurance services to other customers of the
+insurer;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   any applicable consumer
+protection laws of this State;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   any additional
+requirements applicable to the insurer established for the provision of services
+to a legitimate cannabis-related business or its business associates by the
+department; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   to the extent the
+insurer is providing services to a legitimate cannabis-related business or its
+business associates in another jurisdiction, any additional requirements
+applicable to the insurer established for the provision of the services by an
+insurance regulatory agency of that jurisdiction.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     Nothing in this section
+shall require a depository institution, an entity performing a financial
+service for or in association with a financial institution or an insurer to
+provide financial or insurance services to a legitimate cannabis-related
+business or the business associates of a legitimate cannabis-related business
+or to any other business.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    Any violation of the
+requirements of subsections a. and b. of this section shall be a violation of
+P.L.1960, c.39 (C.56:8-1 et seq.).</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    a.  Subject to the
+authorizations of subsections a. and b. of section 2 of P.L.    , c.   
+(C.        ) (pending before the Legislature as this bill), no agency or
+political subdivision of this State shall:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   prohibit, penalize, or
+otherwise discourage a financial institution or insurer from providing
+financial or insurance services to a legitimate cannabis-related business or
+the business associates of a legitimate cannabis-related business;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   recommend, incentivize,
+or encourage a financial institution or insurer not to offer financial or
+insurance services to an account holder, or downgrade or cancel services
+provided to the account holder, solely because the account holder is a
+legitimate cannabis-related business or a business associate of a legitimate
+cannabis-related business;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   take adverse or
+corrective supervisory action on a loan made to a legitimate cannabis-related
+business or a business associate of a legitimate cannabis-related business
+solely because the loan has been made to a legitimate cannabis-related business
+or a business associate of a legitimate cannabis-related business;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   prohibit or penalize a financial
+institution or insurer performing financial or insurance services in
+association with another financial institution or insurer from providing
+financial or insurance services solely because the institution or insurer is
+providing financial or insurance services to a legitimate cannabis-related
+business or a business associate of a legitimate cannabis-related business in
+association with another financial institution or insurer; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   subject the legal
+interest of a financial institution in the collateral for a loan or another
+financial service provided to a legitimate cannabis-related business or the
+business associates of a legitimate cannabis-related business to civil or
+criminal forfeiture under any laws of this State or initiate or participate in
+proceedings for the civil or criminal forfeiture of a legal interest under federal
+law or under the laws of another state solely because the loan has been made to
+a legitimate cannabis-related business or a business associate of a legitimate
+cannabis-related business.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    No financial institution
+or insurer, or the directors, officers, employees, agents, owners, shareholders,
+or members of a financial institution or insurer, shall be subject to a
+criminal prosecution, sanction, or claim for damages or any equitable remedy,
+solely because the institution or insurer is providing financial or insurance
+services to or for the benefit of a legitimate cannabis-related business or the
+business associates of a legitimate cannabis-related business.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     The proceeds of any
+transaction involving the activities of a legitimate cannabis-related business shall
+not be considered proceeds from an unlawful activity, solely because the
+transaction involves the proceeds from a legitimate cannabis-related business
+or a business associate of a legitimate cannabis-related business.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    No legitimate
+cannabis-related business, or a business associate of a legitimate cannabis-related
+business, shall be denied any right or privilege by a State agency solely
+because of the business's or business associate's lawful participation in the
+New Jersey Cannabis Regulatory, Enforcement Assistance, and Marketplace
+Modernization Act, P.L.2021, c.16 (C.24:6I-31 et al.).</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     If a legitimate
+cannabis-related business fails to provide the notice required pursuant to section
+4 of P.L.    , c.    (C.        ) (pending before the Legislature as this bill)
+to a financial institution or insurer, the financial institution or insurer
+shall not be deemed in violation of this section solely because the financial
+institution or insurer was not notified and continued to provide services
+beyond the date at which the services should or could have been terminated as a
+result of the suspension or revocation of the permit, registration, or
+certification.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     4.    a. A legitimate
+cannabis-related business that obtains financial or insurance services from a
+financial institution or insurer doing business in this State shall, within
+five business days, provide notice to the financial institution or insurer if a
+license, permit, registration, or certification held by the business or its
+affiliates under federal law, the laws of this State, or a law established by
+another state is suspended or revoked.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    If a legitimate cannabis-related
+business fails to give the notice required under subsection a. of this section
+to a financial institution or insurer, the business or business associate may
+be assessed a civil penalty not to exceed $500 per day until the notice is
+provided; however, this amount shall not exceed $25,000. A civil penalty
+imposed under this subsection shall be collected by the department pursuant to
+the Penalty Enforcement Law of 1999, P.L.1999, c.274 (C.2A:58-10 et seq.).</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     5.    The department shall
+adopt rules and regulations as necessary to implement and administer P.L.    ,
+c.    (C.        ) (pending before the Legislature as this bill) in accordance
+with the Administrative Procedure Act, P.L.1968, c.410 (C.52:14B-1 et seq.).</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     6.    This act shall take
+effect immediately.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      This bill protects financial institutions and
+insurers doing business with the cannabis industry from being penalized by
+State regulators.</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      Under the bill, a financial institution or insurer
+authorized to engage in business New Jersey may provide financial or insurance
+services to or for the benefit of a legitimate cannabis-related business and
+the business associates of a legitimate cannabis-related business subject to:</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      (1)  the laws and regulations applicable to the
+provision of financial or insurance services to other customers of the
+financial institution or insurer;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      (2)  any applicable New Jersey consumer protection
+laws;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      (3)  any additional requirements applicable to the
+financial institution or insurer established for the provision of services to a
+legitimate cannabis-related business or its business associates by a federal
+regulatory agency or the department; and</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      (4)  to the extent the financial institution or
+insurer is providing services to a legitimate cannabis-related business or its
+business associates in another jurisdiction, any additional requirements
+applicable to the financial institution or insurer established for the
+provision of the services by a regulatory agency of that jurisdiction.</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      The bill provides that no agency or political
+subdivision of the State will:</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      (1)  prohibit, penalize or otherwise discourage a
+financial institution or insurer from providing financial or insurance services
+to a legitimate cannabis-related business or the business associates of a
+legitimate cannabis-related business;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      (2)  recommend, incentivize or encourage a financial
+institution or insurer not to offer financial or insurance services to an
+account holder, or downgrade or cancel services provided to the account holder,
+solely because the account holder is a legitimate cannabis-related business or
+a business associate of a legitimate cannabis-related business;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      (3)  take adverse or corrective supervisory action on
+a loan made to a legitimate cannabis-related business or a business associate
+of a legitimate cannabis-related business solely because the loan has been made
+to a legitimate cannabis-related business or a business associate of a
+legitimate cannabis-related business;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      (4)  prohibit or penalize a financial institution or
+insurer performing financial or insurance services in association with another
+financial institution or insurer from providing financial or insurance services
+solely because the institution or insurer is providing financial or insurance services
+to a legitimate cannabis-related business or a business associate of a
+legitimate cannabis-related business in association with another financial
+institution or insurer; or</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      (5)  subject the legal interest of a financial
+institution in the collateral for a loan or another financial service provided
+to a legitimate cannabis-related business or the business associates of a
+legitimate cannabis-related business to civil or criminal forfeiture under New
+Jersey law or initiate or participate in proceedings for the civil or criminal
+forfeiture of a legal interest under federal law or under the laws of another
+state solely because the loan has been made to a legitimate cannabis-related
+business or a business associate of a legitimate cannabis-related business.</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      Additionally, under the bill, no financial
+institution or insurer, or the directors, officers, employees, agents, owners,
+shareholders or members of a financial institution or insurer, will be subject
+to a criminal prosecution, sanction or claim for damages or any equitable
+remedy, solely because the institution or insurer is providing financial or
+insurance services to or for the benefit of a legitimate cannabis-related
+business or the business associates of a legitimate cannabis-related business.</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+letter-spacing:0pt'>      Finally, this bill provides that a legitimate
+cannabis-related business provide notice to a financial institution or insurer
+if a license, permit, registration or certification held by the business or its
+affiliates under federal law, the laws of New Jersey or a law established by
+another state is suspended or revoked.</span></p>
+
+</div>
+
+</body>
+
+</html>

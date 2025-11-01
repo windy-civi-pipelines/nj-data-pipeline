@@ -1,0 +1,1334 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A1008</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 1008 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblywoman  NANCY F. MUNOZ</p>
+
+<p class=bpuSponsor>District 21 (Middlesex, Morris, Somerset and Union)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Authorizes visiting advanced practice nurses who are
+not certified by endorsement in New Jersey to engage in the limited practice of
+prescribing medications and devices, if they have appropriate educational
+qualifications. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> concerning </span>the issuance of prescriptions by
+visiting advanced practice nurses, and amending various sections of the
+statutory law.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    Section 1 of P.L.1947,
+c.262 (C.45:11-23) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    As used in this <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>chapter</u>:</p>
+
+<p class=MsoNormal style='line-height:150%'>     a.     The words &quot;the
+board&quot; mean the New Jersey Board of Nursing created by this <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>chapter</u>.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    The practice of nursing
+as a registered professional nurse is defined as diagnosing and treating human
+responses to actual or potential physical and emotional health problems,
+through such services as casefinding, health teaching, health counseling, and
+provision of care supportive to or restorative of life and well-being, and
+executing medical regimens as prescribed by a licensed or otherwise legally
+authorized physician or dentist. Diagnosing in the context of nursing practice
+means the identification of and discrimination between physical and
+psychosocial signs and symptoms essential to effective execution and management
+of the nursing regimen within the scope of practice of the registered
+professional nurse.  Such diagnostic privilege is distinct from a medical
+diagnosis.  Treating means selection and performance of those therapeutic
+measures essential to the effective management and execution of the nursing
+regimen.  Human responses means those signs, symptoms, and processes which
+denote the individual's health need or reaction to an actual or potential
+health problem.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The practice of nursing as a
+licensed practical nurse is defined as performing tasks and responsibilities
+within the framework of casefinding; reinforcing the patient and family teaching
+program through health teaching, health counseling and provision of supportive
+and restorative care, under the direction of a registered nurse or licensed or
+otherwise legally authorized physician or dentist.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The terms &quot;nursing,&quot;
+&quot;professional nursing,&quot; and &quot;practical nursing&quot; as used in
+this <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>chapter</u>
+shall not be construed to include nursing by students enrolled in a school of
+nursing accredited or approved by the board performed in the prescribed course
+of study and training, nor nursing performed in hospitals, institutions and
+agencies approved by the board for this purpose by graduates of such schools
+pending the results of the first licensing examination scheduled by the board
+following completion of a</p>
+
+<p class=MsoNormal style='line-height:150%'>course of study and training and
+the attaining of age qualification for examination, or thereafter with the
+approval of the board in the case of each individual pending results of
+subsequent examinations; nor shall any of said terms be construed to include
+nursing performed for a period not exceeding 12 months unless the board shall
+approve a longer period, in hospitals, institutions or agencies by a nurse
+legally qualified under the laws of another state or country, pending results
+of an application for licensing under this <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>chapter</u>,
+if such nurse does not represent or hold himself or herself out as a nurse
+licensed to practice under this <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>chapter</u>;
+nor shall any of said terms be construed to include the practice of nursing in
+this State by any legally qualified nurse of another state whose engagement
+made outside of this State requires such nurse to accompany and care for the
+patient while in this State during the period of such engagement, not to exceed
+six months in this State, if such nurse does not represent or hold himself or
+herself out as a nurse licensed to practice in this State; nor shall any of
+said terms be construed to include nursing performed by employees or officers
+of the United States Government or any agency or service thereof while in the
+discharge of his or her official duties; nor shall any of said terms be
+construed to include services performed by nurses aides, attendants, orderlies
+and ward helpers in hospitals, institutions and agencies or by technicians,
+physiotherapists, or medical secretaries, and such duties performed by said
+persons aforementioned shall not be subject to rules or regulations which the
+board may prescribe concerning nursing; nor shall any of said terms be
+construed to include first aid nursing assistance, or gratuitous care by
+friends or members of the family of a sick or infirm person, or incidental care
+of the sick by a person employed primarily as a domestic or housekeeper,
+notwithstanding that the occasion for such employment may be sickness, if such
+incidental care does not constitute professional nursing and such person does
+not claim or purport to be a licensed nurse; nor shall any of said terms be
+construed to include services rendered in accordance with the practice of the
+religious tenets of any well-recognized church or denomination which subscribes
+to the art of healing by prayer.  A person who is otherwise qualified shall not
+be denied licensure as a professional nurse or practical nurse by reason of the
+circumstances that such person is in religious life and has taken a vow of
+poverty.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     &quot;Homemaker-home
+health aide&quot; means a person who is employed by a home care services agency
+and who is performing delegated nursing regimens or nursing tasks delegated
+through the authority of a duly licensed registered professional nurse.  No
+homemaker-home health aide shall follow a delegated nursing regimen or perform
+tasks which are delegated unless the homemaker-home health aide is under the
+supervision of a duly licensed registered professional nurse provided by the
+home care services agency that directly employs the homemaker-home health aide. 
+&quot;Home care services agency&quot; means home health agencies, assisted
+living residences, comprehensive personal care homes, assisted living programs
+or alternate family care sponsor agencies licensed by the Department of Health
+pursuant to P.L.1971, c.136 (C.26:2H-1 et al.), nonprofit homemaker-home health
+aide agencies, and health care service firms regulated by the Director of the
+Division of Consumer Affairs in the Department of Law and Public Safety and the
+Attorney General pursuant to P.L.1989, c.331 (C.34:8-43 et seq.) and P.L.1960,
+c.39 (C.56:8-1 et seq.) respectively, which are engaged in the business of
+procuring or offering to procure employment for homemaker-home health aides,
+where a fee may be exacted, charged or received directly or indirectly for procuring
+or offering to procure that employment.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    &quot;Advanced practice
+nurse&quot; means a person who holds a certification in accordance with section
+8 or 9 of P.L.1991, c.377 (C.45:11-47 or 45:11-48).</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     &quot;Collaborating
+physician&quot; means a person licensed to practice medicine and surgery
+pursuant to chapter 9 of Title 45 of the Revised Statutes who agrees to work
+with an advanced practice nurse.</p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>f.     Visiting advanced
+practice nurse means a person who is not a resident of New Jersey, but who is
+temporarily present in the State; who is licensed or certified as an advanced
+practice nurse, or the substantial equivalent, by another state or jurisdiction
+other than New Jersey; and who is not seeking full certification by
+endorsement, pursuant to N.J.A.C.13:37-7.6, but who wishes to engage in the
+limited practice of prescribing medications and devices in this State. 
+Visiting advanced practice nurse does not include a non-resident who has
+already been certified as an advanced practice nurse in this State through the
+certification by endorsement process specified in N.J.A.C.13:37-7.6.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     Nothing in this <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>chapter</u>
+shall confer the authority to a person licensed to practice nursing to practice
+another health profession as currently defined in Title 45 of the Revised Statutes.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2019, c.48, s.2)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    Section 2 of P.L.1947,
+c.262 (C.45:11-24) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    a.     The board;
+appointment; terms. In addition to the members appointed to represent the
+interests of the public pursuant to P.L.1971, c.60 (C.45:1-2.1 et seq.), the
+New Jersey Board of Nursing shall consist of 12 members, six of whom shall be
+registered professional nurses, two of whom shall be licensed practical nurses,
+two of whom shall be nurse educators, one of whom shall be an advanced practice
+nurse, and one of whom shall be an additional public member, all to be
+appointed by the Governor. Appointments to the board shall be for terms of five
+years or for the unexpired portion of a term in the case of a vacancy for any
+cause within a term, and until a successor shall be appointed and qualified. 
+In making appointments the Governor shall give due consideration to, but shall
+not be bound by, recommendations submitted by the various nurses' professional
+associations of this State.  Upon notice and hearing, the Governor may remove
+from office any member of the board for neglect of duty, incompetency,
+unprofessional or dishonorable conduct.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    Qualifications for
+appointment.  The advanced practice nurse member shall be a resident of this
+State, shall be a graduate of an accredited advanced practice nurse program,
+shall have had at least five years' experience in professional nursing, shall
+at the time of appointment be actively working as an advanced practice nurse,
+and, except for the member first appointed, shall hold a certification as an
+advanced practice nurse pursuant to P.L.1991, c.377 <br>
+(C.45:11-45 et al.).  Each registered professional nurse member of the board
+shall be a citizen of the United States and a resident of this State; shall be
+a graduate of an accredited school of nursing within the United States; shall
+be a registered nurse in this State; shall have had at least five years'
+experience in professional nursing following graduation from an accredited
+school of nursing; and shall at the time of appointment be actively engaged in
+nursing or work relating thereto.  The licensed practical nurse members of the
+board shall be citizens of the United States and residents of this State; shall
+hold a valid license to practice practical nursing in this State; shall have
+had at least three years' experience in practical nursing; and shall at the
+time of appointment be actively engaged in practical nursing or work related
+thereto.  Each nurse educator member of the board shall be a resident of this
+State, shall be a registered nurse in this State, shall have at least five
+years' experience in professional nursing, and shall have been active as an
+educator or administrator in an approved program to train registered nurses.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     Oath or affirmation of
+office.  Within 30 days after receipt of the commission, each appointee shall
+take, subscribe and file in the office of the Secretary of State the oath or
+affirmation prescribed by law.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    Duties and powers.     The
+board shall have the following duties and powers:  (1)  It shall hold annual
+meetings and such other meetings as it may deem necessary at such times and
+places as the board shall prescribe<u>,</u> and a majority of the board
+including one officer shall constitute a quorum. (2) It shall elect from its members
+and prescribe the duties of a president and secretary-treasurer, each of whom
+shall serve for one year and until a successor is elected.  (3) It shall
+appoint and prescribe the duties of an executive secretary to the board who
+need not be a member thereof but who shall be a citizen of the United States, a
+graduate of a college or university with a major in nursing education, a
+registered nurse of this State with at least five years' experience in teaching
+or administration or both in an accredited school of professional nursing, or
+have equivalent qualifications as determined by the board. The executive
+secretary shall hold office during the will and pleasure of the board. (4) It
+shall employ and prescribe the duties of such persons as in its judgment shall
+be necessary for the proper performance and execution of the duties and powers
+of the board.  (5) It shall determine and pay reasonable compensation and
+necessary expenses of the executive secretary and all employees of the board.
+(6) It shall pay to each member of the board the compensation hereinafter
+provided. (7) It shall have a common seal, keep an official record of all its
+meetings, and through its secretary-treasurer report annually to the Governor
+the work of the board. (8) It shall examine applicants for a license or
+renewals thereof, <u>and</u> issue, renew, revoke and suspend licenses, as
+hereinafter provided<u>; and it shall evaluate the credentials of, and ensure
+the competency of, visiting advanced practice nurses who are seeking to engage
+in the limited practice of prescribing medications and devices, as provided by
+subsection h. of section 10 of P.L.1991, c.377 (C.45:11-49)</u>. (9) It shall<u>,</u>
+in its discretion<u>,</u> investigate and prosecute all violations of
+provisions of this <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>chapter</u>.
+(10) It shall keep an official record which shall show the name, age, nativity<u>,</u>
+and permanent place of residence of each applicant and licensee<u>,</u> and
+such further information concerning each applicant and licensee as the board
+shall deem advisable.  The record shall show also whether the applicant was
+examined, licensed or rejected under this and any prior act.  Copies of any of
+the entries of the record or of any certificate issued by the board may be
+authenticated by any member of the board under its seal<u>,</u> and<u>,</u>
+when so authenticated<u>,</u> shall be evidence in all courts of this State of
+the same weight and force as the original thereof.  For authenticating a copy
+of any entry or entries contained in its record the board shall be paid a fee
+of $3.00, but such authentication, if made at the request of any public agency
+of this or any other jurisdiction, may be without fee. (11) In its discretion
+it may publish<u>,</u> at such times as it shall determine<u>,</u> a list of
+nurses licensed under this <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>chapter</u>,
+a list of schools of nursing accredited or approved under this <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>chapter</u>,
+and such other information as it shall deem advisable. (12) It shall prescribe
+standards and curricula for schools of nursing<u>,</u> and evaluate and approve
+courses for affiliation. (13) It shall hear and determine applications for
+accreditation of schools of professional nursing, conduct investigations before
+and after accreditation of such schools and institutions with which they are
+affiliated, and issue, suspend<u>,</u> or revoke certificates of accreditation
+as hereinafter provided. (14) It shall approve schools of practical nursing
+which shall conform to the standards, curricula, and requirements prescribed by
+the board, and suspend or revoke approval for violations thereof; provided,
+that this power shall not extend to schools operated by any board of education
+in this State. (15) It may consult with the Medical Society of New Jersey and
+the New Jersey Hospital Association with respect to any matter relating to the
+administration of this <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>chapter,</u>
+and shall consult with those associations with respect to standards and
+curricula and any change thereof for schools of nursing. (16) It shall issue
+subpoenas for the attendance of witnesses and production of documents at any
+hearing before the board authorized by this <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>chapter,</u>
+and any member of the board shall administer an oath or affirmation to persons
+appearing to give testimony at such hearings. (17) It may conduct any
+investigations, studies of nursing and nursing education and related matters,
+and prepare and issue such publications as in the judgment of the board will
+advance the profession of nursing and its service to the public. (18) It shall
+perform all other functions which are provided in this <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>chapter</u>
+to be performed by it<u>,</u> or which<u>,</u> in the judgment of the board<u>,</u>
+are necessary or proper for the administration of this <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>chapter</u>.
+(19) It shall from time to time prescribe rules and regulations not
+inconsistent with this <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>chapter</u>.
+(20) It shall prescribe standards and curricula for homemaker-home health aide
+education and training programs which a homemaker-home health aide shall
+complete in order to work in this State. (21) It shall review applications to
+provide homemaker-home health aide training programs<u>,</u> and shall issue,
+suspend<u>,</u> or revoke program approval. (22) It shall establish and
+maintain a registry of all individuals who have successfully completed a
+homemaker-home health aide training and competency evaluation program.  The
+board shall provide for the inclusion in the registry of information about the
+disqualification of any person from certification as a homemaker-home health
+aide pursuant to sections 7 through 13 of P.L.1997, c.100 (C.45:11-24.3 through
+24.9), including the specific documented findings constituting the basis for
+that disqualification; except that the information shall indicate that the
+person was convicted of a crime or disorderly persons offense as described in
+section 7 of P.L.1997, c.100 (C.45:11-24.3), but shall not identify the
+conviction or convictions which constitute the basis for the disqualification.
+(23) It shall prescribe standards and requirements for a competency evaluation
+program resulting in certification of the homemaker-home health aide, and the
+renewal, revocation, and suspension of that certification. (24) It shall review
+applications for homemaker home-health aide certification and shall issue,
+suspend, revoke, or fail to renew certifications and conduct investigations
+pursuant to the provisions of P.L.1978, c.73 (C.45:1-14 et seq.). (25) It shall
+require that nursing school curricula include, and shall prescribe standards
+for, the training of registered professional nurses in the supervision of, and
+the delegation of nursing tasks to, unlicensed assistive personnel, and shall
+further prescribe standards establishing the criteria for determining those
+tasks which registered professional nurses may delegate to unlicensed assistive
+personnel working under their supervision<u>,</u> and the type of supervision
+required with respect to those personnel. (26) It shall prescribe standards and
+requirements for unlicensed assistive personnel, including initial education
+and continuing education and a competency evaluation program, which these
+personnel shall satisfy in order to work in this State.  As used in this
+paragraph and in paragraph (25) of this subsection, &quot;unlicensed assistive
+personnel&quot; means any unlicensed or uncertified personnel employed by a
+licensed health care facility that perform nursing tasks which do not require
+the skill or judgment of a registered professional nurse and which are assigned
+to them by, and carried out under the supervision of, a registered professional
+nurse. (27) It may require licensees to meet continuing education requirements
+as a condition of relicensure.</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     Compensation.     Each
+member of the board shall receive $15.00 per day for each day in which such
+member is actually engaged in the discharge of duties and traveling and other
+expenses necessarily incurred in the discharge of duties.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2017, c.125, s.1)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    Section 7 of P.L.1991,
+c.377 (C.45:11-46) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     7.    a.   (1)     <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>No<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>Except as
+otherwise provided by section 10 of P.L.1991, c.377 (C.45:11-49), no</u> person
+shall practice as an advanced practice nurse<u>,</u> or present, call or
+represent himself as an advanced practice nurse<u>,</u> unless certified in
+accordance with section 8 or 9 of P.L.1991, c.377 (C.45:11-47 or 45:11-48).</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)    Nothing in <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>this act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>P.L.1991,
+c.377 (C.45:11-45 et al.)</u> shall be construed to limit, preclude, or
+otherwise interfere with the practices of other persons licensed by appropriate
+agencies of the State of New Jersey, provided that such duties are consistent
+with the accepted standards of the person's profession<u>,</u> and the person
+does not represent himself as an advanced practice nurse.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>No<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b>   <u>Except
+as otherwise provided by section 10 of P.L.1991, c.377 (C.45:11-49), no</u>
+person shall assume, represent himself as, or use the title or designation
+advanced practice nurse or the abbreviation &quot;A.P.N.&quot; or any other
+title or designation which indicates or implies that he is an advanced practice
+nurse unless certified pursuant to section 8 or 9 of P.L.1991, c.377
+(C.45:11-47 or 45:11-48).</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     Whenever the titles or
+designations &quot;nurse practitioner,&quot; &quot;clinical nurse
+specialist&quot; or &quot;nurse practitioner/clinical nurse specialist&quot;
+occur or any reference is made thereto in any law, contract or document, the
+same shall be deemed to mean or refer to the title or designation
+&quot;advanced practice nurse.&quot;</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.1999, c.85, s.5)<br
+clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='line-height:150%'>     4.    Section 10 of P.L.1991,
+c.377 (C.45:11-49) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     10.    a.   In addition to all
+other tasks which a registered professional nurse may, by law, perform, an
+advanced practice nurse may manage preventive care services and diagnose and
+manage deviations from wellness and long-term illnesses, consistent with the
+needs of the patient and within the scope of practice of the advanced practice
+nurse, by:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   initiating laboratory
+and other diagnostic tests;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   prescribing or ordering
+medications and devices, as authorized by subsections b. and c. of this
+section; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   prescribing or ordering
+treatments, including referrals to other licensed health care professionals,
+and performing specific procedures in accordance with the provisions of this
+subsection.</p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>Notwithstanding any other
+law or regulation to the contrary, a visiting advanced practice nurse may
+manage preventative care services and diagnose and manage deviations from
+wellness and long-term illnesses, consistent with the needs of a patient in
+this State, and within the scope of practice of the visiting advanced practice
+nurse, by engaging in the limited practice of prescribing or ordering
+medications and devices, as authorized by subsections b., c., and h. of this
+section.  </u></p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    An advanced practice
+nurse <u>or visiting advanced practice nurse</u> may order medications and
+devices in the inpatient setting, subject to the following conditions:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   the collaborating
+physician and <u>the</u> advanced practice nurse <u>or visiting advanced
+practice nurse, as the case may be,</u> shall address in the joint protocols
+whether prior consultation with the collaborating physician is required to
+initiate an order for a controlled dangerous substance;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   the order is written in
+accordance with standing orders or joint protocols developed in agreement
+between <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>a<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>the</u>
+collaborating physician and the advanced practice nurse <u>or visiting advanced
+practice nurse, as the case may be</u>, or pursuant to the specific direction
+of a physician;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   the advanced practice
+nurse <u>or visiting advanced practice nurse</u> authorizes the order by
+signing <u>and printing</u> the nurse's own name, printing the <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>name and<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>nurses</u>
+certification number<u>, if the nurse is an advanced practice nurse, or the
+nurses identification number, if the nurse is a visiting advanced practice
+nurse</u>, and printing the collaborating physician's name;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   the <u>collaborating</u>
+physician is present or readily available through electronic communications;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   the charts and records
+of the patients treated by the advanced practice nurse <u>or visiting advanced
+practice nurse</u> are reviewed by the collaborating physician and the <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>advanced
+practice<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b>
+nurse within the period of time specified by rule adopted by the Commissioner of
+Health pursuant to section 13 of P.L.1991, c.377 (C.45:11-52);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (6)   the joint protocols
+developed by the collaborating physician and the advanced practice nurse <u>or
+visiting advanced practice nurse</u> are reviewed, updated, and signed at least
+annually by both parties; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (7)   the advanced practice
+nurse <u>or visiting advanced practice nurse</u> has completed six contact
+hours of continuing professional education in pharmacology related to
+controlled substances, including pharmacologic therapy, addiction prevention
+and management, and issues concerning prescription opioid drugs, including
+responsible prescribing practices, alternatives to opioids for managing and
+treating pain, and the risks and signs of opioid abuse, addiction, and
+diversion, in accordance with regulations adopted by the New Jersey Board of
+Nursing.  The six contact hours shall be in addition to New Jersey Board of
+Nursing pharmacology education requirements for advanced practice nurses
+related to initial certification and recertification of an advanced practice
+nurse as set forth in N.J.A.C.13:37-7.2.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     An advanced practice
+nurse <u>or visiting advanced practice nurse</u> may prescribe medications and
+devices in all other medically appropriate settings, subject to the following
+conditions:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   the collaborating
+physician and <u>the</u> advanced practice nurse <u>or visiting advanced
+practice nurse, as the case may be,</u> shall address in the joint protocols
+whether prior consultation with the collaborating physician is required to
+initiate a prescription for a controlled dangerous substance;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   the prescription is
+written in accordance with standing orders or joint protocols developed in
+agreement between <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>a<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>the</u>
+collaborating physician and the advanced practice nurse <u>or visiting advanced
+practice nurse, as the case may be</u>, or pursuant to the specific direction
+of a physician;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   the advanced practice
+nurse <u>or visiting advanced practice nurse</u> writes the prescription on a
+New Jersey Prescription Blank pursuant to P.L.2003, c.280 (C.45:14-40 et seq.),
+signs <u>and prints</u> the nurse's own name <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>to<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>on</u> the
+prescription<u>,</u> and prints the nurse's <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>name
+and<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b>
+certification number<u>, if the nurse is an advanced practice nurse, or the
+nurses identification number, if the nurse is a visiting advanced practice
+nurse</u>;  </p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   the prescription is
+dated and includes the name of the patient and the name, address, and telephone
+number of the collaborating physician;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   the <u>collaborating</u>
+physician is present or readily available through electronic communications;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (6)   the charts and records
+of the patients treated by the advanced practice nurse <u>or visiting advanced
+practice nurse</u> are periodically reviewed by the collaborating physician and
+the <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>advanced
+practice<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b>
+nurse;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (7)   the joint protocols
+developed by the collaborating physician and the advanced practice nurse <u>or
+visiting advanced practice nurse</u> are reviewed, updated, and signed at least
+annually by both parties; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (8)   the advanced practice
+nurse <u>or visiting advanced practice nurse</u> has completed six contact
+hours of continuing professional education in pharmacology related to
+controlled substances, including pharmacologic therapy, addiction prevention
+and management, and issues concerning prescription opioid drugs, including
+responsible prescribing practices, alternatives to opioids for managing and
+treating pain, and the risks and signs of opioid abuse, addiction, and
+diversion, in accordance with regulations adopted by the New Jersey Board of
+Nursing.  The six contact hours shall be in addition to New Jersey Board of
+Nursing pharmacology education requirements for advanced practice nurses
+related to initial certification and recertification of an advanced practice
+nurse as set forth in N.J.A.C.13:37-7.2.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    The joint protocols
+employed pursuant to subsections b. and c. of this section shall conform with
+standards adopted by the Director of the Division of Consumer Affairs pursuant
+to section 12 of P.L.1991, c.377 (C.45:11-51) or section 10 of P.L.1999, c.85
+(C.45:11-49.2), as applicable.</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     (Deleted by amendment,
+P.L.2004, c.122.)</p>
+
+<p class=MsoNormal style='line-height:150%'>     f.     An attending advanced
+practice nurse may determine and certify the cause of death of the nurse's
+patient and execute the death certification pursuant to R.S.26:6-8 if no
+collaborating physician is available to do so and the nurse is the patient's
+primary caregiver.</p>
+
+<p class=MsoNormal style='line-height:150%'>     g.    An advanced practice
+nurse may authorize qualifying patients for the medical use of cannabis and
+issue written instructions for medical cannabis to registered qualifying
+patients, subject to the following conditions:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   the collaborating
+physician and advanced practice nurse shall address in the joint protocols
+whether prior consultation with the collaborating physician is required to
+authorize a qualifying patient for the medical use of cannabis or issue written
+instructions for medical cannabis;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   the authorization for
+the medical use of cannabis or issuance of written instructions for cannabis is
+in accordance with standing orders or joint protocols developed in agreement
+between a collaborating physician and the advanced practice nurse, or pursuant
+to the specific direction of a physician;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   the advanced practice
+nurse signs the nurse's own name to the authorization or written instruction
+and prints the nurse's name and certification number;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   the authorization or
+written instruction is dated and includes the name of the qualifying patient
+and the name, address, and telephone number of the collaborating physician;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   the physician is present
+or readily available through electronic communications;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (6)   the charts and records of
+qualifying patients treated by the advanced practice nurse are periodically
+reviewed by the collaborating physician and the advanced practice nurse;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (7)   the joint protocols
+developed by the collaborating physician and the advanced practice nurse are
+reviewed, updated, and signed at least annually by both parties; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (8)   the advanced practice
+nurse complies with the requirements for authorizing qualifying patients for
+the medical use of cannabis and for issuing written instructions for medical
+cannabis established pursuant to P.L.2009, c.307 (C.24:6I-1 et al.).</p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>h.    (1)     A visiting
+advanced practice nurse shall provide written notice to the board at least 10
+days before engaging in the prescription of medications or devices in this
+State pursuant to this section.  Such written notice shall indicate the
+educational qualifications of the visiting advanced practice nurse, the
+licenses or certifications that are held by the visiting advanced practice
+nurse, the states or other jurisdictions in which those licenses or
+certifications were issued, the training requirements that were satisfied for
+the purposes of obtaining those licenses or certifications, the proposed
+timeframe during which the visiting advanced practice nurse will be prescribing
+medications and devices in this State, and any other information that may be
+required by board regulation.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(2)   Within seven days
+after receipt of notice under paragraph (1) of this subsection, the board shall
+evaluate the visiting advanced practice nurses credentials, as specified in
+the notice, and shall determine whether the nurse is appropriately qualified to
+engage in the prescription of medications and devices, as provided by this
+section.  If the board determines that the visiting advanced practice nurse is
+so qualified, the board shall notify the nurse, in writing, of that
+determination and issue a visiting nurse identification number, which shall be
+printed on all prescriptions that are issued by the nurse in the State.  If the
+board has reason to believe that the visiting advanced practice nurse is not
+properly authorized by the nurses out-of-State license or certification to
+engage in the limited practice of prescribing medications or devices, or that
+the education or training required for the nurses out-of-State license or
+certification was not substantially equivalent to the education or training
+that is required for the certification of advanced practice nurses in this
+State, the board shall issue an order, in accordance with the provisions of
+paragraph (3) of this subsection, restricting the prescription of medications
+and devices in this State by the visiting advanced practice nurse.  </u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(3)   As deemed by the
+board to be appropriate, an order issued pursuant to this subsection may: (a)
+fully prohibit the visiting advanced practice nurse from prescribing
+medications or devices in this State, despite the provisions of this section to
+the contrary; (b) require the visiting advanced practice nurse, before engaging
+in the prescription of medications or devices in this State, to submit to a
+skills assessment and, if necessary, to successfully complete appropriate
+educational training, within the timeframe specified by the board; or (c)
+provide for the conditional supervision, monitoring, or other limitation of the
+visiting advanced practice nurses prescribing practices in this State.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(4)   A visiting advanced practice
+nurse who is subject to an order issued pursuant to paragraph (3) of this
+subsection may submit to the board, within 20 days after receipt of the order,
+a written request for a hearing on the matter, in accordance with the
+Administrative Procedure Act, P.L.1968, c.410 (C.52:14B-1 et seq.).</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(5)   A visiting advanced
+practice nurse who fails to provide notice to the board, as required by this
+subsection, before engaging in the prescription of medications or devices in
+this State, or who prescribes medications or devices in violation of the
+provisions of an order issued pursuant to paragraph (3) of this subsection,
+shall be deemed to be engaged in the unauthorized practice of nursing in this
+State, and shall be subject to a civil penalty pursuant to section 12 of
+P.L.1978, c.73 (C.45:1-25). </u></p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2019, c.153, s.47)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     5.    Section 10 of P.L.1999,
+c.85 (C.45:11-49.2) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     10.    <u>a.</u>   No later
+than the 180th day after the enactment of P.L.1999, c.85, the Director of the
+Division of Consumer Affairs in the Department of Law and Public Safety shall
+adopt standards for the joint protocols required by subsection d. of section 10
+of P.L.1991, c.377 (C.45:11-49), which shall apply to the ordering or
+prescription of controlled dangerous substances by an advanced practice nurse
+pursuant to that section.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>b.    No later than the
+180th day after the enactment of P.L.    , <br>
+c.    (pending before the Legislature as this bill), the Director of the
+Division of Consumer Affairs in the Department of Law and Public Safety shall
+adopt standards for the joint protocols required by subsection d. of section 10
+of P.L.1991, c.377 (C.45:11-49), which shall apply to the ordering or
+prescription of controlled dangerous substances by a visiting advanced practice
+nurse pursuant to that section.  As deemed appropriate, such standards may be
+the same as those that are applicable to advanced practice nurses under
+subsection a. of this section.</u>  <br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>c.</u>     The standards <u>described
+in this section</u> shall be adopted by regulation in accordance with the
+&quot;Administrative Procedure Act,&quot;</p>
+
+<p class=MsoNormal style='line-height:150%'>P.L.1968, c.410 (C.52:14B-1 et
+seq.).</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.1999, c.85, s.10)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     6.    Section 11 of P.L.1991,
+c.377 (C.45:11-50) is amended to read as follows: </p>
+
+<p class=MsoNormal style='line-height:150%'>     11.  In addition to such other
+powers as it may by law possess, the New Jersey Board of Nursing shall have the
+following powers and duties;  </p>
+
+<p class=MsoNormal style='line-height:150%'>     a.     To promulgate, pursuant
+to the &quot;Administrative Procedure Act,&quot; P.L.1968, c.410 (C.52:14B-1 et
+seq.), rules and regulations to effectuate the purposes of <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>this act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>P.L.1991,
+c.377 (C.45:11-45 et al.)</u>, except for those subjects of rule-making
+authority allocated to the Director of the Division of Consumer Affairs
+pursuant to section 12 of P.L.1991, c.377 (C.45:11-51) or to the Commissioner
+of Health <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>and
+Senior Services<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b>
+pursuant to section 13 of P.L.1991, c.377 (C.45:11-52);</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    To evaluate and pass
+upon the qualifications of candidates for certification as advanced practice
+nurses<u>, and, as provided by subsection h. of section 10 of P.L.1991, c.377
+(C.45:11-49), to review and pass upon the prescribing qualifications of
+visiting advanced practice nurses</u>;</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     To evaluate and pass
+upon national accreditation organizations and the holders of certificates from
+those organizations as necessary to award certificates pursuant to section 9 of
+P.L.1991, c.377 (C.45:11-48);</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    To establish specialty
+areas of practice for advanced practice nurses;</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     To take disciplinary
+action, in accordance with P.L.1978, c.73 (C.45:1-14 et seq.) against an
+advanced practice nurse who violates the provisions of <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>this act<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>P.L.1991,
+c.377 (C.45:11-45 et al.)</u>, any regulation promulgated thereunder, or
+P.L.1978, c.73 (C.45:1-14 et seq.)<u>, or against a visiting advanced practice
+nurse who violates the provisions of subsection h. of section 10 of P.L.1991,
+c.377 (C.45:11-49), or the provisions of any order issued by the board pursuant
+thereto</u>;</p>
+
+<p class=MsoNormal style='line-height:150%'>     f.     To approve the
+examination to be taken by candidates for certification;</p>
+
+<p class=MsoNormal style='line-height:150%'>     g.    To set standards of
+professional conduct for advanced practice nurses <u>and visiting advanced
+practice nurses</u>;</p>
+
+<p class=MsoNormal style='line-height:150%'>     h.    To set fees for
+examinations, certification and other services consistent with section 2 of
+P.L.1974, c.46 (C.45:1-3.2);</p>
+
+<p class=MsoNormal style='line-height:150%'>     i.     To set standards for
+and approve continuing education programs; and </p>
+
+<p class=MsoNormal style='line-height:150%'>     j.     To determine<u>, in
+relation to the certification of an advanced practice nurse, or the
+qualification of a visiting advanced practice nurse,</u> whether the
+requirements of another state <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>with
+respect to certification as an advanced practice nurse<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>or
+jurisdiction</u> are substantially equivalent to those of this State <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>in accordance
+with<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>,
+as provided by</u> subsection c. of section 8 of P.L.1991, c.377 (C.45:11-47)<u>,
+or by subsection h. of section 10 of P.L.1991, c.377 (C.45:11-49), as
+appropriate</u>.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.1999, c.85, s.8)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     7.    Section 13 of P.L.1991,
+c.377 (C.45:11-52) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     13.  The Commissioner of
+Health <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>and
+Senior Services<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b>
+shall, by rule adopted in accordance with the &quot;Administrative Procedure
+Act,&quot; P.L.1968, c.410 (C.52:14B-1 et seq.), establish the periods of time
+within which the charts and records of the patients treated by <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>the<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>an</u>
+advanced practice nurse <u>or a visiting advanced practice nurse</u> in an
+inpatient setting shall be reviewed by the advanced practice nurse <u>or
+visiting advanced practice nurse, as the case may be,</u> and the collaborating
+physician, as required by paragraph (5) of subsection b. of section 10 of
+P.L.1991, c.377 (C.45:11-49).</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.1999, c.85, s.9)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     8.    Except as otherwise
+provided by sections 5 and 7 of this act, the Board of Nursing shall adopt
+rules and regulations, pursuant to the Administrative Procedure Act,
+P.L.1968,&nbsp;c.410&nbsp;(C.52:14B-1 et seq.), as may be necessary to
+implement the provisions of this act.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     9.    This act shall take
+effect immediately.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill would authorize
+certain visiting advanced practice nurses to engage in the limited practice of
+prescribing medications and devices to patients in this State, so long as the
+visiting nurses are deemed to be appropriately qualified to engage in
+prescribing activities.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     Under the bills provisions, a
+visiting advanced practice nurse is defined to mean a person who is not a
+resident of New Jersey, but who is temporarily present in the State; who is
+licensed or certified as an advanced practice nurse, or the substantial
+equivalent, by another state or jurisdiction other than New Jersey; and who is
+not seeking full certification by endorsement, pursuant to N.J.A.C.13:37-7.6,
+but who wishes to engage only in the limited practice of prescribing
+medications and devices in this State.  Visiting advanced practice nurse would
+not include a non-resident who has already been certified as an advanced
+practice nurse in this State through the certification by endorsement process
+specified in N.J.A.C.13:37-7.6.</p>
+
+<p class=MsoNormal style='line-height:150%'>     In order to ensure that a
+visiting advanced practice nurse has the appropriate qualifications to engage
+in the limited practice of prescribing drugs and devices, the bill would
+require each visiting advanced practice nurse to provide written notice to the
+Board of Nursing at least 10 days before engaging in the prescription of drugs
+or devices in this State.  Such written notice would need to indicate the
+educational qualifications of the visiting advanced practice nurse, the
+licenses or certifications that are held by the visiting advanced practice
+nurse, the states or other jurisdictions in which those licenses or
+certifications were issued, the training requirements that were satisfied for
+the purposes of obtaining those licenses or certifications, the proposed
+timeframe during which the visiting advanced practice nurse will be prescribing
+medications and devices in this State, and any other information that may be
+required by board regulation.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Within seven days after
+receipt of written notice from a visiting advanced practice nurse, the board
+would be required to evaluate the nurses credentials, as specified in the
+notice, and determine whether the nurse is appropriately qualified to engage in
+the prescription of medications and devices.  If the board determines that the
+visiting advanced practice nurse is so qualified, the board would be required
+to notify the nurse, in writing, of that determination and issue a visiting
+nurse identification number, which is to be printed on all of the prescriptions
+that are issued by the nurse in the State.  If the board has reason to believe
+that the visiting advanced practice nurse is not properly authorized by the
+out-of-State license or certification to engage in the prescription of drugs or
+devices, or that the training required for the nurses out-of-State license or
+certification was not substantially equivalent to the training that is required
+for the certification of advanced practice nurses in this State, the board would
+be required to issue an order restricting the prescribing practices of the
+visiting advanced practice nurse.</p>
+
+<p class=MsoNormal style='line-height:150%'>     As deemed by the board to be
+appropriate, an order issued pursuant to the bills provisions may:  1) fully
+prohibit the visiting advanced practice nurse from prescribing medications or
+devices in this State, despite the provisions of the bill to the contrary; 2)
+require the visiting advanced practice nurse, before engaging in the
+prescription of medications or devices in this State, to submit to a skills
+assessment and, if necessary, to successfully complete educational training; or
+3) provide for the conditional supervision, monitoring, or other limitation of
+the visiting advanced practice nurses prescribing practices in this State.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     A visiting advanced practice
+nurse who is subject to an order of the board may submit to the board, within
+20 days after receipt of the order, a written request for a hearing on the
+matter, in accordance with the Administrative Procedure Act, P.L.1968, c.410
+(C.52:14B-1 et seq.).</p>
+
+<p class=MsoNormal style='line-height:150%'>     A visiting advanced practice
+nurse who prescribes medications or devices in this State without first
+providing notice to the board, as required by the bill, or who prescribes
+medications or devices in violation of the provisions of an order issued by the
+board, would be deemed to be engaged in the unauthorized practice of nursing in
+this State, and would be subject to a civil penalty of not more than $10,000
+for the first violation, and not more than $20,000 for the second or subsequent
+violation, as provided by existing law.</p>
+
+</div>
+
+</body>
+
+</html>

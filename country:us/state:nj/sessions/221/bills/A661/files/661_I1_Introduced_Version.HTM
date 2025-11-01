@@ -1,0 +1,721 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A661</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 661 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblyman  SEAN T. KEAN</p>
+
+<p class=bpuSponsor>District 30 (Monmouth and Ocean)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Clarifies circumstances under which licensed private
+detectives gain access to personal information stored with New Jersey Motor
+Vehicle Commission. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> concerning access of licensed private detectives to
+certain personal information and amending P.L.1997, c.188.</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    Section 2 of P.L.1997,
+c.188 (C.39:2-3.4) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    a. Notwithstanding the
+provisions of P.L.1963, c.73 (C.47:1A-1 et seq.) or any other law to the
+contrary, except as provided in this act, the New Jersey Motor Vehicle
+Commission and any officer, employee or contractor thereof shall not knowingly
+disclose or otherwise make available to any person personal information about
+any individual obtained by the commission in connection with a motor vehicle
+record.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    A person requesting a
+motor vehicle record including personal information shall produce proper
+identification and shall complete and submit a written request form provided by
+the chief administrator for the commission's approval. The written request form
+shall bear notice that the making of false statements therein is punishable and
+shall include, but not be limited to, the requestor's name and address; the
+requestor's driver's license number or corporate identification number; the
+requestor's reason for requesting the record; the driver's license number or
+the name, address and birth date of the person whose driver record is
+requested; the license plate number or VIN number of the vehicle for which a
+record is requested; any additional information determined by the chief
+administrator to be appropriate and the requestor's certification as to the
+truth of the foregoing statements. Prior to the approval of the written request
+form, the commission may also require the requestor to submit documentary
+evidence supporting the reason for the request.</p>
+
+<p class=MsoNormal style='line-height:150%'>     In lieu of completing a
+written request form for each record requested, the commission may permit a
+person to complete and submit for approval of the chief administrator or the
+chief administrator's designee, on a case by case basis, a written application
+form for participation in a public information program on an ongoing basis. The
+written application form shall bear notice that the making of false statements
+therein is punishable and shall include, but not be limited to, the applicant's
+name, address and telephone number; the nature of the applicant's business
+activity; a description of each of the applicant's intended uses of the
+information contained in the motor vehicle records to be requested; the number
+of employees with access to the information; the name, title, and signature of
+the authorized company representative; and any additional information
+determined by the chief administrator to be appropriate. The chief
+administrator may also require the applicant to submit a copy of its business
+credentials, such as a license to do business or a certificate of
+incorporation. Prior to approval by the chief administrator or the chief
+administrator's designee, the applicant shall certify in writing as to the
+truth of all statements contained in the completed application form.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     Personal information
+shall be disclosed for use in connection with matters of motor vehicle or
+driver safety and theft; motor vehicle emissions; motor vehicle product
+alterations, recalls or advisories; performance monitoring of motor vehicles
+and dealers by motor vehicle manufacturers; maintenance of voter registration
+information; and removal of non-owner records from the original owner records
+of motor vehicle manufacturers to carry out the purposes of the Automobile
+Information Disclosure Act, Pub.L.85-506, the Motor Vehicle Information and
+Cost Saving Act, Pub.L.92-513, the National Traffic and Motor Vehicle Safety
+Act of 1966, Pub.L.89-563, the Anti-Car Theft Act of 1992, Pub.L.102-519, and
+the Clean Air Act, Pub.L.88-206, and may be disclosed as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   For use by any
+government agency, including any court or law enforcement agency in carrying
+out its functions, or any private person or entity acting on behalf of a federal,
+State, or local agency in carrying out its functions. </p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   For use in connection
+with matters of motor vehicle or driver safety and theft; motor vehicle
+emissions; motor vehicle product alterations, recalls, or advisories;
+performance monitoring of motor vehicles, motor vehicle parts and dealers;
+motor vehicle market research activities, including survey research; and the
+removal of non-owner records from the original owner records of motor vehicle
+manufacturers.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   For use in the normal
+course of business by a legitimate business or its agents, employees, or
+contractors, but only:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)   to verify the accuracy
+of personal information submitted by the individual to the business or its
+agents, employees, or contractors; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   if such information as
+so submitted is not correct or is no longer correct, to obtain the correct
+information, but only for the purposes of preventing fraud by, pursuing legal
+remedies against, or recovering on a debt or security interest against the
+individual.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   For use in connection
+with any civil, criminal, administrative or arbitral proceeding in any federal,
+State, or local court or agency or before any self-regulatory body, including
+service of process, investigation in anticipation of litigation, and the
+execution or enforcement of judgments and orders, or pursuant to an order of a
+federal, State, or local court.</p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(a)   For private
+detectives operating in this State and licensed pursuant to P.L.1939, c.369
+(C.45:19-8 et seq.), a request for personal information submitted for the
+purposes of paragraph (4) of subsection b. of this section shall be fulfilled,
+whether that request is received through the Customer Abstract Information
+Retrieval program, another public information program, or an electronic or
+hardcopy document, provided that the private detective submits the information
+necessary and as required by the commission to fulfill the request. </u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(b)   The personal
+information requested for the purposes of paragraph (4) of subsection b. of
+this section by a licensed private detective operating in this State shall be
+provided regardless of whether litigation is imminent or foreseeable, or the
+party employing the private detective and seeking the personal information made
+the request for the information to prepare a claim or defend against a probable
+claim.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   For use in educational
+initiatives, research activities, and for use in producing statistical reports,
+so long as the personal information is not published, redisclosed, or used to
+contact individuals and, in the case of educational initiatives, only to organ
+procurement organizations as aggregated, non-identifying information.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (6)   For use by any insurer
+or insurance support organization, or by a self-insured entity, or its agents,
+employees, or contractors, in connection with claims investigation activities,
+antifraud activities, rating or underwriting.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (7)   For use in providing
+notice to the owners of towed or impounded vehicles.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (8)   For use by an employer
+or its agent or insurer to obtain or verify information relating to a holder of
+a commercial driver's license that is required under the &quot;Commercial Motor
+Vehicle Safety Act,&quot; 49 U.S.C.App.s.2710 et seq.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (9)   For use in connection
+with the operation of private toll transportation facilities.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (10) For use by any requestor,
+if the requestor demonstrates it has obtained the notarized written consent of
+the individual to whom the information pertains.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (11) For product and service
+mail communications from automotive-related manufacturers, dealers and businesses,
+if the commission has implemented methods and procedures to ensure that:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (a)   individuals are provided
+an opportunity, in a clear and conspicuous manner, to prohibit such uses; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   product and service mail
+communications from automotive-related manufacturers, dealers and businesses
+will not be directed at individuals who exercise their option under
+subparagraph (a) of this paragraph.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (12) For use by an organ
+procurement organization designated pursuant to 42 U.S.C. s.1320b-8 to serve in
+the State of New Jersey, or any donor registry established by any such
+organization, exclusively for the purposes of determining, verifying, and
+recording organ and tissue donor designation and identity. For these purposes,
+an organ procurement organization shall have electronic access at all times,
+without exception, to real-time organ donor designation and identification
+information. An organ procurement organization may also have information for
+research activities, pursuant to paragraph (5) of subsection c. of this
+section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (13) As provided in section 2
+of P.L.2021, c.139 (C. 39:2-3.9).</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    As provided by the
+federal &quot;Drivers' Privacy Protection Act of 1994,&quot; Pub.L.103-322, a
+person authorized to receive personal information under paragraphs (1) through
+(10) of subsection c. of this section may resell or redisclose the personal
+information only for a use permitted by paragraphs (1) through (10) of
+subsection c. of this section subject to regulation by the commission. A person
+authorized to receive personal information under paragraph (11) of subsection
+c. of this section may resell or redisclose the personal information pursuant
+to paragraph (11) of subsection c. of this section subject to regulation by the
+commission. An organization authorized to receive personal information under
+paragraph (12) of subsection c. of this section may redisclose the personal
+information only for the purposes set forth in that paragraph.</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     As provided by the
+federal &quot;Drivers' Privacy Protection Act of 1994,&quot; Pub.L.103-322, a person
+authorized to receive personal information under this section who resells or
+rediscloses personal information covered by the provisions of P.L.1997, c.188
+(C.39:2-3.3 et seq.) shall keep for a period of five years records identifying
+each person or entity that receives information and the permitted purpose for
+which the information will be used and shall make such records available to the
+commission upon request. Any person who receives, from any source, personal
+information from a motor vehicle record shall release or disclose that
+information only in accordance with P.L.1997, c.188 (C.39:2-3.3 et seq.).</p>
+
+<p class=MsoNormal style='line-height:150%'>     f.     The release of personal
+information under this section shall not include an individual's social
+security number except in accordance with applicable State or federal law.</p>
+
+<p class=MsoNormal style='line-height:150%'>     g.    Notwithstanding any
+provision to the contrary, the commission shall not use, or disclose to any
+federal, State, or local law enforcement any motor vehicle record containing
+personal information, or any personal information, as this term is defined in
+section 1 of P.L.1997, c.188 (C.39:2-3.3), for any purposes related to Title 8
+of the United States Code without the informed consent of the applicant, a
+warrant signed by a State or federal judge, lawful court order, or subpoena, except
+that nothing in this section shall be construed to prohibit, or in any way
+restrict, any action where such prohibition or restriction would be contrary to
+federal law. </p>
+
+<p class=MsoNormal style='line-height:150%'>     When responding to a warrant,
+court order, or subpoena, the commission may disclose only those records or
+information specifically requested in the warrant, court order, or subpoena.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L. 2021, c.139, s.3)</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.  This act shall take effect
+immediately.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill clarifies that a
+private detective operating a business in New Jersey and properly licensed in
+the State is to be granted access to personal information, as defined pursuant
+to P.L.1997, c.188 (C.39:2-3.3 et seq.), for use in connection with any civil,
+criminal, administrative or arbitral proceeding in any federal, State, or local
+court or agency or before any self-regulatory body, including service of
+process, investigation in anticipation of litigation, and the execution or
+enforcement of judgments and orders, or pursuant to an order of a federal,
+State, or local court.  The bill provides that access is to be granted under
+the following circumstances: 1) so long as the private detective submits the
+information necessary and as required by the commission to fulfill a request,
+and 2) regardless of whether litigation is imminent or foreseeable, or the
+party employing the private detective and seeking the personal information made
+the request for the information to prepare a claim or defend against a probable
+claim. This includes requests made by private detectives for personal
+information through the Customer Abstract Information Retrieval program, other
+public information program, or electronic or hardcopy document.</p>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+Title: S1159
+Official Title: 
+Number of Sections: 1
+Source: versions - Introduced Version
+Media Type: text/html
+
+================================================================================
+
+Section 1:
+S1159 SENATE, No. 1159 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Senator  RAJ MUKHERJI District 32 (Hudson) SYNOPSIS Requires Commissioner of Banking and Insurance to develop standard prior authorization form for prescription drug benefits for use by network providers. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning prior authorization of prescription drug benefits and supplementing P.L.2005, c.352 (C.17B:30-48 et al.). Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.  The Commissioner of Banking and Insurance shall develop a standard prior authorization request form to be utilized by all network providers for the purpose of submitting requests for utilization review determinations for coverage of prescription drug benefits.  A payer shall make the standard prior authorization request form available to, and shall accept it from, network providers in paper and electronic form. 2.    This act shall take effect immediately. STATEMENT This bill requires the Commissioner of Banking and Insurance to develop a standard prior authorization request form to be utilized by all network providers for the purpose of submitting requests for utilization review determinations for coverage of prescription drug benefits.  A payer must make the standard prior authorization request form available to, and must accept it from, network providers in paper and electronic form.
+
+
+================================================================================
+
+Raw Text:
+S1159 SENATE, No. 1159 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Senator  RAJ MUKHERJI District 32 (Hudson) SYNOPSIS Requires Commissioner of Banking and Insurance to develop standard prior authorization form for prescription drug benefits for use by network providers. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning prior authorization of prescription drug benefits and supplementing P.L.2005, c.352 (C.17B:30-48 et al.). Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.  The Commissioner of Banking and Insurance shall develop a standard prior authorization request form to be utilized by all network providers for the purpose of submitting requests for utilization review determinations for coverage of prescription drug benefits.  A payer shall make the standard prior authorization request form available to, and shall accept it from, network providers in paper and electronic form. 2.    This act shall take effect immediately. STATEMENT This bill requires the Commissioner of Banking and Insurance to develop a standard prior authorization request form to be utilized by all network providers for the purpose of submitting requests for utilization review determinations for coverage of prescription drug benefits.  A payer must make the standard prior authorization request form available to, and must accept it from, network providers in paper and electronic form.

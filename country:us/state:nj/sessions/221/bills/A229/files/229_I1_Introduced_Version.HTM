@@ -1,0 +1,754 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A229</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 229 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblyman  MICHAEL INGANAMORT</p>
+
+<p class=bpuSponsor>District 24 (Morris, Sussex and Warren)</p>
+
+<p class=bpuSponsor>Assemblywoman  DAWN FANTASIA</p>
+
+<p class=bpuSponsor>District 24 (Morris, Sussex and Warren)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Authorizes farmland assessment for forested lands and
+woodlands devoted to the production of USDA designated specialty crops; exempts
+such lands from woodland management plan requirement. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act </span><span
+class=HangingAnActChar>concerning farmland assessment for lands devoted to the
+production of specialty crops and amending P.L.1964, c.48. </span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.  Section 3 of P.L.1964,
+c.48 (54:4-23.3) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    Land shall be deemed to
+be in agricultural use when devoted to the production for sale of plants and
+animals useful to man, including but not limited to:  forages and sod crops;
+grains and feed crops; dairy animals and dairy products; poultry and poultry
+products; livestock, including beef cattle, sheep, swine, horses, ponies, mules
+or goats, including the breeding, boarding, raising, rehabilitating, training
+or grazing of any or all of such animals, except that &quot;livestock&quot;
+shall not include dogs; bees and apiary products; fur animals; trees and forest
+products; or when devoted to and meeting the requirements and qualifications
+for payments or other compensation pursuant to a soil conservation program
+under an agreement with an agency of the federal government, except that land
+which is devoted exclusively to the production for sale of tree and forest
+products, other than Christmas trees, or devoted as sustainable forestland, and
+is not appurtenant woodland, shall not be deemed to be in agricultural use
+unless the landowner fulfills the following additional conditions:</p>
+
+<p class=MsoNormal style='line-height:150%'>     a.     The landowner
+establishes and complies with the provisions of a forest stewardship plan for
+this land, approved by the Department of Environmental Protection pursuant to
+section 3 of P.L.2009, c.256 (C.13:1L-31), or a woodland management plan for
+this land, prepared in accordance with policies, guidelines and practices
+approved by the Division of Parks and Forestry in the Department of
+Environmental Protection, in consultation with the Department of Agriculture
+and the Dean of Cook College at Rutgers, The State University, which policies,
+guidelines and practices are designed to eliminate excessive and unnecessary cutting;</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    The landowner, and a
+forester from a list of foresters approved by the Department of Environmental
+Protection or other professional from a list of other professionals authorized
+by the department in consultation with the forest stewardship advisory
+committee established pursuant to section 8 of P.L.2009, c.256 (C.13:1L-36),
+annually attest to compliance with subsection a. of this section; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     The landowner annually
+submits an application, as prescribed in section 13 of P.L.1964, c.48 (C.54:4-23.13),
+to the assessor, accompanied by a copy of the plan established pursuant to
+subsection a. of this section; written documentation of compliance with
+subsection b. of this section; a supplementary woodland data form setting forth
+woodland management actions taken in the pre-tax year, the type and quantity of
+tree and forest products sold, and the amount of income received or anticipated
+for same; a map of the land showing the location of the activity and the soil
+group classes of the land; and other pertinent information required by the
+Director of the Division of Taxation as part of the application for valuation,
+assessment and taxation, as provided in P.L.1964, c.48 (C.54:4-23.1 et seq.). 
+The landowner shall, at the same time, submit to the Commissioner of the
+Department of Environmental Protection an exact copy of the application and
+accompanying information submitted to the assessor pursuant to this
+subsection.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>The requirements of
+subsections a. through c. of this section shall not apply to the production of
+a crop designated as a specialty crop by the United States Department of
+Agriculture.  Forested land or woodlands shall be deemed to be in agricultural
+use when devoted to the production for sale of a specialty crop, including, but
+not limited to, the production of maple syrup from sap collected from trees
+grown and maintained on the forested lands or woodlands.  The landowner
+producing a specialty crop on forested land or woodlands shall not be required
+to submit a woodland management plan for the forested lands or woodlands as
+part of the application for farmland assessment.  The landowner shall annually
+submit an application, as prescribed in section 13 of P.L.1964, c.48
+(C.54:4-23.13), to the assessor, accompanied with written documentation of the
+production of a specialty crop on the lands, the designation of the specialty
+crop as such by the United States Department of Agriculture, the type and
+quantity of the specialty crop produced and sold, and the amount of income
+received or anticipated for the same.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     For the purposes of this
+amendatory and supplementary act, &quot;appurtenant woodland&quot; means a
+wooded piece of property which is contiguous to, part of, or beneficial to a
+tract of land, which tract of land has a minimum area of at least five acres
+devoted to agricultural or horticultural uses other than the production for
+sale of trees and forest products, exclusive of Christmas trees, to which tract
+of land the woodland is supportive and subordinate.</p>
+
+<p class=MsoNormal style='line-height:150%'>     For the purposes of section 7
+of P.L.2009, c.213 and P.L.1964, c.48 (C.54:4-23.1 et seq.):</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   agricultural use shall
+also include biomass, solar, or wind energy generation, provided that the
+biomass, solar, or wind energy generation is consistent with the provisions of
+P.L.2009, c.213 (C.4:1C-32.4 et al.), as applicable, and the rules and
+regulations adopted therefor; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   &quot;biomass&quot;
+means an agricultural crop, crop residue, or agricultural byproduct that is
+cultivated, harvested, or produced on the farm, or directly obtained from a farm
+where it was cultivated, harvested, or produced, and which can be used to
+generate energy in a sustainable manner, except with respect to preserved
+farmland, &quot;biomass&quot; means the same as that term is defined in section
+1 of P.L.2009, c.213 (C.4:1C-32.4).</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf:  P.L.2009, c.256, s.13)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.  Section 5 of P.L.1964,
+c.48 (C.54:4-23.5) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     5.  a.  Except as otherwise
+provided in subsection d. of this section, land, five acres in area, shall be
+deemed to be actively devoted to agricultural or horticultural use when the
+amount of the gross sales of agricultural or horticultural products produced
+thereon, <u>including a crop designated as a specialty crop by the United
+States Department of Agriculture,</u> any payments received under a soil
+conservation program, fees received for breeding, raising or grazing any
+livestock, income imputed to cropland pastured and permanent pasture land used
+for grazing in the amount determined by the State Farmland Evaluation Committee
+created pursuant to section 20 of P.L.1964, c.48 (C.54:4-23.20), and fees
+received for boarding, rehabilitating or training any livestock where the land
+under the boarding, rehabilitating or training facilities is contiguous to land
+which otherwise qualifies for valuation, assessment and taxation under
+P.L.1964, c.48, have averaged at least $1,000 per year during the two-year
+period immediately preceding the tax year in issue, or there is clear evidence
+of anticipated yearly gross sales, payments, fees, and imputed income amounting
+to at least $1,000 within a reasonable period of time, or such amount as may be
+established by the State Farmland Evaluation Committee pursuant to this
+section.  In the case of woodland subject to a woodland management plan
+pursuant to section 3 of P.L.1964, c.48 (C.54:4-23.3), the amount shall be at
+least $500, or such amount as may be established by the State Farmland
+Evaluation Committee pursuant to this section.  Every three years, or sooner at
+the call of the Secretary of Agriculture or the Director of the Division of
+Taxation, the State Farmland Evaluation Committee shall review the minimum
+gross sales, payments, fees, and imputed income requirements, and anticipated
+yearly gross sales, payments, fees, and imputed income requirements,
+established in this section for the first five acres, and may, by rule or
+regulation adopted pursuant to the &quot;Administrative Procedure Act,&quot;
+P.L.1968, c.410 (C.52:14B-1 et seq.), raise the amounts of those minimums to
+such levels as the committee determines appropriate.  Any increase made to the
+minimum gross sales, payments, fees, and imputed income requirements, and
+anticipated yearly gross sales, payments, fees and imputed income requirements,
+for the first five acres as authorized pursuant to this section shall not be
+enforced until the third tax year following adoption of the increase.</p>
+
+<p class=MsoNormal style='line-height:150%'>     In addition, where the land is
+more than five acres in area, it shall be deemed to be actively devoted to
+agricultural or horticultural use when the amount of the gross sales of
+agricultural or horticultural products, <u>including a crop designated as a
+specialty crop by the United States Department of Agriculture,</u> produced on
+the area above five acres, any payments received under a soil conservation
+program, fees received for breeding, raising or grazing any livestock, income
+imputed to cropland pastured and permanent pasture land used for grazing in the
+amount determined by the State Farmland Evaluation Committee created pursuant
+to section 20 of P.L.1964, c.48 (C.54:4-23.20), and fees received for boarding,
+rehabilitating or training any livestock where the land under the boarding,
+rehabilitating or training facilities is contiguous to land which otherwise
+qualifies for valuation, assessment and taxation under P.L.1964, c.48, have
+averaged at least $5.00 per acre per year during the two-year period
+immediately preceding the tax year in issue, or there is clear evidence of
+anticipated yearly gross sales, payments, fees, and imputed income amounting to
+an average of at least $5.00 per year within a reasonable period of time;
+except in the case of woodland and wetland, where the minimum requirement shall
+be an average of $0.50 per acre on the area above five acres.</p>
+
+<p class=MsoNormal style='line-height:150%'>     In addition, in order for land
+to be deemed to be actively devoted to agricultural or horticultural use, the
+activity and use must be consistent with the guidelines describing generally
+accepted agricultural and horticultural practices developed and adopted
+pursuant to subsection a. of section 1 of P.L.2013, c.43 (C.54:4-23.3d).</p>
+
+<p class=MsoNormal style='line-height:150%'>     As used in this section,
+&quot;livestock&quot; shall not include dogs.</p>
+
+<p class=MsoNormal style='line-height:150%'>     For the purposes of this
+section, the presence of an intervening public thoroughfare shall not preclude
+a finding of contiguity. </p>
+
+<p class=MsoNormal style='line-height:150%'>     b. (1) Land previously
+qualified as actively devoted to agricultural or horticultural use under
+P.L.1964, c.48, but failing to meet the additional requirement on acreage above
+five acres, shall not be subject to the roll-back tax because of such
+disqualification, but shall be treated as land for which an annual application
+has not been submitted, provided that the land remains in agricultural or
+horticultural use.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   Land previously
+qualified as actively devoted to agricultural or horticultural use under
+P.L.1964, c.48, but failing to meet any increase in the minimum amount of gross
+sales, payments and fees received, and imputed income requirements, and
+anticipated yearly gross sales, payments, fees, and imputed income
+requirements, established pursuant to subsection a. of this section, shall not
+be subject to the roll-back tax because of such disqualification, but shall be
+treated as land for which an annual application has not been submitted,
+provided that the land remains in agricultural or horticultural use.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   Land qualified as
+actively devoted to agricultural or horticultural use as of the day before the
+date of enactment of P.L.2013, c.43 (C.54:4-23.3d et al.) due to the use of
+payments or other compensation received under a soil conservation program
+agreement with any agency of the federal government, but which payments or
+other compensation do not meet the minimum amounts required pursuant to
+subsection a. of this section as amended by P.L.2013, c.43 (C.54:4-23.3d et
+al.), shall continue to be deemed to be actively devoted to agricultural or
+horticultural use for purposes of valuation, assessment and taxation under
+P.L.1964, c.48 until the end of the soil conservation program agreement period.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     In determining the
+eligibility of land for valuation, assessment and taxation pursuant to
+P.L.1964, c.48 (C.54:4-23.1 et seq.), the assessor of the taxing district in
+which the land is located shall, upon request by the owner of the land, exempt
+the owner from the income requirements of this section if the owner
+demonstrates to the satisfaction of the assessor that the failure to meet the
+income requirements was due to an injury, illness or death of the person
+responsible for performing the activities which produce the income necessary to
+meet the income eligibility requirement of this section. The request of the
+owner shall be accompanied by a certificate of a physician stating that the
+person was physically incapacitated or by a certified copy of the death
+certificate, as the case may be.  The assessor may only grant an exemption once
+for a particular illness, injury or death.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    The gross sales,
+payments, fees, and imputed income received pursuant to the requirements of
+this section shall not apply to land that (1) is the subject of a forest
+stewardship plan approved by the Department of Environmental Protection
+pursuant to section 3 of P.L.2009, c.256 (C.13:1L-31) which is fully
+implemented, and (2) otherwise qualifies under the &quot;Farmland Assessment
+Act of 1964,&quot; P.L.1964, c.48 (C.54:4-23.1 et seq.), for valuation,
+assessment and taxation as land in agricultural or horticultural use pursuant
+to section 3 of P.L.1964, c.48 (C.54:4-23.3).</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf:  P.L.2013, c.43, s.2)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.  This act shall take effect
+immediately.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill amends the Farmland
+Assessment Act of 1964, to deem forested land or woodlands to be in
+agricultural use when devoted to the production for sale of a crop designated
+as a specialty crop by the United States Department of Agriculture, including,
+but not limited to, the production of maple syrup from sap collected from trees
+grown and maintained on the forested lands or woodlands.  The bill further
+exempts the landowner of such lands from the woodland management plan
+requirement to receive farmland assessment valuation for such lands.  The bill
+does not change the other income and eligibility requirements for farmland
+assessment under the current law. </p>
+
+</div>
+
+</body>
+
+</html>
