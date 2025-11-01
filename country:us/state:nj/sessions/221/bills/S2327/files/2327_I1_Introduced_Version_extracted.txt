@@ -1,0 +1,16 @@
+Title: S2327
+Official Title: 
+Number of Sections: 1
+Source: versions - Introduced Version
+Media Type: text/html
+
+================================================================================
+
+Section 1:
+S2327 SENATE, No. 2327 STATE OF NEW JERSEY 221st LEGISLATURE INTRODUCED JANUARY 25, 2024 Sponsored by: Senator  JAMES BEACH District 6 (Burlington and Camden) SYNOPSIS Requires MVC to check Social Security Administration records and mark deceased individuals in MVC database once per month. CURRENT VERSION OF TEXT As introduced. An Act concerning the records of the New Jersey Motor Vehicle Commission and supplementing Title 39 of the Revised Statutes. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    The Chief Administrator of the New Jersey Motor Vehicle Commission shall compare, not less than once per month, the commissions database records with the death records produced by the Social Security Administration and shall mark as deceased in the commissions database records any individual who is listed in those death records. 2.    This act shall take effect immediately. STATEMENT This bill requires the Chief Administrator of the New Jersey Motor Vehicle Commission (commission) to compare, not less than once per month, the commissions database records with the death records produced by the Social Security Administration and mark as deceased in the commission's database records any individual who is listed in those death records.
+
+
+================================================================================
+
+Raw Text:
+S2327 SENATE, No. 2327 STATE OF NEW JERSEY 221st LEGISLATURE INTRODUCED JANUARY 25, 2024 Sponsored by: Senator  JAMES BEACH District 6 (Burlington and Camden) SYNOPSIS Requires MVC to check Social Security Administration records and mark deceased individuals in MVC database once per month. CURRENT VERSION OF TEXT As introduced. An Act concerning the records of the New Jersey Motor Vehicle Commission and supplementing Title 39 of the Revised Statutes. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    The Chief Administrator of the New Jersey Motor Vehicle Commission shall compare, not less than once per month, the commissions database records with the death records produced by the Social Security Administration and shall mark as deceased in the commissions database records any individual who is listed in those death records. 2.    This act shall take effect immediately. STATEMENT This bill requires the Chief Administrator of the New Jersey Motor Vehicle Commission (commission) to compare, not less than once per month, the commissions database records with the death records produced by the Social Security Administration and mark as deceased in the commission's database records any individual who is listed in those death records.
