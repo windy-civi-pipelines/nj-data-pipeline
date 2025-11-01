@@ -1,0 +1,16 @@
+Title: S79
+Official Title: 
+Number of Sections: 1
+Source: versions - Introduced Version
+Media Type: text/html
+
+================================================================================
+
+Section 1:
+S79 SENATE, No. 79 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Senator  NILSA I. CRUZ-PEREZ District 5 (Camden and Gloucester) SYNOPSIS Repeals law that established optional will registry. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning the optional will registry and repealing P.L.2005, c.97. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    P.L.2005, c.97 (C.3B:3-2.1 et seq.) is repealed. 2.    This act shall take effect immediately. STATEMENT This bill repeals the law establishing the optional will registry, P.L.2005, c.97 (C.3B:3-2.1 and 3B:3-2.2). The law provides that a person making a will or the person's attorney could register information concerning the location of the will with the will registry, which is maintained by the Secretary of State. The information in the will registry would include the name of the person making the will, the date the will was made, and sufficient identification of the location of the will at the time of registration. The will registry does not keep a copy of the will itself. It is the sponsors view that the statute is not useful and causes unnecessary additional work for surrogates.
+
+
+================================================================================
+
+Raw Text:
+S79 SENATE, No. 79 STATE OF NEW JERSEY 221st LEGISLATURE PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION Sponsored by: Senator  NILSA I. CRUZ-PEREZ District 5 (Camden and Gloucester) SYNOPSIS Repeals law that established optional will registry. CURRENT VERSION OF TEXT Introduced Pending Technical Review by Legislative Counsel. An Act concerning the optional will registry and repealing P.L.2005, c.97. Be It Enacted by the Senate and General Assembly of the State of New Jersey: 1.    P.L.2005, c.97 (C.3B:3-2.1 et seq.) is repealed. 2.    This act shall take effect immediately. STATEMENT This bill repeals the law establishing the optional will registry, P.L.2005, c.97 (C.3B:3-2.1 and 3B:3-2.2). The law provides that a person making a will or the person's attorney could register information concerning the location of the will with the will registry, which is maintained by the Secretary of State. The information in the will registry would include the name of the person making the will, the date the will was made, and sufficient identification of the location of the will at the time of registration. The will registry does not keep a copy of the will itself. It is the sponsors view that the statute is not useful and causes unnecessary additional work for surrogates.

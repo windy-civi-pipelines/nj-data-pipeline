@@ -1,0 +1,856 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A159</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 159 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblywoman  DAWN FANTASIA</p>
+
+<p class=bpuSponsor>District 24 (Morris, Sussex and Warren)</p>
+
+<p class=bpuSponsor>Assemblyman  MICHAEL INGANAMORT</p>
+
+<p class=bpuSponsor>District 24 (Morris, Sussex and Warren)</p>
+
+<p class=bpuSponsor>Assemblyman  PAUL KANITRA</p>
+
+<p class=bpuSponsor>District 10 (Monmouth and Ocean)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>Co-Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblymen Auth, McGuckin and Myhre</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Prohibits municipal ordinance to create sanctuary
+city; establishes State and local employee ethics violation upon noncompliance
+with federal immigration enforcement request. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> concerning cooperation with federal immigration and
+customs enforcement authorities, and </span>amending and supplementing
+P.L.1991, c.29 and P.L.1971, c.182.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    (New section)  a.  The
+governing body of a municipality or county shall not adopt any ordinance or
+resolution requiring that officials within the jurisdiction of the governing
+body refuse or fail to cooperate with requests for cooperation from federal immigration
+authorities.  Any such ordinance or resolution adopted prior to the effective
+date of P.L.    , c.    (C.        ) (pending before the Legislature as this
+bill) shall be void.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    A member of a municipal
+or county governing body who, after the effective date of P.L.     , c.   
+(C.        ) (pending before the Legislature as this bill), votes to adopt a
+formal or informal policy of non-cooperation with federal immigration authorities,
+in direct contravention of subsection a. of this section, shall be guilty of a
+misdemeanor and, upon conviction, may be fined not more than one thousand
+dollars ($1,000.00) or imprisoned for not more than one year, or both, and in
+addition shall forfeit his office.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    (New section)  a. 
+Subject to the approval of the Attorney General, the State shall defend
+employees or officers of municipalities in any civil action seeking to impose
+liability arising out of any actual or alleged act, error, or omission that
+occurred while cooperating with federal immigration authorities pursuant to
+P.L.     , c.    (C.       ) (pending before the Legislature as this bill),
+provided that the actual or alleged act, error, or omission did not result from
+intentional or willful and wanton misconduct on the part of such person.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    The State of New Jersey
+shall indemnify and hold municipal employees or officers harmless in the amount
+of any settlement or judgment obtained against such persons arising out of any
+actual or alleged act, error, or omission that occurred while cooperating with
+federal immigration authorities pursuant to P.L.    , c.    (C.        )
+(pending before the Legislature as this bill), provided that the actual or
+alleged act, error, or omission did not result from intentional or willful and
+wanton misconduct on the part of such person.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    Section 5 of P.L.1991,
+c.29 (C.40A:9-22.5) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     5.    Local government
+officers or employees under the jurisdiction  of  the  Local  Finance Board 
+shall comply  with  the</p>
+
+<p class=MsoNormal style='line-height:150%'>following provisions:  </p>
+
+<p class=MsoNormal style='line-height:150%'>     a.     No local government
+officer or employee or member of his immediate family shall have an interest in
+a business organization or engage in any business, transaction, or professional
+activity, which is in substantial conflict with the proper discharge of his
+duties in the public interest;  </p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    No independent local
+authority shall, for a period of one year next subsequent to the termination of
+office of a member of that authority:  </p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   award any contract which
+is not publicly bid to a former member of that authority;  </p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   allow a former member of
+that authority to represent, appear for or negotiate on behalf of any other
+party before that authority; or  </p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   employ for compensation,
+except pursuant to open competitive examination in accordance with Title 11A of
+the New Jersey Statutes and the rules and regulations promulgated pursuant
+thereto, any former member of that authority.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     The restrictions contained in
+this subsection shall also apply to any business organization in which the
+former authority member holds an interest. </p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     No local government
+officer or employee shall use or attempt to use his official position to secure
+unwarranted privileges or advantages for himself or others;  </p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    No local government
+officer or employee shall act in his official capacity in any matter where he,
+a member of his immediate family, or a business organization in which he has an
+interest, has a direct or indirect financial or personal involvement that might
+reasonably be expected to impair his objectivity or independence of judgment;  </p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     No local government
+officer or employee shall undertake any employment or service, whether
+compensated or not, which might reasonably be expected to prejudice his
+independence of judgment in the exercise of his official duties;  </p>
+
+<p class=MsoNormal style='line-height:150%'>     f.     No local government
+officer or employee, member of his immediate family, or business organization
+in which he has an interest, shall solicit or accept any gift, favor, loan,
+political contribution, service, promise of future employment, or other thing
+of value based upon an understanding that the gift, favor, loan, contribution,
+service, promise, or other thing of value was given or offered for the purpose
+of influencing him, directly or indirectly, in the discharge of his official
+duties.  This provision shall not apply to the solicitation or acceptance of
+contributions to the campaign of an announced candidate for elective public
+office, if the local government officer has no knowledge or reason to believe
+that the campaign contribution, if accepted, was given with the intent to
+influence the local government officer in the discharge of his official
+duties;  </p>
+
+<p class=MsoNormal style='line-height:150%'>     g.    No local government
+officer or employee shall use, or allow to be used, his public office or
+employment, or any information, not generally available to the members of the
+public, which he receives or acquires in the course of and by reason of his
+office or employment, for the purpose of securing financial gain for himself,
+any member of his immediate family, or any business organization with which he
+is associated;  </p>
+
+<p class=MsoNormal style='line-height:150%'>     h.    No local government
+officer or employee or business organization in which he has an interest shall
+represent any person or party other than the local government in connection
+with any cause, proceeding, application or other matter pending before any
+agency in the local government in which he serves.  This provision shall not be
+deemed to prohibit one local government employee from representing another
+local government employee where the local government agency is the employer and
+the representation is within the context of official labor union or similar
+representational responsibilities;  </p>
+
+<p class=MsoNormal style='line-height:150%'>     i.     No local government
+officer shall be deemed in conflict with these provisions if, by reason of his
+participation in the enactment of any ordinance, resolution or other matter
+required to be voted upon or which is subject to executive approval or veto, no
+material or monetary gain accrues to him as a member of any business,
+profession, occupation or group, to any greater extent than any gain could reasonably
+be expected to accrue to any other member of such business, profession,
+occupation or group;  </p>
+
+<p class=MsoNormal style='line-height:150%'>     j.     No elected local
+government officer shall be prohibited from making an inquiry for information
+on behalf of a constituent, if no fee, reward or other thing of value is
+promised to, given to or accepted by the officer or a member of his immediate
+family, whether directly or indirectly, in return therefor; and  </p>
+
+<p class=MsoNormal style='line-height:150%'>     k.    Nothing shall prohibit
+any local government officer or employee, or members of his immediate family,
+from representing himself, or themselves, in negotiations or proceedings
+concerning his, or their, own interests.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>l.     No local government officer
+or employee shall refuse to cooperate with any lawful requests from a federal
+agency regarding immigration and customs enforcement. Any ordinance
+inconsistent with this requirement shall be void as of the effective date of
+P.L.&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;c.&nbsp;&nbsp;&nbsp;&nbsp;(C.&nbsp;       )
+(pending before the Legislature as this bill).</u>  </p>
+
+<p class=MsoNormal style='line-height:150%'>(cf:  P.L.1991, c.29, s.5)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     4.    Section 12 of P.L.1971,
+c.182 (C.52:13D-23) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     12.  (a)  (1)  The head of
+each State agency, or the principal officer in charge of a division, board,
+bureau, commission or other instrumentality within a department of State
+Government designated by the head of such department for the purposes
+hereinafter set forth, shall within six months from the date of enactment,
+promulgate a code of ethics to govern and guide the conduct of the members of
+the Legislature, the State officers and employees or the special State officers
+and employees in the agency to which said code is applicable. Such code shall
+conform to the general standards hereinafter set forth in this section, but it
+shall be formulated with respect to the particular needs and problems of the agency
+to which said code is to apply and, when applicable, shall be a supplement to
+the uniform ethics code promulgated pursuant to paragraph (2) of this
+subsection. Notwithstanding any other provisions of this section, the New
+Jersey members to any interstate agency to which New Jersey is a party and the
+officers and employees of any State agency which fails to promulgate a code of
+ethics shall be deemed to be subject to a code of ethics the provisions of
+which shall be paragraphs (1) through (6) of subsection (e) of this section.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   Within 180 days
+following the effective date of this act, P.L.2005, c.382, the State Ethics
+Commission shall promulgate a uniform ethics code to govern and guide the
+conduct of State officers and employees and special State officers and
+employees in State agencies in the Executive Branch. Such code shall conform to
+the general standards hereinafter set forth in this section, shall be the
+primary code of ethics for State agencies once it is adopted and a code
+promulgated pursuant to paragraph (1) of this subsection shall be a supplement
+to the primary code.  The head of each State agency, or the principal officer
+in charge of a division, board, bureau, commission or other instrumentality
+within a department of State Government designated by the head of such
+department shall revise each code of ethics promulgated prior to the uniform
+code to recognize the uniform code as the primary code.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (b)   A code of ethics
+formulated pursuant to subsection (a) of this section to govern and guide the
+conduct of the State officers and employees or the special State officers and
+employees in any State agency in the Executive Branch, or any portion of such a
+code, shall not be effective unless it has first been approved by the State
+Ethics Commission.  When a proposed code is submitted to the said commission it
+shall be accompanied by an opinion of the Attorney General as to its compliance
+with the provisions of this act and any other applicable provision of law.
+Nothing contained herein shall prevent officers of State agencies in the
+Executive Branch from consulting with the Attorney General or with the State
+Ethics Commission at any time in connection with the preparation or revision of
+such codes of ethics.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (c)   A code of ethics
+formulated pursuant to this section to govern and guide the conduct of the
+members of the Legislature, State officers and employees or special State
+officers and employees in any State agency in the Legislative Branch, or any
+portion of such code, shall not be effective unless it has first been approved
+by the Legislature by concurrent resolution.  When a proposed code is submitted
+to the Legislature for approval it shall be accompanied by an opinion of the
+chief counsel as to its compliance with the provisions of this act and any
+other applicable provisions of law.  Nothing contained herein shall prevent
+officers of State agencies in the Legislative Branch from consulting with the
+Chief Legislative Counsel or the Joint Legislative Committee on Ethical
+Standards at any time in connection with the preparation or revision of such
+codes of ethics.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (d)   Violations of a code of
+ethics promulgated pursuant to this section shall be cause for removal,
+suspension, demotion or other disciplinary action by the State officer or
+agency having the power of removal or discipline.  When a person who is in the
+classified civil service is charged with a violation of such a code of ethics,
+the procedure leading to such removal or discipline shall be governed by any
+applicable provisions of the Civil Service Act, N.J.S. 11A:1-1 et seq., and the
+Rules of the Civil Service Commission. No action for removal or discipline
+shall be taken under this subsection except upon the referral or with the
+approval of the State Ethics Commission or the Joint Legislative Committee on
+Ethical Standards, whichever is authorized to exercise jurisdiction with
+respect to the complaint upon which such action for removal or discipline is to
+be taken.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (e)   A code of ethics for
+officers and employees of a State agency shall conform to the following general
+standards:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   No State officer or
+employee or special State officer or employee should have any interest,
+financial or otherwise, direct or indirect, or engage in any business or
+transaction or professional activity, which is in substantial conflict with the
+proper discharge of his duties in the public interest.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   No State officer or
+employee or special State officer or employee should engage in any particular
+business, profession, trade or occupation which is subject to licensing or
+regulation by a specific agency of State Government without promptly filing
+notice of such activity with the State Ethics Commission, if he is an officer
+or employee in the Executive Branch, or with the Joint Legislative Committee on
+Ethical Standards, if he is an officer or employee in the Legislative Branch.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   No State officer or
+employee or special State officer or employee should use or attempt to use his
+official position to secure unwarranted privileges or advantages for himself or
+others.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   No State officer or
+employee or special State officer or employee should act in his official
+capacity in any matter wherein he has a direct or indirect personal financial
+interest that might reasonably be expected to impair his objectivity or
+independence of judgment.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   No State officer or
+employee or special State officer or employee should undertake any employment
+or service, whether compensated or not, which might reasonably be expected to
+impair his objectivity and independence of judgment in the exercise of his
+official duties.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (6)   No State officer or
+employee or special State officer or employee should accept any gift, favor,
+service or other thing of value under circumstances from which it might be
+reasonably inferred that such gift, service or other thing of value was given
+or offered for the purpose of influencing him in the discharge of his official
+duties.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (7)   <u>(i)</u> No State
+officer or employee or special State officer or employee should knowingly act
+in any way that might reasonably be expected to create an impression or
+suspicion among the public having knowledge of his acts that he may be engaged
+in conduct violative of his trust as a State officer or employee or special
+State officer or employee.</p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(ii)  No State officer or
+employee or special State officer or employee shall refuse to cooperate with
+any lawful request from a federal agency regarding immigration and customs
+enforcement.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     (8)   Rules of conduct adopted
+pursuant to these principles should recognize that under our democratic form of
+government public officials and employees should be drawn from all of our
+society, that citizens who serve in government cannot and should not be
+expected to be without any personal interest in the decisions and policies of
+government; that citizens who are government officials and employees have a
+right to private interests of a personal, financial and economic nature; that
+standards of conduct should separate those conflicts of interest which are
+unavoidable in a free society from those conflicts of interest which are
+substantial and material, or which bring government into disrepute.</p>
+
+<p class=MsoNormal style='line-height:150%'>     (f)   The code of ethics for
+members of the Legislature shall conform to subsection (e) hereof as nearly as
+may be possible.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf:  P.L.2008, c.29, s.104)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     5.    This act shall take
+effect immediately.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill is intended to make
+certain that State and local officials in New Jersey cooperate with federal
+authorities with respect to immigration and customs enforcement requests.  The
+bill prohibits counties and municipalities from establishing formal or informal
+policies of non-cooperation with federal immigration authorities.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     Several jurisdictions, such as
+California, have established a formal prohibition on cooperation with federal
+authorities on immigration issues.  In San Francisco, a young woman named Kate
+Steinle was brutally murdered by an individual who intentionally committed the
+crime in San Francisco because it had designated itself a sanctuary city.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Other jurisdictions, such as
+certain municipalities in New Jersey, have an informal practice of not
+cooperating with requests from the federal government regarding immigration
+matters.  This bill is intended to prevent the State, municipalities, or any
+subdivision thereof, from establishing a formal or informal sanctuary city
+policy, which has led to recent violent crimes around the country.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Under this bill, a State or
+local official who fails to cooperate with federal authorities with respect to
+immigration enforcement will be committing an ethics violation.  The regular
+process for the disposition of ethics violations at the State or local level
+will be applicable to these situations.  The bill also creates a civil fine for
+any member of a municipal or county governing body which votes in favor of a
+sanctuary city ordinance after the effective date of the bill.</p>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,758 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>A463</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 6 4 5 2 3 4;}
+@font-face
+	{font-family:Albertus;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.PrefileFronterTitle, li.PrefileFronterTitle, div.PrefileFronterTitle
+	{mso-style-name:PrefileFronterTitle;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.StylePrefileFronterTitleLeft, li.StylePrefileFronterTitleLeft, div.StylePrefileFronterTitleLeft
+	{mso-style-name:"Style PrefileFronterTitle + Left";
+	margin-top:0in;
+	margin-right:-.2in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times",serif;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.Superscript
+	{mso-style-name:Superscript;
+	font-family:"Albertus",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.amendfooter, li.amendfooter, div.amendfooter
+	{mso-style-name:amendfooter;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.5in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.2in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 463 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>PRE-FILED FOR INTRODUCTION IN THE 2024 SESSION</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblyman  JOE DANIELSEN</p>
+
+<p class=bpuSponsor>District 17 (Middlesex and Somerset)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Establishing Advisory Committee on Family Services
+and Communications in Division of Developmental Disabilities in DHS. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     Introduced Pending Technical Review by Legislative
+Counsel.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> concerning </span>the Division of Developmental
+Disabilities in the Department of Human Services and the divisions
+interactions with, and provision of services and supports to, the family
+members and legal guardians of individuals with developmental disabilities in
+the State, and supplementing Title 30 of the Revised Statutes.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    a.     The Advisory
+Committee on Family Services and Communications is established in the Division
+of Developmental Disabilities in the Department of Human Services.  The purpose
+of the advisory committee shall be to identify, and work with division
+leadership to redress, any inefficiencies, shortcomings, or other problems that
+may be associated with the divisions outreach to, communications with, or
+provision of appropriate services and supports to, the family members and legal
+guardians of individuals with developmental disabilities.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    The advisory committee
+shall be composed of nine members, as follows:  </p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   the divisions Family
+Outreach Liaison, the divisions Communications and Constituent Inquiries
+Liaison, and the chair of the Family Advisory Council, or their designees, who
+shall serve ex officio; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   six public members, to
+be appointed by the Governor, including:  (a) two residents from Bergen, Essex,
+Hudson, Morris, Passaic, Sussex, or Warren County, one of whom shall be a
+family member of an individual with a developmental disability and one of whom
+shall be the legal guardian of an individual with a developmental disability;
+(b) two residents from Hunterdon, Mercer, Middlesex, Monmouth, Ocean, Somerset,
+or Union County, one of whom shall be a family member of an individual with a
+developmental disability and one of whom shall be the legal guardian of an
+individual with a developmental disability; and (c) two residents from
+Atlantic, Burlington, Camden, Cape May, Cumberland, Gloucester, or Salem
+County, one of whom shall be a family member of an individual with a
+developmental disability and one of whom shall be the legal guardian of an
+individual with a developmental disability.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     The public members of
+the advisory committee shall serve for terms of two years, except that, of the
+members first appointed to the committee, three shall serve an initial term of
+one year, and three shall serve an initial term of two years.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    Vacancies in the
+membership of the advisory committee shall be filled in the same manner provided
+for the original appointments.  Public members shall be eligible for
+reappointment to the commission following the conclusion of their terms.</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     The advisory committee
+shall organize as soon as practicable, but not more than 30 days after the
+appointment of a majority of its members.  Upon its organization, the advisory
+committee shall select a chairperson from among its membership, and the
+chairperson shall appoint a secretary, who need not be a member of the advisory
+committee.</p>
+
+<p class=MsoNormal style='line-height:150%'>     f.     The advisory committee
+shall meet at the times and places designated by the chair, but not less than
+twice per year.  The advisory committee may conduct business without a quorum,
+but may only vote on recommendations when a quorum is present.</p>
+
+<p class=MsoNormal style='line-height:150%'>     g.    The members of the
+advisory committee shall serve without compensation, but may be reimbursed for
+travel and other miscellaneous expenses incurred in the necessary performance
+of their duties, within the limits of funds made available to the advisory
+committee for its purposes. </p>
+
+<p class=MsoNormal style='line-height:150%'>     h.    The division shall
+provide professional, stenographic, and clerical staff, support, and resources
+to the advisory committee, as may be necessary to ensure the proper
+effectuation of the committees duties under this act.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    a.     The Advisory
+Committee on Family Services and Communications shall have the duty to:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   provide the family
+members and legal guardians of individuals with developmental disabilities with
+comprehensive information, upon request, regarding:  (a) the nature and details
+of the divisions family outreach and communications systems, policies,
+procedures, protocols, and practices; (b) the nature and type of services and
+supports that are available from the division to assist the family members and
+guardians of individuals with developmental disabilities; and (c) any proposed
+or actualized changes in these areas;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   engage in the ongoing
+evaluation of existing division systems, policies, procedures, protocols, and
+practices that are used to facilitate the divisions outreach to, communications
+with, and provision of services and supports to, the family members and legal
+guardians of individuals with developmental disabilities, and determine the
+extent to which those systems, policies, procedures, protocols, and practices,
+or components thereof, are resulting in inefficiencies, ineffectiveness, or a
+lack of transparency or responsiveness in association with the divisions
+outreach to, communications with, or provision of services and supports to, the
+family members or legal guardians of individuals with developmental
+disabilities;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   solicit, receive, and
+review complaints, suggestions, and recommendations from relevant organizations
+and from the family members and legal guardians of individuals with
+developmental disabilities regarding the ways in which the division can improve
+its systems, policies, procedures, protocols, and practices to more
+efficiently, effectively, transparently, and respectfully serve and respond to
+the needs, questions, and concerns of the family members and legal guardians of
+individuals with developmental disabilities;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   identify elements within
+the divisions existing systems, policies, procedures, protocols, and practices
+that can be improved or modernized, and other remedial actions that can be
+undertaken by division staff, to redress the inefficiencies or other problems
+identified pursuant to paragraph (2) of this subsection; and </p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)    recommend, and work
+with division leadership to facilitate the implementation of, changes to the
+divisions systems, policies, procedures, protocols, and practices, as may be
+necessary to ensure that division staff is consistently engaging in efficient,
+effective, responsive, and fully transparent outreach to, communications with,
+and provision of appropriate services and supports to, the family members and
+legal guardians of individuals with developmental disabilities. 
+Recommendations developed pursuant to this paragraph shall be presented, in
+writing, to the Assistant Commissioner of the Division of Developmental Disabilities
+in the Department of Human Services, within one year after the effective date
+of this act and annually thereafter.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    In effectuating its
+duties under this section, the advisory committee shall be authorized to:  </p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   consult with, and
+solicit and receive testimony, information, documents, and input from, division
+staff, relevant external organizations, and the family members and legal
+guardians of individuals with developmental disabilities; and </p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   solicit and receive,
+from the Ombudsman for Individuals with Intellectual or Developmental
+Disabilities and Their Families, any complaints received by the ombudsman that
+involve concerns related to the divisions outreach to, communications with, or
+provision of services and supports to, the family members or guardians of
+individuals with developmental disabilities.  The ombudsman shall promptly
+provide the advisory committee, upon request, with any such complaints received
+thereby. </p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     Within 10 days after
+the advisory committee is organized pursuant to subsection e. of section 1 of
+this act, the division shall publish, on its Internet website, the names of the
+committees members, and the contact information that can be used by relevant
+organizations and by the family members and legal guardians of individuals with
+developmental disabilities to submit questions, concerns, or suggestions to the
+committee.  The division shall update its website, within 10 days following any
+change in the committee membership.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    The Assistant
+Commissioner of the Division of Developmental Disabilities, in consultation
+with the Commissioner of Human Services, shall adopt rules and regulations,
+pursuant to the Administrative Procedure Act, P.L.1968, c.410 (C.52:14B-1 et
+seq.), as may be necessary to implement the provisions of this act.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     4.    This act shall take
+effect immediately.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill establishes the
+Advisory Committee on Family Services and Communications in the Division of
+Developmental Disabilities in the Department of Human Services.  The purpose of
+the advisory committee will be to identify, and work with division leadership
+to redress, any inefficiencies, shortcomings, or other problems that may be
+associated with the divisions outreach to, communications with, or provision
+of appropriate services and supports to, the family members and legal guardians
+of individuals with developmental disabilities.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The advisory committee is to
+be composed of nine members, including the divisions Family Outreach Liaison
+and Communications and Constituent Inquiries Liaison, as well as the chair of
+the Family Advisory Council, or their designees, who would serve ex officio,
+and six public members to be appointed by the Governor.  The six public members
+are to include:  1) three residents, one from each of the northern, central,
+and southern regions of the State, who are family members of an individual with
+a developmental disability; and 2) three residents, one from each of the
+northern, central, and southern regions of the State, who are legal guardians
+of an individual with a developmental disability.  The advisory committee will
+be required to organize as soon as practicable, but not more than 30 days after
+the appointment of a majority of its members.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     Under the bills provisions,
+the Advisory Committee on Family Services and Communications will have the duty
+to:</p>
+
+<p class=MsoNormal style='line-height:150%'>     1)    provide the family
+members and legal guardians of individuals with developmental disabilities with
+comprehensive information, upon request, regarding:  the nature and details of
+the agencys family outreach and communications systems, policies, procedures,
+protocols, and practices; the nature and type of services and supports that are
+available from the division to assist the family members and guardians of
+individuals with developmental disabilities; and any proposed or actualized
+changes in these areas;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2)    engage in the ongoing
+evaluation of existing division systems, policies, procedures, protocols, and
+practices that are used to facilitate the divisions outreach to,
+communications with, and provision of services and supports to, the family
+members and legal guardians of individuals with developmental disabilities, and
+determine the extent to which those systems, policies, procedures, protocols,
+and practices, or components thereof, are resulting in inefficiencies,
+ineffectiveness, or a lack of transparency or responsiveness in association
+with the divisions outreach to, communications with, or provision of services
+and supports to, the family members or legal guardians of individuals with developmental
+disabilities;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3)    solicit, receive, and
+review complaints, suggestions, and recommendations from relevant organizations
+and from the family members and legal guardians of individuals with
+developmental disabilities regarding the ways in which the division can improve
+its systems, policies, procedures, protocols, and practices to more
+efficiently, effectively, transparently, and respectfully serve and respond to
+the needs, questions, and concerns of the family members and legal guardians of
+individuals with developmental disabilities;</p>
+
+<p class=MsoNormal style='line-height:150%'>     4)    identify elements within
+the divisions existing systems, policies, procedures, protocols, and practices
+that can be improved or modernized, and other remedial actions that can be
+undertaken by division staff, to redress the inefficiencies or other problems
+identified by the committee; and </p>
+
+<p class=MsoNormal style='line-height:150%'>     5)     recommend, and work
+with division leadership to facilitate the implementation of, changes to the
+divisions systems, policies, procedures, protocols, and practices, as may be
+necessary to ensure that division staff is consistently engaging in efficient,
+effective, responsive, and fully transparent outreach to, communications with,
+and provision of appropriate services and supports to, the family members and
+legal guardians of individuals with developmental disabilities. 
+Recommendations developed by the committee are to be presented, in writing, to
+the Assistant Commissioner of the Division of Developmental Disabilities in the
+Department of Human Services, within one year after the bills effective date
+and annually thereafter.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     In effectuating its duties
+under the bill, the advisory committee will be authorized to:  </p>
+
+<p class=MsoNormal style='line-height:150%'>     1)    consult with, and
+solicit and receive testimony, information, documents, and input from, division
+staff, relevant external organizations, and the family members and legal
+guardians of individuals with developmental disabilities; and </p>
+
+<p class=MsoNormal style='line-height:150%'>     2)    solicit and receive,
+from the Ombudsman for Individuals with Intellectual or Developmental
+Disabilities and Their Families, any complaints received by the ombudsman that
+involve concerns related to the divisions outreach to, communications with, or
+provision of services and supports to, the family members or guardians of
+individuals with developmental disabilities.  The ombudsman will be required to
+promptly provide the advisory committee, upon request, with any such complaints
+received thereby.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     The advisory committee is to
+meet at the times and places designated by the chair, but not less than twice
+per year.  The committee may conduct business without a quorum, but may only
+vote on recommendations when a quorum is present.  </p>
+
+<p class=MsoNormal style='line-height:150%'>     The division will be required
+to provide professional, stenographic, and clerical staff, support, and
+resources to the advisory committee, as may be necessary to ensure the proper
+effectuation of the committees duties.  The division will also be required to
+publish, on its Internet website, the names of the committees members, and the
+contact information that can be used by relevant organizations and the family
+members and legal guardians of individuals with developmental disabilities to
+submit questions, concerns, or suggestions to the committee.  The website is to
+be updated within 10 days following any change in the committee membership.</p>
+
+</div>
+
+</body>
+
+</html>
