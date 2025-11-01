@@ -1,0 +1,884 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>S3000</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.fronterpagebillhead
+	{mso-style-name:fronterpagebillhead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FPHangingAnAct, li.FPHangingAnAct, div.FPHangingAnAct
+	{mso-style-name:FPHangingAnAct;
+	mso-style-link:"FPHangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.4in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.FPHangingAnActChar
+	{mso-style-name:"FPHangingAnAct Char";
+	mso-style-link:FPHangingAnAct;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.0in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.3in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<p class=bpuBill><a name=bpuFrontPg></a>SENATE, No. 3000 </p>
+
+<p class=bpuWpGraphic><b><span style='font-size:32.0pt;line-height:120%;
+font-family:"Arial",sans-serif;letter-spacing:0pt'>STATE OF NEW JERSEY</span></b></p>
+
+<p class=bpuLegislature>221st LEGISLATURE</p>
+
+<p class=bpuWpGraphic>  </p>
+
+<p class=bpuIntro>INTRODUCED MARCH 18, 2024</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:11.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Senator  JAMES BEACH</p>
+
+<p class=bpuSponsor>District 6 (Burlington and Camden)</p>
+
+<p class=bpuSponsor>Senator  VINCENT J. POLISTINA</p>
+
+<p class=bpuSponsor>District 2 (Atlantic)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>Co-Sponsored by:</p>
+
+<p class=bpuSponsor>Senators Space, Diegnan, Gopal and Holzapfel</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>     Permits certain persons to operate Type S school
+buses. </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>     As introduced.</p>
+
+<p class=bpuNormText>   </p>
+
+</div>
+
+<span style='font-size:12.0pt;line-height:120%;font-family:"Times New Roman",serif;
+letter-spacing:.2pt'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> concerning school transportation, supplementing Title
+39 of the Revised Statutes, and amending various parts of the statutory law.</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    (New section)  a.  As
+used in this section:</p>
+
+<p class=MsoNormal style='line-height:150%'>     Type S school bus means a
+motor vehicle that: (1) is operated by, or under contract with, a public
+school, nonpublic school, charter school, renaissance school, or approved
+private school for students with disabilities for the transportation of
+students to and from school for secular or religious education and for
+school-related activities; and (2) has a gross vehicle weight rating of 3,000
+pounds or more, which vehicle was originally designed by the manufacturer with
+a maximum seating capacity of nine passengers or less, excluding the driver.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Type S School Bus
+Certificate or certificate means a certificate, issued and recorded by the
+New Jersey Motor Vehicle Commission, obtained by an individual who has
+successfully completed certain requirements as established by the New Jersey
+Motor Vehicle Commission pursuant to subsection b. of this section.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    A person who meets all
+of the following requirements shall be eligible to obtain a Type S school bus
+certificate from the New Jersey Motor Vehicle Commission:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   is at least 21 years
+old;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   has held a valid basic
+drivers license for a minimum of three years;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   has passed a physical
+and eye examination;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   has completed and passed
+a knowledge examination pursuant to R.S.39:3-10.1; </p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   has completed the
+training program established in accordance with P.L.2015, c.123 (C.18A:39-19.2
+et seq.) on appropriate procedures for interacting with students with special
+needs; and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (6)   has completed any other
+conditions as determined by the Chief Administrator of the New Jersey Motor
+Vehicle Commission in collaboration with the Commissioner of Education.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     Notwithstanding any
+other law, rule, or regulation to the contrary, the holder of a valid non-commercial
+basic drivers license and a certificate may operate a Type S school bus to
+transport children to and from school for secular or religious education and
+for school-related activities and shall not be required to obtain a commercial
+driver license, passenger endorsement, or school bus endorsement.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    A school bus driver or
+driver as referenced in the following provisions of law shall include a person
+who drives a Type S school bus pursuant to this section:</p>
+
+<p class=MsoNormal style='line-height:150%'>     (1)   N.J.S.18A:25-2;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (2)   section 13 of P.L.1998,
+c.31 (C.18A:6-7.2a);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (3)   N.J.S.18A:39-17;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (4)   N.J.S.18A:39-18;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (5)   section 6 of P.L.1989,
+c.104 (C.18A:39-19.1);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (6)   section 1 of P.L.2018,
+c.160 (C.18A:39-19.1a);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (7)   P.L.2015, c.123
+(C.18A:39-19.2 et seq.);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (8)   section 1 of P.L.2018,
+c.152 (C.18A:39-19.6);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (9)   N.J.S.18A:39-20;</p>
+
+<p class=MsoNormal style='line-height:150%'>     (10) P.L.2003, c.19
+(C.18A:39-26 et seq.);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (11) section 1 of P.L.2007,
+c.77 (C.18A:39-28);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (12) section 6 of P.L.2009,
+c.131 (C.18A:40-12.16);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (13) section 9 of P.L.2009,
+c.131 (C.18A:40-12.19);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (14) section 3 of P.L.2019,
+c.290 (C.18A:40-12.36);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (15) section 5 of P.L.2019,
+c.290 (C.18A:40-12.38);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (16) section 2 of P.L.1975,
+c.284 (C.39:3-10.1a);</p>
+
+<p class=MsoNormal style='line-height:150%'>     (17) section 6 of P.L.2003,
+c.66 (C.39:3-10.32); and</p>
+
+<p class=MsoNormal style='line-height:150%'>     (18)  section 1 of P.L.2002,
+c.120 (C.39:3B-25).</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    Section 1 of P.L.2017,
+c.347 (C.2C:40-26.1) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    a.  For the purposes of
+this section, <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>&quot;school<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b><u>:</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>School</u> bus&quot; shall
+have the meaning set forth in R.S.39:1-1<u>.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>Type S school bus shall
+have the meaning set forth in section 1 of P.L.    , c.    (C.        )
+(pending before the Legislature as this bill)</u>.</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    A person, knowingly
+operating a school bus <u>or Type S school bus</u> transporting one or more
+students, while that person's driving privileges have been suspended or revoked
+shall be guilty of a crime of the fourth degree.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     A person, knowingly
+operating a school bus <u>or Type S school bus</u> while that person's driving
+privileges have been suspended or revoked, who is involved in an accident
+resulting in bodily injury to another person shall be guilty of a crime of the
+third degree.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2017, c.347, s.1)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    Section 2 of P.L.2017,
+c.347 (C.18A:39-19.5) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    a.  The Chief
+Administrator of the New Jersey Motor Vehicle Commission shall revoke for life
+the passenger endorsement on the commercial driver's license of a person
+convicted of a violation of subsection b. or subsection c. of section 1 of
+P.L.2017, c.347 (C.2C:40-26.1).</p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    The chief administrator
+shall revoke for life the special license issued pursuant to R.S.39:3-10.1<u>,
+or the Type S school bus certificate issued pursuant to section 1 of P.L.    ,
+c.    (C.        ) (pending before the Legislature as this bill),</u> to a
+person convicted of a violation of subsection b. or subsection c. of section 1
+of P.L.2017, c.347 (C.2C:40-26.1).</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2017, c.347, s.2)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     4.    Section 2 of P.L.2007,
+c.77 (C.18A:39-29) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     2.    <u>a.</u>  In the event
+that, after notice and opportunity to be heard, a school bus driver <u>or
+driver of a Type S school bus pursuant
+to&nbsp;P.L.&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;c.&nbsp;&nbsp;&nbsp;&nbsp;(C.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;(pending
+before the Legislature as this bill)</u> is found to have left a pupil on the
+school bus <u>or a Type S school bus as defined in section 1 of P.L.    , c.   
+(C.        ) (pending before the Legislature as this bill),</u> at the end of <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>his<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>the
+drivers</u> route, <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>his<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>the
+drivers</u> school bus endorsement<u> or Type S school bus certificate, in the
+case of a Type S school bus driver,</u> shall be:</p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(1)</u>   suspended for six
+months, for a first offense; or</p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(2)</u>   permanently
+revoked, for a second offense.</p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>b.    In the event of a
+suspension of a Type S school bus certificate pursuant to this section, the
+driver shall complete a 10 hour training course approved by the chief
+administrator, of which, two hours shall include instruction on post-trip
+inspection procedures.  The training required pursuant to this subsection shall
+be completed before the drivers Type S school bus certificate is reinstated. </u></p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2007, c.77, s.2)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     5.    Section 3 of P.L.2007,
+c.77 (C.18A:39-30) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     3.    In the event that a
+pupil, who was left on a bus by a school bus driver at the end of the route, <u>including
+a pupil who is left on a Type S school bus as defined in section 1 of P.L.    ,
+c.    (C.        ) (pending before the Legislature as this bill) by the driver
+of a Type S school bus pursuant to section 1 of P.L.    , c.    (C.        )
+(pending before the Legislature as this bill),</u> is harmed as a result of
+foreseeable danger and the driver is found, after notice and opportunity to be
+heard, to have acted with gross negligence, <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>his<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> <u>the
+drivers</u> school bus endorsement<u> or Type S School Bus certificate, in the
+case of a Type S school bus driver,</u> shall be permanently revoked.</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2007, c.77, s.3)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     6.    Section 1 of P.L.2019,
+c.9 (C.39:3-10.1b) is amended to read as follows:</p>
+
+<p class=MsoNormal style='line-height:150%'>     1.    a.  For the purposes of
+this section:</p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Chief
+administrator&quot; means the Chief Administrator of the New Jersey Motor
+Vehicle Commission.</p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Commercial motor
+vehicle&quot; shall have the same meaning as provided in section 3 of P.L.1990,
+c.103 (C.39:3-10.11).</p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Motor vehicle moving
+violation&quot; means any violation of the motor vehicle laws of this State or
+any other jurisdiction for which motor vehicle points are assessed by the chief
+administrator pursuant to section 1 of P.L.1982, c.43 (C.39:5-30.5) or any
+violation of the motor vehicle laws of any other jurisdiction for which motor
+vehicle points would be assessed if that violation had occurred in this State.</p>
+
+<p class=MsoNormal style='line-height:150%'>     &quot;Non-commercial motor
+vehicle&quot; shall have the same meaning as provided in section 3 of P.L.1990,
+c.103 (C.39:3-10.11).</p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>Type S school bus means a
+motor vehicle that: (1) is operated by, or under contract with, a public
+school, nonpublic school, charter school, renaissance school, or approved
+private school for students with disabilities for the transportation of
+students to and from school for secular or religious education and for
+school-related activities; and (2) has a gross vehicle weight rating of 3,000
+pounds or more, which vehicle was originally designed by the manufacturer with
+a maximum seating capacity of nine passengers or less, excluding the driver.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     b.    The chief administrator
+shall suspend the school bus endorsement of a person<u>, or the Type S school
+bus certificate of a person who drives a Type S school bus pursuant to section
+1 of
+P.L.&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;c.&nbsp;&nbsp;&nbsp;&nbsp;(C.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;(pending
+before the Legislature as this bill),</u> for 90 days following the date of the
+last conviction, or upon notification of an out-of-State conviction, whichever
+date is later in time, if the person is convicted of three or more motor
+vehicle moving violations in a three-year period or accumulates six or more
+motor vehicle penalty points while operating a commercial motor vehicle or
+non-commercial motor vehicle.</p>
+
+<p class=MsoNormal style='line-height:150%'>     c.     The chief administrator
+shall notify the Commissioner of Education of the suspension of a <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>school bus<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> drivers
+school bus endorsement <u>or Type S school bus certificate</u> pursuant to
+subsection b. of this section within one business day following the date of the
+suspension.</p>
+
+<p class=MsoNormal style='line-height:150%'>     d.    Upon notification from
+the chief administrator pursuant to subsection c. of this section, the
+Commissioner of Education shall notify the board of education that employs the <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>school bus<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> driver, the
+nonpublic school that employs the <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>school
+bus<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b>
+driver, or the contractor that employs the <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>school
+bus<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b>
+driver that the <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>school
+bus<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b>
+driver's school bus endorsement <u>or Type S school bus certificate</u> has
+been suspended pursuant to subsection b. of this section within one business
+day following the date of notification of the suspension. If a board of
+education, a nonpublic school, or a contractor that employs the <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>school bus<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> driver is
+notified by the commissioner that the <b><span style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>school
+bus<b><span style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b>
+driver's school bus endorsement <u>or Type S school Bus certificate</u> has
+been suspended, the employing board of education, nonpublic school, or
+contractor, within 24 hours of the notification, shall provide a statement to
+the Department of Education verifying that the <b><span style='font-family:
+"Albertus Extra Bold",sans-serif'>[</span></b>school bus<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b> driver no
+longer operates a school bus <u>or Type S school bus</u> for the board,
+nonpublic school, or contractor.</p>
+
+<p class=MsoNormal style='line-height:150%'>     e.     Prior to the
+reinstatement of any school bus endorsement <u>or Type S school bus certificate</u>
+suspended pursuant to subsection b. of this section, the chief administrator
+shall require<u>:</u> </p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(1)</u>   the person to
+complete a defensive driving course approved by the chief administrator <b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>[</span></b>and<b><span
+style='font-family:"Albertus Extra Bold",sans-serif'>]</span></b><u>;</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>(2)   the person to
+complete a 10 hour training course approved by the chief administrator, of
+which, two hours shall include instruction on post-trip inspection procedures.</u></p>
+
+<p class=MsoNormal style='line-height:150%'>     <u>The chief administrator</u>
+may require the person to fulfill any other requirement that the chief
+administrator deems appropriate <u>prior to reinstatement of any school bus
+endorsement or Type S school bus certificate</u>.</p>
+
+<p class=MsoNormal style='line-height:150%'>     f.     This section shall
+apply to convictions that occur after the effective date of P.L.2019, c.9
+(C.39:3-10.1b).</p>
+
+<p class=MsoNormal style='line-height:150%'>(cf: P.L.2019, c.9, s.1)</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     7.    This act shall take
+effect on the first day of the 2023-2024 school year, except that the Chief
+Administrator of the New Jersey Motor Vehicle Commission and the Commissioner
+of Education may take any anticipatory administrative action in advance as may
+be necessary for the timely implementation of this act.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>     This bill permits the holder
+of a Type S school bus certificate to operate a Type S school bus to transport
+children to and from school without obtaining a commercial driver license,
+passenger endorsement, or school bus endorsement.  A person is required to meet
+certain requirements described in the bill to be eligible for a Type S school
+bus certificate.  Such drivers are subject to certain provisions of law
+applicable to school bus drivers as enumerated in the bill.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill provides that a
+person who knowingly operates a Type S school bus while the persons driving
+privileges are suspended or revoked is guilty of a crime of the fourth degree. 
+A person who does so and is involved in an accident resulting in bodily injury
+to another person is guilty of a crime of the third degree.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill also provides that
+the Type S school bus certificate of a driver of a Type S school bus, who is
+found to have left a pupil on the Type S school bus at the end of the route, is
+to be suspended for six months for a first offense or permanently revoked for a
+second offense.  The Type S school bus certificate of a driver of a Type S
+school bus is to be permanently revoked if the a pupil, who was left on the
+Type S school bus at the end of the route, was harmed as a result of
+foreseeable danger and the driver acted with gross negligence or if the driver
+operated a Type S school bus while the drivers driving privileges were
+suspended.  In the event of a suspension of a Type S school bus certificate,
+the driver is required to complete a 10 hour training course, approved by the
+chief administrator, before the drivers Type S school bus certificate is
+reinstated.</p>
+
+<p class=MsoNormal style='line-height:150%'>     The bill requires the Chief
+Administrator (chief administrator) of the New Jersey Motor Vehicle Commission
+to suspend the Type S school bus certificate of a driver of a Type S school bus
+for 90 days if the driver is convicted of three or more motor vehicle moving
+violations in a three-year period or accumulates six or more motor vehicle
+penalty points while operating a commercial motor vehicle or non-commercial
+motor vehicle.</p>
+
+<p class=MsoNormal style='line-height:150%'>     Under the bill, the chief
+administrator is required to notify the Commissioner of Education of the
+suspension of the drivers Type S school bus certificate and the Commissioner
+of Education is to notify the drivers employer that the drivers Type S school
+bus certificate<u> </u>has been suspended.  The employer is then required to
+provide a statement to the Department of Education that the driver no longer
+operates a Type S school bus.  A driver of a Type S school bus is required to
+complete a defensive driving course before the drivers Type S school bus
+certificate may be reinstated.  Under the bill, before a school bus endorsement
+or Type S school bus certificate is reinstated after suspension for
+accumulating a certain number of motor vehicle penalty points or for being
+convicted of a certain number of motor vehicle moving violations, the driver is
+required to complete a 10 hour training course approved by the chief
+administrator.</p>
+
+<p class=MsoNormal style='line-height:150%'>     A Type S school bus is
+defined in the bill to mean a motor vehicle that: (1) is operated by, or under
+contract with, a public school, nonpublic school, charter school, renaissance
+school, or approved private school for students with disabilities for the
+transportation of students to and from school for secular or religious
+education and for school-related activities; and (2) has a gross vehicle weight
+rating of 3,000 pounds or more, which vehicle was originally designed by the
+manufacturer with a maximum seating capacity of nine passengers or less,
+excluding the driver. </p>
+
+</div>
+
+</body>
+
+</html>
